@@ -1,0 +1,65 @@
+=== WORKER 8 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W8] [ERR] 343_hierarchical_clustering process finished but returned no result
+[W8] [ERR] 344_gaussian_mixture process finished but returned no result
+[W8] [ERR] 346_arima_forecast process finished but returned no result
+[W8] [ERR] 348_kalman_filter process finished but returned no result
+[W8] [ERR] 349_wavelet_decomposition process finished but returned no result
+[W8] [ERR] 350_seasonal_decomposition process finished but returned no result
+[W8] [ERR] 351_prophet_forecast process finished but returned no result
+[W8] [ERR] 352_garch_volatility process finished but returned no result
+[W8] [17:29:16] [353] [353_var_forecast] [30m] [Combos: 13200] [Ret: 0.235%] [DD: 0.053%] [PF: 1.196] [Sharpe: 1.871] [Trades: 988] [WR: 54.76%] [00:19:52]
+[W8] [ERR] 354_state_space_model process finished but returned no result
+[W8] [ERR] 356_cointegration_signal process finished but returned no result
+[W8] [ERR] 357_stochastic_process process finished but returned no result
+[W8] [ERR] 358_jump_diffusion process finished but returned no result
+[W8] [ERR] 359_mean_reversion_speed process finished but returned no result
+[W8] [17:54:49] [360] [360_hurst_exponent] [30m] [Combos: 13200] [Ret: 0.1907%] [DD: 0.1047%] [PF: 1.162] [Sharpe: 0.97] [Trades: 343] [WR: 52.19%] [00:14:25]
+[W8] [ERR] 361_isolation_forest process finished but returned no result
+[W8] [ERR] 362_local_outlier_factor process finished but returned no result
+[TIMEOUT] 363_one_class_svm killed after 1800s
+[W8] [TIMEOUT] 363_one_class_svm killed
+[TIMEOUT] 364_elliptic_envelope killed after 1800s
+[W8] [TIMEOUT] 364_elliptic_envelope killed
+[W8] [19:23:55] [365] [365_statistical_anomaly] [30m] [Combos: 29200] [Ret: 0.2692%] [DD: 0.0536%] [PF: 2.055] [Sharpe: 1.512] [Trades: 63] [WR: 22.22%] [00:03:32]
+[W8] [19:29:08] [366] [366_candlestick_pattern_ml] [30m] [Combos: 60000] [Ret: 0.2408%] [DD: 0.082%] [PF: 1.107] [Sharpe: 1.392] [Trades: 1630] [WR: 43.74%] [00:05:13]
+[TIMEOUT] 367_chart_pattern_detector killed after 1800s
+[W8] [TIMEOUT] 367_chart_pattern_detector killed
+[W8] [20:08:45] [368] [368_harmonic_pattern] [30m] [Combos: 13200] [Ret: 0.2547%] [DD: 0.1024%] [PF: 1.61] [Sharpe: 1.273] [Trades: 55] [WR: 54.55%] [00:09:35]
+[W8] [20:21:36] [369] [369_elliott_wave_detector] [30m] [Combos: 13200] [Ret: 0.3138%] [DD: 0.061%] [PF: 1.345] [Sharpe: 1.697] [Trades: 410] [WR: 23.41%] [00:12:50]
+[W8] [20:30:28] [370] [370_wyckoff_accumulation] [30m] [Combos: 13200] [Ret: 0.2367%] [DD: 0.0729%] [PF: 3.142] [Sharpe: 1.608] [Trades: 31] [WR: 29.03%] [00:08:51]
+[W8] [20:37:30] [371] [371_fourier_transform] [30m] [Combos: 13200] [Ret: 0.2611%] [DD: 0.0793%] [PF: 1.163] [Sharpe: 1.436] [Trades: 768] [WR: 47.01%] [00:07:01]
+[W8] [20:44:16] [372] [372_hilbert_transform] [30m] [Combos: 13200] [Ret: 0.2455%] [DD: 0.0912%] [PF: 1.188] [Sharpe: 1.297] [Trades: 545] [WR: 30.46%] [00:06:46]
+[W8] [20:49:37] [373] [373_bandpass_filter] [30m] [Combos: 13200] [Ret: 0.2139%] [DD: 0.1273%] [PF: 1.194] [Sharpe: 1.111] [Trades: 325] [WR: 52.62%] [00:05:20]
+[W8] [ERR] 374_adaptive_filter process finished but returned no result
+[W8] [20:59:06] [375] [375_spectral_analysis] [30m] [Combos: 60000] [Ret: 0.2408%] [DD: 0.082%] [PF: 1.107] [Sharpe: 1.392] [Trades: 1630] [WR: 43.74%] [00:05:14]
+[W8] [21:06:11] [376] [376_shannon_entropy] [30m] [Combos: 13200] [Ret: 0.0996%] [DD: 0.0497%] [PF: 6.643] [Sharpe: 0.95] [Trades: 5] [WR: 80.0%] [00:07:04]
+[ERR] 377_mutual_information EUR_USD: autodetected range of [-1.0, inf] is not finite
+[ERR] 377_mutual_information GBP_USD: autodetected range of [-1.0, inf] is not finite
+[ERR] 377_mutual_information USD_CHF: autodetected range of [-1.0, inf] is not finite
+[ERR] 377_mutual_information USD_CAD: autodetected range of [-1.0, inf] is not finite
+[ERR] 377_mutual_information AUD_USD: autodetected range of [-1.0, inf] is not finite
+[ERR] 377_mutual_information NZD_USD: autodetected range of [-1.0, inf] is not finite
+[W8] [21:06:30] [377] [377_mutual_information] NO RESULTS (18s)
+[ERR] 378_transfer_entropy EUR_USD: cannot specify integer `bins` when input data contains infinity
+[ERR] 378_transfer_entropy GBP_USD: cannot specify integer `bins` when input data contains infinity
+[ERR] 378_transfer_entropy USD_CHF: cannot specify integer `bins` when input data contains infinity
+[ERR] 378_transfer_entropy USD_CAD: cannot specify integer `bins` when input data contains infinity
+[ERR] 378_transfer_entropy AUD_USD: cannot specify integer `bins` when input data contains infinity
+[ERR] 378_transfer_entropy NZD_USD: cannot specify integer `bins` when input data contains infinity
+[W8] [21:07:48] [378] [378_transfer_entropy] NO RESULTS (77s)
+[W8] [ERR] 380_sample_entropy process finished but returned no result
+[W8] [21:15:46] [381] [381_kolmogorov_complexity] [30m] [Combos: 13200] [Ret: 0.2752%] [DD: 0.0804%] [PF: 1.408] [Sharpe: 1.489] [Trades: 167] [WR: 43.71%] [00:03:02]
+[W8] [ERR] 382_lempel_ziv_complexity process finished but returned no result
+[W8] [ERR] 384_multiscale_entropy process finished but returned no result
+[W8] [21:29:14] [385] [385_compression_ratio] [30m] [Combos: 60000] [Ret: 0.2408%] [DD: 0.082%] [PF: 1.107] [Sharpe: 1.392] [Trades: 1630] [WR: 43.74%] [00:05:11]
+[W8] [21:34:23] [386] [386_correlation_network] [30m] [Combos: 60000] [Ret: 0.2408%] [DD: 0.082%] [PF: 1.107] [Sharpe: 1.392] [Trades: 1630] [WR: 43.74%] [00:05:08]
+[W8] [21:55:22] [387] [387_graph_centrality] [30m] [Combos: 13200] [Ret: 0.2275%] [DD: 0.1231%] [PF: 1.177] [Sharpe: 1.103] [Trades: 375] [WR: 42.13%] [00:20:58]
+[W8] [ERR] 388_network_topology process finished but returned no result
+[W8] [ERR] 389_community_detection process finished but returned no result

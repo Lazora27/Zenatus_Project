@@ -1,0 +1,52 @@
+=== WORKER 5 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W5] [ERR] 190_volume_weighted_average_price process finished but returned no result
+[W5] [ERR] 191_volume_zone_oscillator process finished but returned no result
+[W5] [ERR] 192_volume_accumulation_distribution process finished but returned no result
+[W5] [ERR] 193_volume_price_confirmation process finished but returned no result
+[W5] [ERR] 195_volume_force_index process finished but returned no result
+[W5] [ERR] 196_volume_weighted_momentum process finished but returned no result
+[W5] [ERR] 197_volume_efficiency process finished but returned no result
+[W5] [ERR] 198_volume_delta process finished but returned no result
+[TIMEOUT] 202_volume_at_price killed after 1800s
+[W5] [TIMEOUT] 202_volume_at_price killed
+[TIMEOUT] 204_value_area_high killed after 1800s
+[W5] [TIMEOUT] 204_value_area_high killed
+[W5] [ERR] 206_volume_weighted_ma process finished but returned no result
+[W5] [ERR] 207_volume_spread_analysis process finished but returned no result
+[W5] [17:46:25] [209] [209_smart_money_index] [30m] [Combos: 13200] [Ret: 0.2343%] [DD: 0.0671%] [PF: 1.291] [Sharpe: 1.33] [Trades: 245] [WR: 33.47%] [00:01:42]
+[W5] [ERR] 210_tick_volume_index process finished but returned no result
+[W5] [ERR] 212_volume_climax process finished but returned no result
+[W5] [ERR] 213_volume_exhaustion process finished but returned no result
+[W5] [ERR] 214_volume_divergence process finished but returned no result
+[W5] [ERR] 215_volume_confirmation process finished but returned no result
+[W5] [ERR] 216_volume_momentum process finished but returned no result
+[W5] [ERR] 217_volume_strength process finished but returned no result
+[W5] [ERR] 218_volume_pressure process finished but returned no result
+[W5] [ERR] 219_volume_distribution process finished but returned no result
+[W5] [ERR] 220_volume_cycle process finished but returned no result
+[W5] [ERR] 221_tick_volume process finished but returned no result
+[W5] [ERR] 222_trade_volume process finished but returned no result
+[W5] [ERR] 223_buy_volume process finished but returned no result
+[W5] [ERR] 224_sell_volume process finished but returned no result
+[W5] [ERR] 225_delta_volume process finished but returned no result
+[W5] [ERR] 226_cumulative_delta process finished but returned no result
+[W5] [ERR] 227_volume_imbalance process finished but returned no result
+[W5] [ERR] 228_order_flow process finished but returned no result
+[W5] [18:17:01] [229] [229_market_depth] [30m] [Combos: 13200] [Ret: 0.2229%] [DD: 0.0685%] [PF: 1.186] [Sharpe: 1.267] [Trades: 441] [WR: 41.72%] [00:01:33]
+[W5] [ERR] 230_bid_ask_spread process finished but returned no result
+[W5] [ERR] 231_bid_volume process finished but returned no result
+[W5] [ERR] 232_ask_volume process finished but returned no result
+[W5] [18:21:42] [233] [233_trade_intensity] [30m] [Combos: 13200] [Ret: 0.2186%] [DD: 0.1118%] [PF: 1.235] [Sharpe: 1.063] [Trades: 215] [WR: 41.4%] [00:01:41]
+[W5] [ERR] 234_trade_frequency process finished but returned no result
+[W5] [ERR] 235_average_trade_size process finished but returned no result
+[W5] [ERR] 236_large_trade_detector process finished but returned no result
+[W5] [ERR] 237_block_trade_detector process finished but returned no result
+[W5] [ERR] 239_retail_volume process finished but returned no result
+[W5] [ERR] 240_dark_pool_activity process finished but returned no result

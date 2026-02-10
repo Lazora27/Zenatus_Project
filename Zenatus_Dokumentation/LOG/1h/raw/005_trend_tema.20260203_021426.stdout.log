@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 005_trend_tema trades=125 net_ret=-0.04% max_dd=0.07% time=8s

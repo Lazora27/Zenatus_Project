@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "d:\2_Trading\Zenatus\zenatus_backtester\00_backtester\start_backtesting_scripts\full_backtest\fixed_exit\1h\QUICKTEST_1H_FIRST_RUN_595.py", line 14, in <module>
+    import pandas as pd
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\__init__.py", line 61, in <module>
+    from pandas.core.api import (
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\core\api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\core\arrays\__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\core\arrays\arrow\__init__.py", line 5, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\core\arrays\arrow\array.py", line 63, in <module>
+    from pandas.core.arrays.base import (
+  File "D:\2_Trading\Zenatus\Zenatus_Backtester\Zenatus_Backtest_venv\lib\site-packages\pandas\core\arrays\base.py", line 74, in <module>
+    from pandas.core.sorting import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt

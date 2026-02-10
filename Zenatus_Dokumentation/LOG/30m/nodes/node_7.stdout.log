@@ -1,0 +1,56 @@
+=== WORKER 7 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W7] [ERR] 298_pvalue_calculator process finished but returned no result
+[W7] [ERR] 300_probability_distribution process finished but returned no result
+[W7] [ERR] 301_bayesian_probability process finished but returned no result
+[W7] [ERR] 302_monte_carlo_probability process finished but returned no result
+[W7] [ERR] 303_statistical_arbitrage process finished but returned no result
+[W7] [ERR] 304_regime_switching process finished but returned no result
+[W7] [ERR] 305_adaptive_trend_filter process finished but returned no result
+[W7] [ERR] 306_gradient_boosting_signal process finished but returned no result
+[W7] [ERR] 307_random_forest_ensemble process finished but returned no result
+[W7] [ERR] 308_neural_network_prediction process finished but returned no result
+[W7] [ERR] 309_lstm_pattern_recognition process finished but returned no result
+[W7] [ERR] 310_reinforcement_learning_signal process finished but returned no result
+[W7] [ERR] 311_convolutional_pattern process finished but returned no result
+[W7] [ERR] 312_attention_mechanism process finished but returned no result
+[W7] [ERR] 313_transformer_signal process finished but returned no result
+[W7] [ERR] 314_autoencoder_anomaly process finished but returned no result
+[W7] [ERR] 315_gan_price_generator process finished but returned no result
+[W7] [ERR] 316_xgboost_signal process finished but returned no result
+[W7] [ERR] 317_ensemble_voting process finished but returned no result
+[W7] [ERR] 318_stacking_ensemble process finished but returned no result
+[W7] [ERR] 319_bagging_predictor process finished but returned no result
+[W7] [ERR] 320_boosting_cascade process finished but returned no result
+[W7] [17:35:21] [321] [321_automl_optimizer] [30m] [Combos: 13200] [Ret: 0.2009%] [DD: 0.1141%] [PF: 1.169] [Sharpe: 0.972] [Trades: 315] [WR: 46.35%] [00:17:01]
+[W7] [ERR] 322_meta_learning process finished but returned no result
+[W7] [ERR] 323_transfer_learning process finished but returned no result
+[W7] [ERR] 324_few_shot_learning process finished but returned no result
+[W7] [ERR] 325_online_learning process finished but returned no result
+[W7] [ERR] 326_hybrid_ml_technical process finished but returned no result
+[TIMEOUT] 327_adaptive_ensemble killed after 1800s
+[W7] [TIMEOUT] 327_adaptive_ensemble killed
+[TIMEOUT] 328_multi_model_fusion killed after 1800s
+[W7] [TIMEOUT] 328_multi_model_fusion killed
+[TIMEOUT] 329_dynamic_model_selection killed after 1800s
+[W7] [TIMEOUT] 329_dynamic_model_selection killed
+[W7] [19:16:34] [330] [330_consensus_aggregator] [30m] [Combos: 26400] [Ret: 0.2212%] [DD: 0.0756%] [PF: 1.232] [Sharpe: 1.211] [Trades: 417] [WR: 22.54%] [00:03:35]
+[W7] [19:43:37] [331] [331_feature_importance_ranker] [30m] [Combos: 13200] [Ret: 0.2211%] [DD: 0.1057%] [PF: 1.644] [Sharpe: 1.116] [Trades: 62] [WR: 24.19%] [00:27:02]
+[W7] [19:45:08] [333] [333_feature_interaction] [30m] [Combos: 13200] [Ret: 0.2038%] [DD: 0.0907%] [PF: 1.218] [Sharpe: 1.069] [Trades: 228] [WR: 51.75%] [00:01:30]
+[W7] [ERR] 334_polynomial_features process finished but returned no result
+[W7] [19:51:36] [335] [335_feature_engineering_auto] [30m] [Combos: 13200] [Ret: 0.2033%] [DD: 0.1221%] [PF: 1.576] [Sharpe: 1.053] [Trades: 131] [WR: 11.45%] [00:01:36]
+[W7] [20:04:40] [336] [336_pca_signal] [30m] [Combos: 13200] [Ret: 0.2731%] [DD: 0.117%] [PF: 1.324] [Sharpe: 1.282] [Trades: 165] [WR: 51.52%] [00:13:03]
+[W7] [ERR] 337_ica_signal process finished but returned no result
+[TIMEOUT] 338_manifold_learning killed after 1800s
+[W7] [TIMEOUT] 338_manifold_learning killed
+[W7] [21:14:00] [340] [340_autoencoder_compression] [30m] [Combos: 13200] [Ret: 0.2776%] [DD: 0.0965%] [PF: 1.236] [Sharpe: 1.371] [Trades: 350] [WR: 53.14%] [00:16:33]
+[TIMEOUT] 341_kmeans_clustering killed after 1800s
+[W7] [TIMEOUT] 341_kmeans_clustering killed
+[TIMEOUT] 342_dbscan_anomaly killed after 1800s
+[W7] [TIMEOUT] 342_dbscan_anomaly killed

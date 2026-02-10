@@ -1,0 +1,47 @@
+=== WORKER 10 STARTED ===
+Processing 39 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W10] [ERR] 438_smart_order_routing process finished but returned no result
+[W10] [ERR] 439_dark_pool_activity process finished but returned no result
+[W10] [ERR] 440_algo_trading_detection process finished but returned no result
+[W10] [ERR] 456_pin_risk process finished but returned no result
+[W10] [ERR] 457_market_resilience process finished but returned no result
+[W10] [ERR] 458_trade_duration process finished but returned no result
+[W10] [ERR] 459_market_fragmentation process finished but returned no result
+[W10] [ERR] 460_execution_probability process finished but returned no result
+[W10] [ERR] 461_order_flow_toxicity process finished but returned no result
+[W10] [ERR] 462_market_making_profitability process finished but returned no result
+[W10] [ERR] 463_queue_position process finished but returned no result
+[W10] [ERR] 464_liquidity_provision_score process finished but returned no result
+[W10] [ERR] 469_order_book_dynamics process finished but returned no result
+[W10] [ERR] 472_optimal_execution_horizon process finished but returned no result
+[W10] [ERR] 473_trade_aggressiveness process finished but returned no result
+[W10] [ERR] 474_smart_money_flow process finished but returned no result
+[W10] [ERR] 475_market_microstructure_invariance process finished but returned no result
+[W10] [ERR] 482_market_regime_classifier process finished but returned no result
+[W10] [ERR] 488_trade_size_distribution process finished but returned no result
+[W10] [ERR] 493_price_action_footprint process finished but returned no result
+[W10] [ERR] 494_institutional_order_detection process finished but returned no result
+[W10] [ERR] 496_advanced_order_flow_composite process finished but returned no result
+[W10] [ERR] 500_ultimate_microstructure_indicator process finished but returned no result
+[W10] [ERR] 504_fractal_breakout process finished but returned no result
+[W10] [ERR] 505_nonlinear_dynamics_score process finished but returned no result
+[W10] [ERR] 507_phase_space_trajectory process finished but returned no result
+[W10] [ERR] 510_chaos_order_transition process finished but returned no result
+[W10] [ERR] 512_news_impact_score process finished but returned no result
+[W10] [ERR] 517_quantum_entanglement_detector process finished but returned no result
+[W10] [ERR] 519_quantum_tunneling_breakout process finished but returned no result
+[W10] [ERR] 523_network_clustering_coefficient process finished but returned no result
+[W10] [ERR] 527_generative_model_signal process finished but returned no result
+[W10] [ERR] 532_statistical_arbitrage_signal process finished but returned no result
+[W10] [ERR] 535_factor_timing_model process finished but returned no result
+[W10] [ERR] 536_multi_strategy_fusion process finished but returned no result
+[W10] [ERR] 539_dynamic_portfolio_optimizer process finished but returned no result
+[W10] [ERR] 541_risk_parity_allocator process finished but returned no result
+[W10] [ERR] 547_cross_asset_correlation_signal process finished but returned no result
+[W10] [ERR] 550_global_risk_appetite_index process finished but returned no result

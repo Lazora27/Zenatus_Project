@@ -1,0 +1,597 @@
+{
+  "332": {
+    "file": "332_feature_selection_filter.py",
+    "class_name": "Indicator_FeatureSelectionFilter",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0,
+        "values": [
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          14.0,
+          17.0,
+          19.0,
+          20.0,
+          21.0,
+          23.0,
+          29.0
+        ]
+      },
+      "correlation_threshold": {
+        "min": null,
+        "max": null,
+        "default": 0.3,
+        "values": [
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ]
+      }
+    },
+    "methods": [
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "get_ml_features",
+      "generate_signals_fixed",
+      "__init__",
+      "validate_params",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "correlation_threshold": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "322": {
+    "file": "322_meta_learning.py",
+    "class_name": "Indicator_MetaLearning",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0,
+        "values": [
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          14.0,
+          17.0,
+          19.0,
+          20.0,
+          21.0,
+          23.0,
+          29.0
+        ]
+      },
+      "n_regimes": {
+        "min": null,
+        "max": null,
+        "default": 3.0,
+        "values": [
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      }
+    },
+    "methods": [
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "get_ml_features",
+      "generate_signals_fixed",
+      "__init__",
+      "validate_params",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "n_regimes": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "342": {
+    "file": "342_dbscan_anomaly.py",
+    "class_name": "Indicator_DBSCANAnomaly",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "eps": {
+        "min": null,
+        "max": null,
+        "default": 0.5
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "calculate",
+      "__init__",
+      "validate_params",
+      "generate_signals_fixed"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "eps": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "368": {
+    "file": "368_harmonic_pattern.py",
+    "class_name": "Indicator_HarmonicPattern",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 200,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96,
+          109,
+          122,
+          135,
+          148,
+          161,
+          174,
+          187,
+          200
+        ],
+        "count": 16
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 256
+  },
+  "371": {
+    "file": "371_fourier_transform.py",
+    "class_name": "Indicator_FourierTransform",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 200,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96,
+          109,
+          122,
+          135,
+          148,
+          161,
+          174,
+          187,
+          200
+        ],
+        "count": 16
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 256
+  },
+  "373": {
+    "file": "373_bandpass_filter.py",
+    "class_name": "Indicator_BandpassFilter",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "low_freq": {
+        "min": null,
+        "max": null,
+        "default": 5.0
+      },
+      "high_freq": {
+        "min": null,
+        "max": null,
+        "default": 15.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "values": [
+          5,
+          24,
+          43,
+          62,
+          81,
+          100
+        ],
+        "count": 6
+      },
+      "low_freq": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "values": [
+          5,
+          24,
+          43,
+          62,
+          81,
+          100
+        ],
+        "count": 6
+      },
+      "high_freq": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "values": [
+          5,
+          24,
+          43,
+          62,
+          81,
+          100
+        ],
+        "count": 6
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          75
+        ],
+        "count": 2
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          60
+        ],
+        "count": 2
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 864
+  },
+  "395": {
+    "file": "395_nonlinear_prediction.py",
+    "class_name": "Indicator_NonlinearPrediction",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null
+      },
+      "embedding_dim": {
+        "min": null,
+        "max": null
+      },
+      "n_neighbors": {
+        "min": null,
+        "max": null
+      }
+    },
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "count": 6
+      },
+      "embedding_dim": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "count": 6
+      },
+      "n_neighbors": {
+        "start": 5,
+        "end": 100,
+        "step": 19,
+        "count": 6
+      },
+      "tp_pips": {
+        "count": 2
+      },
+      "sl_pips": {
+        "count": 2
+      }
+    },
+    "backtest_compatible": true,
+    "calculated_combinations": 864
+  },
+  "411": {
+    "file": "411_volume_synchronized_probability.py",
+    "class_name": "Indicator_VPIN",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null
+      },
+      "n_buckets": {
+        "min": null,
+        "max": null
+      }
+    },
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "count": 8
+      },
+      "n_buckets": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "count": 8
+      },
+      "tp_pips": {
+        "count": 3
+      },
+      "sl_pips": {
+        "count": 3
+      }
+    },
+    "backtest_compatible": true,
+    "calculated_combinations": 576
+  }
+}

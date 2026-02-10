@@ -1,0 +1,11 @@
+Symbol,Description,Typical_Spread_Pips,Min_Spread_Pips,Max_Spread_Pips,Category,Notes
+BTCUSD,Bitcoin vs US Dollar,50.0,30.0,100.0,Crypto,High volatility
+ETHUSD,Ethereum vs US Dollar,5.0,3.0,10.0,Crypto,High volatility
+LTCUSD,Litecoin vs US Dollar,1.0,0.5,2.0,Crypto,High volatility
+XRPUSD,Ripple vs US Dollar,0.01,0.005,0.02,Crypto,High volatility
+BCHUSD,Bitcoin Cash vs US Dollar,2.0,1.0,4.0,Crypto,High volatility
+ADAUSD,Cardano vs US Dollar,0.01,0.005,0.02,Crypto,High volatility
+DOTUSD,Polkadot vs US Dollar,0.1,0.05,0.2,Crypto,High volatility
+LINKUSD,Chainlink vs US Dollar,0.2,0.1,0.4,Crypto,High volatility
+SOLUSD,Solana vs US Dollar,1.0,0.5,2.0,Crypto,High volatility
+BNBUSD,Binance Coin vs US Dollar,2.0,1.0,4.0,Crypto,High volatility

@@ -1,0 +1,50 @@
+=== WORKER 2 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W2] [ERR] 056_trend_awesome_osc process finished but returned no result
+[W2] [ERR] 057_trend_accelerator_osc process finished but returned no result
+[W2] [ERR] 058_trend_gator process finished but returned no result
+[W2] [ERR] 061_trend_trix process finished but returned no result
+[W2] [ERR] 062_trend_ppo process finished but returned no result
+[W2] [ERR] 063_trend_apo process finished but returned no result
+[W2] [ERR] 064_trend_dpo process finished but returned no result
+[W2] [ERR] 065_trend_cmo process finished but returned no result
+[W2] [ERR] 066_trend_rvi process finished but returned no result
+[W2] [ERR] 067_trend_tsi process finished but returned no result
+[W2] [ERR] 068_trend_bop process finished but returned no result
+[W2] [ERR] 069_trend_inertia process finished but returned no result
+[W2] [ERR] 070_trend_kdj process finished but returned no result
+[W2] [ERR] 071_trend_pgo process finished but returned no result
+[W2] [ERR] 072_trend_psychline process finished but returned no result
+[W2] [ERR] 073_trend_qqe process finished but returned no result
+[W2] [ERR] 074_trend_rainbow process finished but returned no result
+[W2] [ERR] 075_trend_smiergodic process finished but returned no result
+[W2] [ERR] 076_trend_smi process finished but returned no result
+[W2] [ERR] 077_trend_trendflex process finished but returned no result
+[W2] [ERR] 078_trend_macdhist process finished but returned no result
+[W2] [ERR] 079_trend_macdsignal process finished but returned no result
+[W2] [ERR] 080_trend_zerolagmacd process finished but returned no result
+[W2] [ERR] 084_trend_efficiencyratio process finished but returned no result
+[W2] [ERR] 085_volume_elderforce process finished but returned no result
+[W2] [ERR] 086_trend_frama process finished but returned no result
+[W2] [ERR] 087_trend_gaussian process finished but returned no result
+[W2] [ERR] 088_trend_highlowindex process finished but returned no result
+[W2] [ERR] 089_trend_histvol process finished but returned no result
+[W2] [ERR] 090_trend_hullmaosc process finished but returned no result
+[W2] [ERR] 091_trend_instantaneous process finished but returned no result
+[W2] [ERR] 092_trend_kauffman process finished but returned no result
+[W2] [ERR] 093_trend_laguerre process finished but returned no result
+[W2] [ERR] 094_trend_linearregslope process finished but returned no result
+[W2] [ERR] 095_volume_mfi_extended process finished but returned no result
+[W2] [ERR] 096_trend_mcginleydynamic process finished but returned no result
+[W2] [ERR] 097_trend_parabolicsar_extended process finished but returned no result
+[W2] [ERR] 099_trend_priceoscillator process finished but returned no result
+[W2] [ERR] 100_trend_renko process finished but returned no result
+[W2] [ERR] 101_trend_inversefisher process finished but returned no result
+[W2] [ERR] 102_trend_connorsrsi process finished but returned no result
+[W2] [ERR] 103_trend_laguerrersi process finished but returned no result

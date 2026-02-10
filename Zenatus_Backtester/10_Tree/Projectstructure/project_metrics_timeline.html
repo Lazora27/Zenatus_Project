@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Projekt Timeline</title><style>body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#f6f8fa;color:#222}.container{max-width:1200px;margin:40px auto;padding:0 20px}h1{margin:0 0 12px 0;font-size:22px}.chart{background:#fff;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.08);padding:16px;margin-bottom:16px}.scroll{overflow-x:auto;padding-bottom:10px}canvas{min-width:900px}</style></head><body><div class='container'><h1>Projekt-Timeline</h1><div class='chart'><div class='scroll'><canvas id='foldersChart' height='200'></canvas></div></div><div class='chart'><div class='scroll'><canvas id='filesChart' height='200'></canvas></div></div><div class='chart'><div class='scroll'><canvas id='extChart' height='300'></canvas></div></div><script>const timelineData = {"dates": ["02_02_2026", "03_02_2026"], "folders": [3503, 3511], "files": [26282, 26297], "ext": {"": [1644, 1644], ".1": [3, 3], ".a": [115, 115], ".afm": [60, 60], ".ani": [1, 1], ".apache": [4, 4], ".arff": [16, 16], ".backup": [6, 6], ".bat": [6, 7], ".bsd": [4, 4], ".build": [23, 23], ".bz2": [5, 5], ".c": [65, 65], ".cfg": [2, 2], ".cpp": [6, 6], ".css": [10, 10], ".csv": [88, 89], ".cu": [5, 5], ".dat": [28, 28], ".dll": [7, 7], ".egg": [1, 1], ".exe": [34, 34], ".external": [1, 1], ".f": [14, 14], ".f90": [35, 35], ".fits": [1, 1], ".gdb": [1, 1], ".gif": [6, 6], ".gz": [106, 106], ".gzip": [5, 5], ".h": [110, 110], ".html": [8, 9], ".ico": [2, 2], ".in": [1, 1], ".ini": [4, 4], ".ipynb": [21, 21], ".jpg": [6, 6], ".js": [41, 41], ".json": [69, 69], ".lib": [116, 116], ".lua": [1, 1], ".lzma": [5, 5], ".map": [14, 14], ".mat": [110, 110], ".md": [73, 73], ".mod": [1, 1], ".mplstyle": [29, 29], ".nc": [3, 3], ".npy": [31, 31], ".npz": [25, 25], ".orig": [1, 1], ".parquet": [7, 7], ".pdf": [11, 11], ".pem": [2, 2], ".pkl": [12, 12], ".png": [42, 42], ".ps1": [3, 4], ".pth": [1, 1], ".ptx": [1, 1], ".pxd": [44, 44], ".pxi": [2, 2], ".py": [10521, 10531], ".pyc": [9654, 9654], ".pyd": [296, 296], ".pyi": [2128, 2128], ".pyx": [63, 63], ".rst": [19, 19], ".sav": [47, 47], ".sh": [5, 5], ".svg": [101, 101], ".tab": [8, 8], ".third-party": [1, 1], ".tmpl": [2, 2], ".toml": [1, 1], ".tp": [24, 24], ".tpl": [7, 7], ".ttf": [38, 38], ".txt": [170, 171], ".typed": [56, 56], ".wav": [23, 23], ".webmanifest": [1, 1], ".whl": [1, 1], ".xml": [2, 2], ".xrc": [1, 1], ".xz": [5, 5], ".yml": [4, 4], ".z": [3, 3], ".zi": [2, 2], ".zip": [1, 1]}};</script><script>
+function drawLineChart(canvasId, labels, series, color){
+  const c=document.getElementById(canvasId); const ctx=c.getContext('2d');
+  const W = Math.max(labels.length*40, c.clientWidth); const H=c.height;
+  c.width = W;
+  const pad=30; const maxVal=Math.max(...series,1); const minVal=Math.min(...series,0);
+  const yMin=0; const yMax=maxVal;
+  ctx.clearRect(0,0,W,H); ctx.strokeStyle='#eee'; ctx.lineWidth=1;
+  for(let i=0;i<=5;i++){ const y=pad + (H-2*pad)*i/5; ctx.beginPath(); ctx.moveTo(pad,y); ctx.lineTo(W-pad,y); ctx.stroke(); }
+  ctx.strokeStyle=color; ctx.lineWidth=2; ctx.beginPath();
+  series.forEach((v,idx)=>{ const x=pad + idx*((W-2*pad)/Math.max(labels.length-1,1)); const y=H-pad - ((v-yMin)/(yMax-yMin))* (H-2*pad); if(idx===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); });
+  ctx.stroke();
+  ctx.fillStyle='#666'; ctx.font='12px system-ui';
+  labels.forEach((lb,idx)=>{ const x=pad + idx*((W-2*pad)/Math.max(labels.length-1,1)); ctx.save(); ctx.translate(x, H-8); ctx.rotate(-Math.PI/4); ctx.fillText(lb, 0,0); ctx.restore(); });
+}
+function drawStackedChart(canvasId, labels, extData){
+  const c=document.getElementById(canvasId); const ctx=c.getContext('2d');
+  const keys=Object.keys(extData); const W=Math.max(labels.length*40, c.clientWidth); const H=c.height; c.width=W;
+  const pad=30; const totals = labels.map((_,i)=> keys.reduce((s,k)=> s+(extData[k][i]||0),0)); const maxVal=Math.max(...totals,1);
+  ctx.clearRect(0,0,W,H);
+  const colors=['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
+  labels.forEach((lb,idx)=>{
+    const x=pad + idx*((W-2*pad)/Math.max(labels.length-1,1)); const barW=Math.max(6,(W-2*pad)/labels.length*0.6);
+    let yBase=H-pad;
+    keys.forEach((k,ki)=>{
+      const v=extData[k][idx]||0; const h=((v)/(maxVal))* (H-2*pad);
+      ctx.fillStyle=colors[ki%colors.length];
+      ctx.fillRect(x-barW/2, yBase-h, barW, h);
+      yBase -= h;
+    });
+  });
+  ctx.fillStyle='#666'; ctx.font='12px system-ui';
+  labels.forEach((lb,idx)=>{ const x=pad + idx*((W-2*pad)/Math.max(labels.length-1,1)); ctx.save(); ctx.translate(x, H-8); ctx.rotate(-Math.PI/4); ctx.fillText(lb, 0,0); ctx.restore(); });
+}
+drawLineChart('foldersChart', timelineData.dates, timelineData.folders, '#1f77b4');
+drawLineChart('filesChart', timelineData.dates, timelineData.files, '#ff7f0e');
+drawStackedChart('extChart', timelineData.dates, timelineData.ext);
+</script></div></body></html>

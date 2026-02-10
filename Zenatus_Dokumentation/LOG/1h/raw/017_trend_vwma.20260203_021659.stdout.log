@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 017_trend_vwma trades=100 net_ret=-0.01% max_dd=0.06% time=8s

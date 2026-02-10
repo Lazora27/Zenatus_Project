@@ -1,0 +1,44 @@
+Symbol,Description,Typical_Spread_Pips,Min_Spread_Pips,Max_Spread_Pips,Category,Notes
+AUDCAD,Australian Dollar vs Canadian Dollar,2.0,1.5,3.0,Forex Majors,Cross pair
+AUDCHF,Australian Dollar vs Swiss Franc,2.0,1.5,3.0,Forex Majors,Cross pair
+AUDJPY,Australian Dollar vs Japanese Yen,2.0,1.5,3.0,Forex Majors,Cross pair
+AUDNZD,Australian Dollar vs New Zealand Dollar,2.5,2.0,4.0,Forex Majors,Cross pair
+AUDUSD,Australian Dollar vs US Dollar,1.5,1.0,2.5,Forex Majors,Major pair
+CADCHF,Canadian Dollar vs Swiss Franc,2.5,2.0,4.0,Forex Majors,Cross pair
+CADJPY,Canadian Dollar vs Japanese Yen,2.0,1.5,3.0,Forex Majors,Cross pair
+CHFJPY,Swiss Franc vs Japanese Yen,2.0,1.5,3.0,Forex Majors,Cross pair
+EURAUD,Euro vs Australian Dollar,2.0,1.5,3.0,Forex Majors,Cross pair
+EURCAD,Euro vs Canadian Dollar,2.0,1.5,3.0,Forex Majors,Cross pair
+EURCHF,Euro vs Swiss Franc,1.5,1.0,2.5,Forex Majors,Cross pair
+EURCZK,Euro vs Czech Koruna,15.0,10.0,25.0,Forex Exotics,Exotic pair
+EURGBP,Euro vs British Pound,1.5,1.0,2.5,Forex Majors,Major pair
+EURHUF,Euro vs Hungarian Forint,20.0,15.0,30.0,Forex Exotics,Exotic pair
+EURJPY,Euro vs Japanese Yen,1.5,1.0,2.5,Forex Majors,Major pair
+EURNOK,Euro vs Norwegian Krone,25.0,20.0,40.0,Forex Exotics,Exotic pair
+EURNZD,Euro vs New Zealand Dollar,3.0,2.0,5.0,Forex Majors,Cross pair
+EURPLN,Euro vs Polish Zloty,20.0,15.0,30.0,Forex Exotics,Exotic pair
+EURSEK,Euro vs Swedish Krona,25.0,20.0,40.0,Forex Exotics,Exotic pair
+EURTRY,Euro vs Turkish Lira,50.0,30.0,100.0,Forex Exotics,High volatility
+EURUSD,Euro vs US Dollar,1.0,0.5,1.5,Forex Majors,Major pair - Tightest spread
+EURZAR,Euro vs South African Rand,100.0,80.0,150.0,Forex Exotics,High volatility
+GBPAUD,British Pound vs Australian Dollar,2.5,2.0,4.0,Forex Majors,Cross pair
+GBPCAD,British Pound vs Canadian Dollar,2.5,2.0,4.0,Forex Majors,Cross pair
+GBPCHF,British Pound vs Swiss Franc,2.5,2.0,4.0,Forex Majors,Cross pair
+GBPJPY,British Pound vs Japanese Yen,2.0,1.5,3.0,Forex Majors,Major pair
+GBPNZD,British Pound vs New Zealand Dollar,3.5,3.0,5.0,Forex Majors,Cross pair
+GBPUSD,British Pound vs US Dollar,1.5,1.0,2.5,Forex Majors,Major pair - Cable
+NZDCAD,New Zealand Dollar vs Canadian Dollar,2.5,2.0,4.0,Forex Majors,Cross pair
+NZDCHF,New Zealand Dollar vs Swiss Franc,2.5,2.0,4.0,Forex Majors,Cross pair
+NZDJPY,New Zealand Dollar vs Japanese Yen,2.5,2.0,4.0,Forex Majors,Cross pair
+NZDUSD,New Zealand Dollar vs US Dollar,2.0,1.5,3.0,Forex Majors,Major pair
+USDCAD,US Dollar vs Canadian Dollar,1.5,1.0,2.5,Forex Majors,Major pair - Loonie
+USDCHF,US Dollar vs Swiss Franc,1.5,1.0,2.5,Forex Majors,Major pair
+USDCZK,US Dollar vs Czech Koruna,15.0,10.0,25.0,Forex Exotics,Exotic pair
+USDHUF,US Dollar vs Hungarian Forint,20.0,15.0,30.0,Forex Exotics,Exotic pair
+USDJPY,US Dollar vs Japanese Yen,1.0,0.5,1.5,Forex Majors,Major pair
+USDMXN,US Dollar vs Mexican Peso,50.0,40.0,80.0,Forex Exotics,High volatility
+USDNOK,US Dollar vs Norwegian Krone,25.0,20.0,40.0,Forex Exotics,Exotic pair
+USDPLN,US Dollar vs Polish Zloty,20.0,15.0,30.0,Forex Exotics,Exotic pair
+USDSEK,US Dollar vs Swedish Krona,25.0,20.0,40.0,Forex Exotics,Exotic pair
+USDTRY,US Dollar vs Turkish Lira,50.0,30.0,100.0,Forex Exotics,High volatility
+USDZAR,US Dollar vs South African Rand,100.0,80.0,150.0,Forex Exotics,High volatility

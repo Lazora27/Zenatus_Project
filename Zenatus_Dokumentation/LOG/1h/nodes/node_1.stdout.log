@@ -1,0 +1,15 @@
+=== WORKER 1 STARTED ===
+Processing 2 indicators...
+[DATA] EUR_USD bars=16960
+[DATA] GBP_USD bars=16959
+[DATA] USD_CHF bars=16939
+[DATA] USD_CAD bars=16958
+[DATA] AUD_USD bars=16958
+[DATA] NZD_USD bars=16956
+[ERR] 039_trend_williams_r EUR_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r GBP_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CHF: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CAD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r AUD_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r NZD_USD: oversold = -40 above maximum -70
+[W1] [06:28:05] [039] [039_trend_williams_r] NO RESULTS (0s)

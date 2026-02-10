@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 545, in <module>
+    main()
+    ~~~~^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 541, in main
+    res = process_indicator(ind, spreads, data_cache)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 503, in process_indicator
+    p.join(timeout=TIMEOUT_SEC)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.13/multiprocessing/popen_fork.py", line 41, in wait
+    if not wait([self.sentinel], timeout):
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 1148, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.13/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 348, in worker_process
+    res = run_indicator_logic(ind_name, spreads, data_cache)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 431, in run_indicator_logic
+    res = batch_backtest(df, entries, current_exit_combos, spread_pips)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 235, in batch_backtest
+    pf = vbt.Portfolio.from_signals(
+        close=close_in,
+    ...<8 lines>...
+        freq=FREQ
+    )
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/portfolio/base.py", line 2912, in from_signals
+    call_seq = nb.build_call_seq(target_shape_2d, group_lens, call_seq_type=call_seq)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/portfolio/nb.py", line 930, in build_call_seq
+    return require_call_seq(call_seq)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/portfolio/nb.py", line 912, in require_call_seq
+    return np.require(call_seq, dtype=np.int64, requirements=['A', 'O', 'W', 'F'])
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numpy/_core/_asarray.py", line 126, in require
+    arr = array(a, dtype=dtype, order=order, copy=None, subok=subok)
+KeyboardInterrupt

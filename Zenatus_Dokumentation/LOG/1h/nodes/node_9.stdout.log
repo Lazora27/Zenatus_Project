@@ -1,0 +1,11 @@
+=== WORKER 9 STARTED ===
+Processing 3 indicators...
+[DATA] EUR_USD bars=16960
+[DATA] GBP_USD bars=16959
+[DATA] USD_CHF bars=16939
+[DATA] USD_CAD bars=16958
+[DATA] AUD_USD bars=16958
+[DATA] NZD_USD bars=16956
+[W9] [ERR] 535_factor_timing_model process finished but returned no result
+[W9] [ERR] 536_multi_strategy_fusion process finished but returned no result
+[W9] [21:06:56] [539] [539_dynamic_portfolio_optimizer] [1h] [Combos: 60000] [Ret: 0.2196%] [DD: 0.1037%] [PF: 1.176] [Sharpe: 1.162] [Trades: 565] [WR: 27.26%] [00:03:12]

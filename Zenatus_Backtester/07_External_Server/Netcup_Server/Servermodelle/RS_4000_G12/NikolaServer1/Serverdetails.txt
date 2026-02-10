@@ -1,0 +1,55 @@
+Name: v2202602334610430359
+Hostname: v2202602334610430359.supersrv.de
+Spitzname: NikolaServer1
+Password Server: 6EdMb4vyFFy0xUE
+
+Netzwerk
+MAC: da:7b:5d:87:c6:0b
+IPv4: 159.195.75.92
+IPv6: fe80::d87b:5dff:fe87:c60b/10
+2a0a:4cc0:c2:3cb3::/64
+IPv6: fe80::d87b:5dff:fe87:c60b/102a0a:4cc0:c2:3cb3::/64
+IPv6: fe80::d87b:5dff:fe87:c60b/10 2a0a:4cc0:c2:3cb3::/64
+
+IPv4
+Gateway/Routing auf: 159.195.72.1
+rDNS: v2202602334610430359.supersrv.de
+
+IPv6
+IP: 2a0a:4cc0:c2:3cb3::/64
+Gateway / Routing auf: fe80::1
+
+ Hardware
+RAM	32.768 MiB
+CPU	12
+Architektur	x86
+Datenträger 1	1.024 GiB
+Startlaufwerk	Hard Disk
+Momentan eingelegt	-
+
+
+Speichernutzung  vda: 1 GiB von 1.024 GiB belegt
+Treiber: VIRTIO
+
+Firewall
+Interface: da:7b:5d:87:c6:0b
+MAC: da:7b:5d:87:c6:0b
+IPs: 159.195.75.92/22, 2a0a:4cc0:c2:3cb3::/64
+
+ Firewall
+Regeln werden von oben nach unten angewendet 
+netcup Mail block (Default Policy) - blocks outgoing SMTP (Mail) traffic	
+Beschreibung	Typ	Aktion	Protokoll	Source(s) (IPs / Netzwerke)	Source Port(s)	Destination(s) (IPs / Netzwerke)	Destination Port(s)
+drop outgoing SMTP	AUSGEHEND	DROP	TCP	*	*	*	25
+drop outgoing SMTPS	AUSGEHEND	DROP	TCP	*	*	*	465
+drop outgoing submission	AUSGEHEND	DROP	TCP	*	*	*	587
+netcup Ping allow (Default Policy) - allow ICMP (ping) on IPv4 and IPv6	
+Beschreibung	Typ	Aktion	Protokoll	Source(s) (IPs / Netzwerke)	Source Port(s)	Destination(s) (IPs / Netzwerke)	Destination Port(s)
+allow incoming ping	EINGEHEND	ACCEPT	ICMP	*	*	*	*
+allow incoming ping6	EINGEHEND	ACCEPT	ICMPv6	*	*	*	*
+allow outgoing ping	AUSGEHEND	ACCEPT	ICMP	*	*	*	*
+allow outgoing ping6	AUSGEHEND	ACCEPT	ICMPv6	*	*	*	*
+Implizite Regeln
+Beschreibung	Typ	Aktion	Protokoll	Source(s) (IPs / Netzwerke)	Source Port(s)	Destination(s) (IPs / Netzwerke)	Destination Port(s)
+Accept all	EINGEHEND	ACCEPT	ANY	*	*	*	*
+Accept all	AUSGEHEND	ACCEPT	ANY	*	*	*	*

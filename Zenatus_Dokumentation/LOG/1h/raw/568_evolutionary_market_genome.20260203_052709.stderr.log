@@ -1,0 +1,8 @@
+/root/Zenatus/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/568_evolutionary_market_genome.py:123: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/root/Zenatus/Zenatus_Backtester/venv/lib/python3.13/site-packages/vectorbt/utils/datetime_.py:24: FutureWarning:
+
+'H' is deprecated and will be removed in a future version. Please use 'h' instead of 'H'.
+

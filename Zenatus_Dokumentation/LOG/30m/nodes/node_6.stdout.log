@@ -1,0 +1,50 @@
+=== WORKER 6 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W6] [ERR] 241_skewness process finished but returned no result
+[W6] [ERR] 242_kurtosis process finished but returned no result
+[W6] [ERR] 243_zscore process finished but returned no result
+[W6] [ERR] 244_tscore process finished but returned no result
+[W6] [ERR] 245_percentile process finished but returned no result
+[W6] [ERR] 246_quartile process finished but returned no result
+[W6] [ERR] 247_iqr process finished but returned no result
+[W6] [ERR] 248_mad process finished but returned no result
+[W6] [ERR] 249_coefficient_variation process finished but returned no result
+[W6] [ERR] 250_correlation_coefficient process finished but returned no result
+[W6] [ERR] 251_covariance process finished but returned no result
+[W6] [ERR] 252_beta process finished but returned no result
+[W6] [ERR] 253_sharpe_ratio process finished but returned no result
+[W6] [ERR] 254_sortino_ratio process finished but returned no result
+[W6] [ERR] 255_calmar_ratio process finished but returned no result
+[W6] [ERR] 256_linear_regression process finished but returned no result
+[W6] [ERR] 257_polynomial_regression process finished but returned no result
+[W6] [ERR] 258_exponential_regression process finished but returned no result
+[W6] [ERR] 259_logarithmic_regression process finished but returned no result
+[W6] [ERR] 260_power_regression process finished but returned no result
+[W6] [ERR] 261_ridge_regression process finished but returned no result
+[W6] [ERR] 262_lasso_regression process finished but returned no result
+[W6] [ERR] 264_time_series_regression process finished but returned no result
+[W6] [ERR] 265_auto_regression process finished but returned no result
+[W6] [ERR] 266_moving_average_model process finished but returned no result
+[W6] [ERR] 267_arma_model process finished but returned no result
+[W6] [ERR] 268_arima_model process finished but returned no result
+[W6] [ERR] 269_sarima_model process finished but returned no result
+[W6] [ERR] 270_garch_model process finished but returned no result
+[W6] [ERR] 271_exponential_smoothing process finished but returned no result
+[W6] [ERR] 272_holt_winters process finished but returned no result
+[W6] [ERR] 273_kalman_filter process finished but returned no result
+[W6] [ERR] 275_linear_regression_slope process finished but returned no result
+[W6] [ERR] 276_candlestick_patterns process finished but returned no result
+[W6] [ERR] 278_harmonic_patterns process finished but returned no result
+[W6] [ERR] 279_elliott_wave process finished but returned no result
+[W6] [18:21:06] [284] [284_fibonacci_time_zones] [30m] [Combos: 1320] [Ret: 0.0367%] [DD: 0.0149%] [PF: 5.92] [Sharpe: 0.93] [Trades: 3] [WR: 66.67%] [00:00:13]
+[W6] [ERR] 286_gann_square_of_9 process finished but returned no result
+[W6] [ERR] 287_gann_fans process finished but returned no result
+[W6] [ERR] 288_andrews_pitchfork process finished but returned no result
+[W6] [ERR] 290_support_resistance process finished but returned no result
+[W6] [ERR] 292_lognormal_distribution process finished but returned no result

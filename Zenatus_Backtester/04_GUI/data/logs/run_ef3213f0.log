@@ -1,0 +1,328 @@
+=== WORKER 0 STARTED ===
+Config: TF=1h, Cap=10000.0, Range=2023-01-01 to 2026-02-09
+Processing 500 indicators...
+[DATA] AUD_USD bars=16958
+[DATA] EUR_USD bars=16960
+[DATA] GBP_USD bars=16959
+[DATA] NZD_USD bars=16956
+[DATA] USD_CAD bars=16958
+[DATA] USD_CHF bars=16939
+[W0] [17:02:34] [001] [001_trend_sma] [1h] [Combos: 13200] [Ret: 0.2388%] [DD: 0.0632%] [PF: 1.483] [Sharpe: 1.62] [Trades: 148] [WR: 57.43%] [00:01:05]
+[W0] [17:03:28] [002] [002_trend_ema] [1h] [Combos: 13200] [Ret: 0.2067%] [DD: 0.0976%] [PF: 1.204] [Sharpe: 1.106] [Trades: 285] [WR: 53.68%] [00:00:52]
+[W0] [17:04:46] [003] [003_trend_wma] [1h] [Combos: 13200] [Ret: 0.2025%] [DD: 0.0526%] [PF: 1.341] [Sharpe: 1.434] [Trades: 206] [WR: 44.66%] [00:01:17]
+[W0] [17:05:43] [004] [004_trend_dema] [1h] [Combos: 13200] [Ret: 0.2712%] [DD: 0.089%] [PF: 1.29] [Sharpe: 1.481] [Trades: 306] [WR: 39.87%] [00:00:56]
+[W0] [17:06:41] [005] [005_trend_tema] [1h] [Combos: 13200] [Ret: 0.2762%] [DD: 0.0892%] [PF: 1.332] [Sharpe: 1.463] [Trades: 247] [WR: 34.41%] [00:00:58]
+[W0] [17:09:33] [006] [006_trend_trima] [1h] [Combos: 13200] [Ret: 0.2221%] [DD: 0.0496%] [PF: 1.35] [Sharpe: 1.554] [Trades: 240] [WR: 41.67%] [00:02:51]
+[W0] [ERR] 007_trend_kama process finished but returned no result
+[W0] [17:12:56] [008] [008_trend_hma] [1h] [Combos: 13200] [Ret: 0.2586%] [DD: 0.0838%] [PF: 1.265] [Sharpe: 1.42] [Trades: 351] [WR: 35.61%] [00:01:33]
+[W0] [17:13:53] [009] [009_trend_zlema] [1h] [Combos: 13200] [Ret: 0.257%] [DD: 0.0618%] [PF: 1.223] [Sharpe: 1.681] [Trades: 612] [WR: 54.74%] [00:00:56]
+[W0] [ERR] 010_trend_alma process finished but returned no result
+[W0] [ERR] 011_trend_jma process finished but returned no result
+[W0] [ERR] 012_trend_t3 process finished but returned no result
+[W0] [ERR] 013_trend_vidya process finished but returned no result
+[W0] [17:29:43] [014] [014_trend_frama] [1h] [Combos: 13200] [Ret: 0.2265%] [DD: 0.0816%] [PF: 1.809] [Sharpe: 1.377] [Trades: 96] [WR: 14.58%] [00:01:27]
+[W0] [ERR] 015_trend_mcginley process finished but returned no result
+[W0] [17:34:51] [016] [016_trend_sinwma] [1h] [Combos: 13200] [Ret: 0.2069%] [DD: 0.0809%] [PF: 1.333] [Sharpe: 1.125] [Trades: 121] [WR: 52.07%] [00:01:52]
+[W0] [17:35:47] [017] [017_trend_vwma] [1h] [Combos: 13200] [Ret: 0.2264%] [DD: 0.0789%] [PF: 1.278] [Sharpe: 1.236] [Trades: 207] [WR: 38.16%] [00:00:55]
+[W0] [17:37:26] [018] [018_trend_tsf] [1h] [Combos: 13200] [Ret: 0.2701%] [DD: 0.0802%] [PF: 1.303] [Sharpe: 1.545] [Trades: 321] [WR: 36.45%] [00:01:38]
+[W0] [17:38:56] [019] [019_trend_linreg] [1h] [Combos: 13200] [Ret: 0.296%] [DD: 0.0849%] [PF: 1.323] [Sharpe: 1.668] [Trades: 329] [WR: 36.78%] [00:01:30]
+[W0] [17:40:33] [020] [020_trend_lsma] [1h] [Combos: 13200] [Ret: 0.296%] [DD: 0.0849%] [PF: 1.323] [Sharpe: 1.668] [Trades: 329] [WR: 36.78%] [00:01:36]
+[TIMEOUT] 021_trend_mama killed after 1800s
+[W0] [TIMEOUT] 021_trend_mama killed
+[W0] [18:11:49] [022] [022_trend_smma] [1h] [Combos: 13200] [Ret: 0.2112%] [DD: 0.1141%] [PF: 1.708] [Sharpe: 1.026] [Trades: 35] [WR: 57.14%] [00:01:14]
+[W0] [18:13:03] [023] [023_trend_wilders] [1h] [Combos: 13200] [Ret: 0.2112%] [DD: 0.1141%] [PF: 1.708] [Sharpe: 1.026] [Trades: 35] [WR: 57.14%] [00:01:13]
+[W0] [18:14:47] [024] [024_trend_gma] [1h] [Combos: 13200] [Ret: 0.2288%] [DD: 0.0632%] [PF: 1.463] [Sharpe: 1.561] [Trades: 147] [WR: 57.14%] [00:01:43]
+[W0] [18:15:43] [025] [025_trend_harmonic] [1h] [Combos: 13200] [Ret: 0.228%] [DD: 0.0632%] [PF: 1.461] [Sharpe: 1.555] [Trades: 147] [WR: 57.14%] [00:00:55]
+[W0] [ERR] 026_trend_adx process finished but returned no result
+[W0] [18:21:29] [027] [027_trend_dmi] [1h] [Combos: 60000] [Ret: 0.2502%] [DD: 0.0597%] [PF: 1.312] [Sharpe: 1.46] [Trades: 333] [WR: 24.62%] [00:03:38]
+[W0] [18:23:04] [028] [028_trend_aroon] [1h] [Combos: 13200] [Ret: 0.2242%] [DD: 0.0665%] [PF: 1.527] [Sharpe: 1.402] [Trades: 88] [WR: 45.45%] [00:01:35]
+[W0] [18:26:20] [029] [029_trend_aroonosc] [1h] [Combos: 26400] [Ret: 0.2242%] [DD: 0.0665%] [PF: 1.527] [Sharpe: 1.402] [Trades: 88] [WR: 45.45%] [00:03:15]
+[W0] [18:35:14] [030] [030_trend_psar] [1h] [Combos: 60000] [Ret: 0.2362%] [DD: 0.0657%] [PF: 1.27] [Sharpe: 1.356] [Trades: 315] [WR: 36.19%] [00:08:53]
+[W0] [18:38:06] [031] [031_trend_supertrend] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:51]
+[W0] [18:38:57] [032] [032_trend_vortex] [1h] [Combos: 13200] [Ret: 0.2178%] [DD: 0.0815%] [PF: 1.249] [Sharpe: 1.461] [Trades: 420] [WR: 33.33%] [00:00:50]
+[W0] [ERR] 033_trend_massindex process finished but returned no result
+[W0] [18:44:39] [035] [035_trend_tii] [1h] [Combos: 60000] [Ret: 0.201%] [DD: 0.0588%] [PF: 1.735] [Sharpe: 1.386] [Trades: 119] [WR: 14.29%] [00:03:14]
+[ERR] 036_trend_cci AUD_USD: oversold = -49 above maximum -50
+[ERR] 036_trend_cci EUR_USD: oversold = -49 above maximum -50
+[ERR] 036_trend_cci GBP_USD: oversold = -49 above maximum -50
+[ERR] 036_trend_cci NZD_USD: oversold = -49 above maximum -50
+[ERR] 036_trend_cci USD_CAD: oversold = -49 above maximum -50
+[ERR] 036_trend_cci USD_CHF: oversold = -49 above maximum -50
+[W0] [18:44:46] [036] [036_trend_cci] [1h] [Combos: 660] [Ret: 0.2112%] [DD: 0.0901%] [PF: 1.234] [Sharpe: 1.108] [Trades: 294] [WR: 29.59%] [00:00:07]
+[W0] [18:46:10] [037] [037_trend_roc] [1h] [Combos: 26400] [Ret: 0.2424%] [DD: 0.0747%] [PF: 1.291] [Sharpe: 1.415] [Trades: 420] [WR: 20.24%] [00:01:23]
+[ERR] 039_trend_williams_r AUD_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r EUR_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r GBP_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r NZD_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CAD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CHF: oversold = -40 above maximum -70
+[W0] [18:46:10] [039] [039_trend_williams_r] NO RESULTS (0s)
+[W0] [18:49:31] [040] [040_trend_stochastic] [1h] [Combos: 60000] [Ret: 0.2393%] [DD: 0.1146%] [PF: 1.576] [Sharpe: 1.189] [Trades: 99] [WR: 18.18%] [00:03:20]
+[W0] [18:52:41] [041] [041_trend_rsi] [1h] [Combos: 60000] [Ret: 0.2643%] [DD: 0.0996%] [PF: 1.683] [Sharpe: 1.315] [Trades: 61] [WR: 29.51%] [00:03:09]
+[W0] [18:56:14] [042] [042_trend_macd] [1h] [Combos: 60000] [Ret: 0.2708%] [DD: 0.081%] [PF: 1.279] [Sharpe: 1.629] [Trades: 377] [WR: 41.64%] [00:03:32]
+[W0] [18:58:41] [043] [043_trend_bollinger] [1h] [Combos: 47240] [Ret: 0.2799%] [DD: 0.0624%] [PF: 2.346] [Sharpe: 2.062] [Trades: 44] [WR: 50.0%] [00:02:26]
+[W0] [19:01:37] [044] [044_trend_atr] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:55]
+[W0] [19:04:33] [045] [045_trend_keltner] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:56]
+[W0] [19:05:20] [046] [046_trend_donchian] [1h] [Combos: 13200] [Ret: 0.1605%] [DD: 0.0971%] [PF: 1.467] [Sharpe: 0.881] [Trades: 62] [WR: 25.81%] [00:00:45]
+[W0] [19:06:49] [047] [047_volume_obv] [1h] [Combos: 13200] [Ret: 0.1753%] [DD: 0.0567%] [PF: 1.298] [Sharpe: 1.162] [Trades: 166] [WR: 54.22%] [00:01:29]
+[W0] [19:12:48] [048] [048_volume_mfi] [1h] [Combos: 60000] [Ret: 0.2452%] [DD: 0.0749%] [PF: 1.423] [Sharpe: 1.771] [Trades: 203] [WR: 47.78%] [00:05:59]
+[W0] [19:16:16] [050] [050_trend_ichimoku] [1h] [Combos: 60000] [Ret: 0.1924%] [DD: 0.095%] [PF: 1.227] [Sharpe: 1.045] [Trades: 202] [WR: 51.98%] [00:03:27]
+[W0] [19:16:34] [051] [051_volume_vwap] [1h] [Combos: 3960] [Ret: 0.1988%] [DD: 0.1173%] [PF: 1.218] [Sharpe: 0.934] [Trades: 170] [WR: 50.0%] [00:00:17]
+[W0] [19:17:23] [052] [052_volume_force_index] [1h] [Combos: 13200] [Ret: 0.2433%] [DD: 0.0526%] [PF: 1.413] [Sharpe: 1.692] [Trades: 205] [WR: 56.59%] [00:00:49]
+[W0] [19:18:10] [053] [053_volume_ad] [1h] [Combos: 13200] [Ret: 0.2339%] [DD: 0.1185%] [PF: 1.331] [Sharpe: 1.239] [Trades: 212] [WR: 27.83%] [00:00:46]
+[W0] [19:18:17] [054] [054_trend_ultimate_osc] [1h] [Combos: 660] [Ret: 0.1867%] [DD: 0.1089%] [PF: 1.144] [Sharpe: 0.93] [Trades: 401] [WR: 47.38%] [00:00:06]
+[W0] [19:21:54] [055] [055_trend_stoch_rsi] [1h] [Combos: 60000] [Ret: 0.249%] [DD: 0.0534%] [PF: 1.296] [Sharpe: 1.572] [Trades: 303] [WR: 45.54%] [00:03:33]
+[W0] [19:25:06] [056] [056_trend_awesome_osc] [1h] [Combos: 60000] [Ret: 0.2485%] [DD: 0.0981%] [PF: 1.41] [Sharpe: 1.423] [Trades: 144] [WR: 45.14%] [00:03:11]
+[W0] [19:28:41] [057] [057_trend_accelerator_osc] [1h] [Combos: 60000] [Ret: 0.2805%] [DD: 0.0819%] [PF: 1.277] [Sharpe: 1.686] [Trades: 436] [WR: 36.93%] [00:03:34]
+[W0] [19:32:26] [058] [058_trend_gator] [1h] [Combos: 60000] [Ret: 0.2401%] [DD: 0.0913%] [PF: 1.243] [Sharpe: 1.212] [Trades: 329] [WR: 28.88%] [00:03:45]
+[W0] [19:35:48] [059] [059_trend_alligator] [1h] [Combos: 60000] [Ret: 0.2055%] [DD: 0.0568%] [PF: 1.295] [Sharpe: 1.345] [Trades: 240] [WR: 44.17%] [00:03:20]
+[W0] [19:36:42] [060] [060_trend_elder_ray] [1h] [Combos: 13200] [Ret: 0.2376%] [DD: 0.1036%] [PF: 1.187] [Sharpe: 1.189] [Trades: 399] [WR: 47.87%] [00:00:54]
+[W0] [19:40:06] [061] [061_trend_trix] [1h] [Combos: 60000] [Ret: 0.2416%] [DD: 0.1022%] [PF: 1.311] [Sharpe: 1.263] [Trades: 239] [WR: 26.78%] [00:03:23]
+[W0] [19:43:39] [062] [062_trend_ppo] [1h] [Combos: 60000] [Ret: 0.2675%] [DD: 0.081%] [PF: 1.275] [Sharpe: 1.609] [Trades: 378] [WR: 41.53%] [00:03:33]
+[W0] [19:46:42] [063] [063_trend_apo] [1h] [Combos: 60000] [Ret: 0.2184%] [DD: 0.0859%] [PF: 1.326] [Sharpe: 1.26] [Trades: 172] [WR: 39.53%] [00:03:02]
+[W0] [19:47:28] [064] [064_trend_dpo] [1h] [Combos: 13200] [Ret: 0.2025%] [DD: 0.0672%] [PF: 1.449] [Sharpe: 1.447] [Trades: 134] [WR: 56.72%] [00:00:46]
+[W0] [19:51:10] [065] [065_trend_cmo] [1h] [Combos: 60000] [Ret: 0.192%] [DD: 0.083%] [PF: 1.255] [Sharpe: 1.21] [Trades: 246] [WR: 53.25%] [00:03:41]
+[W0] [19:52:03] [066] [066_trend_rvi] [1h] [Combos: 13200] [Ret: 0.2539%] [DD: 0.0879%] [PF: 1.295] [Sharpe: 1.321] [Trades: 349] [WR: 20.06%] [00:00:52]
+[W0] [19:55:32] [067] [067_trend_tsi] [1h] [Combos: 60000] [Ret: 0.2764%] [DD: 0.0709%] [PF: 1.306] [Sharpe: 1.565] [Trades: 326] [WR: 36.5%] [00:03:28]
+[W0] [19:56:22] [068] [068_trend_bop] [1h] [Combos: 13200] [Ret: 0.197%] [DD: 0.1092%] [PF: 1.412] [Sharpe: 0.915] [Trades: 59] [WR: 52.54%] [00:00:50]
+[W0] [20:02:37] [069] [069_trend_inertia] [1h] [Combos: 60000] [Ret: 0.2508%] [DD: 0.0938%] [PF: 1.435] [Sharpe: 1.346] [Trades: 125] [WR: 40.8%] [00:06:15]
+[W0] [20:05:23] [070] [070_trend_kdj] [1h] [Combos: 60000] [Ret: 0.3%] [DD: 0.05%] [PF: 1.58] [Sharpe: 1.899] [Trades: 137] [WR: 58.39%] [00:02:45]
+[W0] [20:06:12] [071] [071_trend_pgo] [1h] [Combos: 13200] [Ret: 0.2249%] [DD: 0.0363%] [PF: 1.354] [Sharpe: 1.86] [Trades: 334] [WR: 56.59%] [00:00:48]
+[W0] [20:07:00] [072] [072_trend_psychline] [1h] [Combos: 13200] [Ret: 0.185%] [DD: 0.0486%] [PF: 1.29] [Sharpe: 1.416] [Trades: 263] [WR: 43.73%] [00:00:47]
+[W0] [20:10:05] [073] [073_trend_qqe] [1h] [Combos: 60000] [Ret: 0.244%] [DD: 0.0833%] [PF: 1.367] [Sharpe: 1.456] [Trades: 201] [WR: 34.33%] [00:03:05]
+[W0] [20:10:56] [074] [074_trend_rainbow] [1h] [Combos: 13200] [Ret: 0.2185%] [DD: 0.092%] [PF: 1.209] [Sharpe: 1.179] [Trades: 339] [WR: 38.35%] [00:00:50]
+[W0] [20:14:27] [075] [075_trend_smiergodic] [1h] [Combos: 60000] [Ret: 0.2493%] [DD: 0.0863%] [PF: 1.292] [Sharpe: 1.31] [Trades: 282] [WR: 30.14%] [00:03:30]
+[W0] [20:17:59] [076] [076_trend_smi] [1h] [Combos: 60000] [Ret: 0.2544%] [DD: 0.0695%] [PF: 1.27] [Sharpe: 1.519] [Trades: 438] [WR: 27.85%] [00:03:31]
+[W0] [20:18:46] [077] [077_trend_trendflex] [1h] [Combos: 13200] [Ret: 0.2077%] [DD: 0.0962%] [PF: 1.267] [Sharpe: 1.138] [Trades: 195] [WR: 38.46%] [00:00:46]
+[W0] [20:22:12] [078] [078_trend_macdhist] [1h] [Combos: 60000] [Ret: 0.2709%] [DD: 0.081%] [PF: 1.279] [Sharpe: 1.629] [Trades: 377] [WR: 41.64%] [00:03:26]
+[W0] [20:25:09] [079] [079_trend_macdsignal] [1h] [Combos: 60000] [Ret: 0.1956%] [DD: 0.0772%] [PF: 1.577] [Sharpe: 1.226] [Trades: 74] [WR: 51.35%] [00:02:56]
+[W0] [20:28:48] [080] [080_trend_zerolagmacd] [1h] [Combos: 60000] [Ret: 0.2585%] [DD: 0.0822%] [PF: 1.196] [Sharpe: 1.457] [Trades: 551] [WR: 51.36%] [00:03:38]
+[W0] [20:31:35] [081] [081_trend_choppiness] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:46]
+[W0] [20:35:12] [082] [082_trend_coppock] [1h] [Combos: 60000] [Ret: 0.2407%] [DD: 0.0819%] [PF: 1.385] [Sharpe: 1.453] [Trades: 209] [WR: 32.06%] [00:03:36]
+[W0] [20:35:59] [083] [083_trend_detrendedprice] [1h] [Combos: 13200] [Ret: 0.2129%] [DD: 0.0533%] [PF: 1.349] [Sharpe: 1.535] [Trades: 234] [WR: 41.45%] [00:00:46]
+[W0] [20:36:52] [084] [084_trend_efficiencyratio] [1h] [Combos: 13200] [Ret: 0.271%] [DD: 0.0735%] [PF: 1.312] [Sharpe: 1.773] [Trades: 369] [WR: 38.75%] [00:00:53]
+[W0] [20:37:43] [085] [085_volume_elderforce] [1h] [Combos: 13200] [Ret: 0.2433%] [DD: 0.0526%] [PF: 1.413] [Sharpe: 1.692] [Trades: 205] [WR: 56.59%] [00:00:50]
+[W0] [20:39:17] [086] [086_trend_frama] [1h] [Combos: 13200] [Ret: 0.2393%] [DD: 0.091%] [PF: 1.285] [Sharpe: 1.198] [Trades: 194] [WR: 42.78%] [00:01:33]
+[W0] [20:45:09] [087] [087_trend_gaussian] [1h] [Combos: 60000] [Ret: 0.2187%] [DD: 0.0976%] [PF: 1.217] [Sharpe: 1.164] [Trades: 284] [WR: 53.87%] [00:05:52]
+[W0] [20:45:57] [088] [088_trend_highlowindex] [1h] [Combos: 13200] [Ret: 0.2277%] [DD: 0.082%] [PF: 1.41] [Sharpe: 1.349] [Trades: 130] [WR: 46.15%] [00:00:47]
+[W0] [20:46:44] [089] [089_trend_histvol] [1h] [Combos: 13200] [Ret: 0.2715%] [DD: 0.0739%] [PF: 1.76] [Sharpe: 1.509] [Trades: 113] [WR: 17.7%] [00:00:47]
+[W0] [20:47:51] [090] [090_trend_hullmaosc] [1h] [Combos: 13200] [Ret: 0.2586%] [DD: 0.0838%] [PF: 1.265] [Sharpe: 1.42] [Trades: 351] [WR: 35.61%] [00:01:06]
+[W0] [20:50:43] [091] [091_trend_instantaneous] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:52]
+[W0] [20:57:11] [092] [092_trend_kauffman] [1h] [Combos: 60000] [Ret: 0.225%] [DD: 0.0813%] [PF: 1.27] [Sharpe: 1.288] [Trades: 295] [WR: 27.8%] [00:06:27]
+[W0] [21:00:04] [093] [093_trend_laguerre] [1h] [Combos: 12760] [Ret: 0.1819%] [DD: 0.1003%] [PF: 1.17] [Sharpe: 0.998] [Trades: 379] [WR: 34.3%] [00:02:52]
+[W0] [21:01:27] [094] [094_trend_linearregslope] [1h] [Combos: 13200] [Ret: 0.237%] [DD: 0.0639%] [PF: 1.31] [Sharpe: 1.5] [Trades: 254] [WR: 53.94%] [00:01:22]
+[W0] [21:04:56] [095] [095_volume_mfi_extended] [1h] [Combos: 60000] [Ret: 0.2459%] [DD: 0.0749%] [PF: 1.424] [Sharpe: 1.769] [Trades: 203] [WR: 47.78%] [00:03:28]
+[W0] [21:11:53] [096] [096_trend_mcginleydynamic] [1h] [Combos: 60000] [Ret: 0.2005%] [DD: 0.0711%] [PF: 1.235] [Sharpe: 1.103] [Trades: 251] [WR: 32.67%] [00:06:56]
+[W0] [21:25:38] [097] [097_trend_parabolicsar_extended] [1h] [Combos: 60000] [Ret: 0.2397%] [DD: 0.0657%] [PF: 1.275] [Sharpe: 1.375] [Trades: 314] [WR: 36.31%] [00:13:44]
+[W0] [21:25:45] [098] [098_trend_pivotpoints] [1h] [Combos: 660] [Ret: 0.2203%] [DD: 0.1064%] [PF: 1.189] [Sharpe: 1.094] [Trades: 329] [WR: 43.16%] [00:00:07]
+[W0] [21:29:08] [099] [099_trend_priceoscillator] [1h] [Combos: 60000] [Ret: 0.2675%] [DD: 0.081%] [PF: 1.275] [Sharpe: 1.609] [Trades: 378] [WR: 41.53%] [00:03:22]
+[W0] [21:30:27] [100] [100_trend_renko] [1h] [Combos: 13200] [Ret: 0.2695%] [DD: 0.0717%] [PF: 1.347] [Sharpe: 1.465] [Trades: 207] [WR: 50.72%] [00:01:17]
+[W0] [21:31:11] [101] [101_trend_inversefisher] [1h] [Combos: 13200] [Ret: 0.2179%] [DD: 0.0833%] [PF: 1.315] [Sharpe: 1.286] [Trades: 209] [WR: 33.49%] [00:00:44]
+[W0] [21:46:16] [102] [102_trend_connorsrsi] [1h] [Combos: 60000] [Ret: 0.2519%] [DD: 0.0995%] [PF: 1.247] [Sharpe: 1.303] [Trades: 290] [WR: 44.14%] [00:15:04]
+[W0] [21:51:03] [103] [103_trend_laguerrersi] [1h] [Combos: 13200] [Ret: 0.1939%] [DD: 0.0715%] [PF: 1.326] [Sharpe: 1.318] [Trades: 294] [WR: 21.09%] [00:04:46]
+[W0] [21:54:08] [104] [104_trend_rmi] [1h] [Combos: 60000] [Ret: 0.202%] [DD: 0.0601%] [PF: 1.4] [Sharpe: 1.785] [Trades: 270] [WR: 37.78%] [00:03:04]
+[W0] [21:57:40] [105] [105_trend_ergodic] [1h] [Combos: 60000] [Ret: 0.2417%] [DD: 0.0691%] [PF: 1.294] [Sharpe: 1.423] [Trades: 423] [WR: 19.62%] [00:03:31]
+[W0] [22:00:21] [106] [106_trend_cog] [1h] [Combos: 13200] [Ret: 0.2297%] [DD: 0.0639%] [PF: 1.298] [Sharpe: 1.455] [Trades: 255] [WR: 53.73%] [00:02:40]
+[W0] [22:02:37] [107] [107_trend_cybercycle] [1h] [Combos: 13200] [Ret: 0.3257%] [DD: 0.0818%] [PF: 1.322] [Sharpe: 1.908] [Trades: 402] [WR: 41.29%] [00:02:16]
+[W0] [22:04:44] [108] [108_trend_decycler] [1h] [Combos: 13200] [Ret: 0.2719%] [DD: 0.087%] [PF: 1.285] [Sharpe: 1.493] [Trades: 314] [WR: 39.81%] [00:02:06]
+[W0] [22:07:36] [109] [109_trend_ebs] [1h] [Combos: 13200] [Ret: 0.2044%] [DD: 0.1262%] [PF: 1.63] [Sharpe: 0.948] [Trades: 30] [WR: 46.67%] [00:02:52]
+[W0] [22:07:51] [110] [110_trend_hilbert] [1h] [Combos: 660] [Ret: 0.2178%] [DD: 0.1136%] [PF: 1.21] [Sharpe: 1.099] [Trades: 378] [WR: 26.19%] [00:00:15]
+[W0] [22:11:30] [111] [111_trend_reflex] [1h] [Combos: 13200] [Ret: 0.2518%] [DD: 0.0798%] [PF: 1.767] [Sharpe: 1.379] [Trades: 45] [WR: 57.78%] [00:03:38]
+[W0] [22:12:20] [112] [112_trend_trendvigor] [1h] [Combos: 13200] [Ret: 0.2842%] [DD: 0.0894%] [PF: 1.246] [Sharpe: 1.56] [Trades: 443] [WR: 47.4%] [00:00:49]
+[W0] [22:15:34] [113] [113_trend_correlationcycle] [1h] [Combos: 13200] [Ret: 0.2708%] [DD: 0.1344%] [PF: 1.308] [Sharpe: 1.419] [Trades: 228] [WR: 39.47%] [00:03:14]
+[TIMEOUT] 114_trend_dominantcycle killed after 1800s
+[W0] [TIMEOUT] 114_trend_dominantcycle killed
+[W0] [22:48:20] [115] [115_trend_phaseaccumulation] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:44]
+[W0] [22:50:43] [116] [116_trend_sinewave] [1h] [Combos: 13200] [Ret: 0.1616%] [DD: 0.0807%] [PF: 1.151] [Sharpe: 0.897] [Trades: 336] [WR: 47.02%] [00:02:22]
+[W0] [22:56:44] [117] [117_trend_fractaldimension] [1h] [Combos: 13200] [Ret: 0.2144%] [DD: 0.1206%] [PF: 1.327] [Sharpe: 1.245] [Trades: 259] [WR: 21.24%] [00:06:01]
+[W0] [22:57:41] [118] [118_trend_hurstexponent] [1h] [Combos: 13200] [Ret: 0.2296%] [DD: 0.0982%] [PF: 1.121] [Sharpe: 1.284] [Trades: 1099] [WR: 48.95%] [00:00:56]
+[W0] [23:00:27] [119] [119_trend_entropy] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:45]
+[W0] [23:00:33] [120] [120_trend_marketstate] [1h] [Combos: 660] [Ret: 0.212%] [DD: 0.0989%] [PF: 1.157] [Sharpe: 1.04] [Trades: 415] [WR: 47.95%] [00:00:06]
+[TIMEOUT] 122_trend_cycleperiod killed after 1800s
+[W0] [TIMEOUT] 122_trend_cycleperiod killed
+[W0] [23:37:43] [123] [123_trend_adaptivemacd] [1h] [Combos: 60000] [Ret: 0.2337%] [DD: 0.08%] [PF: 1.272] [Sharpe: 1.368] [Trades: 309] [WR: 35.92%] [00:07:08]
+[W0] [23:37:50] [124] [124_trend_macddivergence] [1h] [Combos: 660] [Ret: 0.195%] [DD: 0.1051%] [PF: 1.15] [Sharpe: 0.968] [Trades: 401] [WR: 47.38%] [00:00:06]
+[W0] [23:38:32] [125] [125_trend_vhf] [1h] [Combos: 13200] [Ret: 0.3091%] [DD: 0.0524%] [PF: 2.092] [Sharpe: 1.986] [Trades: 70] [WR: 34.29%] [00:00:42]
+[W0] [23:39:19] [126] [126_trend_trendstrengthindex] [1h] [Combos: 13200] [Ret: 0.2411%] [DD: 0.101%] [PF: 1.371] [Sharpe: 1.365] [Trades: 155] [WR: 43.87%] [00:00:46]
+[W0] [23:41:43] [127] [127_trend_rsquared] [1h] [Combos: 13200] [Ret: 0.2154%] [DD: 0.0631%] [PF: 1.524] [Sharpe: 1.385] [Trades: 109] [WR: 42.2%] [00:02:24]
+[W0] [23:42:29] [128] [128_trend_pricechannels] [1h] [Combos: 13200] [Ret: 0.2274%] [DD: 0.1001%] [PF: 1.262] [Sharpe: 1.207] [Trades: 285] [WR: 29.82%] [00:00:45]
+[W0] [23:45:46] [129] [129_trend_envelopechannels] [1h] [Combos: 60000] [Ret: 0.1914%] [DD: 0.0792%] [PF: 1.209] [Sharpe: 1.091] [Trades: 261] [WR: 53.64%] [00:03:16]
+[W0] [23:48:53] [130] [130_trend_stdchannels] [1h] [Combos: 60000] [Ret: 0.2288%] [DD: 0.0632%] [PF: 1.463] [Sharpe: 1.561] [Trades: 147] [WR: 57.14%] [00:03:06]
+[W0] [00:08:12] [131] [131_trend_regressionchannels] [1h] [Combos: 60000] [Ret: 0.2341%] [DD: 0.0805%] [PF: 1.292] [Sharpe: 1.436] [Trades: 314] [WR: 33.12%] [00:19:19]
+[W0] [00:08:54] [132] [132_trend_fibonaccichannels] [1h] [Combos: 13200] [Ret: 0.215%] [DD: 0.1198%] [PF: 1.727] [Sharpe: 1.279] [Trades: 105] [WR: 13.33%] [00:00:41]
+[W0] [00:12:09] [133] [133_trend_accelerationbands] [1h] [Combos: 60000] [Ret: 0.1914%] [DD: 0.0792%] [PF: 1.209] [Sharpe: 1.091] [Trades: 261] [WR: 53.64%] [00:03:14]
+[W0] [00:15:47] [134] [134_trend_starcbands] [1h] [Combos: 60000] [Ret: 0.1785%] [DD: 0.1155%] [PF: 1.451] [Sharpe: 0.812] [Trades: 42] [WR: 42.86%] [00:03:38]
+[W0] [SKIP] No combos found in Handbook for 135_trend_maenvelope
+[W0] [00:18:37] [136] [136_trend_chandelierexit] [1h] [Combos: 60000] [Ret: 0.2578%] [DD: 0.1164%] [PF: 1.843] [Sharpe: 1.239] [Trades: 33] [WR: 45.45%] [00:02:49]
+[W0] [00:21:57] [137] [137_trend_atrchannels] [1h] [Combos: 60000] [Ret: 0.1675%] [DD: 0.0976%] [PF: 1.156] [Sharpe: 0.919] [Trades: 345] [WR: 37.39%] [00:03:19]
+[W0] [00:25:11] [138] [138_trend_volatilitychannels] [1h] [Combos: 60000] [Ret: 0.1914%] [DD: 0.0792%] [PF: 1.209] [Sharpe: 1.091] [Trades: 261] [WR: 53.64%] [00:03:13]
+[W0] [00:41:47] [139] [139_trend_dynamicchannels] [1h] [Combos: 60000] [Ret: 0.2045%] [DD: 0.0807%] [PF: 1.297] [Sharpe: 1.153] [Trades: 161] [WR: 42.86%] [00:16:35]
+[W0] [00:44:37] [140] [140_trend_adaptivechannels] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:49]
+[W0] [01:03:47] [141] [141_trend_projectionbands] [1h] [Combos: 60000] [Ret: 0.2421%] [DD: 0.1109%] [PF: 1.241] [Sharpe: 1.183] [Trades: 241] [WR: 52.28%] [00:19:10]
+[W0] [01:06:04] [142] [142_trend_squeezeindicator] [1h] [Combos: 49330] [Ret: 0.2234%] [DD: 0.0713%] [PF: 1.407] [Sharpe: 1.446] [Trades: 146] [WR: 52.05%] [00:02:16]
+[W0] [01:17:03] [143] [143_trend_ttmsqueeze] [1h] [Combos: 31350] [Ret: 0.1994%] [DD: 0.0672%] [PF: 2.075] [Sharpe: 1.105] [Trades: 23] [WR: 52.17%] [00:10:59]
+[W0] [01:24:22] [144] [144_trend_bollingerbandwidth] [1h] [Combos: 60000] [Ret: 0.2134%] [DD: 0.0987%] [PF: 1.304] [Sharpe: 1.1] [Trades: 133] [WR: 51.88%] [00:07:18]
+[W0] [01:26:54] [145] [145_volatility_atr_breakout] [1h] [Combos: 60000] [Ret: 0.1963%] [DD: 0.0984%] [PF: 1.197] [Sharpe: 0.996] [Trades: 505] [WR: 15.25%] [00:02:31]
+[W0] [01:29:47] [146] [146_volatility_atr_channels] [1h] [Combos: 60000] [Ret: 0.1517%] [DD: 0.0782%] [PF: 1.5] [Sharpe: 1.067] [Trades: 129] [WR: 13.18%] [00:02:52]
+[W0] [01:30:05] [147] [147_volatility_atr_volatility] NO RESULTS (17s)
+[W0] [01:32:37] [148] [148_volatility_atr_support_resistance] [1h] [Combos: 60000] [Ret: 0.2057%] [DD: 0.1109%] [PF: 1.159] [Sharpe: 1.03] [Trades: 402] [WR: 47.51%] [00:02:32]
+[W0] [01:35:44] [149] [149_volatility_adaptive_atr] [1h] [Combos: 60000] [Ret: 0.1872%] [DD: 0.0745%] [PF: 1.249] [Sharpe: 1.321] [Trades: 309] [WR: 52.75%] [00:03:06]
+[W0] [01:38:22] [150] [150_volatility_dynamic_atr] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:38]
+[W0] [01:41:10] [151] [151_volume_divergencestrength] [1h] [Combos: 60000] [Ret: 0.2702%] [DD: 0.0678%] [PF: 2.018] [Sharpe: 1.583] [Trades: 75] [WR: 20.0%] [00:02:47]
+[W0] [01:51:23] [152] [152_volatility_implied_proxy] [1h] [Combos: 60000] [Ret: 0.2109%] [DD: 0.0761%] [PF: 1.239] [Sharpe: 1.205] [Trades: 253] [WR: 53.75%] [00:10:12]
+[W0] [02:01:54] [153] [153_volatility_parkinson] [1h] [Combos: 60000] [Ret: 0.2153%] [DD: 0.0753%] [PF: 1.283] [Sharpe: 1.225] [Trades: 255] [WR: 30.2%] [00:10:30]
+[W0] [02:05:20] [153] [153_volume_divergencemomentum] [1h] [Combos: 60000] [Ret: 0.2299%] [DD: 0.0923%] [PF: 1.201] [Sharpe: 1.223] [Trades: 356] [WR: 48.03%] [00:03:26]
+[W0] [02:15:42] [154] [154_volatility_garman_klass] [1h] [Combos: 60000] [Ret: 0.2403%] [DD: 0.0538%] [PF: 1.378] [Sharpe: 1.603] [Trades: 220] [WR: 56.36%] [00:10:21]
+[W0] [02:16:31] [155] [155_pattern_candlestickpatterns] [1h] [Combos: 13200] [Ret: 0.1732%] [DD: 0.1041%] [PF: 1.323] [Sharpe: 0.809] [Trades: 59] [WR: 47.46%] [00:00:48]
+[W0] [02:18:55] [155] [155_volatility_rogers_satchell] [1h] [Combos: 13200] [Ret: 0.1784%] [DD: 0.0644%] [PF: 1.446] [Sharpe: 1.081] [Trades: 94] [WR: 36.17%] [00:02:23]
+[W0] [02:22:01] [156] [156_pattern_priceaction] [1h] [Combos: 60000] [Ret: 0.1425%] [DD: 0.1119%] [PF: 1.376] [Sharpe: 0.812] [Trades: 55] [WR: 41.82%] [00:03:05]
+[W0] [02:32:21] [156] [156_volatility_yang_zhang] [1h] [Combos: 60000] [Ret: 0.2929%] [DD: 0.0579%] [PF: 1.394] [Sharpe: 1.748] [Trades: 225] [WR: 56.89%] [00:10:19]
+[TIMEOUT] 157_pattern_chartpatterns killed after 1800s
+[W0] [TIMEOUT] 157_pattern_chartpatterns killed
+[W0] [03:12:51] [157] [157_volatility_close_to_close] [1h] [Combos: 60000] [Ret: 0.1691%] [DD: 0.0743%] [PF: 1.237] [Sharpe: 1.062] [Trades: 205] [WR: 53.17%] [00:10:29]
+[W0] [03:35:10] [158] [158_pattern_harmonicpatterns] [1h] [Combos: 60000] [Ret: 0.213%] [DD: 0.0525%] [PF: 2.427] [Sharpe: 1.489] [Trades: 28] [WR: 42.86%] [00:22:18]
+[W0] [03:46:08] [158] [158_volatility_realized] [1h] [Combos: 60000] [Ret: 0.2201%] [DD: 0.0931%] [PF: 1.305] [Sharpe: 1.241] [Trades: 188] [WR: 50.0%] [00:10:58]
+[W0] [04:15:06] [159] [159_pattern_elliottwave] [1h] [Combos: 60000] [Ret: 0.1808%] [DD: 0.138%] [PF: 1.15] [Sharpe: 0.907] [Trades: 341] [WR: 51.61%] [00:28:58]
+[W0] [04:18:22] [159] [159_volatility_ratio] [1h] [Combos: 60000] [Ret: 0.1756%] [DD: 0.0982%] [PF: 1.358] [Sharpe: 0.849] [Trades: 85] [WR: 25.88%] [00:03:15]
+[W0] [04:21:29] [160] [160_pattern_wyckoff] [1h] [Combos: 60000] [Ret: 0.2248%] [DD: 0.078%] [PF: 1.979] [Sharpe: 1.367] [Trades: 113] [WR: 11.5%] [00:03:06]
+[W0] [04:32:08] [160] [160_volatility_index] [1h] [Combos: 60000] [Ret: 0.2375%] [DD: 0.0467%] [PF: 1.381] [Sharpe: 1.659] [Trades: 215] [WR: 56.28%] [00:10:38]
+[TIMEOUT] 161_pattern_supportresistance killed after 1800s
+[W0] [TIMEOUT] 161_pattern_supportresistance killed
+[W0] [05:13:10] [161] [161_volatility_cone] [1h] [Combos: 60000] [Ret: 0.1829%] [DD: 0.1029%] [PF: 1.301] [Sharpe: 0.89] [Trades: 112] [WR: 27.68%] [00:11:01]
+[TIMEOUT] 162_pattern_trendlines killed after 1800s
+[W0] [TIMEOUT] 162_pattern_trendlines killed
+[W0] [05:46:02] [162] [162_volatility_smile] [1h] [Combos: 60000] [Ret: 0.1645%] [DD: 0.0294%] [PF: 1.744] [Sharpe: 1.691] [Trades: 88] [WR: 61.36%] [00:02:50]
+[TIMEOUT] 163_pattern_fibonacciretracement killed after 1800s
+[W0] [TIMEOUT] 163_pattern_fibonacciretracement killed
+[W0] [06:18:38] [163] [163_volatility_skew] [1h] [Combos: 60000] [Ret: 0.1129%] [DD: 0.086%] [PF: 1.557] [Sharpe: 0.86] [Trades: 44] [WR: 27.27%] [00:02:33]
+[TIMEOUT] 164_pattern_fibonacciextension killed after 1800s
+[W0] [TIMEOUT] 164_pattern_fibonacciextension killed
+[W0] [06:52:06] [164] [164_volatility_surface] [1h] [Combos: 60000] [Ret: 0.1603%] [DD: 0.1212%] [PF: 1.25] [Sharpe: 0.788] [Trades: 96] [WR: 52.08%] [00:03:26]
+[W0] [SKIP] No combos found in Handbook for 165_pattern_pivotpoints
+[W0] [SKIP] No combos found in Handbook for 165_volatility_clustering
+[W0] [06:58:19] [166] [166_volatility_garch] [1h] [Combos: 20240] [Ret: 0.3092%] [DD: 0.0418%] [PF: 3.907] [Sharpe: 2.11] [Trades: 29] [WR: 44.83%] [00:06:12]
+[ERR] 167_volatility_ewma AUD_USD: alpha must satisfy: 0 < alpha <= 1
+[ERR] 167_volatility_ewma EUR_USD: alpha must satisfy: 0 < alpha <= 1
+[ERR] 167_volatility_ewma GBP_USD: alpha must satisfy: 0 < alpha <= 1
+[ERR] 167_volatility_ewma NZD_USD: alpha must satisfy: 0 < alpha <= 1
+[ERR] 167_volatility_ewma USD_CAD: alpha must satisfy: 0 < alpha <= 1
+[ERR] 167_volatility_ewma USD_CHF: alpha must satisfy: 0 < alpha <= 1
+[W0] [06:59:02] [167] [167_volatility_ewma] [1h] [Combos: 3300] [Ret: 0.1996%] [DD: 0.0804%] [PF: 1.396] [Sharpe: 1.184] [Trades: 197] [WR: 18.78%] [00:00:42]
+[W0] [07:01:55] [168] [168_volatility_coefficient_variation] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:53]
+[W0] [07:12:17] [169] [169_volatility_regime_detection] [1h] [Combos: 52740] [Ret: 0.2765%] [DD: 0.0811%] [PF: 1.768] [Sharpe: 1.415] [Trades: 76] [WR: 26.32%] [00:10:21]
+[W0] [07:15:00] [170] [170_volatility_breakout] [1h] [Combos: 60000] [Ret: 0.198%] [DD: 0.1056%] [PF: 1.19] [Sharpe: 0.988] [Trades: 518] [WR: 15.44%] [00:02:42]
+[W0] [07:25:53] [171] [171_range_true_range] [1h] [Combos: 60000] [Ret: 0.2709%] [DD: 0.1005%] [PF: 1.314] [Sharpe: 1.498] [Trades: 431] [WR: 20.65%] [00:10:52]
+[W0] [07:28:28] [172] [172_range_daily] [1h] [Combos: 13200] [Ret: 0.167%] [DD: 0.0955%] [PF: 1.198] [Sharpe: 0.841] [Trades: 175] [WR: 44.57%] [00:02:34]
+[W0] [07:28:55] [173] [173_range_weekly] [1h] [Combos: 7260] [Ret: 0.1403%] [DD: 0.0978%] [PF: 1.401] [Sharpe: 0.802] [Trades: 66] [WR: 28.79%] [00:00:26]
+[W0] [07:29:17] [174] [174_range_monthly] [1h] [Combos: 5280] [Ret: 0.2238%] [DD: 0.1013%] [PF: 1.691] [Sharpe: 1.24] [Trades: 38] [WR: 57.89%] [00:00:21]
+[W0] [07:32:35] [175] [175_range_expansion_index] [1h] [Combos: 60000] [Ret: 0.2279%] [DD: 0.0441%] [PF: 1.304] [Sharpe: 1.594] [Trades: 358] [WR: 32.96%] [00:03:18]
+[W0] [07:36:04] [176] [176_range_contraction_index] [1h] [Combos: 60000] [Ret: 0.1941%] [DD: 0.0854%] [PF: 1.197] [Sharpe: 1.007] [Trades: 252] [WR: 48.02%] [00:03:28]
+[W0] [07:38:54] [177] [177_range_breakout] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:49]
+[W0] [07:42:31] [178] [178_range_bound] [1h] [Combos: 60000] [Ret: 0.255%] [DD: 0.0952%] [PF: 1.296] [Sharpe: 1.295] [Trades: 300] [WR: 23.33%] [00:03:36]
+[W0] [07:51:16] [179] [179_range_filter] [1h] [Combos: 60000] [Ret: 0.2981%] [DD: 0.0973%] [PF: 1.179] [Sharpe: 1.596] [Trades: 823] [WR: 44.23%] [00:08:44]
+[W0] [08:02:27] [180] [180_range_adaptive] [1h] [Combos: 60000] [Ret: 0.1684%] [DD: 0.0906%] [PF: 1.232] [Sharpe: 0.873] [Trades: 136] [WR: 50.74%] [00:11:10]
+[W0] [08:03:17] [181] [181_volume_weighted_price] [1h] [Combos: 13200] [Ret: 0.2238%] [DD: 0.1051%] [PF: 1.348] [Sharpe: 1.206] [Trades: 125] [WR: 52.8%] [00:00:49]
+[W0] [08:06:12] [182] [182_volume_momentum] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:55]
+[W0] [08:07:45] [183] [183_volume_trend] [1h] [Combos: 13200] [Ret: 0.2221%] [DD: 0.1008%] [PF: 1.246] [Sharpe: 1.125] [Trades: 316] [WR: 22.47%] [00:01:32]
+[W0] [08:11:15] [184] [184_volume_oscillator] [1h] [Combos: 60000] [Ret: 0.2855%] [DD: 0.085%] [PF: 1.253] [Sharpe: 1.563] [Trades: 392] [WR: 53.83%] [00:03:30]
+[W0] [08:14:32] [185] [185_volume_divergence] [1h] [Combos: 55380] [Ret: 0.2682%] [DD: 0.0816%] [PF: 1.271] [Sharpe: 1.418] [Trades: 423] [WR: 23.4%] [00:03:16]
+[W0] [08:17:14] [186] [186_volume_spread_analysis] [1h] [Combos: 60000] [Ret: 0.1908%] [DD: 0.1149%] [PF: 1.178] [Sharpe: 0.956] [Trades: 533] [WR: 15.38%] [00:02:41]
+[TIMEOUT] 187_volume_profile killed after 1800s
+[W0] [TIMEOUT] 187_volume_profile killed
+[W0] [08:48:04] [188] [188_volume_price_trend] [1h] [Combos: 13200] [Ret: 0.2331%] [DD: 0.0788%] [PF: 1.279] [Sharpe: 1.285] [Trades: 217] [WR: 49.31%] [00:00:48]
+[W0] [08:59:19] [189] [189_volume_roc] [1h] [Combos: 60000] [Ret: 0.2832%] [DD: 0.072%] [PF: 1.331] [Sharpe: 1.63] [Trades: 314] [WR: 36.94%] [00:11:14]
+[W0] [09:02:43] [190] [190_volume_weighted_average_price] [1h] [Combos: 60000] [Ret: 0.2238%] [DD: 0.1051%] [PF: 1.348] [Sharpe: 1.206] [Trades: 125] [WR: 52.8%] [00:03:24]
+[W0] [09:03:34] [191] [191_volume_zone_oscillator] [1h] [Combos: 13200] [Ret: 0.2171%] [DD: 0.0981%] [PF: 1.258] [Sharpe: 1.085] [Trades: 263] [WR: 25.48%] [00:00:50]
+[W0] [09:04:23] [192] [192_volume_accumulation_distribution] [1h] [Combos: 13200] [Ret: 0.2398%] [DD: 0.1003%] [PF: 1.304] [Sharpe: 1.352] [Trades: 253] [WR: 31.23%] [00:00:48]
+[W0] [09:07:52] [193] [193_volume_price_confirmation] [1h] [Combos: 60000] [Ret: 0.2607%] [DD: 0.0818%] [PF: 1.341] [Sharpe: 1.443] [Trades: 366] [WR: 17.49%] [00:03:29]
+[W0] [09:11:11] [194] [194_volume_intensity] [1h] [Combos: 60000] [Ret: 0.2618%] [DD: 0.0776%] [PF: 1.522] [Sharpe: 1.725] [Trades: 184] [WR: 31.52%] [00:03:18]
+[W0] [09:14:48] [195] [195_volume_force_index] [1h] [Combos: 60000] [Ret: 0.2167%] [DD: 0.0792%] [PF: 1.21] [Sharpe: 1.145] [Trades: 538] [WR: 18.59%] [00:03:36]
+[W0] [09:15:42] [196] [196_volume_weighted_momentum] [1h] [Combos: 13200] [Ret: 0.2587%] [DD: 0.0981%] [PF: 1.255] [Sharpe: 1.358] [Trades: 434] [WR: 23.04%] [00:00:53]
+[W0] [09:18:22] [197] [197_volume_efficiency] [1h] [Combos: 13200] [Ret: 0.2474%] [DD: 0.117%] [PF: 1.33] [Sharpe: 1.208] [Trades: 254] [WR: 21.26%] [00:02:40]
+[W0] [09:19:14] [198] [198_volume_delta] [1h] [Combos: 13200] [Ret: 0.2398%] [DD: 0.1003%] [PF: 1.304] [Sharpe: 1.352] [Trades: 253] [WR: 31.23%] [00:00:51]
+[W0] [09:20:47] [199] [199_volume_flow_indicator] [1h] [Combos: 26400] [Ret: 0.226%] [DD: 0.0822%] [PF: 1.236] [Sharpe: 1.261] [Trades: 275] [WR: 53.82%] [00:01:32]
+[W0] [09:24:15] [200] [200_volume_accumulation] [1h] [Combos: 60000] [Ret: 0.1696%] [DD: 0.1392%] [PF: 1.473] [Sharpe: 0.783] [Trades: 32] [WR: 43.75%] [00:03:28]
+[W0] [09:27:06] [200] [200_volume_spread_analysis] [1h] [Combos: 59780] [Ret: 0.2104%] [DD: 0.1146%] [PF: 1.583] [Sharpe: 1.113] [Trades: 160] [WR: 10.0%] [00:02:50]
+[TIMEOUT] 201_volume_profile killed after 1800s
+[W0] [TIMEOUT] 201_volume_profile killed
+[TIMEOUT] 202_volume_at_price killed after 1800s
+[W0] [TIMEOUT] 202_volume_at_price killed
+[TIMEOUT] 203_point_of_control killed after 1800s
+[W0] [TIMEOUT] 203_point_of_control killed
+[TIMEOUT] 204_value_area_high killed after 1800s
+[W0] [TIMEOUT] 204_value_area_high killed
+[TIMEOUT] 205_value_area_low killed after 1800s
+[W0] [TIMEOUT] 205_value_area_low killed
+[W0] [11:57:58] [206] [206_volume_weighted_ma] [1h] [Combos: 13200] [Ret: 0.2264%] [DD: 0.0789%] [PF: 1.278] [Sharpe: 1.236] [Trades: 207] [WR: 38.16%] [00:00:46]
+[W0] [12:00:39] [207] [207_volume_spread_analysis] [1h] [Combos: 60000] [Ret: 0.1908%] [DD: 0.1149%] [PF: 1.178] [Sharpe: 0.956] [Trades: 533] [WR: 15.38%] [00:02:41]
+[W0] [12:00:46] [208] [208_wyckoff_volume] [1h] [Combos: 660] [Ret: 0.2057%] [DD: 0.1109%] [PF: 1.159] [Sharpe: 1.03] [Trades: 402] [WR: 47.51%] [00:00:06]
+[W0] [12:01:33] [209] [209_smart_money_index] [1h] [Combos: 13200] [Ret: 0.2269%] [DD: 0.0776%] [PF: 1.27] [Sharpe: 1.253] [Trades: 218] [WR: 49.08%] [00:00:47]
+[W0] [12:02:22] [210] [210_tick_volume_index] [1h] [Combos: 13200] [Ret: 0.2542%] [DD: 0.0943%] [PF: 1.217] [Sharpe: 1.402] [Trades: 449] [WR: 40.31%] [00:00:48]
+[W0] [12:02:29] [211] [211_volume_breakout] [1h] [Combos: 660] [Ret: 0.2061%] [DD: 0.1132%] [PF: 1.166] [Sharpe: 1.003] [Trades: 351] [WR: 51.85%] [00:00:06]
+[W0] [12:05:10] [212] [212_volume_climax] [1h] [Combos: 60000] [Ret: 0.2177%] [DD: 0.0829%] [PF: 1.117] [Sharpe: 1.188] [Trades: 1073] [WR: 38.02%] [00:02:41]
+[W0] [12:07:50] [213] [213_volume_exhaustion] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:39]
+[W0] [12:08:38] [214] [214_volume_divergence] [1h] [Combos: 13200] [Ret: 0.2052%] [DD: 0.1007%] [PF: 1.273] [Sharpe: 1.088] [Trades: 229] [WR: 26.2%] [00:00:47]
+[W0] [12:11:41] [215] [215_volume_confirmation] [1h] [Combos: 60000] [Ret: 0.2645%] [DD: 0.0404%] [PF: 2.574] [Sharpe: 2.137] [Trades: 49] [WR: 63.27%] [00:03:02]
+[W0] [12:12:27] [216] [216_volume_momentum] [1h] [Combos: 13200] [Ret: 0.209%] [DD: 0.1083%] [PF: 1.462] [Sharpe: 0.968] [Trades: 53] [WR: 49.06%] [00:00:46]
+[W0] [12:14:41] [217] [217_volume_strength] [1h] [Combos: 13200] [Ret: 0.1575%] [DD: 0.0877%] [PF: 1.609] [Sharpe: 0.974] [Trades: 72] [WR: 18.06%] [00:02:13]
+[W0] [12:15:27] [218] [218_volume_pressure] [1h] [Combos: 13200] [Ret: 0.2257%] [DD: 0.0984%] [PF: 1.206] [Sharpe: 1.394] [Trades: 528] [WR: 32.39%] [00:00:46]
+[W0] [12:16:10] [219] [219_volume_distribution] [1h] [Combos: 13200] [Ret: 0.1931%] [DD: 0.073%] [PF: 1.618] [Sharpe: 1.521] [Trades: 96] [WR: 27.08%] [00:00:43]
+[W0] [12:19:22] [220] [220_volume_cycle] [1h] [Combos: 60000] [Ret: 0.2697%] [DD: 0.1076%] [PF: 1.33] [Sharpe: 1.543] [Trades: 240] [WR: 55.83%] [00:03:11]
+[W0] [12:21:56] [221] [221_tick_volume] [1h] [Combos: 60000] [Ret: 0.1951%] [DD: 0.1098%] [PF: 1.183] [Sharpe: 0.975] [Trades: 527] [WR: 15.56%] [00:02:34]
+[W0] [12:24:05] [222] [222_trade_volume] [1h] [Combos: 13200] [Ret: 0.1966%] [DD: 0.059%] [PF: 1.302] [Sharpe: 1.492] [Trades: 268] [WR: 37.69%] [00:02:07]
+[W0] [12:24:58] [223] [223_buy_volume] [1h] [Combos: 13200] [Ret: 0.1745%] [DD: 0.1252%] [PF: 1.144] [Sharpe: 0.869] [Trades: 342] [WR: 42.4%] [00:00:52]
+[W0] [12:25:39] [224] [224_sell_volume] [1h] [Combos: 13200] [Ret: 0.1377%] [DD: 0.0718%] [PF: 1.603] [Sharpe: 0.817] [Trades: 54] [WR: 20.37%] [00:00:40]
+[W0] [12:26:25] [225] [225_delta_volume] [1h] [Combos: 13200] [Ret: 0.2257%] [DD: 0.0984%] [PF: 1.206] [Sharpe: 1.394] [Trades: 528] [WR: 32.39%] [00:00:46]
+[W0] [12:27:12] [226] [226_cumulative_delta] [1h] [Combos: 13200] [Ret: 0.2398%] [DD: 0.1003%] [PF: 1.304] [Sharpe: 1.352] [Trades: 253] [WR: 31.23%] [00:00:46]
+[W0] [12:29:51] [227] [227_volume_imbalance] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:38]
+[W0] [12:30:36] [228] [228_order_flow] [1h] [Combos: 13200] [Ret: 0.2124%] [DD: 0.0761%] [PF: 1.653] [Sharpe: 1.104] [Trades: 37] [WR: 56.76%] [00:00:44]
+[W0] [12:31:24] [229] [229_market_depth] [1h] [Combos: 13200] [Ret: 0.2281%] [DD: 0.07%] [PF: 1.305] [Sharpe: 1.354] [Trades: 319] [WR: 23.82%] [00:00:47]
+[W0] [12:32:15] [230] [230_bid_ask_spread] [1h] [Combos: 13200] [Ret: 0.1828%] [DD: 0.0825%] [PF: 1.198] [Sharpe: 1.0] [Trades: 344] [WR: 25.58%] [00:00:51]
+[W0] [12:34:54] [231] [231_bid_volume] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:38]
+[W0] [12:35:39] [232] [232_ask_volume] [1h] [Combos: 13200] [Ret: 0.1653%] [DD: 0.0996%] [PF: 1.216] [Sharpe: 1.049] [Trades: 315] [WR: 23.49%] [00:00:44]
+[W0] [12:36:26] [233] [233_trade_intensity] [1h] [Combos: 13200] [Ret: 0.2101%] [DD: 0.0827%] [PF: 1.261] [Sharpe: 1.148] [Trades: 242] [WR: 32.64%] [00:00:47]
+[W0] [12:39:05] [234] [234_trade_frequency] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:38]
+[W0] [12:41:50] [235] [235_average_trade_size] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:44]
+[W0] [12:43:17] [236] [236_large_trade_detector] [1h] [Combos: 23100] [Ret: 0.2305%] [DD: 0.1356%] [PF: 1.729] [Sharpe: 1.229] [Trades: 112] [WR: 13.39%] [00:01:26]
+[W0] [12:44:32] [237] [237_block_trade_detector] [1h] [Combos: 20510] [Ret: 0.1903%] [DD: 0.0414%] [PF: 1.362] [Sharpe: 1.635] [Trades: 243] [WR: 50.21%] [00:01:14]
+[W0] [12:44:38] [238] [238_institutional_volume] [1h] [Combos: 660] [Ret: 0.2057%] [DD: 0.1109%] [PF: 1.159] [Sharpe: 1.03] [Trades: 402] [WR: 47.51%] [00:00:06]
+[W0] [12:45:20] [239] [239_retail_volume] [1h] [Combos: 13200] [Ret: 0.2173%] [DD: 0.0469%] [PF: 3.49] [Sharpe: 1.666] [Trades: 19] [WR: 68.42%] [00:00:41]
+[W0] [12:48:06] [240] [240_dark_pool_activity] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:46]
+[W0] [12:55:18] [241] [241_skewness] [1h] [Combos: 13200] [Ret: 0.1802%] [DD: 0.0587%] [PF: 1.217] [Sharpe: 1.163] [Trades: 303] [WR: 47.19%] [00:07:12]
+[W0] [13:02:40] [242] [242_kurtosis] [1h] [Combos: 13200] [Ret: 0.2095%] [DD: 0.1292%] [PF: 1.701] [Sharpe: 0.984] [Trades: 31] [WR: 51.61%] [00:07:21]
+[W0] [13:04:08] [243] [243_zscore] [1h] [Combos: 24360] [Ret: 0.2938%] [DD: 0.0461%] [PF: 2.334] [Sharpe: 2.413] [Trades: 102] [WR: 22.55%] [00:01:27]
+[W0] [13:04:46] [244] [244_tscore] [1h] [Combos: 13200] [Ret: 0.1808%] [DD: 0.0859%] [PF: 1.988] [Sharpe: 1.14] [Trades: 36] [WR: 33.33%] [00:00:38]
+[W0] [13:06:55] [245] [245_percentile] [1h] [Combos: 13200] [Ret: 0.2472%] [DD: 0.1023%] [PF: 1.757] [Sharpe: 1.347] [Trades: 39] [WR: 58.97%] [00:02:08]
+[W0] [13:07:42] [246] [246_quartile] [1h] [Combos: 13200] [Ret: 0.2483%] [DD: 0.1023%] [PF: 1.767] [Sharpe: 1.338] [Trades: 39] [WR: 58.97%] [00:00:46]
+[W0] [13:08:21] [247] [247_iqr] [1h] [Combos: 13200] [Ret: 0.2394%] [DD: 0.0651%] [PF: 2.774] [Sharpe: 1.66] [Trades: 26] [WR: 53.85%] [00:00:38]
+[W0] [13:09:02] [248] [248_mad] [1h] [Combos: 13200] [Ret: 0.2559%] [DD: 0.089%] [PF: 1.91] [Sharpe: 1.436] [Trades: 130] [WR: 11.54%] [00:00:41]
+[W0] [13:09:47] [249] [249_coefficient_variation] [1h] [Combos: 13200] [Ret: 0.2912%] [DD: 0.0658%] [PF: 1.615] [Sharpe: 2.159] [Trades: 180] [WR: 60.0%] [00:00:44]
+[W0] [13:10:51] [250] [250_correlation_coefficient] [1h] [Combos: 13200] [Ret: 0.1618%] [DD: 0.1081%] [PF: 1.477] [Sharpe: 0.765] [Trades: 36] [WR: 44.44%] [00:01:03]
+[W0] [13:11:35] [251] [251_covariance] [1h] [Combos: 13200] [Ret: 0.2337%] [DD: 0.0551%] [PF: 2.08] [Sharpe: 1.471] [Trades: 47] [WR: 38.3%] [00:00:43]
+[W0] [13:12:27] [252] [252_beta] [1h] [Combos: 13200] [Ret: 0.2524%] [DD: 0.1079%] [PF: 1.204] [Sharpe: 1.256] [Trades: 387] [WR: 48.32%] [00:00:51]
+[W0] [13:13:13] [253] [253_sharpe_ratio] [1h] [Combos: 13200] [Ret: 0.159%] [DD: 0.1122%] [PF: 1.454] [Sharpe: 0.758] [Trades: 31] [WR: 45.16%] [00:00:46]
+[W0] [13:14:00] [254] [254_sortino_ratio] [1h] [Combos: 13200] [Ret: 0.1979%] [DD: 0.1168%] [PF: 1.498] [Sharpe: 1.056] [Trades: 177] [WR: 9.04%] [00:00:46]
+[W0] [13:14:42] [255] [255_calmar_ratio] [1h] [Combos: 13200] [Ret: 0.1357%] [DD: 0.056%] [PF: 3.46] [Sharpe: 1.041] [Trades: 8] [WR: 62.5%] [00:00:41]
+[W0] [13:23:39] [256] [256_linear_regression] [1h] [Combos: 13200] [Ret: 0.2701%] [DD: 0.0802%] [PF: 1.303] [Sharpe: 1.545] [Trades: 321] [WR: 36.45%] [00:08:56]
+[W0] [13:34:30] [257] [257_polynomial_regression] [1h] [Combos: 60000] [Ret: 0.2885%] [DD: 0.0897%] [PF: 1.363] [Sharpe: 1.506] [Trades: 379] [WR: 17.94%] [00:10:51]
+[W0] [13:37:25] [258] [258_exponential_regression] [1h] [Combos: 13200] [Ret: 0.2716%] [DD: 0.101%] [PF: 1.278] [Sharpe: 1.472] [Trades: 348] [WR: 36.21%] [00:02:54]
+[W0] [13:39:10] [259] [259_logarithmic_regression] [1h] [Combos: 13200] [Ret: 0.2924%] [DD: 0.087%] [PF: 1.293] [Sharpe: 1.603] [Trades: 365] [WR: 35.89%] [00:01:45]
+[W0] [13:42:06] [260] [260_power_regression] [1h] [Combos: 13200] [Ret: 0.2825%] [DD: 0.087%] [PF: 1.285] [Sharpe: 1.545] [Trades: 361] [WR: 35.73%] [00:02:55]
+[TIMEOUT] 261_ridge_regression killed after 1800s
+[W0] [TIMEOUT] 261_ridge_regression killed
+[TIMEOUT] 262_lasso_regression killed after 1800s
+[W0] [TIMEOUT] 262_lasso_regression killed
+[W0] [14:42:15] [263] [263_elastic_net] [1h] [Combos: 660] [Ret: 0.2305%] [DD: 0.1058%] [PF: 1.176] [Sharpe: 1.135] [Trades: 405] [WR: 47.9%] [00:00:06]
+[W0] [14:45:57] [264] [264_time_series_regression] [1h] [Combos: 60000] [Ret: 0.2202%] [DD: 0.1106%] [PF: 1.187] [Sharpe: 1.092] [Trades: 334] [WR: 42.81%] [00:03:41]
+[W0] [14:53:47] [265] [265_auto_regression] [1h] [Combos: 59340] [Ret: 0.2798%] [DD: 0.0927%] [PF: 1.244] [Sharpe: 1.519] [Trades: 395] [WR: 53.67%] [00:07:49]
+[W0] [14:57:23] [266] [266_moving_average_model] [1h] [Combos: 60000] [Ret: 0.2985%] [DD: 0.0793%] [PF: 1.241] [Sharpe: 1.59] [Trades: 438] [WR: 43.61%] [00:03:36]
+[W0] [15:01:05] [267] [267_arma_model] [1h] [Combos: 60000] [Ret: 0.2658%] [DD: 0.0951%] [PF: 1.26] [Sharpe: 1.346] [Trades: 375] [WR: 26.67%] [00:03:42]
+[W0] [15:04:03] [268] [268_arima_model] [1h] [Combos: 44160] [Ret: 0.2515%] [DD: 0.0942%] [PF: 1.258] [Sharpe: 1.238] [Trades: 248] [WR: 37.5%] [00:02:57]
+[W0] [15:07:15] [269] [269_sarima_model] [1h] [Combos: 60000] [Ret: 0.2276%] [DD: 0.0565%] [PF: 1.409] [Sharpe: 1.754] [Trades: 230] [WR: 46.96%] [00:03:11]
+[W0] [15:10:02] [270] [270_garch_model] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:46]
+[W0] [15:10:54] [271] [271_exponential_smoothing] [1h] [Combos: 13200] [Ret: 0.219%] [DD: 0.0976%] [PF: 1.218] [Sharpe: 1.165] [Trades: 284] [WR: 53.87%] [00:00:52]
+[W0] [15:14:23] [272] [272_holt_winters] [1h] [Combos: 60000] [Ret: 0.3208%] [DD: 0.0893%] [PF: 1.383] [Sharpe: 1.707] [Trades: 278] [WR: 32.01%] [00:03:28]
+[W0] [15:21:48] [273] [273_kalman_filter] [1h] [Combos: 60000] [Ret: 0.2198%] [DD: 0.0892%] [PF: 1.211] [Sharpe: 1.191] [Trades: 338] [WR: 38.46%] [00:07:24]
+[W0] [15:35:26] [274] [274_particle_filter] [1h] [Combos: 60000] [Ret: 0.2789%] [DD: 0.0909%] [PF: 1.268] [Sharpe: 1.417] [Trades: 432] [WR: 23.84%] [00:13:37]
+[W0] [15:37:04] [275] [275_linear_regression_slope] [1h] [Combos: 13200] [Ret: 0.1954%] [DD: 0.1347%] [PF: 1.485] [Sharpe: 0.957] [Trades: 69] [WR: 23.19%] [00:01:38]
+[W0] [15:37:57] [276] [276_candlestick_patterns] [1h] [Combos: 13200] [Ret: 0.2038%] [DD: 0.0913%] [PF: 1.21] [Sharpe: 1.002] [Trades: 246] [WR: 36.99%] [00:00:53]

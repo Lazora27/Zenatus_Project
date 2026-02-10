@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 008_trend_hma trades=132 net_ret=-0.02% max_dd=0.08% time=7s

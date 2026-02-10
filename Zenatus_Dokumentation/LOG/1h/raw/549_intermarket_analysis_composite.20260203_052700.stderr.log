@@ -1,0 +1,8 @@
+/root/Zenatus/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/549_intermarket_analysis_composite.py:119: FutureWarning:
+
+The behavior of DataFrame.idxmax with all-NA values, or any-NA and skipna=False, is deprecated. In a future version this will raise ValueError
+
+/root/Zenatus/Zenatus_Backtester/venv/lib/python3.13/site-packages/vectorbt/utils/datetime_.py:24: FutureWarning:
+
+'H' is deprecated and will be removed in a future version. Please use 'h' instead of 'H'.
+

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py", line 560, in <module>
+    main()
+    ~~~~^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py", line 554, in main
+    run_indicator(ind_arg, spreads, data_cache)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py", line 226, in run_indicator
+    spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/524_graph_community_detection.py", line 27, in <module>
+    import talib
+ModuleNotFoundError: No module named 'talib'

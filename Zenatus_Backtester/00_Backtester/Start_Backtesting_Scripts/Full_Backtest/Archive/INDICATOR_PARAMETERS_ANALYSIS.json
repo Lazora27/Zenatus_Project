@@ -1,0 +1,3232 @@
+{
+  "1": {
+    "name": "001_trend_sma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "2": {
+    "name": "002_trend_ema",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "3": {
+    "name": "003_trend_wma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "4": {
+    "name": "004_trend_dema",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "5": {
+    "name": "005_trend_tema",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "6": {
+    "name": "006_trend_trima",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "7": {
+    "name": "007_trend_kama",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "8": {
+    "name": "008_trend_hma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "9": {
+    "name": "009_trend_zlema",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "10": {
+    "name": "010_trend_alma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "11": {
+    "name": "011_trend_jma",
+    "params": [
+      "period",
+      "alpha",
+      "ml_feature"
+    ]
+  },
+  "12": {
+    "name": "012_trend_t3",
+    "params": [
+      "period",
+      "vfactor",
+      "ml_feature"
+    ]
+  },
+  "13": {
+    "name": "013_trend_vidya",
+    "params": [
+      "period",
+      "alpha",
+      "ml_feature"
+    ]
+  },
+  "14": {
+    "name": "014_trend_frama",
+    "params": [
+      "period",
+      "alpha",
+      "ml_feature"
+    ]
+  },
+  "15": {
+    "name": "015_trend_mcginley",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "16": {
+    "name": "016_trend_sinwma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "17": {
+    "name": "017_trend_vwma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "18": {
+    "name": "018_trend_tsf",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "20": {
+    "name": "020_trend_lsma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "21": {
+    "name": "021_trend_mama",
+    "params": [
+      "period",
+      "alpha",
+      "fastlimit",
+      "ml_feature"
+    ]
+  },
+  "22": {
+    "name": "022_trend_smma",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "24": {
+    "name": "024_trend_gma",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "25": {
+    "name": "025_trend_harmonic",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "26": {
+    "name": "026_trend_adx",
+    "params": [
+      "period",
+      "threshold",
+      "ml_feature"
+    ]
+  },
+  "27": {
+    "name": "027_trend_dmi",
+    "params": [
+      "period"
+    ]
+  },
+  "28": {
+    "name": "028_trend_aroon",
+    "params": [
+      "period"
+    ]
+  },
+  "29": {
+    "name": "029_trend_aroonosc",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "30": {
+    "name": "030_trend_psar",
+    "params": [
+      "af_start"
+    ]
+  },
+  "32": {
+    "name": "032_trend_vortex",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "33": {
+    "name": "033_trend_massindex",
+    "params": [
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "34": {
+    "name": "034_trend_qstick",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "35": {
+    "name": "035_trend_tii",
+    "params": [
+      "period",
+      "threshold",
+      "ml_feature"
+    ]
+  },
+  "36": {
+    "name": "036_trend_cci",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "37": {
+    "name": "037_trend_roc",
+    "params": [
+      "period",
+      "threshold",
+      "ml_feature"
+    ]
+  },
+  "38": {
+    "name": "038_trend_momentum",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "39": {
+    "name": "039_trend_williams_r",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "40": {
+    "name": "040_trend_stochastic",
+    "params": [
+      "period",
+      "window",
+      "smooth_k",
+      "smooth_d",
+      "ml_feature"
+    ]
+  },
+  "41": {
+    "name": "041_trend_rsi",
+    "params": [
+      "period",
+      "alpha",
+      "ml_feature"
+    ]
+  },
+  "42": {
+    "name": "042_trend_macd",
+    "params": [
+      "fast_period",
+      "slow_period",
+      "signal_period",
+      "ml_feature"
+    ]
+  },
+  "43": {
+    "name": "043_trend_bollinger",
+    "params": [
+      "period",
+      "window",
+      "multiplier",
+      "ml_feature"
+    ]
+  },
+  "46": {
+    "name": "046_trend_donchian",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "47": {
+    "name": "047_volume_obv",
+    "params": [
+      "signal_period",
+      "ml_feature"
+    ]
+  },
+  "48": {
+    "name": "048_volume_mfi",
+    "params": [
+      "period",
+      "window",
+      "ml_feature"
+    ]
+  },
+  "49": {
+    "name": "049_volume_cmf",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "50": {
+    "name": "050_trend_ichimoku",
+    "params": [
+      "window",
+      "tenkan_period",
+      "ml_feature"
+    ]
+  },
+  "51": {
+    "name": "051_volume_vwap",
+    "params": [
+      "window",
+      "reset_period",
+      "ml_feature"
+    ]
+  },
+  "52": {
+    "name": "052_volume_force_index",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "53": {
+    "name": "053_volume_ad",
+    "params": [
+      "signal_period",
+      "ml_feature"
+    ]
+  },
+  "55": {
+    "name": "055_trend_stoch_rsi",
+    "params": [
+      "window",
+      "alpha",
+      "smooth_d",
+      "rsi_period",
+      "ml_feature"
+    ]
+  },
+  "56": {
+    "name": "056_trend_awesome_osc",
+    "params": [
+      "fast_period",
+      "ml_feature"
+    ]
+  },
+  "57": {
+    "name": "057_trend_accelerator_osc",
+    "params": [
+      "fast_period",
+      "ml_feature"
+    ]
+  },
+  "58": {
+    "name": "058_trend_gator",
+    "params": [
+      "jaw_period",
+      "ml_feature"
+    ]
+  },
+  "59": {
+    "name": "059_trend_alligator",
+    "params": [
+      "jaw_period",
+      "ml_feature"
+    ]
+  },
+  "60": {
+    "name": "060_trend_elder_ray",
+    "params": [
+      "period",
+      "ml_feature"
+    ]
+  },
+  "61": {
+    "name": "061_trend_trix",
+    "params": [
+      "period",
+      "signal_period",
+      "ml_feature"
+    ]
+  },
+  "62": {
+    "name": "062_trend_ppo",
+    "params": [
+      "fast"
+    ]
+  },
+  "63": {
+    "name": "063_trend_apo",
+    "params": [
+      "fast"
+    ]
+  },
+  "64": {
+    "name": "064_trend_dpo",
+    "params": [
+      "period"
+    ]
+  },
+  "65": {
+    "name": "065_trend_cmo",
+    "params": [
+      "period"
+    ]
+  },
+  "66": {
+    "name": "066_trend_rvi",
+    "params": [
+      "period"
+    ]
+  },
+  "67": {
+    "name": "067_trend_tsi",
+    "params": [
+      "long"
+    ]
+  },
+  "68": {
+    "name": "068_trend_bop",
+    "params": [
+      "period"
+    ]
+  },
+  "69": {
+    "name": "069_trend_inertia",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "70": {
+    "name": "070_trend_kdj",
+    "params": [
+      "k_period",
+      "d_period"
+    ]
+  },
+  "71": {
+    "name": "071_trend_pgo",
+    "params": [
+      "period"
+    ]
+  },
+  "72": {
+    "name": "072_trend_psychline",
+    "params": [
+      "period"
+    ]
+  },
+  "73": {
+    "name": "073_trend_qqe",
+    "params": [
+      "alpha",
+      "rsi_period"
+    ]
+  },
+  "74": {
+    "name": "074_trend_rainbow",
+    "params": [
+      "max_period"
+    ]
+  },
+  "75": {
+    "name": "075_trend_smiergodic",
+    "params": [
+      "signal_period",
+      "ema1"
+    ]
+  },
+  "76": {
+    "name": "076_trend_smi",
+    "params": [
+      "k_period",
+      "d_period"
+    ]
+  },
+  "77": {
+    "name": "077_trend_trendflex",
+    "params": [
+      "period"
+    ]
+  },
+  "78": {
+    "name": "078_trend_macdhist",
+    "params": [
+      "signal_period",
+      "fast"
+    ]
+  },
+  "79": {
+    "name": "079_trend_macdsignal",
+    "params": [
+      "signal_period",
+      "fast"
+    ]
+  },
+  "80": {
+    "name": "080_trend_zerolagmacd",
+    "params": [
+      "signal_period",
+      "fast"
+    ]
+  },
+  "82": {
+    "name": "082_trend_coppock",
+    "params": [
+      "roc1"
+    ]
+  },
+  "83": {
+    "name": "083_trend_detrendedprice",
+    "params": [
+      "period"
+    ]
+  },
+  "84": {
+    "name": "084_trend_efficiencyratio",
+    "params": [
+      "period"
+    ]
+  },
+  "85": {
+    "name": "085_volume_elderforce",
+    "params": [
+      "period"
+    ]
+  },
+  "86": {
+    "name": "086_trend_frama",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "87": {
+    "name": "087_trend_gaussian",
+    "params": [
+      "period",
+      "alpha",
+      "beta"
+    ]
+  },
+  "88": {
+    "name": "088_trend_highlowindex",
+    "params": [
+      "period"
+    ]
+  },
+  "89": {
+    "name": "089_trend_histvol",
+    "params": [
+      "period"
+    ]
+  },
+  "90": {
+    "name": "090_trend_hullmaosc",
+    "params": [
+      "period"
+    ]
+  },
+  "92": {
+    "name": "092_trend_kauffman",
+    "params": [
+      "er_period"
+    ]
+  },
+  "93": {
+    "name": "093_trend_laguerre",
+    "params": [
+      "gamma"
+    ]
+  },
+  "94": {
+    "name": "094_trend_linearregslope",
+    "params": [
+      "period"
+    ]
+  },
+  "95": {
+    "name": "095_volume_mfi_extended",
+    "params": [
+      "period"
+    ]
+  },
+  "96": {
+    "name": "096_trend_mcginleydynamic",
+    "params": [
+      "period"
+    ]
+  },
+  "97": {
+    "name": "097_trend_parabolicsar_extended",
+    "params": [
+      "af_start"
+    ]
+  },
+  "98": {
+    "name": "098_trend_pivotpoints",
+    "params": [
+      "period"
+    ]
+  },
+  "99": {
+    "name": "099_trend_priceoscillator",
+    "params": [
+      "signal_period",
+      "fast"
+    ]
+  },
+  "100": {
+    "name": "100_trend_renko",
+    "params": [
+      "brick_size"
+    ]
+  },
+  "101": {
+    "name": "101_trend_inversefisher",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "102": {
+    "name": "102_trend_connorsrsi",
+    "params": [
+      "alpha",
+      "rsi_period"
+    ]
+  },
+  "103": {
+    "name": "103_trend_laguerrersi",
+    "params": [
+      "gamma"
+    ]
+  },
+  "104": {
+    "name": "104_trend_rmi",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "105": {
+    "name": "105_trend_ergodic",
+    "params": [
+      "signal_period",
+      "long_period"
+    ]
+  },
+  "106": {
+    "name": "106_trend_cog",
+    "params": [
+      "period"
+    ]
+  },
+  "107": {
+    "name": "107_trend_cybercycle",
+    "params": [
+      "alpha"
+    ]
+  },
+  "108": {
+    "name": "108_trend_decycler",
+    "params": [
+      "hp_period"
+    ]
+  },
+  "109": {
+    "name": "109_trend_ebs",
+    "params": [
+      "hp_period"
+    ]
+  },
+  "110": {
+    "name": "110_trend_hilbert",
+    "params": [
+      "tp_pips"
+    ]
+  },
+  "111": {
+    "name": "111_trend_reflex",
+    "params": [
+      "period"
+    ]
+  },
+  "112": {
+    "name": "112_trend_trendvigor",
+    "params": [
+      "period"
+    ]
+  },
+  "113": {
+    "name": "113_trend_correlationcycle",
+    "params": [
+      "period"
+    ]
+  },
+  "114": {
+    "name": "114_trend_dominantcycle",
+    "params": [
+      "period",
+      "min_period"
+    ]
+  },
+  "116": {
+    "name": "116_trend_sinewave",
+    "params": [
+      "period"
+    ]
+  },
+  "117": {
+    "name": "117_trend_fractaldimension",
+    "params": [
+      "period"
+    ]
+  },
+  "118": {
+    "name": "118_trend_hurstexponent",
+    "params": [
+      "period"
+    ]
+  },
+  "121": {
+    "name": "121_trend_regimedetection",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "122": {
+    "name": "122_trend_cycleperiod",
+    "params": [
+      "period",
+      "min_period"
+    ]
+  },
+  "123": {
+    "name": "123_trend_adaptivemacd",
+    "params": [
+      "fast_period",
+      "slow_period",
+      "signal_period",
+      "fast_base"
+    ]
+  },
+  "125": {
+    "name": "125_trend_vhf",
+    "params": [
+      "period"
+    ]
+  },
+  "126": {
+    "name": "126_trend_trendstrengthindex",
+    "params": [
+      "period"
+    ]
+  },
+  "127": {
+    "name": "127_trend_rsquared",
+    "params": [
+      "period"
+    ]
+  },
+  "128": {
+    "name": "128_trend_pricechannels",
+    "params": [
+      "period"
+    ]
+  },
+  "129": {
+    "name": "129_trend_envelopechannels",
+    "params": [
+      "period"
+    ]
+  },
+  "130": {
+    "name": "130_trend_stdchannels",
+    "params": [
+      "period"
+    ]
+  },
+  "131": {
+    "name": "131_trend_regressionchannels",
+    "params": [
+      "period"
+    ]
+  },
+  "132": {
+    "name": "132_trend_fibonaccichannels",
+    "params": [
+      "period"
+    ]
+  },
+  "133": {
+    "name": "133_trend_accelerationbands",
+    "params": [
+      "period"
+    ]
+  },
+  "134": {
+    "name": "134_trend_starcbands",
+    "params": [
+      "atr_period",
+      "ma_period"
+    ]
+  },
+  "135": {
+    "name": "135_trend_maenvelope",
+    "params": [
+      "period"
+    ]
+  },
+  "136": {
+    "name": "136_trend_chandelierexit",
+    "params": [
+      "period"
+    ]
+  },
+  "138": {
+    "name": "138_trend_volatilitychannels",
+    "params": [
+      "period"
+    ]
+  },
+  "139": {
+    "name": "139_trend_dynamicchannels",
+    "params": [
+      "period",
+      "min_period"
+    ]
+  },
+  "141": {
+    "name": "141_trend_projectionbands",
+    "params": [
+      "period"
+    ]
+  },
+  "142": {
+    "name": "142_trend_squeezeindicator",
+    "params": [
+      "bb_period"
+    ]
+  },
+  "143": {
+    "name": "143_trend_ttmsqueeze",
+    "params": [
+      "length"
+    ]
+  },
+  "144": {
+    "name": "144_trend_bollingerbandwidth",
+    "params": [
+      "period"
+    ]
+  },
+  "145": {
+    "name": "145_volume_divergenceindex",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "151": {
+    "name": "151_volume_divergencestrength",
+    "params": [
+      "period",
+      "lookback",
+      "alpha"
+    ]
+  },
+  "153": {
+    "name": "153_volume_divergencemomentum",
+    "params": [
+      "period",
+      "lookback",
+      "alpha"
+    ]
+  },
+  "155": {
+    "name": "155_pattern_candlestickpatterns",
+    "params": [
+      "body_threshold"
+    ]
+  },
+  "156": {
+    "name": "156_pattern_priceaction",
+    "params": [
+      "lookback"
+    ]
+  },
+  "157": {
+    "name": "157_pattern_chartpatterns",
+    "params": [
+      "window",
+      "lookback"
+    ]
+  },
+  "158": {
+    "name": "158_pattern_harmonicpatterns",
+    "params": [
+      "lookback"
+    ]
+  },
+  "159": {
+    "name": "159_pattern_elliottwave",
+    "params": [
+      "lookback"
+    ]
+  },
+  "160": {
+    "name": "160_pattern_wyckoff",
+    "params": [
+      "period"
+    ]
+  },
+  "161": {
+    "name": "161_pattern_supportresistance",
+    "params": [
+      "lookback"
+    ]
+  },
+  "162": {
+    "name": "162_pattern_trendlines",
+    "params": [
+      "lookback"
+    ]
+  },
+  "163": {
+    "name": "163_pattern_fibonacciretracement",
+    "params": [
+      "lookback"
+    ]
+  },
+  "164": {
+    "name": "164_pattern_fibonacciextension",
+    "params": [
+      "window",
+      "lookback"
+    ]
+  },
+  "165": {
+    "name": "165_pattern_pivotpoints",
+    "params": [
+      "period",
+      "method",
+      "classic",
+      "classic",
+      "fibonacci",
+      "camarilla"
+    ]
+  },
+  "166": {
+    "name": "166_volatility_garch",
+    "params": [
+      "period",
+      "alpha",
+      "beta"
+    ]
+  },
+  "167": {
+    "name": "167_volatility_ewma",
+    "params": [
+      "alpha",
+      "span"
+    ]
+  },
+  "169": {
+    "name": "169_volatility_regime_detection",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "170": {
+    "name": "170_volatility_breakout",
+    "params": [
+      "period",
+      "threshold",
+      "multiplier",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "171": {
+    "name": "171_range_true_range",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "172": {
+    "name": "172_range_daily",
+    "params": [
+      "period"
+    ]
+  },
+  "173": {
+    "name": "173_range_weekly",
+    "params": [
+      "period",
+      "week_bars"
+    ]
+  },
+  "174": {
+    "name": "174_range_monthly",
+    "params": [
+      "period",
+      "month_bars"
+    ]
+  },
+  "175": {
+    "name": "175_range_expansion_index",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "176": {
+    "name": "176_range_contraction_index",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "178": {
+    "name": "178_range_bound",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "179": {
+    "name": "179_range_filter",
+    "params": [
+      "period",
+      "multiplier"
+    ]
+  },
+  "180": {
+    "name": "180_range_adaptive",
+    "params": [
+      "period",
+      "fast_period",
+      "slow_period"
+    ]
+  },
+  "181": {
+    "name": "181_volume_weighted_price",
+    "params": [
+      "period"
+    ]
+  },
+  "183": {
+    "name": "183_volume_trend",
+    "params": [
+      "period"
+    ]
+  },
+  "184": {
+    "name": "184_volume_oscillator",
+    "params": [
+      "fast_period"
+    ]
+  },
+  "185": {
+    "name": "185_volume_divergence",
+    "params": [
+      "period",
+      "lookback"
+    ]
+  },
+  "186": {
+    "name": "186_volume_spread_analysis",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "187": {
+    "name": "187_volume_profile",
+    "params": [
+      "period"
+    ]
+  },
+  "188": {
+    "name": "188_volume_price_trend",
+    "params": [
+      "period"
+    ]
+  },
+  "189": {
+    "name": "189_volume_roc",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "190": {
+    "name": "190_volume_weighted_average_price",
+    "params": [
+      "period"
+    ]
+  },
+  "191": {
+    "name": "191_volume_zone_oscillator",
+    "params": [
+      "period"
+    ]
+  },
+  "192": {
+    "name": "192_volume_accumulation_distribution",
+    "params": [
+      "period"
+    ]
+  },
+  "193": {
+    "name": "193_volume_price_confirmation",
+    "params": [
+      "short_period"
+    ]
+  },
+  "194": {
+    "name": "194_volume_intensity",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "195": {
+    "name": "195_volume_force_index",
+    "params": [
+      "short_period"
+    ]
+  },
+  "196": {
+    "name": "196_volume_weighted_momentum",
+    "params": [
+      "period"
+    ]
+  },
+  "197": {
+    "name": "197_volume_efficiency",
+    "params": [
+      "period"
+    ]
+  },
+  "198": {
+    "name": "198_volume_delta",
+    "params": [
+      "period"
+    ]
+  },
+  "199": {
+    "name": "199_volume_flow_indicator",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "200": {
+    "name": "200_volume_spread_analysis",
+    "params": [
+      "period"
+    ]
+  },
+  "201": {
+    "name": "201_volume_profile",
+    "params": [
+      "period"
+    ]
+  },
+  "202": {
+    "name": "202_volume_at_price",
+    "params": [
+      "period"
+    ]
+  },
+  "203": {
+    "name": "203_point_of_control",
+    "params": [
+      "period"
+    ]
+  },
+  "204": {
+    "name": "204_value_area_high",
+    "params": [
+      "period"
+    ]
+  },
+  "205": {
+    "name": "205_value_area_low",
+    "params": [
+      "period"
+    ]
+  },
+  "206": {
+    "name": "206_volume_weighted_ma",
+    "params": [
+      "period"
+    ]
+  },
+  "207": {
+    "name": "207_volume_spread_analysis",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "209": {
+    "name": "209_smart_money_index",
+    "params": [
+      "period"
+    ]
+  },
+  "210": {
+    "name": "210_tick_volume_index",
+    "params": [
+      "period"
+    ]
+  },
+  "212": {
+    "name": "212_volume_climax",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "214": {
+    "name": "214_volume_divergence",
+    "params": [
+      "period"
+    ]
+  },
+  "215": {
+    "name": "215_volume_confirmation",
+    "params": [
+      "period"
+    ]
+  },
+  "216": {
+    "name": "216_volume_momentum",
+    "params": [
+      "period"
+    ]
+  },
+  "217": {
+    "name": "217_volume_strength",
+    "params": [
+      "period"
+    ]
+  },
+  "218": {
+    "name": "218_volume_pressure",
+    "params": [
+      "period"
+    ]
+  },
+  "219": {
+    "name": "219_volume_distribution",
+    "params": [
+      "period"
+    ]
+  },
+  "220": {
+    "name": "220_volume_cycle",
+    "params": [
+      "period"
+    ]
+  },
+  "221": {
+    "name": "221_tick_volume",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "222": {
+    "name": "222_trade_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "223": {
+    "name": "223_buy_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "224": {
+    "name": "224_sell_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "225": {
+    "name": "225_delta_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "226": {
+    "name": "226_cumulative_delta",
+    "params": [
+      "period"
+    ]
+  },
+  "228": {
+    "name": "228_order_flow",
+    "params": [
+      "period"
+    ]
+  },
+  "229": {
+    "name": "229_market_depth",
+    "params": [
+      "period"
+    ]
+  },
+  "230": {
+    "name": "230_bid_ask_spread",
+    "params": [
+      "period"
+    ]
+  },
+  "232": {
+    "name": "232_ask_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "233": {
+    "name": "233_trade_intensity",
+    "params": [
+      "period"
+    ]
+  },
+  "236": {
+    "name": "236_large_trade_detector",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "237": {
+    "name": "237_block_trade_detector",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "239": {
+    "name": "239_retail_volume",
+    "params": [
+      "period"
+    ]
+  },
+  "241": {
+    "name": "241_skewness",
+    "params": [
+      "period"
+    ]
+  },
+  "242": {
+    "name": "242_kurtosis",
+    "params": [
+      "period"
+    ]
+  },
+  "243": {
+    "name": "243_zscore",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "244": {
+    "name": "244_tscore",
+    "params": [
+      "period"
+    ]
+  },
+  "245": {
+    "name": "245_percentile",
+    "params": [
+      "period"
+    ]
+  },
+  "246": {
+    "name": "246_quartile",
+    "params": [
+      "period"
+    ]
+  },
+  "247": {
+    "name": "247_iqr",
+    "params": [
+      "period"
+    ]
+  },
+  "248": {
+    "name": "248_mad",
+    "params": [
+      "period"
+    ]
+  },
+  "249": {
+    "name": "249_coefficient_variation",
+    "params": [
+      "period"
+    ]
+  },
+  "250": {
+    "name": "250_correlation_coefficient",
+    "params": [
+      "period"
+    ]
+  },
+  "251": {
+    "name": "251_covariance",
+    "params": [
+      "period"
+    ]
+  },
+  "252": {
+    "name": "252_beta",
+    "params": [
+      "period",
+      "beta"
+    ]
+  },
+  "253": {
+    "name": "253_sharpe_ratio",
+    "params": [
+      "period"
+    ]
+  },
+  "254": {
+    "name": "254_sortino_ratio",
+    "params": [
+      "period"
+    ]
+  },
+  "255": {
+    "name": "255_calmar_ratio",
+    "params": [
+      "period"
+    ]
+  },
+  "256": {
+    "name": "256_linear_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "257": {
+    "name": "257_polynomial_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "258": {
+    "name": "258_exponential_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "259": {
+    "name": "259_logarithmic_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "260": {
+    "name": "260_power_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "261": {
+    "name": "261_ridge_regression",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "262": {
+    "name": "262_lasso_regression",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "263": {
+    "name": "263_elastic_net",
+    "params": [
+      "tp_pips"
+    ]
+  },
+  "264": {
+    "name": "264_time_series_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "265": {
+    "name": "265_auto_regression",
+    "params": [
+      "period"
+    ]
+  },
+  "266": {
+    "name": "266_moving_average_model",
+    "params": [
+      "period"
+    ]
+  },
+  "267": {
+    "name": "267_arma_model",
+    "params": [
+      "period"
+    ]
+  },
+  "268": {
+    "name": "268_arima_model",
+    "params": [
+      "period"
+    ]
+  },
+  "269": {
+    "name": "269_sarima_model",
+    "params": [
+      "period"
+    ]
+  },
+  "271": {
+    "name": "271_exponential_smoothing",
+    "params": [
+      "alpha"
+    ]
+  },
+  "272": {
+    "name": "272_holt_winters",
+    "params": [
+      "alpha",
+      "beta"
+    ]
+  },
+  "273": {
+    "name": "273_kalman_filter",
+    "params": [
+      "process_variance"
+    ]
+  },
+  "274": {
+    "name": "274_particle_filter",
+    "params": [
+      "num_particles"
+    ]
+  },
+  "275": {
+    "name": "275_linear_regression_slope",
+    "params": [
+      "period"
+    ]
+  },
+  "276": {
+    "name": "276_candlestick_patterns",
+    "params": [
+      "body_threshold"
+    ]
+  },
+  "277": {
+    "name": "277_chart_patterns",
+    "params": [
+      "period"
+    ]
+  },
+  "278": {
+    "name": "278_harmonic_patterns",
+    "params": [
+      "period"
+    ]
+  },
+  "279": {
+    "name": "279_elliott_wave",
+    "params": [
+      "period"
+    ]
+  },
+  "282": {
+    "name": "282_fibonacci_fans",
+    "params": [
+      "period"
+    ]
+  },
+  "284": {
+    "name": "284_fibonacci_time_zones",
+    "params": [
+      "start_index"
+    ]
+  },
+  "288": {
+    "name": "288_andrews_pitchfork",
+    "params": [
+      "period"
+    ]
+  },
+  "289": {
+    "name": "289_pivot_points_extended",
+    "params": [
+      "method",
+      "standard",
+      "standard",
+      "fibonacci",
+      "woodie",
+      "camarilla"
+    ]
+  },
+  "290": {
+    "name": "290_support_resistance",
+    "params": [
+      "period"
+    ]
+  },
+  "291": {
+    "name": "291_normal_distribution",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "292": {
+    "name": "292_lognormal_distribution",
+    "params": [
+      "period"
+    ]
+  },
+  "293": {
+    "name": "293_monte_carlo",
+    "params": [
+      "period"
+    ]
+  },
+  "294": {
+    "name": "294_bootstrap_sampling",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "295": {
+    "name": "295_bayesian_inference",
+    "params": [
+      "period"
+    ]
+  },
+  "296": {
+    "name": "296_confidence_intervals",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "297": {
+    "name": "297_hypothesis_testing",
+    "params": [
+      "period",
+      "alpha"
+    ]
+  },
+  "298": {
+    "name": "298_pvalue_calculator",
+    "params": [
+      "period"
+    ]
+  },
+  "299": {
+    "name": "299_statistical_significance",
+    "params": [
+      "period"
+    ]
+  },
+  "300": {
+    "name": "300_probability_distribution",
+    "params": [
+      "period"
+    ]
+  },
+  "301": {
+    "name": "301_bayesian_probability",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "302": {
+    "name": "302_monte_carlo_probability",
+    "params": [
+      "period"
+    ]
+  },
+  "303": {
+    "name": "303_statistical_arbitrage",
+    "params": [
+      "period",
+      "threshold",
+      "beta"
+    ]
+  },
+  "304": {
+    "name": "304_regime_switching",
+    "params": [
+      "period"
+    ]
+  },
+  "305": {
+    "name": "305_markov_chain",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "306": {
+    "name": "306_gradient_boosting_signal",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "307": {
+    "name": "307_random_forest_ensemble",
+    "params": [
+      "period"
+    ]
+  },
+  "308": {
+    "name": "308_neural_network_prediction",
+    "params": [
+      "period"
+    ]
+  },
+  "311": {
+    "name": "311_convolutional_pattern",
+    "params": [
+      "period",
+      "kernel_size"
+    ]
+  },
+  "314": {
+    "name": "314_autoencoder_anomaly",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "315": {
+    "name": "315_gan_price_generator",
+    "params": [
+      "period"
+    ]
+  },
+  "316": {
+    "name": "316_xgboost_signal",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "318": {
+    "name": "318_stacking_ensemble",
+    "params": [
+      "period"
+    ]
+  },
+  "319": {
+    "name": "319_bagging_predictor",
+    "params": [
+      "period"
+    ]
+  },
+  "320": {
+    "name": "320_boosting_cascade",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "321": {
+    "name": "321_automl_optimizer",
+    "params": [
+      "period"
+    ]
+  },
+  "322": {
+    "name": "322_meta_learning",
+    "params": [
+      "period"
+    ]
+  },
+  "323": {
+    "name": "323_transfer_learning",
+    "params": [
+      "short_period"
+    ]
+  },
+  "326": {
+    "name": "326_hybrid_ml_technical",
+    "params": [
+      "period"
+    ]
+  },
+  "327": {
+    "name": "327_adaptive_ensemble",
+    "params": [
+      "period"
+    ]
+  },
+  "328": {
+    "name": "328_multi_model_fusion",
+    "params": [
+      "period"
+    ]
+  },
+  "329": {
+    "name": "329_dynamic_model_selection",
+    "params": [
+      "period",
+      "lookback"
+    ]
+  },
+  "330": {
+    "name": "330_consensus_aggregator",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "331": {
+    "name": "331_feature_importance_ranker",
+    "params": [
+      "period"
+    ]
+  },
+  "332": {
+    "name": "332_feature_selection_filter",
+    "params": [
+      "period"
+    ]
+  },
+  "333": {
+    "name": "333_feature_interaction",
+    "params": [
+      "period"
+    ]
+  },
+  "335": {
+    "name": "335_feature_engineering_auto",
+    "params": [
+      "period"
+    ]
+  },
+  "336": {
+    "name": "336_pca_signal",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "337": {
+    "name": "337_ica_signal",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "338": {
+    "name": "338_manifold_learning",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "340": {
+    "name": "340_autoencoder_compression",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "341": {
+    "name": "341_kmeans_clustering",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "342": {
+    "name": "342_dbscan_anomaly",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "343": {
+    "name": "343_hierarchical_clustering",
+    "params": [
+      "period"
+    ]
+  },
+  "344": {
+    "name": "344_gaussian_mixture",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "345": {
+    "name": "345_spectral_clustering",
+    "params": [
+      "period",
+      "window",
+      "threshold"
+    ]
+  },
+  "346": {
+    "name": "346_arima_forecast",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "347": {
+    "name": "347_exponential_smoothing",
+    "params": [
+      "period",
+      "alpha",
+      "beta"
+    ]
+  },
+  "348": {
+    "name": "348_kalman_filter",
+    "params": [
+      "period"
+    ]
+  },
+  "349": {
+    "name": "349_wavelet_decomposition",
+    "params": [
+      "period"
+    ]
+  },
+  "350": {
+    "name": "350_seasonal_decomposition",
+    "params": [
+      "period"
+    ]
+  },
+  "352": {
+    "name": "352_garch_volatility",
+    "params": [
+      "period",
+      "alpha",
+      "beta"
+    ]
+  },
+  "353": {
+    "name": "353_var_forecast",
+    "params": [
+      "period"
+    ]
+  },
+  "354": {
+    "name": "354_state_space_model",
+    "params": [
+      "period"
+    ]
+  },
+  "355": {
+    "name": "355_granger_causality",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "356": {
+    "name": "356_cointegration_signal",
+    "params": [
+      "period"
+    ]
+  },
+  "357": {
+    "name": "357_stochastic_process",
+    "params": [
+      "period"
+    ]
+  },
+  "358": {
+    "name": "358_jump_diffusion",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "359": {
+    "name": "359_mean_reversion_speed",
+    "params": [
+      "period",
+      "deviation"
+    ]
+  },
+  "360": {
+    "name": "360_hurst_exponent",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "361": {
+    "name": "361_isolation_forest",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "362": {
+    "name": "362_local_outlier_factor",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "363": {
+    "name": "363_one_class_svm",
+    "params": [
+      "period",
+      "window",
+      "threshold"
+    ]
+  },
+  "364": {
+    "name": "364_elliptic_envelope",
+    "params": [
+      "period",
+      "window",
+      "threshold"
+    ]
+  },
+  "365": {
+    "name": "365_statistical_anomaly",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "367": {
+    "name": "367_chart_pattern_detector",
+    "params": [
+      "period"
+    ]
+  },
+  "368": {
+    "name": "368_harmonic_pattern",
+    "params": [
+      "period"
+    ]
+  },
+  "369": {
+    "name": "369_elliott_wave_detector",
+    "params": [
+      "period"
+    ]
+  },
+  "370": {
+    "name": "370_wyckoff_accumulation",
+    "params": [
+      "period"
+    ]
+  },
+  "371": {
+    "name": "371_fourier_transform",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "372": {
+    "name": "372_hilbert_transform",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "373": {
+    "name": "373_bandpass_filter",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "374": {
+    "name": "374_adaptive_filter",
+    "params": [
+      "period"
+    ]
+  },
+  "376": {
+    "name": "376_shannon_entropy",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "377": {
+    "name": "377_mutual_information",
+    "params": [
+      "period"
+    ]
+  },
+  "378": {
+    "name": "378_transfer_entropy",
+    "params": [
+      "period"
+    ]
+  },
+  "379": {
+    "name": "379_approximate_entropy",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "381": {
+    "name": "381_kolmogorov_complexity",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "383": {
+    "name": "383_permutation_entropy",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "387": {
+    "name": "387_graph_centrality",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "390": {
+    "name": "390_pagerank_signal",
+    "params": [
+      "period"
+    ]
+  },
+  "393": {
+    "name": "393_phase_space_reconstruction",
+    "params": [
+      "period",
+      "length",
+      "window"
+    ]
+  },
+  "394": {
+    "name": "394_bifurcation_detector",
+    "params": [
+      "period",
+      "threshold"
+    ]
+  },
+  "395": {
+    "name": "395_nonlinear_prediction",
+    "params": [
+      "period",
+      "window"
+    ]
+  },
+  "396": {
+    "name": "396_recurrence_plot",
+    "params": [
+      "period",
+      "window",
+      "threshold"
+    ]
+  },
+  "397": {
+    "name": "397_recurrence_quantification",
+    "params": [
+      "period",
+      "window",
+      "threshold"
+    ]
+  },
+  "401": {
+    "name": "401_bid_ask_spread",
+    "params": [
+      "period"
+    ]
+  },
+  "402": {
+    "name": "402_order_flow_imbalance",
+    "params": [
+      "period"
+    ]
+  },
+  "403": {
+    "name": "403_market_depth",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "404": {
+    "name": "404_trade_intensity",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "405": {
+    "name": "405_price_impact",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "406": {
+    "name": "406_volume_weighted_spread",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "407": {
+    "name": "407_effective_spread",
+    "params": [
+      "period"
+    ]
+  },
+  "408": {
+    "name": "408_quoted_spread",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "410": {
+    "name": "410_amihud_illiquidity",
+    "params": [
+      "period"
+    ]
+  },
+  "411": {
+    "name": "411_volume_synchronized_probability",
+    "params": [
+      "period"
+    ]
+  },
+  "413": {
+    "name": "413_hasbrouck_information_share",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "414": {
+    "name": "414_adverse_selection",
+    "params": [
+      "period"
+    ]
+  },
+  "415": {
+    "name": "415_inventory_risk",
+    "params": [
+      "period"
+    ]
+  },
+  "416": {
+    "name": "416_market_making_spread",
+    "params": [
+      "period"
+    ]
+  },
+  "417": {
+    "name": "417_execution_shortfall",
+    "params": [
+      "period"
+    ]
+  },
+  "418": {
+    "name": "418_implementation_shortfall",
+    "params": [
+      "period"
+    ]
+  },
+  "419": {
+    "name": "419_arrival_price_benchmark",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "420": {
+    "name": "420_vwap_execution_quality",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "421": {
+    "name": "421_tick_direction",
+    "params": [
+      "period"
+    ]
+  },
+  "422": {
+    "name": "422_tick_rule",
+    "params": [
+      "period"
+    ]
+  },
+  "423": {
+    "name": "423_quote_rule",
+    "params": [
+      "period"
+    ]
+  },
+  "424": {
+    "name": "424_order_book_imbalance",
+    "params": [
+      "period"
+    ]
+  },
+  "425": {
+    "name": "425_order_book_slope",
+    "params": [
+      "period"
+    ]
+  },
+  "426": {
+    "name": "426_limit_order_book_pressure",
+    "params": [
+      "period"
+    ]
+  },
+  "427": {
+    "name": "427_twap_deviation",
+    "params": [
+      "period",
+      "threshold",
+      "deviation",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "428": {
+    "name": "428_participation_rate",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "429": {
+    "name": "429_urgency_cost",
+    "params": [
+      "period"
+    ]
+  },
+  "430": {
+    "name": "430_latency_arbitrage",
+    "params": [
+      "period"
+    ]
+  },
+  "431": {
+    "name": "431_iceberg_detection",
+    "params": [
+      "period"
+    ]
+  },
+  "432": {
+    "name": "432_pov_algorithm",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "436": {
+    "name": "436_iceberg_detection",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "437": {
+    "name": "437_pov_algorithm",
+    "params": [
+      "period"
+    ]
+  },
+  "438": {
+    "name": "438_smart_order_routing",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "441": {
+    "name": "441_market_maker_inventory",
+    "params": [
+      "period"
+    ]
+  },
+  "442": {
+    "name": "442_quote_stuffing",
+    "params": [
+      "period"
+    ]
+  },
+  "443": {
+    "name": "443_spoofing_detection",
+    "params": [
+      "period"
+    ]
+  },
+  "445": {
+    "name": "445_front_running",
+    "params": [
+      "period"
+    ]
+  },
+  "446": {
+    "name": "446_momentum_ignition",
+    "params": [
+      "period"
+    ]
+  },
+  "447": {
+    "name": "447_pump_dump",
+    "params": [
+      "period"
+    ]
+  },
+  "448": {
+    "name": "448_liquidity_hunting",
+    "params": [
+      "period"
+    ]
+  },
+  "450": {
+    "name": "450_hft_toxicity",
+    "params": [
+      "period"
+    ]
+  },
+  "453": {
+    "name": "453_effective_tick_size",
+    "params": [
+      "period"
+    ]
+  },
+  "454": {
+    "name": "454_realized_volatility_signature",
+    "params": [
+      "period"
+    ]
+  },
+  "455": {
+    "name": "455_price_discovery",
+    "params": [
+      "period"
+    ]
+  },
+  "456": {
+    "name": "456_pin_risk",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "462": {
+    "name": "462_market_making_profitability",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "465": {
+    "name": "465_execution_slippage",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "466": {
+    "name": "466_transaction_cost_analysis",
+    "params": [
+      "period",
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "471": {
+    "name": "471_market_impact_model",
+    "params": [
+      "period"
+    ]
+  },
+  "476": {
+    "name": "476_liquidity_shock",
+    "params": [
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "477": {
+    "name": "477_order_flow_persistence",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "478": {
+    "name": "478_market_maker_spread_compression",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "479": {
+    "name": "479_execution_quality_score",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "480": {
+    "name": "480_venue_toxicity",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "481": {
+    "name": "481_smart_order_flow_detector",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "484": {
+    "name": "484_order_book_pressure_asymmetry",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "485": {
+    "name": "485_execution_timing_optimizer",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "486": {
+    "name": "486_volume_profile_analyzer",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "487": {
+    "name": "487_market_depth_imbalance",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "489": {
+    "name": "489_price_level_magnetism",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "491": {
+    "name": "491_order_flow_velocity",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "497": {
+    "name": "497_market_efficiency_score",
+    "params": [
+      "window",
+      "deviation",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "498": {
+    "name": "498_liquidity_cycle_detector",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "499": {
+    "name": "499_execution_alpha_generator",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "501": {
+    "name": "501_fractal_dimension",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "506": {
+    "name": "506_bifurcation_point_detector",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "509": {
+    "name": "509_multifractal_spectrum",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "511": {
+    "name": "511_social_sentiment_analyzer",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "513": {
+    "name": "513_market_fear_greed_index",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "514": {
+    "name": "514_alternative_data_composite",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "521": {
+    "name": "521_market_network_centrality",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "522": {
+    "name": "522_price_graph_connectivity",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "524": {
+    "name": "524_graph_community_detection",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "525": {
+    "name": "525_network_flow_analysis",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "526": {
+    "name": "526_adversarial_learning_detector",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "530": {
+    "name": "530_federated_learning_composite",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "531": {
+    "name": "531_pairs_trading_cointegration",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "534": {
+    "name": "534_long_short_equity_indicator",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "535": {
+    "name": "535_factor_timing_model",
+    "params": [
+      "threshold",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "537": {
+    "name": "537_adaptive_regime_composite",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "538": {
+    "name": "538_meta_learning_ensemble",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "542": {
+    "name": "542_volatility_targeting_strategy",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "543": {
+    "name": "543_tail_risk_hedging_signal",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "544": {
+    "name": "544_black_swan_detector",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "548": {
+    "name": "548_macro_economic_indicator",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "549": {
+    "name": "549_intermarket_analysis_composite",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "551": {
+    "name": "551_adaptive_intelligence_system",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "552": {
+    "name": "552_market_dna_analyzer",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "553": {
+    "name": "553_predictive_pattern_engine",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "554": {
+    "name": "554_quantum_market_state",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "555": {
+    "name": "555_neural_alpha_extractor",
+    "params": [
+      "window",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "561": {
+    "name": "561_cognitive_market_intelligence",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "562": {
+    "name": "562_holistic_market_synthesizer",
+    "params": [
+      "period",
+      "fast_period",
+      "slow_period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "563": {
+    "name": "563_transcendent_alpha_engine",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "564": {
+    "name": "564_omniscient_market_oracle",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "565": {
+    "name": "565_ultimate_convergence_master",
+    "params": [
+      "period",
+      "fast_period",
+      "slow_period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "566": {
+    "name": "566_quantum_consciousness_field",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "567": {
+    "name": "567_hyperdimensional_market_mapper",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "568": {
+    "name": "568_evolutionary_market_genome",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "569": {
+    "name": "569_neural_plasticity_indicator",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "570": {
+    "name": "570_cosmic_market_resonance",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "571": {
+    "name": "571_singularity_convergence_detector",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "572": {
+    "name": "572_infinite_wisdom_aggregator",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "573": {
+    "name": "573_universal_truth_extractor",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "574": {
+    "name": "574_absolute_certainty_engine",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "575": {
+    "name": "575_omnipotent_market_force",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "576": {
+    "name": "576_eternal_market_equilibrium",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "577": {
+    "name": "577_divine_market_providence",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "578": {
+    "name": "578_supreme_alpha_synthesis",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "579": {
+    "name": "579_ultimate_reality_matrix",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "580": {
+    "name": "580_infinite_perfection_indicator",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "581": {
+    "name": "581_transcendental_market_vision",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "582": {
+    "name": "582_primordial_chaos_order",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "583": {
+    "name": "583_celestial_harmony_detector",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "584": {
+    "name": "584_metaphysical_momentum_engine",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "585": {
+    "name": "585_zenith_alpha_culmination",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "586": {
+    "name": "586_omniversal_intelligence_core",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "587": {
+    "name": "587_master_synthesis_nexus",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "588": {
+    "name": "588_absolute_dominance_indicator",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "589": {
+    "name": "589_infinite_intelligence_nexus",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "590": {
+    "name": "590_grand_unification_theory",
+    "params": [
+      "period",
+      "deviation",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "591": {
+    "name": "591_ultimate_enlightenment_engine",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "592": {
+    "name": "592_supreme_mastery_indicator",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "593": {
+    "name": "593_infinite_potential_maximizer",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "594": {
+    "name": "594_omniscient_prediction_oracle",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "595": {
+    "name": "595_ultimate_convergence_singularity",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "596": {
+    "name": "596_apex_alpha_supremacy",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "597": {
+    "name": "597_transcendent_wisdom_culmination",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "598": {
+    "name": "598_eternal_alpha_genesis",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "599": {
+    "name": "599_cosmic_perfection_synthesis",
+    "params": [
+      "tp_pips",
+      "ml_feature"
+    ]
+  },
+  "600": {
+    "name": "600_the_ultimate_master_indicator",
+    "params": [
+      "period",
+      "tp_pips",
+      "ml_feature"
+    ]
+  }
+}

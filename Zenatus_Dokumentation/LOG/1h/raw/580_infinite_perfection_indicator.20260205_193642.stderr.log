@@ -1,0 +1,4 @@
+/opt/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/580_infinite_perfection_indicator.py:103: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+

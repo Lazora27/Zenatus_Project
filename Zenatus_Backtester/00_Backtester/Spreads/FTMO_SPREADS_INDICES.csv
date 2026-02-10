@@ -1,0 +1,11 @@
+Symbol,Description,Typical_Spread_Pips,Min_Spread_Pips,Max_Spread_Pips,Category,Notes
+AUS200,Australia 200 Index,3.0,2.0,5.0,Indices,ASX 200
+EUSTX50,Euro Stoxx 50,2.5,2.0,4.0,Indices,European stocks
+FRA40,France 40 Index,2.0,1.5,3.0,Indices,CAC 40
+GER40,Germany 40 Index,2.5,2.0,4.0,Indices,DAX 40
+HK50,Hong Kong 50 Index,10.0,8.0,15.0,Indices,Hang Seng
+JPN225,Japan 225 Index,10.0,8.0,15.0,Indices,Nikkei 225
+NAS100,US Tech 100 Index,2.5,2.0,4.0,Indices,NASDAQ 100
+SPX500,US 500 Index,0.5,0.3,1.0,Indices,S&P 500
+UK100,UK 100 Index,2.0,1.5,3.0,Indices,FTSE 100
+US30,US 30 Index,3.0,2.0,5.0,Indices,Dow Jones

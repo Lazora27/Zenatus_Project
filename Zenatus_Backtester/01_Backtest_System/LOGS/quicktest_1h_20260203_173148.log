@@ -1,0 +1,600 @@
+[17:31:48] [INFO] Quicktest System gestartet
+[17:31:49] [INFO] Loading Parameter Handbook
+[17:31:49] [INFO] Loaded 592 indicators from handbook
+[17:31:49] [INFO] Starting Quicktest...
+[17:31:49] [INFO] Testing 592 indicators
+[17:32:11] [SUCCESS] Ind#001 001_trend_sma                  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.34, 21.7s
+[17:32:11] [SUCCESS] Ind#008 008_trend_hma                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.17, 21.7s
+[17:32:11] [SUCCESS] Ind#004 004_trend_dema                 - SUCCESS: 2/2 combos, PF=0.95, SR=-0.53, 21.7s
+[17:32:11] [SUCCESS] Ind#006 006_trend_trima                - SUCCESS: 2/2 combos, PF=0.99, SR=-0.12, 21.7s
+[17:32:11] [SUCCESS] Ind#005 005_trend_tema                 - SUCCESS: 2/2 combos, PF=0.98, SR=-0.19, 21.7s
+[17:32:11] [SUCCESS] Ind#010 010_trend_alma                 - SUCCESS: 2/2 combos, PF=0.97, SR=-0.29, 21.7s
+[17:32:11] [SUCCESS] Ind#009 009_trend_zlema                - SUCCESS: 2/2 combos, PF=1.00, SR=-0.03, 21.8s
+[17:32:11] [SUCCESS] Ind#003 003_trend_wma                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.08, 21.8s
+[17:32:11] [SUCCESS] Ind#007 007_trend_kama                 - SUCCESS: 2/2 combos, PF=0.97, SR=-0.35, 21.8s
+[17:32:11] [SUCCESS] Ind#002 002_trend_ema                  - SUCCESS: 2/2 combos, PF=0.98, SR=-0.14, 21.8s
+[17:32:16] [SUCCESS] Ind#012 012_trend_t3                   - SUCCESS: 2/2 combos, PF=0.96, SR=-0.35, 5.4s
+[17:32:17] [SUCCESS] Ind#017 017_trend_vwma                 - SUCCESS: 2/2 combos, PF=0.96, SR=-0.37, 5.8s
+[17:32:24] [SUCCESS] Ind#011 011_trend_jma                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.45, 13.3s
+[17:32:24] [SUCCESS] Ind#015 015_trend_mcginley             - SUCCESS: 2/2 combos, PF=0.97, SR=-0.31, 13.3s
+[17:32:24] [SUCCESS] Ind#014 014_trend_frama                - SUCCESS: 2/2 combos, PF=0.95, SR=-0.24, 13.5s
+[17:32:27] [SUCCESS] Ind#013 013_trend_vidya                - SUCCESS: 2/2 combos, PF=0.96, SR=-0.35, 16.0s
+[17:32:28] [SUCCESS] Ind#022 022_trend_smma                 - SUCCESS: 2/2 combos, PF=0.99, SR=-0.08, 10.7s
+[17:32:28] [SUCCESS] Ind#025 025_trend_harmonic             - SUCCESS: 2/2 combos, PF=0.96, SR=-0.34, 3.4s
+[17:32:28] [SUCCESS] Ind#024 024_trend_gma                  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.34, 3.6s
+[17:32:31] [SUCCESS] Ind#023 023_trend_wilders              - SUCCESS: 2/2 combos, PF=0.99, SR=-0.08, 7.1s
+[17:32:32] [SUCCESS] Ind#026 026_trend_adx                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.53, 4.4s
+[17:32:33] [SUCCESS] Ind#027 027_trend_dmi                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.51, 4.6s
+[17:32:36] [SUCCESS] Ind#031 031_trend_supertrend           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 3.8s
+[17:32:38] [SUCCESS] Ind#032 032_trend_vortex               - SUCCESS: 2/2 combos, PF=1.01, SR=0.14, 5.0s
+[17:32:39] [SUCCESS] Ind#033 033_trend_massindex            - SUCCESS: 2/2 combos, PF=1.01, SR=0.15, 2.8s
+[17:32:40] [SUCCESS] Ind#034 034_trend_qstick               - SUCCESS: 2/2 combos, PF=0.97, SR=-0.25, 1.3s
+[17:32:41] [WARNING] Ind#16: Signal generation TIMEOUT
+[17:32:41] [WARNING] Ind#18: Signal generation TIMEOUT
+[17:32:42] [SUCCESS] Ind#035 035_trend_tii                  - SUCCESS: 2/2 combos, PF=0.93, SR=-0.43, 2.8s
+[17:32:42] [WARNING] Ind#20: Signal generation TIMEOUT
+[17:32:42] [WARNING] Ind#19: Signal generation TIMEOUT
+[17:32:42] [ERROR] Ind#39: Signal error - oversold = -40 above maximum -70
+[17:32:44] [SUCCESS] Ind#038 038_trend_momentum             - SUCCESS: 2/2 combos, PF=0.97, SR=-0.33, 1.9s
+[17:32:46] [SUCCESS] Ind#030 030_trend_psar                 - SUCCESS: 2/2 combos, PF=1.00, SR=-0.03, 15.1s
+[17:32:47] [SUCCESS] Ind#041 041_trend_rsi                  - SUCCESS: 2/2 combos, PF=1.00, SR=0.01, 4.5s
+[17:32:47] [SUCCESS] Ind#037 037_trend_roc                  - SUCCESS: 2/2 combos, PF=0.98, SR=-0.14, 5.8s
+[17:32:47] [SUCCESS] Ind#040 040_trend_stochastic           - SUCCESS: 2/2 combos, PF=0.88, SR=-0.55, 5.3s
+[17:32:47] [SUCCESS] Ind#036 036_trend_cci                  - SUCCESS: 2/2 combos, PF=1.01, SR=0.07, 7.6s
+[17:32:47] [WARNING] Ind#21: Signal generation TIMEOUT
+[17:32:47] [SUCCESS] Ind#042 042_trend_macd                 - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 5.0s
+[17:32:50] [SUCCESS] Ind#043 043_trend_bollinger            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.05, 6.3s
+[17:32:51] [SUCCESS] Ind#049 049_volume_cmf                 - SUCCESS: 2/2 combos, PF=0.95, SR=-0.58, 3.2s
+[17:32:52] [SUCCESS] Ind#044 044_trend_atr                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 5.3s
+[17:32:53] [SUCCESS] Ind#046 046_trend_donchian             - SUCCESS: 2/2 combos, PF=0.92, SR=-0.67, 5.7s
+[17:32:55] [SUCCESS] Ind#050 050_trend_ichimoku             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.08, 7.6s
+[17:32:55] [SUCCESS] Ind#045 045_trend_keltner              - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 8.1s
+[17:32:56] [SUCCESS] Ind#051 051_volume_vwap                - SUCCESS: 2/2 combos, PF=0.93, SR=-0.12, 5.8s
+[17:32:57] [SUCCESS] Ind#029 029_trend_aroonosc             - SUCCESS: 2/2 combos, PF=1.04, SR=0.30, 28.3s
+[17:32:57] [SUCCESS] Ind#052 052_volume_force_index         - SUCCESS: 2/2 combos, PF=0.97, SR=-0.26, 6.3s
+[17:32:58] [SUCCESS] Ind#053 053_volume_ad                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.47, 5.8s
+[17:32:58] [WARNING] Ind#28: Signal generation TIMEOUT
+[17:32:59] [SUCCESS] Ind#054 054_trend_ultimate_osc         - SUCCESS: 2/2 combos, PF=1.01, SR=0.11, 4.6s
+[17:32:59] [SUCCESS] Ind#048 048_volume_mfi                 - SUCCESS: 2/2 combos, PF=1.04, SR=0.22, 12.0s
+[17:33:00] [SUCCESS] Ind#056 056_trend_awesome_osc          - SUCCESS: 2/2 combos, PF=0.96, SR=-0.28, 4.3s
+[17:33:03] [SUCCESS] Ind#055 055_trend_stoch_rsi            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.08, 8.1s
+[17:33:04] [SUCCESS] Ind#057 057_trend_accelerator_osc      - SUCCESS: 2/2 combos, PF=0.97, SR=-0.32, 7.1s
+[17:33:04] [SUCCESS] Ind#060 060_trend_elder_ray            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.13, 5.7s
+[17:33:04] [SUCCESS] Ind#047 047_volume_obv                 - SUCCESS: 2/2 combos, PF=0.96, SR=-0.34, 16.8s
+[17:33:04] [SUCCESS] Ind#058 058_trend_gator                - SUCCESS: 2/2 combos, PF=0.98, SR=-0.16, 7.6s
+[17:33:05] [SUCCESS] Ind#062 062_trend_ppo                  - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 5.3s
+[17:33:05] [SUCCESS] Ind#059 059_trend_alligator            - SUCCESS: 2/2 combos, PF=0.93, SR=-0.64, 7.4s
+[17:33:05] [SUCCESS] Ind#063 063_trend_apo                  - SUCCESS: 2/2 combos, PF=0.98, SR=-0.14, 5.4s
+[17:33:05] [SUCCESS] Ind#061 061_trend_trix                 - SUCCESS: 2/2 combos, PF=0.99, SR=-0.07, 6.2s
+[17:33:06] [SUCCESS] Ind#064 064_trend_dpo                  - SUCCESS: 2/2 combos, PF=0.98, SR=-0.14, 5.1s
+[17:33:08] [SUCCESS] Ind#065 065_trend_cmo                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.06, 4.1s
+[17:33:09] [SUCCESS] Ind#067 067_trend_tsi                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.52, 5.2s
+[17:33:09] [SUCCESS] Ind#068 068_trend_bop                  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.54, 4.9s
+[17:33:10] [SUCCESS] Ind#072 072_trend_psychline            - SUCCESS: 2/2 combos, PF=0.92, SR=-0.71, 4.3s
+[17:33:11] [SUCCESS] Ind#073 073_trend_qqe                  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.32, 5.2s
+[17:33:11] [SUCCESS] Ind#066 066_trend_rvi                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.15, 6.9s
+[17:33:11] [SUCCESS] Ind#070 070_trend_kdj                  - SUCCESS: 2/2 combos, PF=0.92, SR=-0.47, 5.7s
+[17:33:12] [SUCCESS] Ind#071 071_trend_pgo                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.13, 6.8s
+[17:33:14] [SUCCESS] Ind#075 075_trend_smiergodic           - SUCCESS: 2/2 combos, PF=0.98, SR=-0.20, 5.7s
+[17:33:14] [SUCCESS] Ind#074 074_trend_rainbow              - SUCCESS: 2/2 combos, PF=0.98, SR=-0.28, 8.4s
+[17:33:15] [SUCCESS] Ind#078 078_trend_macdhist             - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 4.4s
+[17:33:15] [SUCCESS] Ind#077 077_trend_trendflex            - SUCCESS: 2/2 combos, PF=0.95, SR=-0.40, 4.9s
+[17:33:15] [SUCCESS] Ind#076 076_trend_smi                  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.34, 5.1s
+[17:33:15] [SUCCESS] Ind#079 079_trend_macdsignal           - SUCCESS: 2/2 combos, PF=0.95, SR=-0.31, 4.2s
+[17:33:17] [SUCCESS] Ind#081 081_trend_choppiness           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 5.1s
+[17:33:17] [SUCCESS] Ind#080 080_trend_zerolagmacd          - SUCCESS: 2/2 combos, PF=0.98, SR=-0.26, 5.5s
+[17:33:18] [SUCCESS] Ind#083 083_trend_detrendedprice       - SUCCESS: 2/2 combos, PF=0.98, SR=-0.14, 4.1s
+[17:33:19] [SUCCESS] Ind#084 084_trend_efficiencyratio      - SUCCESS: 2/2 combos, PF=1.01, SR=0.11, 4.3s
+[17:33:20] [SUCCESS] Ind#085 085_volume_elderforce          - SUCCESS: 2/2 combos, PF=0.97, SR=-0.26, 5.0s
+[17:33:23] [SUCCESS] Ind#088 088_trend_highlowindex         - SUCCESS: 2/2 combos, PF=0.96, SR=-0.39, 7.5s
+[17:33:23] [SUCCESS] Ind#089 089_trend_histvol              - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 5.8s
+[17:33:26] [SUCCESS] Ind#091 091_trend_instantaneous        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 6.9s
+[17:33:27] [SUCCESS] Ind#087 087_trend_gaussian             - SUCCESS: 2/2 combos, PF=0.97, SR=-0.41, 11.8s
+[17:33:28] [SUCCESS] Ind#095 095_volume_mfi_extended        - SUCCESS: 2/2 combos, PF=1.04, SR=0.23, 4.8s
+[17:33:32] [SUCCESS] Ind#086 086_trend_frama                - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 16.9s
+[17:33:35] [WARNING] Ind#69: Signal generation TIMEOUT
+[17:33:37] [SUCCESS] Ind#092 092_trend_kauffman             - SUCCESS: 2/2 combos, PF=0.95, SR=-0.62, 18.2s
+[17:33:38] [SUCCESS] Ind#098 098_trend_pivotpoints          - SUCCESS: 2/2 combos, PF=0.97, SR=-0.33, 8.5s
+[17:33:40] [SUCCESS] Ind#099 099_trend_priceoscillator      - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 7.8s
+[17:33:43] [WARNING] Ind#82: Signal generation TIMEOUT
+[17:33:47] [SUCCESS] Ind#096 096_trend_mcginleydynamic      - SUCCESS: 2/2 combos, PF=0.97, SR=-0.25, 21.2s
+[17:33:48] [SUCCESS] Ind#101 101_trend_inversefisher        - SUCCESS: 2/2 combos, PF=0.98, SR=-0.20, 10.5s
+[17:33:49] [WARNING] Ind#90: Signal generation TIMEOUT
+[17:33:51] [WARNING] Ind#93: Signal generation TIMEOUT
+[17:33:51] [SUCCESS] Ind#104 104_trend_rmi                  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.29, 7.2s
+[17:33:54] [WARNING] Ind#94: Signal generation TIMEOUT
+[17:33:57] [SUCCESS] Ind#100 100_trend_renko                - SUCCESS: 2/2 combos, PF=1.00, SR=0.04, 21.6s
+[17:33:58] [WARNING] Ind#97: Signal generation TIMEOUT
+[17:34:01] [SUCCESS] Ind#105 105_trend_ergodic              - SUCCESS: 2/2 combos, PF=0.98, SR=-0.27, 13.1s
+[17:34:09] [WARNING] Ind#102: Signal generation TIMEOUT
+[17:34:11] [WARNING] Ind#103: Signal generation TIMEOUT
+[17:34:16] [SUCCESS] Ind#112 112_trend_trendvigor           - SUCCESS: 2/2 combos, PF=0.96, SR=-0.47, 17.8s
+[17:34:20] [WARNING] Ind#107: Signal generation TIMEOUT
+[17:34:20] [WARNING] Ind#106: Signal generation TIMEOUT
+[17:34:23] [WARNING] Ind#109: Signal generation TIMEOUT
+[17:34:24] [SUCCESS] Ind#108 108_trend_decycler             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.12, 32.3s
+[17:34:24] [SUCCESS] Ind#115 115_trend_phaseaccumulation    - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 12.2s
+[17:34:25] [WARNING] Ind#110: Signal generation TIMEOUT
+[17:34:30] [WARNING] Ind#111: Signal generation TIMEOUT
+[17:34:33] [WARNING] Ind#113: Signal generation TIMEOUT
+[17:34:34] [SUCCESS] Ind#118 118_trend_hurstexponent        - SUCCESS: 2/2 combos, PF=0.98, SR=-0.20, 13.7s
+[17:34:38] [SUCCESS] Ind#120 120_trend_marketstate          - SUCCESS: 2/2 combos, PF=1.00, SR=-0.03, 12.6s
+[17:34:39] [SUCCESS] Ind#121 121_trend_regimedetection      - SUCCESS: 2/2 combos, PF=0.91, SR=-0.60, 12.8s
+[17:34:41] [SUCCESS] Ind#119 119_trend_entropy              - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 17.0s
+[17:34:41] [WARNING] Ind#114: Signal generation TIMEOUT
+[17:34:45] [SUCCESS] Ind#124 124_trend_macddivergence       - SUCCESS: 2/2 combos, PF=1.00, SR=0.08, 10.3s
+[17:34:48] [WARNING] Ind#116: Signal generation TIMEOUT
+[17:34:51] [WARNING] Ind#117: Signal generation TIMEOUT
+[17:34:52] [SUCCESS] Ind#125 125_trend_vhf                  - SUCCESS: 2/2 combos, PF=1.02, SR=0.15, 16.3s
+[17:34:55] [SUCCESS] Ind#129 129_trend_envelopechannels     - SUCCESS: 2/2 combos, PF=0.96, SR=-0.33, 11.6s
+[17:34:55] [SUCCESS] Ind#128 128_trend_pricechannels        - SUCCESS: 2/2 combos, PF=0.96, SR=-0.42, 12.7s
+[17:34:58] [WARNING] Ind#122: Signal generation TIMEOUT
+[17:34:59] [SUCCESS] Ind#126 126_trend_trendstrengthindex   - SUCCESS: 2/2 combos, PF=0.96, SR=-0.38, 19.9s
+[17:34:59] [SUCCESS] Ind#130 130_trend_stdchannels          - SUCCESS: 2/2 combos, PF=0.96, SR=-0.33, 13.9s
+[17:35:00] [SUCCESS] Ind#132 132_trend_fibonaccichannels    - SUCCESS: 2/2 combos, PF=1.05, SR=0.38, 8.0s
+[17:35:04] [WARNING] Ind#123: Signal generation TIMEOUT
+[17:35:11] [SUCCESS] Ind#137 137_trend_atrchannels          - SUCCESS: 2/2 combos, PF=0.96, SR=-0.33, 13.0s
+[17:35:11] [SUCCESS] Ind#133 133_trend_accelerationbands    - SUCCESS: 2/2 combos, PF=0.96, SR=-0.33, 18.8s
+[17:35:11] [SUCCESS] Ind#134 134_trend_starcbands           - SUCCESS: 2/2 combos, PF=0.97, SR=-0.37, 15.6s
+[17:35:12] [SUCCESS] Ind#136 136_trend_chandelierexit       - SUCCESS: 2/2 combos, PF=1.00, SR=-0.02, 16.1s
+[17:35:13] [WARNING] Ind#127: Signal generation TIMEOUT
+[17:35:14] [SUCCESS] Ind#138 138_trend_volatilitychannels   - SUCCESS: 2/2 combos, PF=0.96, SR=-0.33, 14.4s
+[17:35:17] [SUCCESS] Ind#140 140_trend_adaptivechannels     - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.7s
+[17:35:19] [SUCCESS] Ind#145 145_volume_divergenceindex     - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 6.1s
+[17:35:20] [SUCCESS] Ind#146 146_volume_hiddendivergence    - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 6.5s
+[17:35:21] [WARNING] Ind#131: Signal generation TIMEOUT
+[17:35:22] [SUCCESS] Ind#147 147_volume_regulardivergence   - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 7.2s
+[17:35:26] [SUCCESS] Ind#148 148_volume_bullishdivergence   - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 8.4s
+[17:35:27] [SUCCESS] Ind#150 150_volume_multiindicatordiver - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 6.5s
+[17:35:28] [SUCCESS] Ind#149 149_volume_bearishdivergence   - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 8.3s
+[17:35:29] [SUCCESS] Ind#142 142_trend_squeezeindicator     - SUCCESS: 2/2 combos, PF=0.98, SR=-0.13, 17.7s
+[17:35:30] [SUCCESS] Ind#152 152_volume_divergenceconfluenc - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 6.7s
+[17:35:32] [WARNING] Ind#139: Signal generation TIMEOUT
+[17:35:32] [SUCCESS] Ind#154 154_volume_divergencepattern   - SUCCESS: 2/2 combos, PF=1.03, SR=0.24, 4.4s
+[17:35:34] [SUCCESS] Ind#151 151_volume_divergencestrength  - SUCCESS: 2/2 combos, PF=0.87, SR=-0.66, 12.7s
+[17:35:37] [WARNING] Ind#141: Signal generation TIMEOUT
+[17:35:44] [SUCCESS] Ind#153 153_volume_divergencemomentum  - SUCCESS: 2/2 combos, PF=0.95, SR=-0.58, 17.7s
+[17:35:44] [WARNING] Ind#144: Signal generation TIMEOUT
+[17:35:44] [WARNING] Ind#143: Signal generation TIMEOUT
+[17:35:45] [SUCCESS] Ind#156 156_pattern_priceaction        - SUCCESS: 2/2 combos, PF=0.93, SR=-0.51, 15.0s
+[17:35:51] [SUCCESS] Ind#155 155_pattern_candlestickpattern - SUCCESS: 2/2 combos, PF=0.95, SR=-0.49, 22.5s
+[17:35:51] [SUCCESS] Ind#160 160_pattern_wyckoff            - SUCCESS: 2/2 combos, PF=0.97, SR=-0.29, 15.9s
+[17:36:01] [WARNING] Ind#157: Signal generation TIMEOUT
+[17:36:03] [WARNING] Ind#158: Signal generation TIMEOUT
+[17:36:03] [WARNING] Ind#159: Signal generation TIMEOUT
+[17:36:10] [WARNING] Ind#161: Signal generation TIMEOUT
+[17:36:10] [SUCCESS] Ind#168 168_volatility_coefficient_var - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 17.0s
+[17:36:13] [SUCCESS] Ind#170 170_volatility_breakout        - SUCCESS: 2/2 combos, PF=1.01, SR=0.08, 9.3s
+[17:36:16] [WARNING] Ind#163: Signal generation TIMEOUT
+[17:36:16] [WARNING] Ind#164: Signal generation TIMEOUT
+[17:36:17] [WARNING] Ind#162: Signal generation TIMEOUT
+[17:36:17] [WARNING] Ind#166: Signal generation TIMEOUT
+[17:36:20] [SUCCESS] Ind#173 173_range_weekly               - SUCCESS: 2/2 combos, PF=0.91, SR=-0.53, 9.3s
+[17:36:23] [WARNING] Ind#167: Signal generation TIMEOUT
+[17:36:29] [SUCCESS] Ind#174 174_range_monthly              - SUCCESS: 2/2 combos, PF=0.95, SR=-0.29, 15.1s
+[17:36:32] [SUCCESS] Ind#176 176_range_contraction_index    - SUCCESS: 2/2 combos, PF=0.95, SR=-0.45, 14.6s
+[17:36:33] [WARNING] Ind#169: Signal generation TIMEOUT
+[17:36:34] [SUCCESS] Ind#175 175_range_expansion_index      - SUCCESS: 2/2 combos, PF=1.01, SR=0.05, 17.0s
+[17:36:35] [SUCCESS] Ind#177 177_range_breakout             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 17.3s
+[17:36:36] [WARNING] Ind#171: Signal generation TIMEOUT
+[17:36:38] [SUCCESS] Ind#178 178_range_bound                - SUCCESS: 2/2 combos, PF=0.98, SR=-0.24, 19.9s
+[17:36:41] [WARNING] Ind#172: Signal generation TIMEOUT
+[17:36:44] [WARNING] Ind#185: Too few signals (0)
+[17:36:45] [SUCCESS] Ind#181 181_volume_weighted_price      - SUCCESS: 2/2 combos, PF=0.96, SR=-0.40, 15.2s
+[17:36:48] [SUCCESS] Ind#182 182_volume_momentum            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.2s
+[17:36:49] [SUCCESS] Ind#186 186_volume_spread_analysis     - SUCCESS: 2/2 combos, PF=1.01, SR=0.10, 12.2s
+[17:36:50] [SUCCESS] Ind#184 184_volume_oscillator          - SUCCESS: 2/2 combos, PF=1.01, SR=0.14, 14.9s
+[17:36:53] [WARNING] Ind#179: Signal generation TIMEOUT
+[17:36:57] [SUCCESS] Ind#188 188_volume_price_trend         - SUCCESS: 2/2 combos, PF=0.98, SR=-0.24, 14.5s
+[17:36:57] [WARNING] Ind#180: Signal generation TIMEOUT
+[17:37:02] [SUCCESS] Ind#192 192_volume_accumulation_distri - SUCCESS: 2/2 combos, PF=0.95, SR=-0.51, 12.5s
+[17:37:03] [SUCCESS] Ind#191 191_volume_zone_oscillator     - SUCCESS: 2/2 combos, PF=0.95, SR=-0.56, 13.3s
+[17:37:03] [SUCCESS] Ind#190 190_volume_weighted_average_pr - SUCCESS: 2/2 combos, PF=0.96, SR=-0.40, 17.8s
+[17:37:05] [WARNING] Ind#183: Signal generation TIMEOUT
+[17:37:09] [WARNING] Ind#187: Signal generation TIMEOUT
+[17:37:13] [SUCCESS] Ind#194 194_volume_intensity           - SUCCESS: 2/2 combos, PF=0.97, SR=-0.31, 19.9s
+[17:37:14] [SUCCESS] Ind#196 196_volume_weighted_momentum   - SUCCESS: 2/2 combos, PF=0.99, SR=-0.07, 15.8s
+[17:37:14] [SUCCESS] Ind#193 193_volume_price_confirmation  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.44, 22.4s
+[17:37:16] [WARNING] Ind#189: Signal generation TIMEOUT
+[17:37:17] [SUCCESS] Ind#195 195_volume_force_index         - SUCCESS: 2/2 combos, PF=0.97, SR=-0.38, 19.7s
+[17:37:18] [SUCCESS] Ind#198 198_volume_delta               - SUCCESS: 2/2 combos, PF=0.95, SR=-0.51, 14.5s
+[17:37:21] [SUCCESS] Ind#200 200_volume_spread_analysis     - SUCCESS: 2/2 combos, PF=0.94, SR=-0.47, 14.9s
+[17:37:24] [SUCCESS] Ind#199 199_volume_flow_indicator      - SUCCESS: 2/2 combos, PF=0.93, SR=-0.66, 20.1s
+[17:37:32] [SUCCESS] Ind#206 206_volume_weighted_ma         - SUCCESS: 2/2 combos, PF=0.96, SR=-0.37, 13.4s
+[17:37:32] [SUCCESS] Ind#207 207_volume_spread_analysis     - SUCCESS: 2/2 combos, PF=1.01, SR=0.10, 11.8s
+[17:37:33] [SUCCESS] Ind#208 208_wyckoff_volume             - SUCCESS: 2/2 combos, PF=1.00, SR=0.05, 11.1s
+[17:37:35] [WARNING] Ind#197: Signal generation TIMEOUT
+[17:37:40] [WARNING] Ind#201: Signal generation TIMEOUT
+[17:37:41] [SUCCESS] Ind#211 211_volume_breakout            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.11, 8.6s
+[17:37:42] [SUCCESS] Ind#209 209_smart_money_index          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.07, 16.9s
+[17:37:45] [SUCCESS] Ind#212 212_volume_climax              - SUCCESS: 2/2 combos, PF=1.01, SR=0.08, 11.0s
+[17:37:45] [SUCCESS] Ind#213 213_volume_exhaustion          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 9.8s
+[17:37:45] [WARNING] Ind#202: Signal generation TIMEOUT
+[17:37:46] [WARNING] Ind#204: Signal generation TIMEOUT
+[17:37:47] [WARNING] Ind#203: Signal generation TIMEOUT
+[17:37:48] [WARNING] Ind#205: Signal generation TIMEOUT
+[17:37:50] [SUCCESS] Ind#210 210_tick_volume_index          - SUCCESS: 2/2 combos, PF=0.93, SR=-0.75, 16.7s
+[17:37:56] [SUCCESS] Ind#216 216_volume_momentum            - SUCCESS: 2/2 combos, PF=0.94, SR=-0.46, 13.2s
+[17:37:59] [SUCCESS] Ind#221 221_tick_volume                - SUCCESS: 2/2 combos, PF=1.01, SR=0.09, 11.9s
+[17:38:02] [SUCCESS] Ind#214 214_volume_divergence          - SUCCESS: 2/2 combos, PF=0.98, SR=-0.15, 20.4s
+[17:38:05] [SUCCESS] Ind#219 219_volume_distribution        - SUCCESS: 2/2 combos, PF=0.98, SR=-0.19, 18.7s
+[17:38:06] [SUCCESS] Ind#215 215_volume_confirmation        - SUCCESS: 2/2 combos, PF=0.97, SR=-0.35, 24.5s
+[17:38:07] [SUCCESS] Ind#218 218_volume_pressure            - SUCCESS: 2/2 combos, PF=0.93, SR=-0.66, 21.0s
+[17:38:09] [SUCCESS] Ind#220 220_volume_cycle               - SUCCESS: 2/2 combos, PF=1.01, SR=0.09, 21.9s
+[17:38:13] [SUCCESS] Ind#224 224_sell_volume                - SUCCESS: 2/2 combos, PF=0.95, SR=-0.27, 16.4s
+[17:38:17] [SUCCESS] Ind#223 223_buy_volume                 - SUCCESS: 2/2 combos, PF=0.97, SR=-0.47, 26.5s
+[17:38:16] [WARNING] Ind#217: Signal generation TIMEOUT
+[17:38:18] [SUCCESS] Ind#225 225_delta_volume               - SUCCESS: 2/2 combos, PF=0.93, SR=-0.66, 18.2s
+[17:38:20] [WARNING] Ind#222: Signal generation TIMEOUT
+[17:38:24] [SUCCESS] Ind#227 227_volume_imbalance           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 17.8s
+[17:38:27] [SUCCESS] Ind#226 226_cumulative_delta           - SUCCESS: 2/2 combos, PF=0.95, SR=-0.51, 24.1s
+[17:38:30] [SUCCESS] Ind#228 228_order_flow                 - SUCCESS: 2/2 combos, PF=0.94, SR=-0.65, 21.4s
+[17:38:30] [SUCCESS] Ind#229 229_market_depth               - SUCCESS: 2/2 combos, PF=1.04, SR=0.31, 21.6s
+[17:38:31] [SUCCESS] Ind#231 231_bid_volume                 - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 16.3s
+[17:38:32] [SUCCESS] Ind#230 230_bid_ask_spread             - SUCCESS: 2/2 combos, PF=0.97, SR=-0.26, 22.2s
+[17:38:34] [SUCCESS] Ind#234 234_trade_frequency            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.5s
+[17:38:36] [SUCCESS] Ind#235 235_average_trade_size         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.0s
+[17:38:39] [SUCCESS] Ind#233 233_trade_intensity            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.11, 20.3s
+[17:38:40] [SUCCESS] Ind#232 232_ask_volume                 - SUCCESS: 2/2 combos, PF=0.95, SR=-0.50, 22.2s
+[17:38:40] [SUCCESS] Ind#237 237_block_trade_detector       - SUCCESS: 2/2 combos, PF=1.01, SR=0.04, 13.2s
+[17:38:41] [SUCCESS] Ind#238 238_institutional_volume       - SUCCESS: 2/2 combos, PF=1.00, SR=0.05, 10.1s
+[17:38:41] [SUCCESS] Ind#236 236_large_trade_detector       - SUCCESS: 2/2 combos, PF=0.97, SR=-0.29, 16.7s
+[17:38:46] [SUCCESS] Ind#239 239_retail_volume              - SUCCESS: 2/2 combos, PF=0.94, SR=-0.36, 14.7s
+[17:38:46] [SUCCESS] Ind#240 240_dark_pool_activity         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 14.7s
+[17:38:52] [SUCCESS] Ind#244 244_tscore                     - SUCCESS: 2/2 combos, PF=1.00, SR=-0.01, 12.6s
+[17:38:54] [SUCCESS] Ind#243 243_zscore                     - SUCCESS: 2/2 combos, PF=0.93, SR=-0.58, 16.7s
+[17:38:54] [SUCCESS] Ind#247 247_iqr                        - SUCCESS: 2/2 combos, PF=0.87, SR=-0.54, 12.9s
+[17:38:59] [SUCCESS] Ind#248 248_mad                        - SUCCESS: 2/2 combos, PF=1.00, SR=-0.03, 17.2s
+[17:39:02] [SUCCESS] Ind#246 246_quartile                   - SUCCESS: 2/2 combos, PF=0.99, SR=-0.10, 20.9s
+[17:39:04] [WARNING] Ind#241: Signal generation TIMEOUT
+[17:39:04] [SUCCESS] Ind#249 249_coefficient_variation      - SUCCESS: 2/2 combos, PF=0.96, SR=-0.36, 17.4s
+[17:39:07] [WARNING] Ind#242: Signal generation TIMEOUT
+[17:39:13] [WARNING] Ind#245: Signal generation TIMEOUT
+[17:39:13] [SUCCESS] Ind#251 251_covariance                 - SUCCESS: 2/2 combos, PF=1.00, SR=-0.03, 19.8s
+[17:39:16] [SUCCESS] Ind#253 253_sharpe_ratio               - SUCCESS: 2/2 combos, PF=0.95, SR=-0.51, 20.5s
+[17:39:17] [SUCCESS] Ind#252 252_beta                       - SUCCESS: 2/2 combos, PF=0.97, SR=-0.36, 21.8s
+[17:39:20] [SUCCESS] Ind#254 254_sortino_ratio              - SUCCESS: 2/2 combos, PF=0.96, SR=-0.50, 19.4s
+[17:39:20] [SUCCESS] Ind#255 255_calmar_ratio               - SUCCESS: 2/2 combos, PF=0.92, SR=-0.55, 16.1s
+[17:39:20] [WARNING] Ind#250: Signal generation TIMEOUT
+[17:39:31] [SUCCESS] Ind#263 263_elastic_net                - SUCCESS: 2/2 combos, PF=1.01, SR=0.12, 10.1s
+[17:39:34] [SUCCESS] Ind#264 264_time_series_regression     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.40, 12.4s
+[17:39:38] [WARNING] Ind#257: Signal generation TIMEOUT
+[17:39:39] [WARNING] Ind#258: Signal generation TIMEOUT
+[17:39:44] [WARNING] Ind#259: Signal generation TIMEOUT
+[17:39:44] [WARNING] Ind#260: Signal generation TIMEOUT
+[17:39:45] [SUCCESS] Ind#266 266_moving_average_model       - SUCCESS: 2/2 combos, PF=0.98, SR=-0.30, 12.8s
+[17:39:45] [WARNING] Ind#268: Too few signals (0)
+[17:39:48] [SUCCESS] Ind#267 267_arma_model                 - SUCCESS: 2/2 combos, PF=0.98, SR=-0.20, 13.9s
+[17:39:52] [WARNING] Ind#265: Signal generation TIMEOUT
+[17:39:52] [SUCCESS] Ind#269 269_sarima_model               - SUCCESS: 2/2 combos, PF=0.97, SR=-0.27, 13.3s
+[17:39:56] [SUCCESS] Ind#271 271_exponential_smoothing      - SUCCESS: 2/2 combos, PF=0.96, SR=-0.38, 11.4s
+[17:39:59] [SUCCESS] Ind#272 272_holt_winters               - SUCCESS: 2/2 combos, PF=1.00, SR=0.00, 13.4s
+[17:40:01] [SUCCESS] Ind#270 270_garch_model                - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.5s
+[17:40:10] [SUCCESS] Ind#276 276_candlestick_patterns       - SUCCESS: 2/2 combos, PF=0.94, SR=-0.68, 17.1s
+[17:40:14] [SUCCESS] Ind#278 278_harmonic_patterns          - SUCCESS: 2/2 combos, PF=0.96, SR=-0.31, 14.7s
+[17:40:18] [WARNING] Ind#273: Signal generation TIMEOUT
+[17:40:19] [WARNING] Ind#274: Signal generation TIMEOUT
+[17:40:21] [SUCCESS] Ind#280 280_fibonacci_retracements     - SUCCESS: 2/2 combos, PF=0.99, SR=-0.14, 9.7s
+[17:40:24] [WARNING] Ind#275: Signal generation TIMEOUT
+[17:40:26] [SUCCESS] Ind#281 281_fibonacci_extensions       - SUCCESS: 2/2 combos, PF=1.00, SR=0.01, 11.6s
+[17:40:28] [WARNING] Ind#277: Signal generation TIMEOUT
+[17:40:32] [WARNING] Ind#279: Signal generation TIMEOUT
+[17:40:35] [SUCCESS] Ind#283 283_fibonacci_arcs             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.1s
+[17:40:37] [SUCCESS] Ind#282 282_fibonacci_fans             - SUCCESS: 2/2 combos, PF=1.00, SR=0.04, 17.5s
+[17:40:40] [SUCCESS] Ind#285 285_gann_angles                - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.3s
+[17:40:42] [SUCCESS] Ind#286 286_gann_square_of_9           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 14.0s
+[17:40:44] [SUCCESS] Ind#291 291_normal_distribution        - SUCCESS: 2/2 combos, PF=1.01, SR=0.06, 6.0s
+[17:40:45] [SUCCESS] Ind#287 287_gann_fans                  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 14.8s
+[17:40:50] [SUCCESS] Ind#288 288_andrews_pitchfork          - SUCCESS: 2/2 combos, PF=0.97, SR=-0.38, 17.4s
+[17:40:55] [WARNING] Ind#284: Backtest TIMEOUT (TP=20, SL=10)
+[17:40:57] [SUCCESS] Ind#284 284_fibonacci_time_zones       - SUCCESS: 1/2 combos, PF=0.43, SR=-0.66, 35.1s
+[17:40:57] [SUCCESS] Ind#290 290_support_resistance         - SUCCESS: 2/2 combos, PF=1.03, SR=0.33, 21.7s
+[17:40:59] [WARNING] Ind#262: Signal generation TIMEOUT
+[17:40:59] [WARNING] Ind#256: Signal generation TIMEOUT
+[17:40:59] [WARNING] Ind#261: Signal generation TIMEOUT
+[17:41:09] [SUCCESS] Ind#296 296_confidence_intervals       - SUCCESS: 2/2 combos, PF=0.96, SR=-0.19, 17.9s
+[17:41:12] [WARNING] Ind#292: Signal generation TIMEOUT
+[17:41:14] [SUCCESS] Ind#297 297_hypothesis_testing         - SUCCESS: 2/2 combos, PF=1.40, SR=0.84, 17.1s
+[17:41:14] [WARNING] Ind#293: Signal generation TIMEOUT
+[17:41:16] [WARNING] Ind#294: Signal generation TIMEOUT
+[17:41:18] [SUCCESS] Ind#295 295_bayesian_inference         - SUCCESS: 2/2 combos, PF=0.74, SR=-0.63, 32.0s
+[17:41:18] [SUCCESS] Ind#301 301_bayesian_probability       - SUCCESS: 2/2 combos, PF=0.96, SR=-0.41, 17.7s
+[17:41:18] [SUCCESS] Ind#298 298_pvalue_calculator          - SUCCESS: 2/2 combos, PF=0.96, SR=-0.29, 20.3s
+[17:41:20] [SUCCESS] Ind#299 299_statistical_significance   - SUCCESS: 2/2 combos, PF=1.00, SR=0.01, 21.2s
+[17:41:31] [WARNING] Ind#300: Signal generation TIMEOUT
+[17:41:32] [SUCCESS] Ind#305 305_markov_chain               - SUCCESS: 2/2 combos, PF=0.84, SR=-0.51, 16.3s
+[17:41:33] [SUCCESS] Ind#310 310_reinforcement_learning_sig - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 11.8s
+[17:41:34] [SUCCESS] Ind#309 309_lstm_pattern_recognition   - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.9s
+[17:41:35] [SUCCESS] Ind#306 306_gradient_boosting_signal   - SUCCESS: 2/2 combos, PF=0.95, SR=-0.52, 18.7s
+[17:41:36] [SUCCESS] Ind#304 304_regime_switching           - SUCCESS: 2/2 combos, PF=1.12, SR=0.74, 21.2s
+[17:41:43] [WARNING] Ind#302: Signal generation TIMEOUT
+[17:41:45] [WARNING] Ind#303: Signal generation TIMEOUT
+[17:41:45] [SUCCESS] Ind#312 312_attention_mechanism        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 12.5s
+[17:41:50] [WARNING] Ind#308: Signal generation TIMEOUT
+[17:41:51] [SUCCESS] Ind#307 307_random_forest_ensemble     - SUCCESS: 2/2 combos, PF=0.95, SR=-0.64, 32.3s
+[17:41:52] [SUCCESS] Ind#316 316_xgboost_signal             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 14.4s
+[17:41:52] [SUCCESS] Ind#313 313_transformer_signal         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 17.9s
+[17:42:01] [SUCCESS] Ind#314 314_autoencoder_anomaly        - SUCCESS: 2/2 combos, PF=0.98, SR=-0.24, 26.0s
+[17:42:03] [WARNING] Ind#311: Signal generation TIMEOUT
+[17:42:06] [SUCCESS] Ind#317 317_ensemble_voting            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 21.6s
+[17:42:07] [WARNING] Ind#315: Signal generation TIMEOUT
+[17:42:11] [SUCCESS] Ind#323 323_transfer_learning          - SUCCESS: 2/2 combos, PF=0.95, SR=-0.44, 18.0s
+[17:42:12] [SUCCESS] Ind#318 318_stacking_ensemble          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.06, 26.1s
+[17:42:16] [SUCCESS] Ind#324 324_few_shot_learning          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 14.2s
+[17:42:17] [SUCCESS] Ind#325 325_online_learning            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 12.3s
+[17:42:17] [SUCCESS] Ind#319 319_bagging_predictor          - SUCCESS: 2/2 combos, PF=0.95, SR=-0.54, 31.3s
+[17:42:22] [WARNING] Ind#320: Signal generation TIMEOUT
+[17:42:24] [WARNING] Ind#321: Signal generation TIMEOUT
+[17:42:24] [WARNING] Ind#322: Signal generation TIMEOUT
+[17:42:38] [WARNING] Ind#326: Signal generation TIMEOUT
+[17:42:40] [WARNING] Ind#327: Signal generation TIMEOUT
+[17:42:41] [SUCCESS] Ind#333 333_feature_interaction        - SUCCESS: 2/2 combos, PF=0.95, SR=-0.38, 17.6s
+[17:42:43] [WARNING] Ind#328: Signal generation TIMEOUT
+[17:42:44] [WARNING] Ind#329: Signal generation TIMEOUT
+[17:42:46] [SUCCESS] Ind#334 334_polynomial_features        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 21.8s
+[17:42:49] [WARNING] Ind#331: Signal generation TIMEOUT
+[17:42:50] [WARNING] Ind#332: Signal generation TIMEOUT
+[17:42:51] [SUCCESS] Ind#330 330_consensus_aggregator       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.14, 34.4s
+[17:42:57] [WARNING] Ind#335: Signal generation TIMEOUT
+[17:42:59] [SUCCESS] Ind#339 339_tsne_clustering            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 15.0s
+[17:43:12] [WARNING] Ind#336: Signal generation TIMEOUT
+[17:43:13] [WARNING] Ind#337: Signal generation TIMEOUT
+[17:43:14] [WARNING] Ind#338: Signal generation TIMEOUT
+[17:43:16] [WARNING] Ind#340: Signal generation TIMEOUT
+[17:43:19] [WARNING] Ind#341: Signal generation TIMEOUT
+[17:43:22] [WARNING] Ind#342: Signal generation TIMEOUT
+[17:43:23] [WARNING] Ind#343: Signal generation TIMEOUT
+[17:43:24] [WARNING] Ind#344: Signal generation TIMEOUT
+[17:43:30] [WARNING] Ind#345: Signal generation TIMEOUT
+[17:43:31] [WARNING] Ind#346: Signal generation TIMEOUT
+[17:43:34] [SUCCESS] Ind#347 347_exponential_smoothing      - SUCCESS: 2/2 combos, PF=1.03, SR=0.27, 21.3s
+[17:43:45] [WARNING] Ind#348: Signal generation TIMEOUT
+[17:43:45] [SUCCESS] Ind#349 349_wavelet_decomposition      - SUCCESS: 2/2 combos, PF=0.94, SR=-0.63, 30.1s
+[17:43:48] [SUCCESS] Ind#351 351_prophet_forecast           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 26.7s
+[17:43:49] [WARNING] Ind#350: Signal generation TIMEOUT
+[17:43:52] [SUCCESS] Ind#355 355_granger_causality          - SUCCESS: 2/2 combos, PF=0.93, SR=-0.60, 20.2s
+[17:43:54] [WARNING] Ind#352: Signal generation TIMEOUT
+[17:43:55] [WARNING] Ind#353: Signal generation TIMEOUT
+[17:43:58] [WARNING] Ind#354: Signal generation TIMEOUT
+[17:44:05] [WARNING] Ind#356: Signal generation TIMEOUT
+[17:44:09] [SUCCESS] Ind#357 357_stochastic_process         - SUCCESS: 2/2 combos, PF=0.96, SR=-0.42, 32.3s
+[17:44:14] [SUCCESS] Ind#362 362_local_outlier_factor       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 21.1s
+[17:44:19] [WARNING] Ind#358: Signal generation TIMEOUT
+[17:44:20] [WARNING] Ind#359: Signal generation TIMEOUT
+[17:44:20] [WARNING] Ind#360: Signal generation TIMEOUT
+[17:44:25] [SUCCESS] Ind#366 366_candlestick_pattern_ml     - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 18.1s
+[17:44:24] [WARNING] Ind#361: Signal generation TIMEOUT
+[17:44:27] [WARNING] Ind#363: Signal generation TIMEOUT
+[17:44:29] [WARNING] Ind#364: Signal generation TIMEOUT
+[17:44:31] [WARNING] Ind#365: Signal generation TIMEOUT
+[17:44:43] [WARNING] Ind#367: Signal generation TIMEOUT
+[17:44:49] [WARNING] Ind#368: Signal generation TIMEOUT
+[17:44:52] [WARNING] Ind#369: Signal generation TIMEOUT
+[17:44:55] [WARNING] Ind#370: Signal generation TIMEOUT
+[17:44:55] [WARNING] Ind#371: Signal generation TIMEOUT
+[17:44:56] [SUCCESS] Ind#375 375_spectral_analysis          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 25.9s
+[17:44:58] [WARNING] Ind#372: Signal generation TIMEOUT
+[17:44:59] [WARNING] Ind#373: Signal generation TIMEOUT
+[17:45:02] [WARNING] Ind#374: Signal generation TIMEOUT
+[17:45:06] [WARNING] Ind#376: Signal generation TIMEOUT
+[17:45:16] [WARNING] Ind#377: Signal generation TIMEOUT
+[17:45:22] [WARNING] Ind#378: Signal generation TIMEOUT
+[17:45:24] [SUCCESS] Ind#380 380_sample_entropy             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 27.4s
+[17:45:25] [SUCCESS] Ind#384 384_multiscale_entropy         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 24.9s
+[17:45:27] [SUCCESS] Ind#385 385_compression_ratio          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 23.9s
+[17:45:28] [WARNING] Ind#379: Signal generation TIMEOUT
+[17:45:29] [SUCCESS] Ind#382 382_lempel_ziv_complexity      - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 30.8s
+[17:45:30] [WARNING] Ind#381: Signal generation TIMEOUT
+[17:45:30] [SUCCESS] Ind#386 386_correlation_network        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 21.8s
+[17:45:32] [WARNING] Ind#383: Signal generation TIMEOUT
+[17:45:50] [WARNING] Ind#387: Signal generation TIMEOUT
+[17:45:53] [SUCCESS] Ind#389 389_community_detection        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 28.4s
+[17:45:56] [SUCCESS] Ind#388 388_network_topology           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.5s
+[17:45:58] [SUCCESS] Ind#392 392_attractor_dimension        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 27.8s
+[17:45:57] [SUCCESS] Ind#391 391_lyapunov_exponent          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 28.4s
+[17:46:00] [WARNING] Ind#390: Signal generation TIMEOUT
+[17:46:02] [WARNING] Ind#393: Signal generation TIMEOUT
+[17:46:03] [WARNING] Ind#395: Signal generation TIMEOUT
+[17:46:04] [WARNING] Ind#394: Signal generation TIMEOUT
+[17:46:07] [WARNING] Ind#396: Signal generation TIMEOUT
+[17:46:15] [SUCCESS] Ind#398 398_cross_recurrence           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 19.6s
+[17:46:26] [WARNING] Ind#397: Signal generation TIMEOUT
+[17:46:31] [SUCCESS] Ind#401 401_bid_ask_spread             - SUCCESS: 2/2 combos, PF=0.92, SR=-0.32, 31.0s
+[17:46:31] [SUCCESS] Ind#404 404_trade_intensity            - SUCCESS: 2/2 combos, PF=1.02, SR=0.20, 26.5s
+[17:46:32] [SUCCESS] Ind#400 400_recurrence_time            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.6s
+[17:46:33] [SUCCESS] Ind#399 399_diagonal_line_analysis     - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.8s
+[17:46:33] [SUCCESS] Ind#405 405_price_impact               - SUCCESS: 2/2 combos, PF=1.00, SR=-0.01, 27.9s
+[17:46:34] [SUCCESS] Ind#402 402_order_flow_imbalance       - SUCCESS: 2/2 combos, PF=0.94, SR=-0.45, 32.0s
+[17:46:35] [SUCCESS] Ind#406 406_volume_weighted_spread     - SUCCESS: 2/2 combos, PF=1.01, SR=0.10, 26.8s
+[17:46:38] [SUCCESS] Ind#403 403_market_depth               - SUCCESS: 2/2 combos, PF=1.00, SR=-0.01, 34.2s
+[17:46:40] [SUCCESS] Ind#407 407_effective_spread           - SUCCESS: 2/2 combos, PF=0.95, SR=-0.36, 22.6s
+[17:46:46] [SUCCESS] Ind#413 413_hasbrouck_information_shar - SUCCESS: 2/2 combos, PF=1.01, SR=0.08, 11.8s
+[17:46:54] [SUCCESS] Ind#408 408_quoted_spread              - SUCCESS: 2/2 combos, PF=1.01, SR=0.10, 26.0s
+[17:47:02] [SUCCESS] Ind#414 414_adverse_selection          - SUCCESS: 2/2 combos, PF=9.21, SR=1.28, 27.0s
+[17:47:03] [SUCCESS] Ind#412 412_kyle_lambda                - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 28.9s
+[17:47:05] [SUCCESS] Ind#409 409_roll_measure               - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 31.6s
+[17:47:06] [SUCCESS] Ind#417 417_execution_shortfall        - SUCCESS: 2/2 combos, PF=0.61, SR=-0.77, 25.0s
+[17:47:08] [WARNING] Ind#411: Signal generation TIMEOUT
+[17:47:10] [SUCCESS] Ind#416 416_market_making_spread       - SUCCESS: 2/2 combos, PF=0.95, SR=-0.32, 30.6s
+[17:47:10] [SUCCESS] Ind#410 410_amihud_illiquidity         - SUCCESS: 2/2 combos, PF=0.98, SR=-0.21, 36.9s
+[17:47:11] [SUCCESS] Ind#415 415_inventory_risk             - SUCCESS: 2/2 combos, PF=1.00, SR=0.01, 35.1s
+[17:47:12] [SUCCESS] Ind#418 418_implementation_shortfall   - SUCCESS: 2/2 combos, PF=0.61, SR=-0.77, 24.0s
+[17:47:19] [SUCCESS] Ind#419 419_arrival_price_benchmark    - SUCCESS: 2/2 combos, PF=0.98, SR=-0.18, 21.5s
+[17:47:39] [SUCCESS] Ind#427 427_twap_deviation             - SUCCESS: 2/2 combos, PF=0.98, SR=-0.26, 26.9s
+[17:47:40] [SUCCESS] Ind#421 421_tick_direction             - SUCCESS: 2/2 combos, PF=0.93, SR=-0.64, 35.1s
+[17:47:40] [WARNING] Ind#422: Signal generation TIMEOUT
+[17:47:41] [SUCCESS] Ind#420 420_vwap_execution_quality     - SUCCESS: 2/2 combos, PF=0.98, SR=-0.27, 36.5s
+[17:47:45] [SUCCESS] Ind#428 428_participation_rate         - SUCCESS: 2/2 combos, PF=1.01, SR=0.09, 30.4s
+[17:47:46] [SUCCESS] Ind#424 424_order_book_imbalance       - SUCCESS: 2/2 combos, PF=0.95, SR=-0.44, 36.6s
+[17:47:44] [WARNING] Ind#425: Signal generation TIMEOUT
+[17:47:48] [SUCCESS] Ind#423 423_quote_rule                 - SUCCESS: 2/2 combos, PF=0.95, SR=-0.44, 39.9s
+[17:47:56] [SUCCESS] Ind#426 426_limit_order_book_pressure  - SUCCESS: 2/2 combos, PF=0.96, SR=-0.41, 44.0s
+[17:48:04] [SUCCESS] Ind#429 429_urgency_cost               - SUCCESS: 2/2 combos, PF=0.94, SR=-0.40, 39.7s
+[17:48:08] [SUCCESS] Ind#432 432_pov_algorithm              - SUCCESS: 2/2 combos, PF=1.01, SR=0.09, 25.8s
+[17:48:13] [SUCCESS] Ind#433 433_smart_order_routing        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 29.4s
+[17:48:16] [SUCCESS] Ind#430 430_latency_arbitrage          - SUCCESS: 2/2 combos, PF=1.05, SR=0.36, 34.9s
+[17:48:16] [SUCCESS] Ind#435 435_algo_detection             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 29.0s
+[17:48:17] [SUCCESS] Ind#434 434_dark_pool_indicator        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 29.7s
+[17:48:19] [SUCCESS] Ind#431 431_iceberg_detection          - SUCCESS: 2/2 combos, PF=0.95, SR=-0.39, 37.1s
+[17:48:20] [WARNING] Ind#436: Signal generation TIMEOUT
+[17:48:21] [WARNING] Ind#437: Signal generation TIMEOUT
+[17:48:41] [SUCCESS] Ind#438 438_smart_order_routing        - SUCCESS: 2/2 combos, PF=0.97, SR=-0.33, 41.6s
+[17:48:41] [SUCCESS] Ind#439 439_dark_pool_activity         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.5s
+[17:48:44] [SUCCESS] Ind#440 440_algo_trading_detection     - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.6s
+[17:48:48] [WARNING] Ind#441: Signal generation TIMEOUT
+[17:48:51] [WARNING] Ind#442: Signal generation TIMEOUT
+[17:48:51] [WARNING] Ind#443: Signal generation TIMEOUT
+[17:48:54] [SUCCESS] Ind#444 444_wash_trading               - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 33.9s
+[17:48:54] [WARNING] Ind#445: Signal generation TIMEOUT
+[17:48:57] [WARNING] Ind#447: Signal generation TIMEOUT
+[17:49:04] [SUCCESS] Ind#446 446_momentum_ignition          - SUCCESS: 2/2 combos, PF=0.60, SR=-0.23, 41.1s
+[17:49:15] [WARNING] Ind#448: Signal generation TIMEOUT
+[17:49:17] [SUCCESS] Ind#449 449_order_anticipation         - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.6s
+[17:49:19] [WARNING] Ind#450: Signal generation TIMEOUT
+[17:49:26] [WARNING] Ind#453: Signal generation TIMEOUT
+[17:49:27] [SUCCESS] Ind#451 451_market_quality_index       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 36.0s
+[17:49:31] [SUCCESS] Ind#452 452_microstructure_noise       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 38.3s
+[17:49:31] [WARNING] Ind#455: Signal generation TIMEOUT
+[17:49:31] [WARNING] Ind#454: Signal generation TIMEOUT
+[17:49:33] [SUCCESS] Ind#456 456_pin_risk                   - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.9s
+[17:49:39] [SUCCESS] Ind#457 457_market_resilience          - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.3s
+[17:49:51] [SUCCESS] Ind#459 459_market_fragmentation       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.6s
+[17:49:51] [SUCCESS] Ind#458 458_trade_duration             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.8s
+[17:49:59] [SUCCESS] Ind#461 461_order_flow_toxicity        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.0s
+[17:50:03] [SUCCESS] Ind#464 464_liquidity_provision_score  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 30.8s
+[17:50:03] [WARNING] Ind#462: Signal generation TIMEOUT
+[17:50:03] [SUCCESS] Ind#460 460_execution_probability      - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 42.2s
+[17:50:07] [WARNING] Ind#465: Signal generation TIMEOUT
+[17:50:08] [SUCCESS] Ind#463 463_queue_position             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 35.6s
+[17:50:10] [WARNING] Ind#466: Signal generation TIMEOUT
+[17:50:13] [SUCCESS] Ind#467 467_best_execution             - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 29.9s
+[17:50:19] [SUCCESS] Ind#468 468_venue_selection            - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 25.9s
+[17:50:20] [SUCCESS] Ind#469 469_order_book_dynamics        - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 26.0s
+[17:50:34] [SUCCESS] Ind#474 474_smart_money_flow           - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 25.6s
+[17:50:34] [SUCCESS] Ind#476 476_liquidity_shock            - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 22.4s
+[17:50:35] [SUCCESS] Ind#473 473_trade_aggressiveness       - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 28.1s
+[17:50:37] [SUCCESS] Ind#472 472_optimal_execution_horizon  - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 29.7s
+[17:50:37] [SUCCESS] Ind#470 470_high_frequency_momentum    - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 34.8s
+[17:50:39] [WARNING] Ind#471: Signal generation TIMEOUT
+[17:50:42] [SUCCESS] Ind#475 475_market_microstructure_inva - SUCCESS: 2/2 combos, PF=0.99, SR=-0.09, 32.1s
+[17:50:54] [SUCCESS] Ind#482 482_market_regime_classifier   - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 18.3s
+[17:50:57] [SUCCESS] Ind#483 483_liquidity_provider_profita - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.5s
+[17:51:14] [SUCCESS] Ind#488 488_trade_size_distribution    - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 15.8s
+[17:51:17] [WARNING] Ind#478: Signal generation TIMEOUT
+[17:51:18] [WARNING] Ind#481: Signal generation TIMEOUT
+[17:51:17] [WARNING] Ind#477: Signal generation TIMEOUT
+[17:51:19] [WARNING] Ind#484: Signal generation TIMEOUT
+[17:51:18] [WARNING] Ind#486: Signal generation TIMEOUT
+[17:51:19] [WARNING] Ind#480: Signal generation TIMEOUT
+[17:51:19] [WARNING] Ind#485: Signal generation TIMEOUT
+[17:51:22] [SUCCESS] Ind#479 479_execution_quality_score    - SUCCESS: 2/2 combos, PF=0.94, SR=-0.24, 59.1s
+[17:51:32] [SUCCESS] Ind#490 490_liquidity_heatmap_score    - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 14.0s
+[17:51:35] [SUCCESS] Ind#487 487_market_depth_imbalance     - SUCCESS: 2/2 combos, PF=0.94, SR=-0.49, 38.1s
+[17:51:37] [SUCCESS] Ind#492 492_market_maker_signal_detect - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 18.0s
+[17:51:36] [SUCCESS] Ind#493 493_price_action_footprint     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 15.7s
+[17:51:35] [SUCCESS] Ind#494 494_institutional_order_detect - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 14.8s
+[17:51:39] [SUCCESS] Ind#495 495_microstructure_alpha_score - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.0s
+[17:51:38] [SUCCESS] Ind#496 496_advanced_order_flow_compos - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 16.2s
+[17:51:47] [WARNING] Ind#489: Signal generation TIMEOUT
+[17:51:47] [SUCCESS] Ind#500 500_ultimate_microstructure_in - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 10.0s
+[17:51:51] [WARNING] Ind#491: Signal generation TIMEOUT
+[17:51:51] [SUCCESS] Ind#502 502_chaos_theory_signal        - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 13.8s
+[17:51:55] [WARNING] Ind#497: Signal generation TIMEOUT
+[17:51:57] [SUCCESS] Ind#504 504_fractal_breakout           - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 15.6s
+[17:51:59] [SUCCESS] Ind#503 503_strange_attractor_detector - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 18.6s
+[17:52:07] [SUCCESS] Ind#505 505_nonlinear_dynamics_score   - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 18.1s
+[17:52:06] [SUCCESS] Ind#507 507_phase_space_trajectory     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 13.3s
+[17:52:08] [WARNING] Ind#499: Signal generation TIMEOUT
+[17:52:08] [SUCCESS] Ind#508 508_recurrence_quantification  - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 15.1s
+[17:52:09] [WARNING] Ind#501: Signal generation TIMEOUT
+[17:52:11] [SUCCESS] Ind#510 510_chaos_order_transition     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 12.2s
+[17:52:09] [SUCCESS] Ind#498 498_liquidity_cycle_detector   - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 35.5s
+[17:52:17] [SUCCESS] Ind#512 512_news_impact_score          - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 9.9s
+[17:52:21] [WARNING] Ind#506: Signal generation TIMEOUT
+[17:52:23] [SUCCESS] Ind#517 517_quantum_entanglement_detec - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 11.1s
+[17:52:25] [SUCCESS] Ind#515 515_behavioral_bias_detector   - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 14.4s
+[17:52:26] [SUCCESS] Ind#516 516_quantum_superposition      - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 14.2s
+[17:52:27] [WARNING] Ind#509: Signal generation TIMEOUT
+[17:52:29] [SUCCESS] Ind#518 518_wave_function_collapse     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.7s
+[17:52:36] [SUCCESS] Ind#519 519_quantum_tunneling_breakout - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.1s
+[17:52:37] [SUCCESS] Ind#520 520_quantum_probability_field  - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 14.3s
+[17:52:39] [WARNING] Ind#513: Signal generation TIMEOUT
+[17:52:42] [SUCCESS] Ind#511 511_social_sentiment_analyzer  - SUCCESS: 2/2 combos, PF=1.81, SR=1.01, 41.6s
+[17:52:43] [WARNING] Ind#514: Signal generation TIMEOUT
+[17:52:46] [SUCCESS] Ind#523 523_network_clustering_coeffic - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 19.4s
+[17:52:51] [SUCCESS] Ind#527 527_generative_model_signal    - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 12.1s
+[17:52:54] [SUCCESS] Ind#528 528_contrastive_learning_indic - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 13.9s
+[17:52:57] [WARNING] Ind#521: Signal generation TIMEOUT
+[17:53:00] [WARNING] Ind#522: Signal generation TIMEOUT
+[17:53:02] [WARNING] Ind#524: Signal generation TIMEOUT
+[17:53:01] [SUCCESS] Ind#529 529_self_supervised_pattern    - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 18.0s
+[17:53:06] [SUCCESS] Ind#525 525_network_flow_analysis      - SUCCESS: 2/2 combos, PF=0.60, SR=-0.71, 35.6s
+[17:53:09] [SUCCESS] Ind#532 532_statistical_arbitrage_sign - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 16.9s
+[17:53:16] [WARNING] Ind#530: Signal generation TIMEOUT
+[17:53:18] [SUCCESS] Ind#533 533_market_neutral_strategy    - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 22.4s
+[17:53:19] [SUCCESS] Ind#526 526_adversarial_learning_detec - SUCCESS: 2/2 combos, PF=1.04, SR=0.31, 42.1s
+[17:53:20] [SUCCESS] Ind#536 536_multi_strategy_fusion      - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.1s
+[17:53:19] [WARNING] Ind#531: Signal generation TIMEOUT
+[17:53:21] [SUCCESS] Ind#535 535_factor_timing_model        - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 19.3s
+[17:53:28] [SUCCESS] Ind#539 539_dynamic_portfolio_optimize - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 16.5s
+[17:53:32] [WARNING] Ind#534: Signal generation TIMEOUT
+[17:53:36] [WARNING] Ind#537: Signal generation TIMEOUT
+[17:53:37] [SUCCESS] Ind#541 541_risk_parity_allocator      - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.1s
+[17:53:38] [SUCCESS] Ind#540 540_ultimate_alpha_generator   - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 19.6s
+[17:53:41] [WARNING] Ind#538: Signal generation TIMEOUT
+[17:53:43] [SUCCESS] Ind#545 545_crisis_alpha_generator     - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 22.1s
+[17:53:47] [SUCCESS] Ind#546 546_sentiment_momentum_fusion  - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 17.3s
+[17:53:53] [WARNING] Ind#542: Signal generation TIMEOUT
+[17:53:54] [SUCCESS] Ind#547 547_cross_asset_correlation_si - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 21.0s
+[17:53:55] [WARNING] Ind#543: Signal generation TIMEOUT
+[17:53:55] [WARNING] Ind#544: Signal generation TIMEOUT
+[17:54:05] [SUCCESS] Ind#550 550_global_risk_appetite_index - SUCCESS: 2/2 combos, PF=0.97, SR=-0.30, 24.3s
+[17:54:13] [WARNING] Ind#549: Signal generation TIMEOUT
+[17:54:13] [WARNING] Ind#548: Signal generation TIMEOUT
+[17:54:15] [WARNING] Ind#551: Signal generation TIMEOUT
+[17:54:18] [WARNING] Ind#552: Signal generation TIMEOUT
+[17:54:21] [WARNING] Ind#553: Signal generation TIMEOUT
+[17:54:23] [WARNING] Ind#555: Too few signals (0)
+[17:54:26] [WARNING] Ind#554: Signal generation TIMEOUT
+[17:54:28] [WARNING] Ind#561: Signal generation TIMEOUT
+[17:54:32] [WARNING] Ind#562: Signal generation TIMEOUT
+[17:54:38] [WARNING] Ind#563: Signal generation TIMEOUT
+[17:54:47] [WARNING] Ind#564: Signal generation TIMEOUT
+[17:54:48] [WARNING] Ind#566: Signal generation TIMEOUT
+[17:54:49] [WARNING] Ind#565: Signal generation TIMEOUT
+[17:54:54] [WARNING] Ind#567: Signal generation TIMEOUT
+[17:54:56] [WARNING] Ind#568: Signal generation TIMEOUT
+[17:54:57] [WARNING] Ind#569: Signal generation TIMEOUT
+[17:55:00] [WARNING] Ind#570: Signal generation TIMEOUT
+[17:55:03] [WARNING] Ind#571: Signal generation TIMEOUT
+[17:55:07] [WARNING] Ind#572: Signal generation TIMEOUT
+[17:55:11] [WARNING] Ind#573: Signal generation TIMEOUT
+[17:55:21] [WARNING] Ind#574: Signal generation TIMEOUT
+[17:55:22] [WARNING] Ind#576: Signal generation TIMEOUT
+[17:55:23] [WARNING] Ind#575: Signal generation TIMEOUT
+[17:55:29] [WARNING] Ind#577: Signal generation TIMEOUT
+[17:55:30] [WARNING] Ind#578: Signal generation TIMEOUT
+[17:55:33] [WARNING] Ind#580: Signal generation TIMEOUT
+[17:55:33] [WARNING] Ind#579: Signal generation TIMEOUT
+[17:55:36] [WARNING] Ind#581: Signal generation TIMEOUT
+[17:55:41] [WARNING] Ind#582: Signal generation TIMEOUT
+[17:55:45] [WARNING] Ind#583: Signal generation TIMEOUT
+[17:55:56] [WARNING] Ind#585: Signal generation TIMEOUT
+[17:55:56] [WARNING] Ind#584: Signal generation TIMEOUT
+[17:55:57] [WARNING] Ind#586: Signal generation TIMEOUT
+[17:56:02] [WARNING] Ind#587: Signal generation TIMEOUT
+[17:56:05] [WARNING] Ind#588: Signal generation TIMEOUT
+[17:56:06] [WARNING] Ind#589: Signal generation TIMEOUT
+[17:56:07] [WARNING] Ind#590: Signal generation TIMEOUT
+[17:56:10] [WARNING] Ind#591: Signal generation TIMEOUT
+[17:56:16] [WARNING] Ind#592: Signal generation TIMEOUT
+[17:56:19] [WARNING] Ind#593: Signal generation TIMEOUT
+[17:56:30] [WARNING] Ind#594: Signal generation TIMEOUT
+[17:56:31] [WARNING] Ind#596: Signal generation TIMEOUT
+[17:56:31] [WARNING] Ind#595: Signal generation TIMEOUT
+[17:56:37] [WARNING] Ind#597: Signal generation TIMEOUT
+[17:56:39] [WARNING] Ind#598: Signal generation TIMEOUT
+[17:56:41] [WARNING] Ind#600: Signal generation TIMEOUT
+[17:56:40] [WARNING] Ind#599: Signal generation TIMEOUT
+[17:56:48] [INFO] Results saved to: /opt/Zenatus_Backtester\01_Backtest_System\QUICKTEST_RESULTS.json
+[17:56:51] [SUCCESS] Quicktest complete: 360 successful indicators

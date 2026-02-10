@@ -1,0 +1,51 @@
+=== WORKER 9 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[TIMEOUT] 390_pagerank_signal killed after 1800s
+[W9] [TIMEOUT] 390_pagerank_signal killed
+[W9] [ERR] 391_lyapunov_exponent process finished but returned no result
+[W9] [ERR] 392_attractor_dimension process finished but returned no result
+[W9] [ERR] 394_bifurcation_detector process finished but returned no result
+[W9] [ERR] 395_nonlinear_prediction process finished but returned no result
+[W9] [ERR] 396_recurrence_plot process finished but returned no result
+[W9] [ERR] 398_cross_recurrence process finished but returned no result
+[W9] [ERR] 399_diagonal_line_analysis process finished but returned no result
+[W9] [ERR] 400_recurrence_time process finished but returned no result
+[W9] [ERR] 401_bid_ask_spread process finished but returned no result
+[W9] [ERR] 402_order_flow_imbalance process finished but returned no result
+[W9] [ERR] 404_trade_intensity process finished but returned no result
+[W9] [ERR] 405_price_impact process finished but returned no result
+[W9] [ERR] 406_volume_weighted_spread process finished but returned no result
+[W9] [ERR] 407_effective_spread process finished but returned no result
+[W9] [ERR] 408_quoted_spread process finished but returned no result
+[W9] [ERR] 409_roll_measure process finished but returned no result
+[W9] [ERR] 410_amihud_illiquidity process finished but returned no result
+[W9] [ERR] 412_kyle_lambda process finished but returned no result
+[W9] [ERR] 414_adverse_selection process finished but returned no result
+[W9] [ERR] 415_inventory_risk process finished but returned no result
+[W9] [ERR] 416_market_making_spread process finished but returned no result
+[W9] [ERR] 417_execution_shortfall process finished but returned no result
+[W9] [ERR] 418_implementation_shortfall process finished but returned no result
+[W9] [ERR] 419_arrival_price_benchmark process finished but returned no result
+[W9] [ERR] 420_vwap_execution_quality process finished but returned no result
+[W9] [17:45:46] [421] [421_tick_direction] [30m] [Combos: 13200] [Ret: 0.235%] [DD: 0.103%] [PF: 1.6] [Sharpe: 1.425] [Trades: 93] [WR: 30.11%] [00:01:44]
+[W9] [ERR] 422_tick_rule process finished but returned no result
+[W9] [ERR] 423_quote_rule process finished but returned no result
+[W9] [ERR] 424_order_book_imbalance process finished but returned no result
+[W9] [ERR] 425_order_book_slope process finished but returned no result
+[W9] [ERR] 426_limit_order_book_pressure process finished but returned no result
+[W9] [ERR] 427_twap_deviation process finished but returned no result
+[W9] [ERR] 428_participation_rate process finished but returned no result
+[W9] [ERR] 429_urgency_cost process finished but returned no result
+[W9] [ERR] 430_latency_arbitrage process finished but returned no result
+[W9] [ERR] 431_iceberg_detection process finished but returned no result
+[W9] [ERR] 432_pov_algorithm process finished but returned no result
+[W9] [ERR] 433_smart_order_routing process finished but returned no result
+[W9] [ERR] 434_dark_pool_indicator process finished but returned no result
+[W9] [ERR] 435_algo_detection process finished but returned no result
+[W9] [ERR] 436_iceberg_detection process finished but returned no result

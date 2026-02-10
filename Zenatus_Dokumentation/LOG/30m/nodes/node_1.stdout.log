@@ -1,0 +1,56 @@
+=== WORKER 1 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W1] [ERR] 001_trend_sma process finished but returned no result
+[W1] [ERR] 003_trend_wma process finished but returned no result
+[W1] [ERR] 004_trend_dema process finished but returned no result
+[W1] [ERR] 005_trend_tema process finished but returned no result
+[W1] [ERR] 006_trend_trima process finished but returned no result
+[W1] [ERR] 007_trend_kama process finished but returned no result
+[W1] [ERR] 014_trend_frama process finished but returned no result
+[W1] [ERR] 015_trend_mcginley process finished but returned no result
+[W1] [ERR] 016_trend_sinwma process finished but returned no result
+[W1] [ERR] 017_trend_vwma process finished but returned no result
+[W1] [ERR] 018_trend_tsf process finished but returned no result
+[W1] [ERR] 019_trend_linreg process finished but returned no result
+[W1] [ERR] 020_trend_lsma process finished but returned no result
+[W1] [ERR] 022_trend_smma process finished but returned no result
+[W1] [ERR] 023_trend_wilders process finished but returned no result
+[W1] [ERR] 024_trend_gma process finished but returned no result
+[W1] [ERR] 025_trend_harmonic process finished but returned no result
+[W1] [ERR] 026_trend_adx process finished but returned no result
+[W1] [ERR] 027_trend_dmi process finished but returned no result
+[W1] [ERR] 028_trend_aroon process finished but returned no result
+[W1] [ERR] 029_trend_aroonosc process finished but returned no result
+[W1] [ERR] 030_trend_psar process finished but returned no result
+[W1] [ERR] 031_trend_supertrend process finished but returned no result
+[W1] [ERR] 032_trend_vortex process finished but returned no result
+[W1] [ERR] 033_trend_massindex process finished but returned no result
+[W1] [ERR] 035_trend_tii process finished but returned no result
+[W1] [ERR] 037_trend_roc process finished but returned no result
+[ERR] 039_trend_williams_r EUR_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r GBP_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CHF: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r USD_CAD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r AUD_USD: oversold = -40 above maximum -70
+[ERR] 039_trend_williams_r NZD_USD: oversold = -40 above maximum -70
+[W1] [17:00:50] [039] [039_trend_williams_r] NO RESULTS (0s)
+[W1] [ERR] 040_trend_stochastic process finished but returned no result
+[W1] [ERR] 041_trend_rsi process finished but returned no result
+[W1] [ERR] 042_trend_macd process finished but returned no result
+[W1] [ERR] 043_trend_bollinger process finished but returned no result
+[W1] [ERR] 044_trend_atr process finished but returned no result
+[W1] [ERR] 045_trend_keltner process finished but returned no result
+[W1] [ERR] 046_trend_donchian process finished but returned no result
+[W1] [ERR] 047_volume_obv process finished but returned no result
+[W1] [ERR] 048_volume_mfi process finished but returned no result
+[W1] [ERR] 050_trend_ichimoku process finished but returned no result
+[W1] [17:11:05] [051] [051_volume_vwap] [30m] [Combos: 3960] [Ret: 0.185%] [DD: 0.1085%] [PF: 1.131] [Sharpe: 0.923] [Trades: 454] [WR: 46.04%] [00:00:40]
+[W1] [ERR] 052_volume_force_index process finished but returned no result
+[W1] [ERR] 053_volume_ad process finished but returned no result
+[W1] [ERR] 055_trend_stoch_rsi process finished but returned no result

@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 002_trend_ema trades=100 net_ret=-0.02% max_dd=0.06% time=6s

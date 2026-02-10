@@ -1,0 +1,3078 @@
+{
+  "55": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "82": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "90": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "102": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "106": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "111": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "113": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "114": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "117": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "126": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "127": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "131": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "139": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "141": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "143": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "144": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "157": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "158": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "159": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "161": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "162": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "163": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "164": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "166": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "169": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "171": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "172": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "178": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "180": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "181": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "183": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "187": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "189": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "193": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "197": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "199": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "201": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "202": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "203": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "204": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "205": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "217": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "218": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "219": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "220": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "222": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "224": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "225": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "226": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "229": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "230": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "232": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "233": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "237": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "241": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "242": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "245": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "247": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "248": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "249": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "250": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "251": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "252": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "253": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "256": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "257": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "258": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "259": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "260": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "261": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "262": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "265": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "268": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "269": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "275": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "277": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "278": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "279": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "288": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "290": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "292": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "293": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "294": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "295": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "297": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "298": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "300": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "301": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "302": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "303": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "304": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "306": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "307": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "308": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "311": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "314": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "315": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "318": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "319": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "320": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "328": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "333": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "337": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "363": {
+    "indicator_type": "unknown",
+    "entry_parameters": {},
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          100
+        ],
+        "optimal": [
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          50
+        ],
+        "optimal": [
+          50
+        ]
+      }
+    },
+    "note": "Simplified for problem indicators - MAX 2 combinations"
+  },
+  "367": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 6 timeouts - optimized for re-test"
+  },
+  "368": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 29 timeouts - optimized for re-test"
+  },
+  "369": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 48 timeouts - optimized for re-test"
+  },
+  "370": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 42 timeouts - optimized for re-test"
+  },
+  "371": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 60 timeouts - optimized for re-test"
+  },
+  "376": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 5 timeouts - optimized for re-test"
+  },
+  "471": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 57 timeouts - optimized for re-test"
+  },
+  "478": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 1 timeouts - optimized for re-test"
+  },
+  "552": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 2 timeouts - optimized for re-test"
+  },
+  "553": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 6 timeouts - optimized for re-test"
+  },
+  "554": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 5 timeouts - optimized for re-test"
+  },
+  "555": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 27 timeouts - optimized for re-test"
+  },
+  "561": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 26 timeouts - optimized for re-test"
+  },
+  "562": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 29 timeouts - optimized for re-test"
+  },
+  "563": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 4 timeouts - optimized for re-test"
+  },
+  "564": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 2 timeouts - optimized for re-test"
+  },
+  "565": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 13 timeouts - optimized for re-test"
+  },
+  "566": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 35 timeouts - optimized for re-test"
+  },
+  "567": {
+    "indicator_type": "timeout_success",
+    "entry_parameters": {
+      "period": {
+        "values": [
+          10,
+          20,
+          30
+        ],
+        "optimal": [
+          20
+        ]
+      }
+    },
+    "exit_parameters": {
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ],
+        "optimal": [
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          50
+        ],
+        "optimal": [
+          40
+        ]
+      }
+    },
+    "note": "Timeout-SUCCESS indicator with 7 timeouts - optimized for re-test"
+  }
+}

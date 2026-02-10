@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 007_trend_kama trades=115 net_ret=-0.02% max_dd=0.09% time=7s

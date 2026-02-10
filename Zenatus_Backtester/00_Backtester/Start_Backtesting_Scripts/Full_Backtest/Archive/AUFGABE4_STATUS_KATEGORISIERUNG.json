@@ -1,0 +1,2797 @@
+{
+  "summary": {
+    "total_unique": 467,
+    "total_tested": 215,
+    "total_not_tested": 252,
+    "A_fehlerhaft": 0,
+    "B_timeout": 1,
+    "C_no_results": 0,
+    "D_warnings": 101,
+    "E_backtestfaehig": 150
+  },
+  "not_tested_strategies": [
+    {
+      "id": 8,
+      "name": "trend_hma",
+      "filename": "008_trend_hma.py"
+    },
+    {
+      "id": 13,
+      "name": "trend_vidya",
+      "filename": "013_trend_vidya.py"
+    },
+    {
+      "id": 14,
+      "name": "trend_frama",
+      "filename": "014_trend_frama.py"
+    },
+    {
+      "id": 16,
+      "name": "trend_sinwma",
+      "filename": "016_trend_sinwma.py"
+    },
+    {
+      "id": 17,
+      "name": "trend_vwma",
+      "filename": "017_trend_vwma.py"
+    },
+    {
+      "id": 18,
+      "name": "trend_tsf",
+      "filename": "018_trend_tsf.py"
+    },
+    {
+      "id": 20,
+      "name": "trend_lsma",
+      "filename": "020_trend_lsma.py"
+    },
+    {
+      "id": 21,
+      "name": "trend_mama",
+      "filename": "021_trend_mama.py"
+    },
+    {
+      "id": 22,
+      "name": "trend_smma",
+      "filename": "022_trend_smma.py"
+    },
+    {
+      "id": 24,
+      "name": "trend_gma",
+      "filename": "024_trend_gma.py"
+    },
+    {
+      "id": 25,
+      "name": "trend_harmonic",
+      "filename": "025_trend_harmonic.py"
+    },
+    {
+      "id": 26,
+      "name": "trend_adx",
+      "filename": "026_trend_adx.py"
+    },
+    {
+      "id": 28,
+      "name": "trend_aroon",
+      "filename": "028_trend_aroon.py"
+    },
+    {
+      "id": 29,
+      "name": "trend_aroonosc",
+      "filename": "029_trend_aroonosc.py"
+    },
+    {
+      "id": 30,
+      "name": "trend_psar",
+      "filename": "030_trend_psar.py"
+    },
+    {
+      "id": 32,
+      "name": "trend_vortex",
+      "filename": "032_trend_vortex.py"
+    },
+    {
+      "id": 35,
+      "name": "trend_tii",
+      "filename": "035_trend_tii.py"
+    },
+    {
+      "id": 43,
+      "name": "trend_bollinger",
+      "filename": "043_trend_bollinger.py"
+    },
+    {
+      "id": 53,
+      "name": "volume_ad",
+      "filename": "053_volume_ad.py"
+    },
+    {
+      "id": 55,
+      "name": "trend_stoch_rsi",
+      "filename": "055_trend_stoch_rsi.py"
+    },
+    {
+      "id": 56,
+      "name": "trend_awesome_osc",
+      "filename": "056_trend_awesome_osc.py"
+    },
+    {
+      "id": 57,
+      "name": "trend_accelerator_osc",
+      "filename": "057_trend_accelerator_osc.py"
+    },
+    {
+      "id": 58,
+      "name": "trend_gator",
+      "filename": "058_trend_gator.py"
+    },
+    {
+      "id": 59,
+      "name": "trend_alligator",
+      "filename": "059_trend_alligator.py"
+    },
+    {
+      "id": 70,
+      "name": "trend_kdj",
+      "filename": "070_trend_kdj.py"
+    },
+    {
+      "id": 71,
+      "name": "trend_pgo",
+      "filename": "071_trend_pgo.py"
+    },
+    {
+      "id": 72,
+      "name": "trend_psychline",
+      "filename": "072_trend_psychline.py"
+    },
+    {
+      "id": 73,
+      "name": "trend_qqe",
+      "filename": "073_trend_qqe.py"
+    },
+    {
+      "id": 74,
+      "name": "trend_rainbow",
+      "filename": "074_trend_rainbow.py"
+    },
+    {
+      "id": 75,
+      "name": "trend_smiergodic",
+      "filename": "075_trend_smiergodic.py"
+    },
+    {
+      "id": 76,
+      "name": "trend_smi",
+      "filename": "076_trend_smi.py"
+    },
+    {
+      "id": 77,
+      "name": "trend_trendflex",
+      "filename": "077_trend_trendflex.py"
+    },
+    {
+      "id": 78,
+      "name": "trend_macdhist",
+      "filename": "078_trend_macdhist.py"
+    },
+    {
+      "id": 79,
+      "name": "trend_macdsignal",
+      "filename": "079_trend_macdsignal.py"
+    },
+    {
+      "id": 80,
+      "name": "trend_zerolagmacd",
+      "filename": "080_trend_zerolagmacd.py"
+    },
+    {
+      "id": 82,
+      "name": "trend_coppock",
+      "filename": "082_trend_coppock.py"
+    },
+    {
+      "id": 83,
+      "name": "trend_detrendedprice",
+      "filename": "083_trend_detrendedprice.py"
+    },
+    {
+      "id": 84,
+      "name": "trend_efficiencyratio",
+      "filename": "084_trend_efficiencyratio.py"
+    },
+    {
+      "id": 86,
+      "name": "trend_frama",
+      "filename": "086_trend_frama.py"
+    },
+    {
+      "id": 88,
+      "name": "trend_highlowindex",
+      "filename": "088_trend_highlowindex.py"
+    },
+    {
+      "id": 89,
+      "name": "trend_histvol",
+      "filename": "089_trend_histvol.py"
+    },
+    {
+      "id": 90,
+      "name": "trend_hullmaosc",
+      "filename": "090_trend_hullmaosc.py"
+    },
+    {
+      "id": 92,
+      "name": "trend_kauffman",
+      "filename": "092_trend_kauffman.py"
+    },
+    {
+      "id": 93,
+      "name": "trend_laguerre",
+      "filename": "093_trend_laguerre.py"
+    },
+    {
+      "id": 94,
+      "name": "trend_linearregslope",
+      "filename": "094_trend_linearregslope.py"
+    },
+    {
+      "id": 95,
+      "name": "volume_mfi_extended",
+      "filename": "095_volume_mfi_extended.py"
+    },
+    {
+      "id": 97,
+      "name": "trend_parabolicsar_extended",
+      "filename": "097_trend_parabolicsar_extended.py"
+    },
+    {
+      "id": 99,
+      "name": "trend_priceoscillator",
+      "filename": "099_trend_priceoscillator.py"
+    },
+    {
+      "id": 100,
+      "name": "trend_renko",
+      "filename": "100_trend_renko.py"
+    },
+    {
+      "id": 101,
+      "name": "trend_inversefisher",
+      "filename": "101_trend_inversefisher.py"
+    },
+    {
+      "id": 102,
+      "name": "trend_connorsrsi",
+      "filename": "102_trend_connorsrsi.py"
+    },
+    {
+      "id": 103,
+      "name": "trend_laguerrersi",
+      "filename": "103_trend_laguerrersi.py"
+    },
+    {
+      "id": 105,
+      "name": "trend_ergodic",
+      "filename": "105_trend_ergodic.py"
+    },
+    {
+      "id": 106,
+      "name": "trend_cog",
+      "filename": "106_trend_cog.py"
+    },
+    {
+      "id": 107,
+      "name": "trend_cybercycle",
+      "filename": "107_trend_cybercycle.py"
+    },
+    {
+      "id": 108,
+      "name": "trend_decycler",
+      "filename": "108_trend_decycler.py"
+    },
+    {
+      "id": 109,
+      "name": "trend_ebs",
+      "filename": "109_trend_ebs.py"
+    },
+    {
+      "id": 110,
+      "name": "trend_hilbert",
+      "filename": "110_trend_hilbert.py"
+    },
+    {
+      "id": 111,
+      "name": "trend_reflex",
+      "filename": "111_trend_reflex.py"
+    },
+    {
+      "id": 112,
+      "name": "trend_trendvigor",
+      "filename": "112_trend_trendvigor.py"
+    },
+    {
+      "id": 113,
+      "name": "trend_correlationcycle",
+      "filename": "113_trend_correlationcycle.py"
+    },
+    {
+      "id": 114,
+      "name": "trend_dominantcycle",
+      "filename": "114_trend_dominantcycle.py"
+    },
+    {
+      "id": 116,
+      "name": "trend_sinewave",
+      "filename": "116_trend_sinewave.py"
+    },
+    {
+      "id": 117,
+      "name": "trend_fractaldimension",
+      "filename": "117_trend_fractaldimension.py"
+    },
+    {
+      "id": 122,
+      "name": "trend_cycleperiod",
+      "filename": "122_trend_cycleperiod.py"
+    },
+    {
+      "id": 123,
+      "name": "trend_adaptivemacd",
+      "filename": "123_trend_adaptivemacd.py"
+    },
+    {
+      "id": 125,
+      "name": "trend_vhf",
+      "filename": "125_trend_vhf.py"
+    },
+    {
+      "id": 126,
+      "name": "trend_trendstrengthindex",
+      "filename": "126_trend_trendstrengthindex.py"
+    },
+    {
+      "id": 127,
+      "name": "trend_rsquared",
+      "filename": "127_trend_rsquared.py"
+    },
+    {
+      "id": 128,
+      "name": "trend_pricechannels",
+      "filename": "128_trend_pricechannels.py"
+    },
+    {
+      "id": 129,
+      "name": "trend_envelopechannels",
+      "filename": "129_trend_envelopechannels.py"
+    },
+    {
+      "id": 130,
+      "name": "trend_stdchannels",
+      "filename": "130_trend_stdchannels.py"
+    },
+    {
+      "id": 131,
+      "name": "trend_regressionchannels",
+      "filename": "131_trend_regressionchannels.py"
+    },
+    {
+      "id": 132,
+      "name": "trend_fibonaccichannels",
+      "filename": "132_trend_fibonaccichannels.py"
+    },
+    {
+      "id": 133,
+      "name": "trend_accelerationbands",
+      "filename": "133_trend_accelerationbands.py"
+    },
+    {
+      "id": 134,
+      "name": "trend_starcbands",
+      "filename": "134_trend_starcbands.py"
+    },
+    {
+      "id": 135,
+      "name": "trend_maenvelope",
+      "filename": "135_trend_maenvelope.py"
+    },
+    {
+      "id": 136,
+      "name": "trend_chandelierexit",
+      "filename": "136_trend_chandelierexit.py"
+    },
+    {
+      "id": 138,
+      "name": "trend_volatilitychannels",
+      "filename": "138_trend_volatilitychannels.py"
+    },
+    {
+      "id": 139,
+      "name": "trend_dynamicchannels",
+      "filename": "139_trend_dynamicchannels.py"
+    },
+    {
+      "id": 141,
+      "name": "trend_projectionbands",
+      "filename": "141_trend_projectionbands.py"
+    },
+    {
+      "id": 142,
+      "name": "trend_squeezeindicator",
+      "filename": "142_trend_squeezeindicator.py"
+    },
+    {
+      "id": 143,
+      "name": "trend_ttmsqueeze",
+      "filename": "143_trend_ttmsqueeze.py"
+    },
+    {
+      "id": 144,
+      "name": "trend_bollingerbandwidth",
+      "filename": "144_trend_bollingerbandwidth.py"
+    },
+    {
+      "id": 155,
+      "name": "pattern_candlestickpatterns",
+      "filename": "155_pattern_candlestickpatterns.py"
+    },
+    {
+      "id": 156,
+      "name": "pattern_priceaction",
+      "filename": "156_pattern_priceaction.py"
+    },
+    {
+      "id": 157,
+      "name": "pattern_chartpatterns",
+      "filename": "157_pattern_chartpatterns.py"
+    },
+    {
+      "id": 158,
+      "name": "pattern_harmonicpatterns",
+      "filename": "158_pattern_harmonicpatterns.py"
+    },
+    {
+      "id": 159,
+      "name": "pattern_elliottwave",
+      "filename": "159_pattern_elliottwave.py"
+    },
+    {
+      "id": 160,
+      "name": "pattern_wyckoff",
+      "filename": "160_pattern_wyckoff.py"
+    },
+    {
+      "id": 161,
+      "name": "pattern_supportresistance",
+      "filename": "161_pattern_supportresistance.py"
+    },
+    {
+      "id": 162,
+      "name": "pattern_trendlines",
+      "filename": "162_pattern_trendlines.py"
+    },
+    {
+      "id": 163,
+      "name": "pattern_fibonacciretracement",
+      "filename": "163_pattern_fibonacciretracement.py"
+    },
+    {
+      "id": 164,
+      "name": "pattern_fibonacciextension",
+      "filename": "164_pattern_fibonacciextension.py"
+    },
+    {
+      "id": 165,
+      "name": "pattern_pivotpoints",
+      "filename": "165_pattern_pivotpoints.py"
+    },
+    {
+      "id": 166,
+      "name": "volatility_garch",
+      "filename": "166_volatility_garch.py"
+    },
+    {
+      "id": 167,
+      "name": "volatility_ewma",
+      "filename": "167_volatility_ewma.py"
+    },
+    {
+      "id": 169,
+      "name": "volatility_regime_detection",
+      "filename": "169_volatility_regime_detection.py"
+    },
+    {
+      "id": 171,
+      "name": "range_true_range",
+      "filename": "171_range_true_range.py"
+    },
+    {
+      "id": 172,
+      "name": "range_daily",
+      "filename": "172_range_daily.py"
+    },
+    {
+      "id": 173,
+      "name": "range_weekly",
+      "filename": "173_range_weekly.py"
+    },
+    {
+      "id": 174,
+      "name": "range_monthly",
+      "filename": "174_range_monthly.py"
+    },
+    {
+      "id": 175,
+      "name": "range_expansion_index",
+      "filename": "175_range_expansion_index.py"
+    },
+    {
+      "id": 176,
+      "name": "range_contraction_index",
+      "filename": "176_range_contraction_index.py"
+    },
+    {
+      "id": 178,
+      "name": "range_bound",
+      "filename": "178_range_bound.py"
+    },
+    {
+      "id": 180,
+      "name": "range_adaptive",
+      "filename": "180_range_adaptive.py"
+    },
+    {
+      "id": 181,
+      "name": "volume_weighted_price",
+      "filename": "181_volume_weighted_price.py"
+    },
+    {
+      "id": 183,
+      "name": "volume_trend",
+      "filename": "183_volume_trend.py"
+    },
+    {
+      "id": 184,
+      "name": "volume_oscillator",
+      "filename": "184_volume_oscillator.py"
+    },
+    {
+      "id": 185,
+      "name": "volume_divergence",
+      "filename": "185_volume_divergence.py"
+    },
+    {
+      "id": 187,
+      "name": "volume_profile",
+      "filename": "187_volume_profile.py"
+    },
+    {
+      "id": 188,
+      "name": "volume_price_trend",
+      "filename": "188_volume_price_trend.py"
+    },
+    {
+      "id": 189,
+      "name": "volume_roc",
+      "filename": "189_volume_roc.py"
+    },
+    {
+      "id": 190,
+      "name": "volume_weighted_average_price",
+      "filename": "190_volume_weighted_average_price.py"
+    },
+    {
+      "id": 192,
+      "name": "volume_accumulation_distribution",
+      "filename": "192_volume_accumulation_distribution.py"
+    },
+    {
+      "id": 193,
+      "name": "volume_price_confirmation",
+      "filename": "193_volume_price_confirmation.py"
+    },
+    {
+      "id": 194,
+      "name": "volume_intensity",
+      "filename": "194_volume_intensity.py"
+    },
+    {
+      "id": 195,
+      "name": "volume_force_index",
+      "filename": "195_volume_force_index.py"
+    },
+    {
+      "id": 196,
+      "name": "volume_weighted_momentum",
+      "filename": "196_volume_weighted_momentum.py"
+    },
+    {
+      "id": 197,
+      "name": "volume_efficiency",
+      "filename": "197_volume_efficiency.py"
+    },
+    {
+      "id": 198,
+      "name": "volume_delta",
+      "filename": "198_volume_delta.py"
+    },
+    {
+      "id": 199,
+      "name": "volume_flow_indicator",
+      "filename": "199_volume_flow_indicator.py"
+    },
+    {
+      "id": 200,
+      "name": "volume_spread_analysis",
+      "filename": "200_volume_spread_analysis.py"
+    },
+    {
+      "id": 201,
+      "name": "volume_profile",
+      "filename": "201_volume_profile.py"
+    },
+    {
+      "id": 202,
+      "name": "volume_at_price",
+      "filename": "202_volume_at_price.py"
+    },
+    {
+      "id": 203,
+      "name": "point_of_control",
+      "filename": "203_point_of_control.py"
+    },
+    {
+      "id": 204,
+      "name": "value_area_high",
+      "filename": "204_value_area_high.py"
+    },
+    {
+      "id": 205,
+      "name": "value_area_low",
+      "filename": "205_value_area_low.py"
+    },
+    {
+      "id": 206,
+      "name": "volume_weighted_ma",
+      "filename": "206_volume_weighted_ma.py"
+    },
+    {
+      "id": 209,
+      "name": "smart_money_index",
+      "filename": "209_smart_money_index.py"
+    },
+    {
+      "id": 210,
+      "name": "tick_volume_index",
+      "filename": "210_tick_volume_index.py"
+    },
+    {
+      "id": 214,
+      "name": "volume_divergence",
+      "filename": "214_volume_divergence.py"
+    },
+    {
+      "id": 215,
+      "name": "volume_confirmation",
+      "filename": "215_volume_confirmation.py"
+    },
+    {
+      "id": 216,
+      "name": "volume_momentum",
+      "filename": "216_volume_momentum.py"
+    },
+    {
+      "id": 217,
+      "name": "volume_strength",
+      "filename": "217_volume_strength.py"
+    },
+    {
+      "id": 218,
+      "name": "volume_pressure",
+      "filename": "218_volume_pressure.py"
+    },
+    {
+      "id": 219,
+      "name": "volume_distribution",
+      "filename": "219_volume_distribution.py"
+    },
+    {
+      "id": 220,
+      "name": "volume_cycle",
+      "filename": "220_volume_cycle.py"
+    },
+    {
+      "id": 222,
+      "name": "trade_volume",
+      "filename": "222_trade_volume.py"
+    },
+    {
+      "id": 223,
+      "name": "buy_volume",
+      "filename": "223_buy_volume.py"
+    },
+    {
+      "id": 224,
+      "name": "sell_volume",
+      "filename": "224_sell_volume.py"
+    },
+    {
+      "id": 225,
+      "name": "delta_volume",
+      "filename": "225_delta_volume.py"
+    },
+    {
+      "id": 226,
+      "name": "cumulative_delta",
+      "filename": "226_cumulative_delta.py"
+    },
+    {
+      "id": 228,
+      "name": "order_flow",
+      "filename": "228_order_flow.py"
+    },
+    {
+      "id": 229,
+      "name": "market_depth",
+      "filename": "229_market_depth.py"
+    },
+    {
+      "id": 230,
+      "name": "bid_ask_spread",
+      "filename": "230_bid_ask_spread.py"
+    },
+    {
+      "id": 232,
+      "name": "ask_volume",
+      "filename": "232_ask_volume.py"
+    },
+    {
+      "id": 233,
+      "name": "trade_intensity",
+      "filename": "233_trade_intensity.py"
+    },
+    {
+      "id": 236,
+      "name": "large_trade_detector",
+      "filename": "236_large_trade_detector.py"
+    },
+    {
+      "id": 237,
+      "name": "block_trade_detector",
+      "filename": "237_block_trade_detector.py"
+    },
+    {
+      "id": 239,
+      "name": "retail_volume",
+      "filename": "239_retail_volume.py"
+    },
+    {
+      "id": 241,
+      "name": "skewness",
+      "filename": "241_skewness.py"
+    },
+    {
+      "id": 242,
+      "name": "kurtosis",
+      "filename": "242_kurtosis.py"
+    },
+    {
+      "id": 243,
+      "name": "zscore",
+      "filename": "243_zscore.py"
+    },
+    {
+      "id": 244,
+      "name": "tscore",
+      "filename": "244_tscore.py"
+    },
+    {
+      "id": 245,
+      "name": "percentile",
+      "filename": "245_percentile.py"
+    },
+    {
+      "id": 246,
+      "name": "quartile",
+      "filename": "246_quartile.py"
+    },
+    {
+      "id": 247,
+      "name": "iqr",
+      "filename": "247_iqr.py"
+    },
+    {
+      "id": 248,
+      "name": "mad",
+      "filename": "248_mad.py"
+    },
+    {
+      "id": 249,
+      "name": "coefficient_variation",
+      "filename": "249_coefficient_variation.py"
+    },
+    {
+      "id": 250,
+      "name": "correlation_coefficient",
+      "filename": "250_correlation_coefficient.py"
+    },
+    {
+      "id": 251,
+      "name": "covariance",
+      "filename": "251_covariance.py"
+    },
+    {
+      "id": 252,
+      "name": "beta",
+      "filename": "252_beta.py"
+    },
+    {
+      "id": 253,
+      "name": "sharpe_ratio",
+      "filename": "253_sharpe_ratio.py"
+    },
+    {
+      "id": 254,
+      "name": "sortino_ratio",
+      "filename": "254_sortino_ratio.py"
+    },
+    {
+      "id": 256,
+      "name": "linear_regression",
+      "filename": "256_linear_regression.py"
+    },
+    {
+      "id": 257,
+      "name": "polynomial_regression",
+      "filename": "257_polynomial_regression.py"
+    },
+    {
+      "id": 258,
+      "name": "exponential_regression",
+      "filename": "258_exponential_regression.py"
+    },
+    {
+      "id": 259,
+      "name": "logarithmic_regression",
+      "filename": "259_logarithmic_regression.py"
+    },
+    {
+      "id": 260,
+      "name": "power_regression",
+      "filename": "260_power_regression.py"
+    },
+    {
+      "id": 261,
+      "name": "ridge_regression",
+      "filename": "261_ridge_regression.py"
+    },
+    {
+      "id": 262,
+      "name": "lasso_regression",
+      "filename": "262_lasso_regression.py"
+    },
+    {
+      "id": 264,
+      "name": "time_series_regression",
+      "filename": "264_time_series_regression.py"
+    },
+    {
+      "id": 265,
+      "name": "auto_regression",
+      "filename": "265_auto_regression.py"
+    },
+    {
+      "id": 266,
+      "name": "moving_average_model",
+      "filename": "266_moving_average_model.py"
+    },
+    {
+      "id": 267,
+      "name": "arma_model",
+      "filename": "267_arma_model.py"
+    },
+    {
+      "id": 268,
+      "name": "arima_model",
+      "filename": "268_arima_model.py"
+    },
+    {
+      "id": 269,
+      "name": "sarima_model",
+      "filename": "269_sarima_model.py"
+    },
+    {
+      "id": 271,
+      "name": "exponential_smoothing",
+      "filename": "271_exponential_smoothing.py"
+    },
+    {
+      "id": 272,
+      "name": "holt_winters",
+      "filename": "272_holt_winters.py"
+    },
+    {
+      "id": 273,
+      "name": "kalman_filter",
+      "filename": "273_kalman_filter.py"
+    },
+    {
+      "id": 274,
+      "name": "particle_filter",
+      "filename": "274_particle_filter.py"
+    },
+    {
+      "id": 275,
+      "name": "linear_regression_slope",
+      "filename": "275_linear_regression_slope.py"
+    },
+    {
+      "id": 276,
+      "name": "candlestick_patterns",
+      "filename": "276_candlestick_patterns.py"
+    },
+    {
+      "id": 277,
+      "name": "chart_patterns",
+      "filename": "277_chart_patterns.py"
+    },
+    {
+      "id": 278,
+      "name": "harmonic_patterns",
+      "filename": "278_harmonic_patterns.py"
+    },
+    {
+      "id": 279,
+      "name": "elliott_wave",
+      "filename": "279_elliott_wave.py"
+    },
+    {
+      "id": 282,
+      "name": "fibonacci_fans",
+      "filename": "282_fibonacci_fans.py"
+    },
+    {
+      "id": 284,
+      "name": "fibonacci_time_zones",
+      "filename": "284_fibonacci_time_zones.py"
+    },
+    {
+      "id": 288,
+      "name": "andrews_pitchfork",
+      "filename": "288_andrews_pitchfork.py"
+    },
+    {
+      "id": 289,
+      "name": "pivot_points_extended",
+      "filename": "289_pivot_points_extended.py"
+    },
+    {
+      "id": 290,
+      "name": "support_resistance",
+      "filename": "290_support_resistance.py"
+    },
+    {
+      "id": 292,
+      "name": "lognormal_distribution",
+      "filename": "292_lognormal_distribution.py"
+    },
+    {
+      "id": 293,
+      "name": "monte_carlo",
+      "filename": "293_monte_carlo.py"
+    },
+    {
+      "id": 294,
+      "name": "bootstrap_sampling",
+      "filename": "294_bootstrap_sampling.py"
+    },
+    {
+      "id": 295,
+      "name": "bayesian_inference",
+      "filename": "295_bayesian_inference.py"
+    },
+    {
+      "id": 297,
+      "name": "hypothesis_testing",
+      "filename": "297_hypothesis_testing.py"
+    },
+    {
+      "id": 298,
+      "name": "pvalue_calculator",
+      "filename": "298_pvalue_calculator.py"
+    },
+    {
+      "id": 300,
+      "name": "probability_distribution",
+      "filename": "300_probability_distribution.py"
+    },
+    {
+      "id": 301,
+      "name": "bayesian_probability",
+      "filename": "301_bayesian_probability.py"
+    },
+    {
+      "id": 302,
+      "name": "monte_carlo_probability",
+      "filename": "302_monte_carlo_probability.py"
+    },
+    {
+      "id": 303,
+      "name": "statistical_arbitrage",
+      "filename": "303_statistical_arbitrage.py"
+    },
+    {
+      "id": 304,
+      "name": "regime_switching",
+      "filename": "304_regime_switching.py"
+    },
+    {
+      "id": 306,
+      "name": "gradient_boosting_signal",
+      "filename": "306_gradient_boosting_signal.py"
+    },
+    {
+      "id": 307,
+      "name": "random_forest_ensemble",
+      "filename": "307_random_forest_ensemble.py"
+    },
+    {
+      "id": 308,
+      "name": "neural_network_prediction",
+      "filename": "308_neural_network_prediction.py"
+    },
+    {
+      "id": 311,
+      "name": "convolutional_pattern",
+      "filename": "311_convolutional_pattern.py"
+    },
+    {
+      "id": 314,
+      "name": "autoencoder_anomaly",
+      "filename": "314_autoencoder_anomaly.py"
+    },
+    {
+      "id": 315,
+      "name": "gan_price_generator",
+      "filename": "315_gan_price_generator.py"
+    },
+    {
+      "id": 318,
+      "name": "stacking_ensemble",
+      "filename": "318_stacking_ensemble.py"
+    },
+    {
+      "id": 321,
+      "name": "automl_optimizer",
+      "filename": "321_automl_optimizer.py"
+    },
+    {
+      "id": 322,
+      "name": "meta_learning",
+      "filename": "322_meta_learning.py"
+    },
+    {
+      "id": 323,
+      "name": "transfer_learning",
+      "filename": "323_transfer_learning.py"
+    },
+    {
+      "id": 327,
+      "name": "adaptive_ensemble",
+      "filename": "327_adaptive_ensemble.py"
+    },
+    {
+      "id": 328,
+      "name": "multi_model_fusion",
+      "filename": "328_multi_model_fusion.py"
+    },
+    {
+      "id": 329,
+      "name": "dynamic_model_selection",
+      "filename": "329_dynamic_model_selection.py"
+    },
+    {
+      "id": 330,
+      "name": "consensus_aggregator",
+      "filename": "330_consensus_aggregator.py"
+    },
+    {
+      "id": 331,
+      "name": "feature_importance_ranker",
+      "filename": "331_feature_importance_ranker.py"
+    },
+    {
+      "id": 332,
+      "name": "feature_selection_filter",
+      "filename": "332_feature_selection_filter.py"
+    },
+    {
+      "id": 336,
+      "name": "pca_signal",
+      "filename": "336_pca_signal.py"
+    },
+    {
+      "id": 337,
+      "name": "ica_signal",
+      "filename": "337_ica_signal.py"
+    },
+    {
+      "id": 338,
+      "name": "manifold_learning",
+      "filename": "338_manifold_learning.py"
+    },
+    {
+      "id": 340,
+      "name": "autoencoder_compression",
+      "filename": "340_autoencoder_compression.py"
+    },
+    {
+      "id": 341,
+      "name": "kmeans_clustering",
+      "filename": "341_kmeans_clustering.py"
+    },
+    {
+      "id": 342,
+      "name": "dbscan_anomaly",
+      "filename": "342_dbscan_anomaly.py"
+    },
+    {
+      "id": 343,
+      "name": "hierarchical_clustering",
+      "filename": "343_hierarchical_clustering.py"
+    },
+    {
+      "id": 344,
+      "name": "gaussian_mixture",
+      "filename": "344_gaussian_mixture.py"
+    },
+    {
+      "id": 345,
+      "name": "spectral_clustering",
+      "filename": "345_spectral_clustering.py"
+    },
+    {
+      "id": 346,
+      "name": "arima_forecast",
+      "filename": "346_arima_forecast.py"
+    },
+    {
+      "id": 347,
+      "name": "exponential_smoothing",
+      "filename": "347_exponential_smoothing.py"
+    },
+    {
+      "id": 348,
+      "name": "kalman_filter",
+      "filename": "348_kalman_filter.py"
+    },
+    {
+      "id": 350,
+      "name": "seasonal_decomposition",
+      "filename": "350_seasonal_decomposition.py"
+    },
+    {
+      "id": 352,
+      "name": "garch_volatility",
+      "filename": "352_garch_volatility.py"
+    },
+    {
+      "id": 353,
+      "name": "var_forecast",
+      "filename": "353_var_forecast.py"
+    },
+    {
+      "id": 354,
+      "name": "state_space_model",
+      "filename": "354_state_space_model.py"
+    },
+    {
+      "id": 356,
+      "name": "cointegration_signal",
+      "filename": "356_cointegration_signal.py"
+    },
+    {
+      "id": 359,
+      "name": "mean_reversion_speed",
+      "filename": "359_mean_reversion_speed.py"
+    },
+    {
+      "id": 360,
+      "name": "hurst_exponent",
+      "filename": "360_hurst_exponent.py"
+    },
+    {
+      "id": 361,
+      "name": "isolation_forest",
+      "filename": "361_isolation_forest.py"
+    },
+    {
+      "id": 363,
+      "name": "one_class_svm",
+      "filename": "363_one_class_svm.py"
+    },
+    {
+      "id": 365,
+      "name": "statistical_anomaly",
+      "filename": "365_statistical_anomaly.py"
+    },
+    {
+      "id": 377,
+      "name": "mutual_information",
+      "filename": "377_mutual_information.py"
+    },
+    {
+      "id": 378,
+      "name": "transfer_entropy",
+      "filename": "378_transfer_entropy.py"
+    },
+    {
+      "id": 379,
+      "name": "approximate_entropy",
+      "filename": "379_approximate_entropy.py"
+    },
+    {
+      "id": 381,
+      "name": "kolmogorov_complexity",
+      "filename": "381_kolmogorov_complexity.py"
+    },
+    {
+      "id": 383,
+      "name": "permutation_entropy",
+      "filename": "383_permutation_entropy.py"
+    },
+    {
+      "id": 387,
+      "name": "graph_centrality",
+      "filename": "387_graph_centrality.py"
+    },
+    {
+      "id": 390,
+      "name": "pagerank_signal",
+      "filename": "390_pagerank_signal.py"
+    },
+    {
+      "id": 393,
+      "name": "phase_space_reconstruction",
+      "filename": "393_phase_space_reconstruction.py"
+    },
+    {
+      "id": 394,
+      "name": "bifurcation_detector",
+      "filename": "394_bifurcation_detector.py"
+    },
+    {
+      "id": 395,
+      "name": "nonlinear_prediction",
+      "filename": "395_nonlinear_prediction.py"
+    },
+    {
+      "id": 396,
+      "name": "recurrence_plot",
+      "filename": "396_recurrence_plot.py"
+    }
+  ],
+  "categorized": {
+    "A_fehlerhaft": [],
+    "B_timeout": [
+      {
+        "id": 337,
+        "name": "ica_signal",
+        "filename": "337_ica_signal.py",
+        "timeouts": 5,
+        "reason": "5 timeout warnings"
+      }
+    ],
+    "C_no_results": [],
+    "D_warnings": [
+      {
+        "id": 55,
+        "name": "trend_stoch_rsi",
+        "filename": "055_trend_stoch_rsi.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 82,
+        "name": "trend_coppock",
+        "filename": "082_trend_coppock.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 90,
+        "name": "trend_hullmaosc",
+        "filename": "090_trend_hullmaosc.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 102,
+        "name": "trend_connorsrsi",
+        "filename": "102_trend_connorsrsi.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 106,
+        "name": "trend_cog",
+        "filename": "106_trend_cog.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 111,
+        "name": "trend_reflex",
+        "filename": "111_trend_reflex.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 113,
+        "name": "trend_correlationcycle",
+        "filename": "113_trend_correlationcycle.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 114,
+        "name": "trend_dominantcycle",
+        "filename": "114_trend_dominantcycle.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 117,
+        "name": "trend_fractaldimension",
+        "filename": "117_trend_fractaldimension.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 126,
+        "name": "trend_trendstrengthindex",
+        "filename": "126_trend_trendstrengthindex.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 127,
+        "name": "trend_rsquared",
+        "filename": "127_trend_rsquared.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 131,
+        "name": "trend_regressionchannels",
+        "filename": "131_trend_regressionchannels.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 139,
+        "name": "trend_dynamicchannels",
+        "filename": "139_trend_dynamicchannels.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 141,
+        "name": "trend_projectionbands",
+        "filename": "141_trend_projectionbands.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 143,
+        "name": "trend_ttmsqueeze",
+        "filename": "143_trend_ttmsqueeze.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 144,
+        "name": "trend_bollingerbandwidth",
+        "filename": "144_trend_bollingerbandwidth.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 157,
+        "name": "pattern_chartpatterns",
+        "filename": "157_pattern_chartpatterns.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 158,
+        "name": "pattern_harmonicpatterns",
+        "filename": "158_pattern_harmonicpatterns.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 159,
+        "name": "pattern_elliottwave",
+        "filename": "159_pattern_elliottwave.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 161,
+        "name": "pattern_supportresistance",
+        "filename": "161_pattern_supportresistance.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 162,
+        "name": "pattern_trendlines",
+        "filename": "162_pattern_trendlines.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 163,
+        "name": "pattern_fibonacciretracement",
+        "filename": "163_pattern_fibonacciretracement.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 164,
+        "name": "pattern_fibonacciextension",
+        "filename": "164_pattern_fibonacciextension.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 166,
+        "name": "volatility_garch",
+        "filename": "166_volatility_garch.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 169,
+        "name": "volatility_regime_detection",
+        "filename": "169_volatility_regime_detection.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 171,
+        "name": "range_true_range",
+        "filename": "171_range_true_range.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 172,
+        "name": "range_daily",
+        "filename": "172_range_daily.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 178,
+        "name": "range_bound",
+        "filename": "178_range_bound.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 180,
+        "name": "range_adaptive",
+        "filename": "180_range_adaptive.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 181,
+        "name": "volume_weighted_price",
+        "filename": "181_volume_weighted_price.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 183,
+        "name": "volume_trend",
+        "filename": "183_volume_trend.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 187,
+        "name": "volume_profile",
+        "filename": "187_volume_profile.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 189,
+        "name": "volume_roc",
+        "filename": "189_volume_roc.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 193,
+        "name": "volume_price_confirmation",
+        "filename": "193_volume_price_confirmation.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 197,
+        "name": "volume_efficiency",
+        "filename": "197_volume_efficiency.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 199,
+        "name": "volume_flow_indicator",
+        "filename": "199_volume_flow_indicator.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 201,
+        "name": "volume_profile",
+        "filename": "201_volume_profile.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 202,
+        "name": "volume_at_price",
+        "filename": "202_volume_at_price.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 203,
+        "name": "point_of_control",
+        "filename": "203_point_of_control.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 204,
+        "name": "value_area_high",
+        "filename": "204_value_area_high.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 205,
+        "name": "value_area_low",
+        "filename": "205_value_area_low.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 217,
+        "name": "volume_strength",
+        "filename": "217_volume_strength.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 218,
+        "name": "volume_pressure",
+        "filename": "218_volume_pressure.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 219,
+        "name": "volume_distribution",
+        "filename": "219_volume_distribution.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 220,
+        "name": "volume_cycle",
+        "filename": "220_volume_cycle.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 222,
+        "name": "trade_volume",
+        "filename": "222_trade_volume.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 224,
+        "name": "sell_volume",
+        "filename": "224_sell_volume.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 225,
+        "name": "delta_volume",
+        "filename": "225_delta_volume.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 226,
+        "name": "cumulative_delta",
+        "filename": "226_cumulative_delta.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 229,
+        "name": "market_depth",
+        "filename": "229_market_depth.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 230,
+        "name": "bid_ask_spread",
+        "filename": "230_bid_ask_spread.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 232,
+        "name": "ask_volume",
+        "filename": "232_ask_volume.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 233,
+        "name": "trade_intensity",
+        "filename": "233_trade_intensity.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 237,
+        "name": "block_trade_detector",
+        "filename": "237_block_trade_detector.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 241,
+        "name": "skewness",
+        "filename": "241_skewness.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 242,
+        "name": "kurtosis",
+        "filename": "242_kurtosis.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 245,
+        "name": "percentile",
+        "filename": "245_percentile.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 247,
+        "name": "iqr",
+        "filename": "247_iqr.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 248,
+        "name": "mad",
+        "filename": "248_mad.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 249,
+        "name": "coefficient_variation",
+        "filename": "249_coefficient_variation.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 250,
+        "name": "correlation_coefficient",
+        "filename": "250_correlation_coefficient.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 251,
+        "name": "covariance",
+        "filename": "251_covariance.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 252,
+        "name": "beta",
+        "filename": "252_beta.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 253,
+        "name": "sharpe_ratio",
+        "filename": "253_sharpe_ratio.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 256,
+        "name": "linear_regression",
+        "filename": "256_linear_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 257,
+        "name": "polynomial_regression",
+        "filename": "257_polynomial_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 258,
+        "name": "exponential_regression",
+        "filename": "258_exponential_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 259,
+        "name": "logarithmic_regression",
+        "filename": "259_logarithmic_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 260,
+        "name": "power_regression",
+        "filename": "260_power_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 261,
+        "name": "ridge_regression",
+        "filename": "261_ridge_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 262,
+        "name": "lasso_regression",
+        "filename": "262_lasso_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 265,
+        "name": "auto_regression",
+        "filename": "265_auto_regression.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 268,
+        "name": "arima_model",
+        "filename": "268_arima_model.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 269,
+        "name": "sarima_model",
+        "filename": "269_sarima_model.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 275,
+        "name": "linear_regression_slope",
+        "filename": "275_linear_regression_slope.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 277,
+        "name": "chart_patterns",
+        "filename": "277_chart_patterns.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 278,
+        "name": "harmonic_patterns",
+        "filename": "278_harmonic_patterns.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 279,
+        "name": "elliott_wave",
+        "filename": "279_elliott_wave.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 288,
+        "name": "andrews_pitchfork",
+        "filename": "288_andrews_pitchfork.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 290,
+        "name": "support_resistance",
+        "filename": "290_support_resistance.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 292,
+        "name": "lognormal_distribution",
+        "filename": "292_lognormal_distribution.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 293,
+        "name": "monte_carlo",
+        "filename": "293_monte_carlo.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 294,
+        "name": "bootstrap_sampling",
+        "filename": "294_bootstrap_sampling.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 295,
+        "name": "bayesian_inference",
+        "filename": "295_bayesian_inference.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 297,
+        "name": "hypothesis_testing",
+        "filename": "297_hypothesis_testing.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 298,
+        "name": "pvalue_calculator",
+        "filename": "298_pvalue_calculator.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 300,
+        "name": "probability_distribution",
+        "filename": "300_probability_distribution.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 301,
+        "name": "bayesian_probability",
+        "filename": "301_bayesian_probability.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 302,
+        "name": "monte_carlo_probability",
+        "filename": "302_monte_carlo_probability.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 303,
+        "name": "statistical_arbitrage",
+        "filename": "303_statistical_arbitrage.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 304,
+        "name": "regime_switching",
+        "filename": "304_regime_switching.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 306,
+        "name": "gradient_boosting_signal",
+        "filename": "306_gradient_boosting_signal.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 307,
+        "name": "random_forest_ensemble",
+        "filename": "307_random_forest_ensemble.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 308,
+        "name": "neural_network_prediction",
+        "filename": "308_neural_network_prediction.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 311,
+        "name": "convolutional_pattern",
+        "filename": "311_convolutional_pattern.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 314,
+        "name": "autoencoder_anomaly",
+        "filename": "314_autoencoder_anomaly.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 315,
+        "name": "gan_price_generator",
+        "filename": "315_gan_price_generator.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 318,
+        "name": "stacking_ensemble",
+        "filename": "318_stacking_ensemble.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 328,
+        "name": "multi_model_fusion",
+        "filename": "328_multi_model_fusion.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 363,
+        "name": "one_class_svm",
+        "filename": "363_one_class_svm.py",
+        "reason": "Listed in problem indicators"
+      },
+      {
+        "id": 377,
+        "name": "mutual_information",
+        "filename": "377_mutual_information.py",
+        "reason": "Listed in problem indicators"
+      }
+    ],
+    "E_backtestfaehig": [
+      {
+        "id": 8,
+        "name": "trend_hma",
+        "filename": "008_trend_hma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 13,
+        "name": "trend_vidya",
+        "filename": "013_trend_vidya.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 14,
+        "name": "trend_frama",
+        "filename": "014_trend_frama.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 16,
+        "name": "trend_sinwma",
+        "filename": "016_trend_sinwma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 17,
+        "name": "trend_vwma",
+        "filename": "017_trend_vwma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 18,
+        "name": "trend_tsf",
+        "filename": "018_trend_tsf.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 20,
+        "name": "trend_lsma",
+        "filename": "020_trend_lsma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 21,
+        "name": "trend_mama",
+        "filename": "021_trend_mama.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 22,
+        "name": "trend_smma",
+        "filename": "022_trend_smma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 24,
+        "name": "trend_gma",
+        "filename": "024_trend_gma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 25,
+        "name": "trend_harmonic",
+        "filename": "025_trend_harmonic.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 26,
+        "name": "trend_adx",
+        "filename": "026_trend_adx.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 28,
+        "name": "trend_aroon",
+        "filename": "028_trend_aroon.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 29,
+        "name": "trend_aroonosc",
+        "filename": "029_trend_aroonosc.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 30,
+        "name": "trend_psar",
+        "filename": "030_trend_psar.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 32,
+        "name": "trend_vortex",
+        "filename": "032_trend_vortex.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 35,
+        "name": "trend_tii",
+        "filename": "035_trend_tii.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 43,
+        "name": "trend_bollinger",
+        "filename": "043_trend_bollinger.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 53,
+        "name": "volume_ad",
+        "filename": "053_volume_ad.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 56,
+        "name": "trend_awesome_osc",
+        "filename": "056_trend_awesome_osc.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 57,
+        "name": "trend_accelerator_osc",
+        "filename": "057_trend_accelerator_osc.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 58,
+        "name": "trend_gator",
+        "filename": "058_trend_gator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 59,
+        "name": "trend_alligator",
+        "filename": "059_trend_alligator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 70,
+        "name": "trend_kdj",
+        "filename": "070_trend_kdj.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 71,
+        "name": "trend_pgo",
+        "filename": "071_trend_pgo.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 72,
+        "name": "trend_psychline",
+        "filename": "072_trend_psychline.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 73,
+        "name": "trend_qqe",
+        "filename": "073_trend_qqe.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 74,
+        "name": "trend_rainbow",
+        "filename": "074_trend_rainbow.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 75,
+        "name": "trend_smiergodic",
+        "filename": "075_trend_smiergodic.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 76,
+        "name": "trend_smi",
+        "filename": "076_trend_smi.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 77,
+        "name": "trend_trendflex",
+        "filename": "077_trend_trendflex.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 78,
+        "name": "trend_macdhist",
+        "filename": "078_trend_macdhist.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 79,
+        "name": "trend_macdsignal",
+        "filename": "079_trend_macdsignal.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 80,
+        "name": "trend_zerolagmacd",
+        "filename": "080_trend_zerolagmacd.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 83,
+        "name": "trend_detrendedprice",
+        "filename": "083_trend_detrendedprice.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 84,
+        "name": "trend_efficiencyratio",
+        "filename": "084_trend_efficiencyratio.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 86,
+        "name": "trend_frama",
+        "filename": "086_trend_frama.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 88,
+        "name": "trend_highlowindex",
+        "filename": "088_trend_highlowindex.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 89,
+        "name": "trend_histvol",
+        "filename": "089_trend_histvol.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 92,
+        "name": "trend_kauffman",
+        "filename": "092_trend_kauffman.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 93,
+        "name": "trend_laguerre",
+        "filename": "093_trend_laguerre.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 94,
+        "name": "trend_linearregslope",
+        "filename": "094_trend_linearregslope.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 95,
+        "name": "volume_mfi_extended",
+        "filename": "095_volume_mfi_extended.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 97,
+        "name": "trend_parabolicsar_extended",
+        "filename": "097_trend_parabolicsar_extended.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 99,
+        "name": "trend_priceoscillator",
+        "filename": "099_trend_priceoscillator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 100,
+        "name": "trend_renko",
+        "filename": "100_trend_renko.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 101,
+        "name": "trend_inversefisher",
+        "filename": "101_trend_inversefisher.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 103,
+        "name": "trend_laguerrersi",
+        "filename": "103_trend_laguerrersi.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 105,
+        "name": "trend_ergodic",
+        "filename": "105_trend_ergodic.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 107,
+        "name": "trend_cybercycle",
+        "filename": "107_trend_cybercycle.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 108,
+        "name": "trend_decycler",
+        "filename": "108_trend_decycler.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 109,
+        "name": "trend_ebs",
+        "filename": "109_trend_ebs.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 110,
+        "name": "trend_hilbert",
+        "filename": "110_trend_hilbert.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 112,
+        "name": "trend_trendvigor",
+        "filename": "112_trend_trendvigor.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 116,
+        "name": "trend_sinewave",
+        "filename": "116_trend_sinewave.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 122,
+        "name": "trend_cycleperiod",
+        "filename": "122_trend_cycleperiod.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 123,
+        "name": "trend_adaptivemacd",
+        "filename": "123_trend_adaptivemacd.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 125,
+        "name": "trend_vhf",
+        "filename": "125_trend_vhf.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 128,
+        "name": "trend_pricechannels",
+        "filename": "128_trend_pricechannels.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 129,
+        "name": "trend_envelopechannels",
+        "filename": "129_trend_envelopechannels.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 130,
+        "name": "trend_stdchannels",
+        "filename": "130_trend_stdchannels.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 132,
+        "name": "trend_fibonaccichannels",
+        "filename": "132_trend_fibonaccichannels.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 133,
+        "name": "trend_accelerationbands",
+        "filename": "133_trend_accelerationbands.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 134,
+        "name": "trend_starcbands",
+        "filename": "134_trend_starcbands.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 135,
+        "name": "trend_maenvelope",
+        "filename": "135_trend_maenvelope.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 136,
+        "name": "trend_chandelierexit",
+        "filename": "136_trend_chandelierexit.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 138,
+        "name": "trend_volatilitychannels",
+        "filename": "138_trend_volatilitychannels.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 142,
+        "name": "trend_squeezeindicator",
+        "filename": "142_trend_squeezeindicator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 155,
+        "name": "pattern_candlestickpatterns",
+        "filename": "155_pattern_candlestickpatterns.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 156,
+        "name": "pattern_priceaction",
+        "filename": "156_pattern_priceaction.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 160,
+        "name": "pattern_wyckoff",
+        "filename": "160_pattern_wyckoff.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 165,
+        "name": "pattern_pivotpoints",
+        "filename": "165_pattern_pivotpoints.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 167,
+        "name": "volatility_ewma",
+        "filename": "167_volatility_ewma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 173,
+        "name": "range_weekly",
+        "filename": "173_range_weekly.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 174,
+        "name": "range_monthly",
+        "filename": "174_range_monthly.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 175,
+        "name": "range_expansion_index",
+        "filename": "175_range_expansion_index.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 176,
+        "name": "range_contraction_index",
+        "filename": "176_range_contraction_index.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 184,
+        "name": "volume_oscillator",
+        "filename": "184_volume_oscillator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 185,
+        "name": "volume_divergence",
+        "filename": "185_volume_divergence.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 188,
+        "name": "volume_price_trend",
+        "filename": "188_volume_price_trend.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 190,
+        "name": "volume_weighted_average_price",
+        "filename": "190_volume_weighted_average_price.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 192,
+        "name": "volume_accumulation_distribution",
+        "filename": "192_volume_accumulation_distribution.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 194,
+        "name": "volume_intensity",
+        "filename": "194_volume_intensity.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 195,
+        "name": "volume_force_index",
+        "filename": "195_volume_force_index.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 196,
+        "name": "volume_weighted_momentum",
+        "filename": "196_volume_weighted_momentum.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 198,
+        "name": "volume_delta",
+        "filename": "198_volume_delta.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 200,
+        "name": "volume_spread_analysis",
+        "filename": "200_volume_spread_analysis.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 206,
+        "name": "volume_weighted_ma",
+        "filename": "206_volume_weighted_ma.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 209,
+        "name": "smart_money_index",
+        "filename": "209_smart_money_index.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 210,
+        "name": "tick_volume_index",
+        "filename": "210_tick_volume_index.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 214,
+        "name": "volume_divergence",
+        "filename": "214_volume_divergence.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 215,
+        "name": "volume_confirmation",
+        "filename": "215_volume_confirmation.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 216,
+        "name": "volume_momentum",
+        "filename": "216_volume_momentum.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 223,
+        "name": "buy_volume",
+        "filename": "223_buy_volume.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 228,
+        "name": "order_flow",
+        "filename": "228_order_flow.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 236,
+        "name": "large_trade_detector",
+        "filename": "236_large_trade_detector.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 239,
+        "name": "retail_volume",
+        "filename": "239_retail_volume.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 243,
+        "name": "zscore",
+        "filename": "243_zscore.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 244,
+        "name": "tscore",
+        "filename": "244_tscore.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 246,
+        "name": "quartile",
+        "filename": "246_quartile.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 254,
+        "name": "sortino_ratio",
+        "filename": "254_sortino_ratio.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 264,
+        "name": "time_series_regression",
+        "filename": "264_time_series_regression.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 266,
+        "name": "moving_average_model",
+        "filename": "266_moving_average_model.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 267,
+        "name": "arma_model",
+        "filename": "267_arma_model.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 271,
+        "name": "exponential_smoothing",
+        "filename": "271_exponential_smoothing.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 272,
+        "name": "holt_winters",
+        "filename": "272_holt_winters.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 273,
+        "name": "kalman_filter",
+        "filename": "273_kalman_filter.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 274,
+        "name": "particle_filter",
+        "filename": "274_particle_filter.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 276,
+        "name": "candlestick_patterns",
+        "filename": "276_candlestick_patterns.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 282,
+        "name": "fibonacci_fans",
+        "filename": "282_fibonacci_fans.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 284,
+        "name": "fibonacci_time_zones",
+        "filename": "284_fibonacci_time_zones.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 289,
+        "name": "pivot_points_extended",
+        "filename": "289_pivot_points_extended.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 321,
+        "name": "automl_optimizer",
+        "filename": "321_automl_optimizer.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 322,
+        "name": "meta_learning",
+        "filename": "322_meta_learning.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 323,
+        "name": "transfer_learning",
+        "filename": "323_transfer_learning.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 327,
+        "name": "adaptive_ensemble",
+        "filename": "327_adaptive_ensemble.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 329,
+        "name": "dynamic_model_selection",
+        "filename": "329_dynamic_model_selection.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 330,
+        "name": "consensus_aggregator",
+        "filename": "330_consensus_aggregator.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 331,
+        "name": "feature_importance_ranker",
+        "filename": "331_feature_importance_ranker.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 332,
+        "name": "feature_selection_filter",
+        "filename": "332_feature_selection_filter.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 336,
+        "name": "pca_signal",
+        "filename": "336_pca_signal.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 338,
+        "name": "manifold_learning",
+        "filename": "338_manifold_learning.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 340,
+        "name": "autoencoder_compression",
+        "filename": "340_autoencoder_compression.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 341,
+        "name": "kmeans_clustering",
+        "filename": "341_kmeans_clustering.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 342,
+        "name": "dbscan_anomaly",
+        "filename": "342_dbscan_anomaly.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 343,
+        "name": "hierarchical_clustering",
+        "filename": "343_hierarchical_clustering.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 344,
+        "name": "gaussian_mixture",
+        "filename": "344_gaussian_mixture.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 345,
+        "name": "spectral_clustering",
+        "filename": "345_spectral_clustering.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 346,
+        "name": "arima_forecast",
+        "filename": "346_arima_forecast.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 347,
+        "name": "exponential_smoothing",
+        "filename": "347_exponential_smoothing.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 348,
+        "name": "kalman_filter",
+        "filename": "348_kalman_filter.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 350,
+        "name": "seasonal_decomposition",
+        "filename": "350_seasonal_decomposition.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 352,
+        "name": "garch_volatility",
+        "filename": "352_garch_volatility.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 353,
+        "name": "var_forecast",
+        "filename": "353_var_forecast.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 354,
+        "name": "state_space_model",
+        "filename": "354_state_space_model.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 356,
+        "name": "cointegration_signal",
+        "filename": "356_cointegration_signal.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 359,
+        "name": "mean_reversion_speed",
+        "filename": "359_mean_reversion_speed.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 360,
+        "name": "hurst_exponent",
+        "filename": "360_hurst_exponent.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 361,
+        "name": "isolation_forest",
+        "filename": "361_isolation_forest.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 365,
+        "name": "statistical_anomaly",
+        "filename": "365_statistical_anomaly.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 378,
+        "name": "transfer_entropy",
+        "filename": "378_transfer_entropy.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 379,
+        "name": "approximate_entropy",
+        "filename": "379_approximate_entropy.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 381,
+        "name": "kolmogorov_complexity",
+        "filename": "381_kolmogorov_complexity.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 383,
+        "name": "permutation_entropy",
+        "filename": "383_permutation_entropy.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 387,
+        "name": "graph_centrality",
+        "filename": "387_graph_centrality.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 390,
+        "name": "pagerank_signal",
+        "filename": "390_pagerank_signal.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 393,
+        "name": "phase_space_reconstruction",
+        "filename": "393_phase_space_reconstruction.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 394,
+        "name": "bifurcation_detector",
+        "filename": "394_bifurcation_detector.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 395,
+        "name": "nonlinear_prediction",
+        "filename": "395_nonlinear_prediction.py",
+        "reason": "No known issues - ready for backtest"
+      },
+      {
+        "id": 396,
+        "name": "recurrence_plot",
+        "filename": "396_recurrence_plot.py",
+        "reason": "No known issues - ready for backtest"
+      }
+    ]
+  }
+}

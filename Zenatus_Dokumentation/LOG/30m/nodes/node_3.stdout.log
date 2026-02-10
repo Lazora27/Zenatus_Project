@@ -1,0 +1,50 @@
+=== WORKER 3 STARTED ===
+Processing 42 indicators...
+[DATA] EUR_USD bars=33919
+[DATA] GBP_USD bars=33916
+[DATA] USD_CHF bars=33875
+[DATA] USD_CAD bars=33911
+[DATA] AUD_USD bars=33913
+[DATA] NZD_USD bars=33907
+[W3] [ERR] 104_trend_rmi process finished but returned no result
+[W3] [ERR] 105_trend_ergodic process finished but returned no result
+[W3] [ERR] 106_trend_cog process finished but returned no result
+[W3] [ERR] 107_trend_cybercycle process finished but returned no result
+[W3] [ERR] 108_trend_decycler process finished but returned no result
+[W3] [ERR] 109_trend_ebs process finished but returned no result
+[W3] [ERR] 111_trend_reflex process finished but returned no result
+[W3] [ERR] 112_trend_trendvigor process finished but returned no result
+[W3] [ERR] 113_trend_correlationcycle process finished but returned no result
+[W3] [ERR] 117_trend_fractaldimension process finished but returned no result
+[W3] [ERR] 118_trend_hurstexponent process finished but returned no result
+[W3] [ERR] 122_trend_cycleperiod process finished but returned no result
+[W3] [ERR] 123_trend_adaptivemacd process finished but returned no result
+[W3] [ERR] 125_trend_vhf process finished but returned no result
+[W3] [ERR] 126_trend_trendstrengthindex process finished but returned no result
+[W3] [ERR] 127_trend_rsquared process finished but returned no result
+[W3] [ERR] 128_trend_pricechannels process finished but returned no result
+[W3] [ERR] 130_trend_stdchannels process finished but returned no result
+[W3] [ERR] 131_trend_regressionchannels process finished but returned no result
+[W3] [ERR] 132_trend_fibonaccichannels process finished but returned no result
+[W3] [ERR] 133_trend_accelerationbands process finished but returned no result
+[W3] [ERR] 134_trend_starcbands process finished but returned no result
+[W3] [ERR] 136_trend_chandelierexit process finished but returned no result
+[W3] [ERR] 137_trend_atrchannels process finished but returned no result
+[W3] [ERR] 138_trend_volatilitychannels process finished but returned no result
+[W3] [ERR] 139_trend_dynamicchannels process finished but returned no result
+[W3] [ERR] 140_trend_adaptivechannels process finished but returned no result
+[W3] [ERR] 141_trend_projectionbands process finished but returned no result
+[W3] [ERR] 142_trend_squeezeindicator process finished but returned no result
+[W3] [ERR] 143_trend_ttmsqueeze process finished but returned no result
+[W3] [ERR] 144_trend_bollingerbandwidth process finished but returned no result
+[W3] [ERR] 145_volatility_atr_breakout process finished but returned no result
+[W3] [ERR] 146_volatility_atr_channels process finished but returned no result
+[W3] [ERR] 148_volatility_atr_support_resistance process finished but returned no result
+[W3] [ERR] 149_volatility_adaptive_atr process finished but returned no result
+[W3] [ERR] 150_volatility_dynamic_atr process finished but returned no result
+[W3] [ERR] 151_volume_divergencestrength process finished but returned no result
+[W3] [ERR] 152_volatility_implied_proxy process finished but returned no result
+[W3] [ERR] 153_volatility_parkinson process finished but returned no result
+[W3] [ERR] 153_volume_divergencemomentum process finished but returned no result
+[W3] [19:04:19] [154] [154_volatility_garman_klass] [30m] [Combos: 60000] [Ret: 0.2586%] [DD: 0.0932%] [PF: 1.303] [Sharpe: 1.421] [Trades: 289] [WR: 30.1%] [00:22:26]
+[W3] [19:06:01] [155] [155_pattern_candlestickpatterns] [30m] [Combos: 13200] [Ret: 0.1853%] [DD: 0.1049%] [PF: 1.192] [Sharpe: 0.902] [Trades: 223] [WR: 40.36%] [00:01:41]

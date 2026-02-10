@@ -1,0 +1,114 @@
+Process Process-1:
+Traceback (most recent call last):
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 545, in <module>
+    main()
+    ~~~~^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 541, in main
+    res = process_indicator(ind, spreads, data_cache)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 503, in process_indicator
+    p.join(timeout=TIMEOUT_SEC)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.13/multiprocessing/popen_fork.py", line 41, in wait
+    if not wait([self.sentinel], timeout):
+           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 1148, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.13/selectors.py", line 398, in select
+    fd_event_list = self._selector.poll(timeout)
+Traceback (most recent call last):
+KeyboardInterrupt
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 348, in worker_process
+    res = run_indicator_logic(ind_name, spreads, data_cache)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 431, in run_indicator_logic
+    res = batch_backtest(df, entries, current_exit_combos, spread_pips)
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/FULL_BACKTEST_1H_WORKER.py", line 268, in batch_backtest
+    m_highest_loss = pf.trades.losing.pnl.min()
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/utils/decorators.py", line 443, in wrapper
+    return cached_func(*args, **kwargs)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/utils/decorators.py", line 413, in partial_func
+    return func(instance, *args, **kwargs)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/records/mapped_array.py", line 824, in min
+    return self.reduce(
+           ~~~~~~~~~~~^
+        generic_nb.min_reduce_nb,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs
+        ^^^^^^^^
+    )
+    ^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/vectorbt/records/mapped_array.py", line 747, in reduce
+    out = nb.reduce_mapped_nb(
+        self.values,
+    ...<3 lines>...
+        *args
+    )
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/dispatcher.py", line 376, in _compile_for_args
+    return_val = self.compile(tuple(argtypes))
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/dispatcher.py", line 908, in compile
+    cres = self._compiler.compile(args, return_type)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/dispatcher.py", line 80, in compile
+    status, retval = self._compile_cached(args, return_type)
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/dispatcher.py", line 94, in _compile_cached
+    retval = self._compile_core(args, return_type)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/dispatcher.py", line 107, in _compile_core
+    cres = compiler.compile_extra(self.targetdescr.typing_context,
+                                  self.targetdescr.target_context,
+    ...<2 lines>...
+                                  flags=flags, locals=self.locals,
+                                  pipeline_class=self.pipeline_class)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler.py", line 739, in compile_extra
+    return pipeline.compile_extra(func)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler.py", line 439, in compile_extra
+    return self._compile_bytecode()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler.py", line 505, in _compile_bytecode
+    return self._compile_core()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler.py", line 473, in _compile_core
+    pm.run(self.state)
+    ~~~~~~^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler_machinery.py", line 356, in run
+    self._runPass(idx, pass_inst, state)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler_lock.py", line 35, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler_machinery.py", line 311, in _runPass
+    mutated |= check(pss.run_pass, internal_state)
+               ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/compiler_machinery.py", line 272, in check
+    mangled = func(compiler_state)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/typed_passes.py", line 501, in run_pass
+    cfunc = targetctx.get_executable(library, fndesc, env)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/cpu.py", line 239, in get_executable
+    fnptr = library.get_pointer_to_function(
+        fndesc.llvm_cpython_wrapper_name)
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/codegen.py", line 1000, in get_pointer_to_function
+    self._ensure_finalized()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/codegen.py", line 569, in _ensure_finalized
+    self.finalize()
+    ~~~~~~~~~~~~~^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/codegen.py", line 773, in finalize
+    self._optimize_final_module()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/numba/core/codegen.py", line 684, in _optimize_final_module
+    mpm_cheap.run(self._final_module, mpb_cheap)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/llvmlite/binding/newpassmanagers.py", line 122, in run
+    ffi.lib.LLVMPY_RunNewModulePassManager(self, IR, pb)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/Zenatus_Backtester/Zenatus_Backtest_venv/lib/python3.13/site-packages/llvmlite/binding/ffi.py", line 212, in __call__
+    return self._cfn(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

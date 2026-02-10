@@ -1,0 +1,593 @@
+Indicator_Num,Indicator_Name,Entry_Params,Exit_Params,Entry_Combinations,Exit_Combinations,Total_Combinations
+1,001_trend_sma,period,"tp_pips, sl_pips",20,156,3120
+2,002_trend_ema,period,"tp_pips, sl_pips",20,156,3120
+3,003_trend_wma,period,"tp_pips, sl_pips",20,156,3120
+4,004_trend_dema,period,"tp_pips, sl_pips",20,156,3120
+5,005_trend_tema,period,"tp_pips, sl_pips",20,156,3120
+6,006_trend_trima,period,"tp_pips, sl_pips",20,156,3120
+7,007_trend_kama,"period, fast, slow","tp_pips, sl_pips",2000,156,312000
+8,008_trend_hma,period,"tp_pips, sl_pips",20,156,3120
+9,009_trend_zlema,period,"tp_pips, sl_pips",20,156,3120
+10,010_trend_alma,"period, offset, sigma","tp_pips, sl_pips",3200,156,499200
+11,011_trend_jma,"period, phase, power","tp_pips, sl_pips",240,156,37440
+12,012_trend_t3,"period, vfactor","tp_pips, sl_pips",400,156,62400
+13,013_trend_vidya,"period, cmo_period","tp_pips, sl_pips",400,156,62400
+14,014_trend_frama,period,"tp_pips, sl_pips",20,156,3120
+15,015_trend_mcginley,"period, constant","tp_pips, sl_pips",400,156,62400
+16,016_trend_sinwma,period,"tp_pips, sl_pips",20,156,3120
+17,017_trend_vwma,period,"tp_pips, sl_pips",20,156,3120
+18,018_trend_tsf,period,"tp_pips, sl_pips",20,156,3120
+19,019_trend_linreg,period,"tp_pips, sl_pips",20,156,3120
+20,020_trend_lsma,period,"tp_pips, sl_pips",20,156,3120
+21,021_trend_mama,"fastlimit, slowlimit","tp_pips, sl_pips",400,156,62400
+22,022_trend_smma,period,"tp_pips, sl_pips",20,156,3120
+23,023_trend_wilders,period,"tp_pips, sl_pips",20,156,3120
+24,024_trend_gma,period,"tp_pips, sl_pips",20,156,3120
+25,025_trend_harmonic,period,"tp_pips, sl_pips",20,156,3120
+26,026_trend_adx,"period, threshold","tp_pips, sl_pips",400,156,62400
+27,027_trend_dmi,"period, threshold","tp_pips, sl_pips",400,156,62400
+28,028_trend_aroon,period,"tp_pips, sl_pips",20,156,3120
+29,029_trend_aroonosc,"period, threshold","tp_pips, sl_pips",40,156,6240
+30,030_trend_psar,"af_start, af_increment, af_max","tp_pips, sl_pips",8000,156,1248000
+31,031_trend_supertrend,"period, threshold","tp_pips, sl_pips",400,156,62400
+32,032_trend_vortex,period,"tp_pips, sl_pips",20,156,3120
+33,033_trend_massindex,"period, fast_period, slow_period, threshold","tp_pips, sl_pips",160000,156,24960000
+34,034_trend_qstick,"period, threshold","tp_pips, sl_pips",400,156,62400
+35,035_trend_tii,"period, threshold","tp_pips, sl_pips",400,156,62400
+36,036_trend_cci,"period, overbought, oversold","tp_pips, sl_pips",800,156,124800
+37,037_trend_roc,"period, threshold","tp_pips, sl_pips",40,156,6240
+38,038_trend_momentum,"period, threshold","tp_pips, sl_pips",400,156,62400
+39,039_trend_williams_r,"period, overbought, oversold","tp_pips, sl_pips",80,156,12480
+40,040_trend_stochastic,"period, smooth_k, smooth_d, overbought, oversold","tp_pips, sl_pips",512000,156,79872000
+41,041_trend_rsi,"period, overbought, oversold","tp_pips, sl_pips",8000,156,1248000
+42,042_trend_macd,"fast_period, slow_period, signal_period","tp_pips, sl_pips",6800,156,1060800
+43,043_trend_bollinger,"period, multiplier","tp_pips, sl_pips",100,156,15600
+44,044_trend_atr,"period, threshold","tp_pips, sl_pips",400,156,62400
+45,045_trend_keltner,"period, threshold","tp_pips, sl_pips",400,156,62400
+46,046_trend_donchian,period,"tp_pips, sl_pips",20,156,3120
+47,047_volume_obv,signal_period,"tp_pips, sl_pips",20,156,3120
+48,048_volume_mfi,"period, overbought, oversold","tp_pips, sl_pips",8000,156,1248000
+49,049_volume_cmf,"period, threshold","tp_pips, sl_pips",400,156,62400
+50,050_trend_ichimoku,"tenkan_period, kijun_period, senkou_period","tp_pips, sl_pips",6400,156,998400
+51,051_volume_vwap,"reset_period, std_multiplier","tp_pips, sl_pips",6,156,936
+52,052_volume_force_index,period,"tp_pips, sl_pips",20,156,3120
+53,053_volume_ad,signal_period,"tp_pips, sl_pips",20,156,3120
+54,054_trend_ultimate_osc,,"tp_pips, sl_pips",1,156,156
+55,055_trend_stoch_rsi,"rsi_period, stoch_period, smooth_k, smooth_d, overbought, oversold","tp_pips, sl_pips",10240000,156,1597440000
+56,056_trend_awesome_osc,"fast_period, slow_period","tp_pips, sl_pips",260,156,40560
+57,057_trend_accelerator_osc,"fast_period, slow_period, signal_period","tp_pips, sl_pips",2080,156,324480
+58,058_trend_gator,"jaw_period, teeth_period, lips_period","tp_pips, sl_pips",702,156,109512
+59,059_trend_alligator,"jaw_period, teeth_period, lips_period","tp_pips, sl_pips",702,156,109512
+60,060_trend_elder_ray,period,"tp_pips, sl_pips",20,156,3120
+61,061_trend_trix,"period, signal_period","tp_pips, sl_pips",340,156,53040
+62,062_trend_ppo,"fast, slow, signal","tp_pips, sl_pips",8000,156,1248000
+63,063_trend_apo,"fast, slow","tp_pips, sl_pips",400,156,62400
+64,064_trend_dpo,period,"tp_pips, sl_pips",20,156,3120
+65,065_trend_cmo,"period, overbought, oversold","tp_pips, sl_pips",800,156,124800
+66,066_trend_rvi,period,"tp_pips, sl_pips",20,156,3120
+67,067_trend_tsi,"long, short, signal","tp_pips, sl_pips",7200,156,1123200
+68,068_trend_bop,period,"tp_pips, sl_pips",20,156,3120
+69,069_trend_inertia,"period, rvi_period","tp_pips, sl_pips",400,156,62400
+70,070_trend_kdj,"k_period, d_period","tp_pips, sl_pips",160,156,24960
+71,071_trend_pgo,period,"tp_pips, sl_pips",20,156,3120
+72,072_trend_psychline,period,"tp_pips, sl_pips",20,156,3120
+73,073_trend_qqe,"rsi_period, smoothing","tp_pips, sl_pips",280,156,43680
+74,074_trend_rainbow,max_period,"tp_pips, sl_pips",20,156,3120
+75,075_trend_smiergodic,"ema1, ema2, signal","tp_pips, sl_pips",3920,156,611520
+76,076_trend_smi,"k_period, d_period, smoothing","tp_pips, sl_pips",3200,156,499200
+77,077_trend_trendflex,period,"tp_pips, sl_pips",20,156,3120
+78,078_trend_macdhist,"fast, slow, signal","tp_pips, sl_pips",8000,156,1248000
+79,079_trend_macdsignal,"fast, slow, signal","tp_pips, sl_pips",8000,156,1248000
+80,080_trend_zerolagmacd,"fast, slow, signal","tp_pips, sl_pips",8000,156,1248000
+81,081_trend_choppiness,"period, threshold","tp_pips, sl_pips",400,156,62400
+82,082_trend_coppock,"roc1, roc2, wma_period","tp_pips, sl_pips",8000,156,1248000
+83,083_trend_detrendedprice,period,"tp_pips, sl_pips",20,156,3120
+84,084_trend_efficiencyratio,period,"tp_pips, sl_pips",20,156,3120
+85,085_volume_elderforce,period,"tp_pips, sl_pips",20,156,3120
+86,086_trend_frama,period,"tp_pips, sl_pips",20,156,3120
+87,087_trend_gaussian,"period, poles","tp_pips, sl_pips",220,156,34320
+88,088_trend_highlowindex,period,"tp_pips, sl_pips",20,156,3120
+89,089_trend_histvol,period,"tp_pips, sl_pips",20,156,3120
+90,090_trend_hullmaosc,period,"tp_pips, sl_pips",20,156,3120
+91,091_trend_instantaneous,"period, threshold","tp_pips, sl_pips",400,156,62400
+92,092_trend_kauffman,"er_period, fast_ema, slow_ema","tp_pips, sl_pips",2400,156,374400
+93,093_trend_laguerre,gamma,"tp_pips, sl_pips",20,156,3120
+94,094_trend_linearregslope,period,"tp_pips, sl_pips",20,156,3120
+95,095_volume_mfi_extended,"period, overbought, oversold","tp_pips, sl_pips",8000,156,1248000
+96,096_trend_mcginleydynamic,"period, constant","tp_pips, sl_pips",400,156,62400
+97,097_trend_parabolicsar_extended,"af_start, af_increment, af_max","tp_pips, sl_pips",8000,156,1248000
+98,098_trend_pivotpoints,,"tp_pips, sl_pips",1,156,156
+99,099_trend_priceoscillator,"fast, slow, signal","tp_pips, sl_pips",8000,156,1248000
+100,100_trend_renko,brick_size,"tp_pips, sl_pips",20,156,3120
+101,101_trend_inversefisher,period,"tp_pips, sl_pips",20,156,3120
+102,102_trend_connorsrsi,"rsi_period, streak_period, pct_rank_period","tp_pips, sl_pips",960,156,149760
+103,103_trend_laguerrersi,gamma,"tp_pips, sl_pips",20,156,3120
+104,104_trend_rmi,"period, momentum_period","tp_pips, sl_pips",280,156,43680
+105,105_trend_ergodic,"long_period, short_period, signal_period","tp_pips, sl_pips",3920,156,611520
+106,106_trend_cog,period,"tp_pips, sl_pips",20,156,3120
+107,107_trend_cybercycle,alpha,"tp_pips, sl_pips",20,156,3120
+108,108_trend_decycler,hp_period,"tp_pips, sl_pips",20,156,3120
+109,109_trend_ebs,hp_period,"tp_pips, sl_pips",20,156,3120
+110,110_trend_hilbert,,"tp_pips, sl_pips",1,156,156
+111,111_trend_reflex,period,"tp_pips, sl_pips",20,156,3120
+112,112_trend_trendvigor,period,"tp_pips, sl_pips",20,156,3120
+113,113_trend_correlationcycle,period,"tp_pips, sl_pips",20,156,3120
+114,114_trend_dominantcycle,"min_period, max_period","tp_pips, sl_pips",400,156,62400
+115,115_trend_phaseaccumulation,"period, threshold","tp_pips, sl_pips",400,156,62400
+116,116_trend_sinewave,period,"tp_pips, sl_pips",20,156,3120
+117,117_trend_fractaldimension,period,"tp_pips, sl_pips",20,156,3120
+118,118_trend_hurstexponent,period,"tp_pips, sl_pips",20,156,3120
+119,119_trend_entropy,"period, threshold","tp_pips, sl_pips",400,156,62400
+120,120_trend_marketstate,,"tp_pips, sl_pips",1,156,156
+121,121_trend_regimedetection,"period, threshold","tp_pips, sl_pips",400,156,62400
+122,122_trend_cycleperiod,"min_period, max_period","tp_pips, sl_pips",400,156,62400
+123,123_trend_adaptivemacd,"fast_base, slow_base, signal","tp_pips, sl_pips",8000,156,1248000
+124,124_trend_macddivergence,,"tp_pips, sl_pips",1,156,156
+125,125_trend_vhf,period,"tp_pips, sl_pips",20,156,3120
+126,126_trend_trendstrengthindex,period,"tp_pips, sl_pips",20,156,3120
+127,127_trend_rsquared,period,"tp_pips, sl_pips",20,156,3120
+128,128_trend_pricechannels,period,"tp_pips, sl_pips",20,156,3120
+129,129_trend_envelopechannels,"period, percent","tp_pips, sl_pips",400,156,62400
+130,130_trend_stdchannels,"period, std_mult","tp_pips, sl_pips",120,156,18720
+131,131_trend_regressionchannels,"period, std_mult","tp_pips, sl_pips",120,156,18720
+132,132_trend_fibonaccichannels,period,"tp_pips, sl_pips",20,156,3120
+133,133_trend_accelerationbands,"period, factor","tp_pips, sl_pips",400,156,62400
+134,134_trend_starcbands,"ma_period, atr_period, atr_mult","tp_pips, sl_pips",1680,156,262080
+136,136_trend_chandelierexit,"period, atr_mult","tp_pips, sl_pips",160,156,24960
+137,137_trend_atrchannels,"ma_period, atr_period, atr_mult","tp_pips, sl_pips",2400,156,374400
+138,138_trend_volatilitychannels,"period, vol_mult","tp_pips, sl_pips",400,156,62400
+139,139_trend_dynamicchannels,"min_period, max_period, mult","tp_pips, sl_pips",2400,156,374400
+140,140_trend_adaptivechannels,"period, threshold","tp_pips, sl_pips",400,156,62400
+141,141_trend_projectionbands,"period, projection, std_mult","tp_pips, sl_pips",1680,156,262080
+142,142_trend_squeezeindicator,"bb_period, bb_mult, kc_period, kc_mult","tp_pips, sl_pips",48000,156,7488000
+143,143_trend_ttmsqueeze,"length, mult, length_kc, mult_kc","tp_pips, sl_pips",48000,156,7488000
+144,144_trend_bollingerbandwidth,"period, std_mult","tp_pips, sl_pips",120,156,18720
+145,145_volume_divergenceindex,"period, threshold","tp_pips, sl_pips",400,156,62400
+146,146_volume_hiddendivergence,"period, threshold","tp_pips, sl_pips",400,156,62400
+147,147_volume_regulardivergence,"period, threshold","tp_pips, sl_pips",400,156,62400
+148,148_volume_bullishdivergence,"period, threshold","tp_pips, sl_pips",400,156,62400
+149,149_volume_bearishdivergence,"period, threshold","tp_pips, sl_pips",400,156,62400
+150,150_volume_multiindicatordivergence,"period, threshold","tp_pips, sl_pips",400,156,62400
+151,151_volume_divergencestrength,"period, lookback","tp_pips, sl_pips",400,156,62400
+152,152_volume_divergenceconfluence,"period, threshold","tp_pips, sl_pips",400,156,62400
+153,153_volume_divergencemomentum,"period, lookback","tp_pips, sl_pips",400,156,62400
+154,154_volume_divergencepattern,"period, threshold","tp_pips, sl_pips",400,156,62400
+155,155_pattern_candlestickpatterns,body_threshold,"tp_pips, sl_pips",20,156,3120
+156,156_pattern_priceaction,"lookback, min_body_ratio","tp_pips, sl_pips",400,156,62400
+157,157_pattern_chartpatterns,"lookback, tolerance","tp_pips, sl_pips",400,156,62400
+158,158_pattern_harmonicpatterns,"lookback, tolerance","tp_pips, sl_pips",400,156,62400
+159,159_pattern_elliottwave,"lookback, wave_tolerance","tp_pips, sl_pips",400,156,62400
+160,160_pattern_wyckoff,"period, volume_threshold","tp_pips, sl_pips",400,156,62400
+161,161_pattern_supportresistance,"lookback, num_levels, proximity","tp_pips, sl_pips",3200,156,499200
+162,162_pattern_trendlines,"lookback, min_touches, tolerance","tp_pips, sl_pips",2400,156,374400
+163,163_pattern_fibonacciretracement,"lookback, proximity","tp_pips, sl_pips",400,156,62400
+164,164_pattern_fibonacciextension,"lookback, proximity","tp_pips, sl_pips",400,156,62400
+166,166_volatility_garch,"period, alpha, beta","tp_pips, sl_pips",8000,156,1248000
+167,167_volatility_ewma,"span, lambda_param","tp_pips, sl_pips",400,156,62400
+168,168_volatility_coefficient_variation,"period, threshold","tp_pips, sl_pips",400,156,62400
+169,169_volatility_regime_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+170,170_volatility_breakout,"period, multiplier, threshold, overbought, oversold","tp_pips, sl_pips",800000,156,124800000
+171,171_range_true_range,"period, threshold","tp_pips, sl_pips",400,156,62400
+172,172_range_daily,period,"tp_pips, sl_pips",20,156,3120
+173,173_range_weekly,period,"tp_pips, sl_pips",11,156,1716
+174,174_range_monthly,period,"tp_pips, sl_pips",8,156,1248
+175,175_range_expansion_index,"period, threshold","tp_pips, sl_pips",400,156,62400
+176,176_range_contraction_index,"period, threshold","tp_pips, sl_pips",400,156,62400
+177,177_range_breakout,"period, threshold","tp_pips, sl_pips",400,156,62400
+178,178_range_bound,"period, threshold","tp_pips, sl_pips",400,156,62400
+179,179_range_filter,"period, multiplier","tp_pips, sl_pips",400,156,62400
+180,180_range_adaptive,"period, fast_period, slow_period","tp_pips, sl_pips",5600,156,873600
+181,181_volume_weighted_price,period,"tp_pips, sl_pips",20,156,3120
+182,182_volume_momentum,"period, threshold","tp_pips, sl_pips",400,156,62400
+183,183_volume_trend,period,"tp_pips, sl_pips",20,156,3120
+184,184_volume_oscillator,"fast_period, slow_period","tp_pips, sl_pips",280,156,43680
+185,185_volume_divergence,"period, lookback","tp_pips, sl_pips",280,156,43680
+186,186_volume_spread_analysis,"period, threshold","tp_pips, sl_pips",400,156,62400
+187,187_volume_profile,"period, bins","tp_pips, sl_pips",400,156,62400
+188,188_volume_price_trend,period,"tp_pips, sl_pips",20,156,3120
+189,189_volume_roc,"period, threshold","tp_pips, sl_pips",400,156,62400
+190,190_volume_weighted_average_price,"period, std_mult","tp_pips, sl_pips",120,156,18720
+191,191_volume_zone_oscillator,period,"tp_pips, sl_pips",20,156,3120
+192,192_volume_accumulation_distribution,period,"tp_pips, sl_pips",20,156,3120
+193,193_volume_price_confirmation,"short_period, long_period","tp_pips, sl_pips",280,156,43680
+194,194_volume_intensity,"period, threshold","tp_pips, sl_pips",400,156,62400
+195,195_volume_force_index,"short_period, long_period","tp_pips, sl_pips",120,156,18720
+196,196_volume_weighted_momentum,period,"tp_pips, sl_pips",20,156,3120
+197,197_volume_efficiency,period,"tp_pips, sl_pips",20,156,3120
+198,198_volume_delta,period,"tp_pips, sl_pips",20,156,3120
+199,199_volume_flow_indicator,"period, threshold","tp_pips, sl_pips",40,156,6240
+200,200_volume_spread_analysis,"period, vol_threshold","tp_pips, sl_pips",400,156,62400
+201,201_volume_profile,"period, bins","tp_pips, sl_pips",400,156,62400
+202,202_volume_at_price,"period, price_tolerance","tp_pips, sl_pips",400,156,62400
+203,203_point_of_control,"period, bins","tp_pips, sl_pips",400,156,62400
+204,204_value_area_high,"period, bins, value_area_pct","tp_pips, sl_pips",8000,156,1248000
+205,205_value_area_low,"period, bins, value_area_pct","tp_pips, sl_pips",8000,156,1248000
+206,206_volume_weighted_ma,period,"tp_pips, sl_pips",20,156,3120
+207,207_volume_spread_analysis,"period, threshold","tp_pips, sl_pips",400,156,62400
+208,208_wyckoff_volume,,"tp_pips, sl_pips",1,156,156
+209,209_smart_money_index,period,"tp_pips, sl_pips",20,156,3120
+210,210_tick_volume_index,period,"tp_pips, sl_pips",20,156,3120
+211,211_volume_breakout,,"tp_pips, sl_pips",1,156,156
+212,212_volume_climax,"period, threshold","tp_pips, sl_pips",400,156,62400
+213,213_volume_exhaustion,"period, threshold","tp_pips, sl_pips",400,156,62400
+214,214_volume_divergence,period,"tp_pips, sl_pips",20,156,3120
+215,215_volume_confirmation,"period, vol_threshold","tp_pips, sl_pips",400,156,62400
+216,216_volume_momentum,period,"tp_pips, sl_pips",20,156,3120
+217,217_volume_strength,period,"tp_pips, sl_pips",20,156,3120
+218,218_volume_pressure,period,"tp_pips, sl_pips",20,156,3120
+219,219_volume_distribution,period,"tp_pips, sl_pips",20,156,3120
+220,220_volume_cycle,"period, cycle_length","tp_pips, sl_pips",400,156,62400
+221,221_tick_volume,"period, threshold","tp_pips, sl_pips",400,156,62400
+222,222_trade_volume,period,"tp_pips, sl_pips",20,156,3120
+223,223_buy_volume,period,"tp_pips, sl_pips",20,156,3120
+224,224_sell_volume,period,"tp_pips, sl_pips",20,156,3120
+225,225_delta_volume,period,"tp_pips, sl_pips",20,156,3120
+226,226_cumulative_delta,period,"tp_pips, sl_pips",20,156,3120
+227,227_volume_imbalance,"period, threshold","tp_pips, sl_pips",400,156,62400
+228,228_order_flow,period,"tp_pips, sl_pips",20,156,3120
+229,229_market_depth,period,"tp_pips, sl_pips",20,156,3120
+230,230_bid_ask_spread,period,"tp_pips, sl_pips",20,156,3120
+231,231_bid_volume,"period, threshold","tp_pips, sl_pips",400,156,62400
+232,232_ask_volume,period,"tp_pips, sl_pips",20,156,3120
+233,233_trade_intensity,period,"tp_pips, sl_pips",20,156,3120
+234,234_trade_frequency,"period, threshold","tp_pips, sl_pips",400,156,62400
+235,235_average_trade_size,"period, threshold","tp_pips, sl_pips",400,156,62400
+236,236_large_trade_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+237,237_block_trade_detector,"period, threshold","tp_pips, sl_pips",160,156,24960
+238,238_institutional_volume,,"tp_pips, sl_pips",1,156,156
+239,239_retail_volume,period,"tp_pips, sl_pips",20,156,3120
+240,240_dark_pool_activity,"period, threshold","tp_pips, sl_pips",400,156,62400
+241,241_skewness,period,"tp_pips, sl_pips",20,156,3120
+242,242_kurtosis,period,"tp_pips, sl_pips",20,156,3120
+243,243_zscore,"period, threshold","tp_pips, sl_pips",120,156,18720
+244,244_tscore,period,"tp_pips, sl_pips",20,156,3120
+245,245_percentile,period,"tp_pips, sl_pips",20,156,3120
+246,246_quartile,period,"tp_pips, sl_pips",20,156,3120
+247,247_iqr,period,"tp_pips, sl_pips",20,156,3120
+248,248_mad,period,"tp_pips, sl_pips",20,156,3120
+249,249_coefficient_variation,period,"tp_pips, sl_pips",20,156,3120
+250,250_correlation_coefficient,period,"tp_pips, sl_pips",20,156,3120
+251,251_covariance,period,"tp_pips, sl_pips",20,156,3120
+252,252_beta,period,"tp_pips, sl_pips",20,156,3120
+253,253_sharpe_ratio,period,"tp_pips, sl_pips",20,156,3120
+254,254_sortino_ratio,period,"tp_pips, sl_pips",20,156,3120
+255,255_calmar_ratio,period,"tp_pips, sl_pips",20,156,3120
+256,256_linear_regression,period,"tp_pips, sl_pips",20,156,3120
+257,257_polynomial_regression,"period, degree","tp_pips, sl_pips",120,156,18720
+258,258_exponential_regression,period,"tp_pips, sl_pips",20,156,3120
+259,259_logarithmic_regression,period,"tp_pips, sl_pips",20,156,3120
+260,260_power_regression,period,"tp_pips, sl_pips",20,156,3120
+261,261_ridge_regression,"period, alpha","tp_pips, sl_pips",80,156,12480
+262,262_lasso_regression,"period, alpha","tp_pips, sl_pips",80,156,12480
+263,263_elastic_net,,"tp_pips, sl_pips",1,156,156
+264,264_time_series_regression,"period, lags","tp_pips, sl_pips",160,156,24960
+265,265_auto_regression,"period, ar_order","tp_pips, sl_pips",160,156,24960
+266,266_moving_average_model,"period, ma_order","tp_pips, sl_pips",160,156,24960
+267,267_arma_model,"period, ar_order, ma_order","tp_pips, sl_pips",720,156,112320
+268,268_arima_model,"period, ar_order, diff_order, ma_order","tp_pips, sl_pips",2880,156,449280
+269,269_sarima_model,"period, seasonal_period","tp_pips, sl_pips",400,156,62400
+270,270_garch_model,"period, threshold","tp_pips, sl_pips",400,156,62400
+271,271_exponential_smoothing,alpha,"tp_pips, sl_pips",20,156,3120
+272,272_holt_winters,"alpha, beta, gamma, seasonal_period","tp_pips, sl_pips",160000,156,24960000
+273,273_kalman_filter,"process_variance, measurement_variance","tp_pips, sl_pips",400,156,62400
+274,274_particle_filter,"num_particles, process_noise","tp_pips, sl_pips",400,156,62400
+275,275_linear_regression_slope,period,"tp_pips, sl_pips",20,156,3120
+276,276_candlestick_patterns,body_threshold,"tp_pips, sl_pips",20,156,3120
+277,277_chart_patterns,"period, tolerance","tp_pips, sl_pips",400,156,62400
+278,278_harmonic_patterns,"period, tolerance","tp_pips, sl_pips",400,156,62400
+279,279_elliott_wave,period,"tp_pips, sl_pips",20,156,3120
+280,280_fibonacci_retracements,,"tp_pips, sl_pips",1,156,156
+281,281_fibonacci_extensions,,"tp_pips, sl_pips",1,156,156
+282,282_fibonacci_fans,period,"tp_pips, sl_pips",20,156,3120
+283,283_fibonacci_arcs,"period, threshold","tp_pips, sl_pips",400,156,62400
+284,284_fibonacci_time_zones,start_index,"tp_pips, sl_pips",2,156,312
+285,285_gann_angles,"period, threshold","tp_pips, sl_pips",400,156,62400
+286,286_gann_square_of_9,"period, threshold","tp_pips, sl_pips",400,156,62400
+287,287_gann_fans,"period, threshold","tp_pips, sl_pips",400,156,62400
+288,288_andrews_pitchfork,period,"tp_pips, sl_pips",20,156,3120
+290,290_support_resistance,"period, tolerance","tp_pips, sl_pips",400,156,62400
+291,291_normal_distribution,"period, threshold","tp_pips, sl_pips",400,156,62400
+292,292_lognormal_distribution,period,"tp_pips, sl_pips",20,156,3120
+293,293_monte_carlo,"period, num_simulations, forecast_steps","tp_pips, sl_pips",5600,156,873600
+294,294_bootstrap_sampling,"period, num_bootstrap","tp_pips, sl_pips",400,156,62400
+295,295_bayesian_inference,"period, prior_prob","tp_pips, sl_pips",400,156,62400
+296,296_confidence_intervals,"period, confidence_level","tp_pips, sl_pips",400,156,62400
+297,297_hypothesis_testing,"period, alpha","tp_pips, sl_pips",400,156,62400
+298,298_pvalue_calculator,period,"tp_pips, sl_pips",20,156,3120
+299,299_statistical_significance,period,"tp_pips, sl_pips",20,156,3120
+300,300_probability_distribution,period,"tp_pips, sl_pips",20,156,3120
+301,301_bayesian_probability,"period, threshold","tp_pips, sl_pips",400,156,62400
+302,302_monte_carlo_probability,period,"tp_pips, sl_pips",20,156,3120
+303,303_statistical_arbitrage,"period, zscore_threshold","tp_pips, sl_pips",120,156,18720
+304,304_regime_switching,period,"tp_pips, sl_pips",20,156,3120
+305,305_markov_chain,"period, threshold","tp_pips, sl_pips",400,156,62400
+306,306_gradient_boosting_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+307,307_random_forest_ensemble,period,"tp_pips, sl_pips",20,156,3120
+308,308_neural_network_prediction,period,"tp_pips, sl_pips",20,156,3120
+309,309_lstm_pattern_recognition,"period, threshold","tp_pips, sl_pips",400,156,62400
+310,310_reinforcement_learning_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+311,311_convolutional_pattern,"kernel_size, period","tp_pips, sl_pips",280,156,43680
+312,312_attention_mechanism,"period, threshold","tp_pips, sl_pips",400,156,62400
+313,313_transformer_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+314,314_autoencoder_anomaly,"period, threshold","tp_pips, sl_pips",120,156,18720
+315,315_gan_price_generator,period,"tp_pips, sl_pips",20,156,3120
+316,316_xgboost_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+317,317_ensemble_voting,"period, threshold","tp_pips, sl_pips",400,156,62400
+318,318_stacking_ensemble,period,"tp_pips, sl_pips",20,156,3120
+319,319_bagging_predictor,period,"tp_pips, sl_pips",20,156,3120
+320,320_boosting_cascade,period,"tp_pips, sl_pips",20,156,3120
+321,321_automl_optimizer,period,"tp_pips, sl_pips",20,156,3120
+322,322_meta_learning,period,"tp_pips, sl_pips",20,156,3120
+323,323_transfer_learning,"short_period, long_period","tp_pips, sl_pips",280,156,43680
+324,324_few_shot_learning,"period, threshold","tp_pips, sl_pips",400,156,62400
+325,325_online_learning,"period, threshold","tp_pips, sl_pips",400,156,62400
+326,326_hybrid_ml_technical,"period, ml_weight","tp_pips, sl_pips",400,156,62400
+327,327_adaptive_ensemble,"period, adaptation_rate","tp_pips, sl_pips",400,156,62400
+328,328_multi_model_fusion,period,"tp_pips, sl_pips",20,156,3120
+329,329_dynamic_model_selection,"period, lookback","tp_pips, sl_pips",400,156,62400
+330,330_consensus_aggregator,"period, consensus_threshold","tp_pips, sl_pips",400,156,62400
+331,331_feature_importance_ranker,period,"tp_pips, sl_pips",20,156,3120
+332,332_feature_selection_filter,"period, correlation_threshold","tp_pips, sl_pips",400,156,62400
+333,333_feature_interaction,period,"tp_pips, sl_pips",20,156,3120
+334,334_polynomial_features,"period, threshold","tp_pips, sl_pips",400,156,62400
+335,335_feature_engineering_auto,period,"tp_pips, sl_pips",20,156,3120
+336,336_pca_signal,period,"tp_pips, sl_pips",20,156,3120
+337,337_ica_signal,period,"tp_pips, sl_pips",20,156,3120
+338,338_manifold_learning,period,"tp_pips, sl_pips",20,156,3120
+339,339_tsne_clustering,"period, threshold","tp_pips, sl_pips",400,156,62400
+340,340_autoencoder_compression,period,"tp_pips, sl_pips",20,156,3120
+341,341_kmeans_clustering,period,"tp_pips, sl_pips",20,156,3120
+342,342_dbscan_anomaly,"period, eps","tp_pips, sl_pips",400,156,62400
+343,343_hierarchical_clustering,period,"tp_pips, sl_pips",20,156,3120
+344,344_gaussian_mixture,period,"tp_pips, sl_pips",20,156,3120
+345,345_spectral_clustering,period,"tp_pips, sl_pips",20,156,3120
+346,346_arima_forecast,period,"tp_pips, sl_pips",20,156,3120
+347,347_exponential_smoothing,"period, alpha","tp_pips, sl_pips",400,156,62400
+348,348_kalman_filter,"period, process_noise","tp_pips, sl_pips",400,156,62400
+349,349_wavelet_decomposition,period,"tp_pips, sl_pips",20,156,3120
+350,350_seasonal_decomposition,period,"tp_pips, sl_pips",20,156,3120
+351,351_prophet_forecast,"period, threshold","tp_pips, sl_pips",400,156,62400
+352,352_garch_volatility,period,"tp_pips, sl_pips",20,156,3120
+353,353_var_forecast,period,"tp_pips, sl_pips",20,156,3120
+354,354_state_space_model,period,"tp_pips, sl_pips",20,156,3120
+355,355_granger_causality,"period, threshold","tp_pips, sl_pips",400,156,62400
+356,356_cointegration_signal,period,"tp_pips, sl_pips",20,156,3120
+357,357_stochastic_process,period,"tp_pips, sl_pips",20,156,3120
+358,358_jump_diffusion,"period, jump_threshold","tp_pips, sl_pips",120,156,18720
+359,359_mean_reversion_speed,period,"tp_pips, sl_pips",20,156,3120
+360,360_hurst_exponent,period,"tp_pips, sl_pips",20,156,3120
+361,361_isolation_forest,period,"tp_pips, sl_pips",20,156,3120
+362,362_local_outlier_factor,"period, multiplier, threshold","tp_pips, sl_pips",2000,156,312000
+363,363_one_class_svm,"period, nu","tp_pips, sl_pips",400,156,62400
+364,364_elliptic_envelope,"period, contamination","tp_pips, sl_pips",400,156,62400
+365,365_statistical_anomaly,"period, threshold","tp_pips, sl_pips",120,156,18720
+366,366_candlestick_pattern_ml,"period, threshold","tp_pips, sl_pips",400,156,62400
+367,367_chart_pattern_detector,period,"tp_pips, sl_pips",20,156,3120
+368,368_harmonic_pattern,period,"tp_pips, sl_pips",20,156,3120
+369,369_elliott_wave_detector,period,"tp_pips, sl_pips",20,156,3120
+370,370_wyckoff_accumulation,period,"tp_pips, sl_pips",20,156,3120
+371,371_fourier_transform,period,"tp_pips, sl_pips",20,156,3120
+372,372_hilbert_transform,period,"tp_pips, sl_pips",20,156,3120
+373,373_bandpass_filter,period,"tp_pips, sl_pips",20,156,3120
+374,374_adaptive_filter,"period, mu","tp_pips, sl_pips",400,156,62400
+375,375_spectral_analysis,"period, threshold","tp_pips, sl_pips",400,156,62400
+376,376_shannon_entropy,period,"tp_pips, sl_pips",20,156,3120
+377,377_mutual_information,period,"tp_pips, sl_pips",20,156,3120
+378,378_transfer_entropy,period,"tp_pips, sl_pips",20,156,3120
+379,379_approximate_entropy,period,"tp_pips, sl_pips",20,156,3120
+380,380_sample_entropy,"period, threshold","tp_pips, sl_pips",400,156,62400
+381,381_kolmogorov_complexity,period,"tp_pips, sl_pips",20,156,3120
+382,382_lempel_ziv_complexity,"period, threshold","tp_pips, sl_pips",400,156,62400
+383,383_permutation_entropy,period,"tp_pips, sl_pips",20,156,3120
+384,384_multiscale_entropy,"period, threshold","tp_pips, sl_pips",400,156,62400
+385,385_compression_ratio,"period, threshold","tp_pips, sl_pips",400,156,62400
+386,386_correlation_network,"period, threshold","tp_pips, sl_pips",400,156,62400
+387,387_graph_centrality,period,"tp_pips, sl_pips",20,156,3120
+388,388_network_topology,"period, threshold","tp_pips, sl_pips",400,156,62400
+389,389_community_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+390,390_pagerank_signal,period,"tp_pips, sl_pips",20,156,3120
+391,391_lyapunov_exponent,"period, threshold","tp_pips, sl_pips",400,156,62400
+392,392_attractor_dimension,"period, threshold","tp_pips, sl_pips",400,156,62400
+393,393_phase_space_reconstruction,period,"tp_pips, sl_pips",20,156,3120
+394,394_bifurcation_detector,period,"tp_pips, sl_pips",20,156,3120
+395,395_nonlinear_prediction,period,"tp_pips, sl_pips",20,156,3120
+396,396_recurrence_plot,period,"tp_pips, sl_pips",20,156,3120
+397,397_recurrence_quantification,period,"tp_pips, sl_pips",20,156,3120
+398,398_cross_recurrence,"period, threshold","tp_pips, sl_pips",400,156,62400
+399,399_diagonal_line_analysis,"period, threshold","tp_pips, sl_pips",400,156,62400
+400,400_recurrence_time,"period, threshold","tp_pips, sl_pips",400,156,62400
+401,401_bid_ask_spread,period,"tp_pips, sl_pips",20,156,3120
+402,402_order_flow_imbalance,period,"tp_pips, sl_pips",20,156,3120
+403,403_market_depth,"period, threshold","tp_pips, sl_pips",400,156,62400
+404,404_trade_intensity,"period, threshold","tp_pips, sl_pips",400,156,62400
+405,405_price_impact,"period, threshold","tp_pips, sl_pips",400,156,62400
+406,406_volume_weighted_spread,"period, threshold","tp_pips, sl_pips",400,156,62400
+407,407_effective_spread,period,"tp_pips, sl_pips",20,156,3120
+408,408_quoted_spread,"period, threshold","tp_pips, sl_pips",400,156,62400
+409,409_roll_measure,"period, threshold","tp_pips, sl_pips",400,156,62400
+410,410_amihud_illiquidity,period,"tp_pips, sl_pips",20,156,3120
+411,411_volume_synchronized_probability,period,"tp_pips, sl_pips",20,156,3120
+412,412_kyle_lambda,"period, threshold","tp_pips, sl_pips",400,156,62400
+413,413_hasbrouck_information_share,"period, threshold","tp_pips, sl_pips",400,156,62400
+414,414_adverse_selection,period,"tp_pips, sl_pips",20,156,3120
+415,415_inventory_risk,period,"tp_pips, sl_pips",20,156,3120
+416,416_market_making_spread,period,"tp_pips, sl_pips",20,156,3120
+417,417_execution_shortfall,period,"tp_pips, sl_pips",20,156,3120
+418,418_implementation_shortfall,period,"tp_pips, sl_pips",20,156,3120
+419,419_arrival_price_benchmark,"period, threshold","tp_pips, sl_pips",400,156,62400
+420,420_vwap_execution_quality,"period, threshold","tp_pips, sl_pips",400,156,62400
+421,421_tick_direction,period,"tp_pips, sl_pips",20,156,3120
+422,422_tick_rule,period,"tp_pips, sl_pips",20,156,3120
+423,423_quote_rule,period,"tp_pips, sl_pips",20,156,3120
+424,424_order_book_imbalance,period,"tp_pips, sl_pips",20,156,3120
+425,425_order_book_slope,period,"tp_pips, sl_pips",20,156,3120
+426,426_limit_order_book_pressure,period,"tp_pips, sl_pips",20,156,3120
+427,427_twap_deviation,"period, threshold","tp_pips, sl_pips",400,156,62400
+428,428_participation_rate,"period, threshold","tp_pips, sl_pips",400,156,62400
+429,429_urgency_cost,period,"tp_pips, sl_pips",20,156,3120
+430,430_latency_arbitrage,period,"tp_pips, sl_pips",20,156,3120
+431,431_iceberg_detection,period,"tp_pips, sl_pips",20,156,3120
+432,432_pov_algorithm,"period, threshold","tp_pips, sl_pips",400,156,62400
+433,433_smart_order_routing,"period, threshold","tp_pips, sl_pips",400,156,62400
+434,434_dark_pool_indicator,"period, threshold","tp_pips, sl_pips",400,156,62400
+435,435_algo_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+436,436_iceberg_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+437,437_pov_algorithm,"period, target_pov","tp_pips, sl_pips",400,156,62400
+438,438_smart_order_routing,"period, threshold","tp_pips, sl_pips",400,156,62400
+439,439_dark_pool_activity,"period, threshold","tp_pips, sl_pips",400,156,62400
+440,440_algo_trading_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+441,441_market_maker_inventory,period,"tp_pips, sl_pips",20,156,3120
+442,442_quote_stuffing,period,"tp_pips, sl_pips",20,156,3120
+443,443_spoofing_detection,period,"tp_pips, sl_pips",20,156,3120
+444,444_wash_trading,"period, threshold","tp_pips, sl_pips",400,156,62400
+445,445_front_running,period,"tp_pips, sl_pips",20,156,3120
+446,446_momentum_ignition,period,"tp_pips, sl_pips",20,156,3120
+447,447_pump_dump,period,"tp_pips, sl_pips",20,156,3120
+448,448_liquidity_hunting,period,"tp_pips, sl_pips",20,156,3120
+449,449_order_anticipation,"period, threshold","tp_pips, sl_pips",400,156,62400
+450,450_hft_toxicity,period,"tp_pips, sl_pips",20,156,3120
+451,451_market_quality_index,"period, threshold","tp_pips, sl_pips",400,156,62400
+452,452_microstructure_noise,"period, threshold","tp_pips, sl_pips",400,156,62400
+453,453_effective_tick_size,period,"tp_pips, sl_pips",20,156,3120
+454,454_realized_volatility_signature,period,"tp_pips, sl_pips",20,156,3120
+455,455_price_discovery,period,"tp_pips, sl_pips",20,156,3120
+456,456_pin_risk,"period, threshold","tp_pips, sl_pips",400,156,62400
+457,457_market_resilience,"period, threshold","tp_pips, sl_pips",400,156,62400
+458,458_trade_duration,"period, threshold","tp_pips, sl_pips",400,156,62400
+459,459_market_fragmentation,"period, threshold","tp_pips, sl_pips",400,156,62400
+460,460_execution_probability,"period, threshold","tp_pips, sl_pips",400,156,62400
+461,461_order_flow_toxicity,"period, threshold","tp_pips, sl_pips",400,156,62400
+462,462_market_making_profitability,"period, threshold","tp_pips, sl_pips",400,156,62400
+463,463_queue_position,"period, threshold","tp_pips, sl_pips",400,156,62400
+464,464_liquidity_provision_score,"period, threshold","tp_pips, sl_pips",400,156,62400
+465,465_execution_slippage,"period, threshold, oversold","tp_pips, sl_pips",8000,156,1248000
+466,466_transaction_cost_analysis,"period, threshold, oversold","tp_pips, sl_pips",8000,156,1248000
+467,467_best_execution,"period, threshold","tp_pips, sl_pips",400,156,62400
+468,468_venue_selection,"period, threshold","tp_pips, sl_pips",400,156,62400
+469,469_order_book_dynamics,"period, threshold","tp_pips, sl_pips",400,156,62400
+470,470_high_frequency_momentum,"period, threshold","tp_pips, sl_pips",400,156,62400
+471,471_market_impact_model,period,"tp_pips, sl_pips",20,156,3120
+472,472_optimal_execution_horizon,"period, threshold","tp_pips, sl_pips",400,156,62400
+473,473_trade_aggressiveness,"period, threshold","tp_pips, sl_pips",400,156,62400
+474,474_smart_money_flow,"period, threshold","tp_pips, sl_pips",400,156,62400
+475,475_market_microstructure_invariance,"period, threshold","tp_pips, sl_pips",400,156,62400
+476,476_liquidity_shock,"period, threshold","tp_pips, sl_pips",400,156,62400
+477,477_order_flow_persistence,period,"tp_pips, sl_pips",20,156,3120
+478,478_market_maker_spread_compression,period,"tp_pips, sl_pips",20,156,3120
+479,479_execution_quality_score,"period, oversold","tp_pips, sl_pips",400,156,62400
+480,480_venue_toxicity,period,"tp_pips, sl_pips",20,156,3120
+481,481_smart_order_flow_detector,period,"tp_pips, sl_pips",20,156,3120
+482,482_market_regime_classifier,"period, threshold","tp_pips, sl_pips",400,156,62400
+483,483_liquidity_provider_profitability,"period, threshold","tp_pips, sl_pips",400,156,62400
+484,484_order_book_pressure_asymmetry,"period, threshold","tp_pips, sl_pips",400,156,62400
+485,485_execution_timing_optimizer,"period, multiplier, oversold","tp_pips, sl_pips",2000,156,312000
+486,486_volume_profile_analyzer,"period, threshold","tp_pips, sl_pips",400,156,62400
+487,487_market_depth_imbalance,"period, threshold, oversold","tp_pips, sl_pips",8000,156,1248000
+488,488_trade_size_distribution,"period, threshold","tp_pips, sl_pips",400,156,62400
+489,489_price_level_magnetism,"period, threshold","tp_pips, sl_pips",400,156,62400
+490,490_liquidity_heatmap_score,"period, threshold","tp_pips, sl_pips",400,156,62400
+491,491_order_flow_velocity,"period, threshold","tp_pips, sl_pips",400,156,62400
+492,492_market_maker_signal_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+493,493_price_action_footprint,"period, threshold","tp_pips, sl_pips",400,156,62400
+494,494_institutional_order_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+495,495_microstructure_alpha_score,"period, threshold","tp_pips, sl_pips",400,156,62400
+496,496_advanced_order_flow_composite,"period, threshold","tp_pips, sl_pips",400,156,62400
+497,497_market_efficiency_score,"period, oversold","tp_pips, sl_pips",400,156,62400
+498,498_liquidity_cycle_detector,"period, multiplier","tp_pips, sl_pips",100,156,15600
+499,499_execution_alpha_generator,period,"tp_pips, sl_pips",20,156,3120
+500,500_ultimate_microstructure_indicator,"period, threshold","tp_pips, sl_pips",400,156,62400
+501,501_fractal_dimension,"period, threshold","tp_pips, sl_pips",400,156,62400
+502,502_chaos_theory_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+503,503_strange_attractor_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+504,504_fractal_breakout,"period, threshold","tp_pips, sl_pips",400,156,62400
+505,505_nonlinear_dynamics_score,"period, threshold","tp_pips, sl_pips",400,156,62400
+506,506_bifurcation_point_detector,period,"tp_pips, sl_pips",20,156,3120
+507,507_phase_space_trajectory,"period, threshold","tp_pips, sl_pips",400,156,62400
+508,508_recurrence_quantification,"period, threshold","tp_pips, sl_pips",400,156,62400
+509,509_multifractal_spectrum,"period, threshold","tp_pips, sl_pips",400,156,62400
+510,510_chaos_order_transition,"period, threshold","tp_pips, sl_pips",400,156,62400
+511,511_social_sentiment_analyzer,"period, threshold","tp_pips, sl_pips",400,156,62400
+512,512_news_impact_score,"period, threshold","tp_pips, sl_pips",400,156,62400
+513,513_market_fear_greed_index,"period, threshold","tp_pips, sl_pips",400,156,62400
+514,514_alternative_data_composite,"period, threshold","tp_pips, sl_pips",400,156,62400
+515,515_behavioral_bias_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+516,516_quantum_superposition,"period, threshold","tp_pips, sl_pips",400,156,62400
+517,517_quantum_entanglement_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+518,518_wave_function_collapse,"period, threshold","tp_pips, sl_pips",400,156,62400
+519,519_quantum_tunneling_breakout,"period, threshold","tp_pips, sl_pips",400,156,62400
+520,520_quantum_probability_field,"period, threshold","tp_pips, sl_pips",400,156,62400
+521,521_market_network_centrality,period,"tp_pips, sl_pips",20,156,3120
+522,522_price_graph_connectivity,"period, threshold","tp_pips, sl_pips",400,156,62400
+523,523_network_clustering_coefficient,"period, threshold","tp_pips, sl_pips",400,156,62400
+524,524_graph_community_detection,"period, threshold","tp_pips, sl_pips",400,156,62400
+525,525_network_flow_analysis,"period, threshold","tp_pips, sl_pips",400,156,62400
+526,526_adversarial_learning_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+527,527_generative_model_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+528,528_contrastive_learning_indicator,"period, threshold","tp_pips, sl_pips",400,156,62400
+529,529_self_supervised_pattern,"period, threshold","tp_pips, sl_pips",400,156,62400
+530,530_federated_learning_composite,"period, threshold","tp_pips, sl_pips",400,156,62400
+531,531_pairs_trading_cointegration,"period, threshold, overbought, oversold","tp_pips, sl_pips",160000,156,24960000
+532,532_statistical_arbitrage_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+533,533_market_neutral_strategy,"period, threshold","tp_pips, sl_pips",400,156,62400
+534,534_long_short_equity_indicator,"period, multiplier","tp_pips, sl_pips",100,156,15600
+535,535_factor_timing_model,"period, multiplier, threshold","tp_pips, sl_pips",2000,156,312000
+536,536_multi_strategy_fusion,"period, threshold","tp_pips, sl_pips",400,156,62400
+537,537_adaptive_regime_composite,"period, threshold","tp_pips, sl_pips",400,156,62400
+538,538_meta_learning_ensemble,"period, overbought, oversold","tp_pips, sl_pips",8000,156,1248000
+539,539_dynamic_portfolio_optimizer,"period, threshold","tp_pips, sl_pips",400,156,62400
+540,540_ultimate_alpha_generator,"period, threshold","tp_pips, sl_pips",400,156,62400
+541,541_risk_parity_allocator,"period, threshold","tp_pips, sl_pips",400,156,62400
+542,542_volatility_targeting_strategy,"period, multiplier, threshold","tp_pips, sl_pips",2000,156,312000
+543,543_tail_risk_hedging_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+544,544_black_swan_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+545,545_crisis_alpha_generator,"period, threshold","tp_pips, sl_pips",400,156,62400
+546,546_sentiment_momentum_fusion,"period, threshold","tp_pips, sl_pips",400,156,62400
+547,547_cross_asset_correlation_signal,"period, threshold","tp_pips, sl_pips",400,156,62400
+548,548_macro_economic_indicator,"period, threshold","tp_pips, sl_pips",400,156,62400
+549,549_intermarket_analysis_composite,"period, threshold","tp_pips, sl_pips",400,156,62400
+550,550_global_risk_appetite_index,"period, threshold","tp_pips, sl_pips",400,156,62400
+551,551_adaptive_intelligence_system,"period, threshold","tp_pips, sl_pips",400,156,62400
+552,552_market_dna_analyzer,"period, threshold","tp_pips, sl_pips",400,156,62400
+553,553_predictive_pattern_engine,"period, threshold","tp_pips, sl_pips",400,156,62400
+554,554_quantum_market_state,"period, threshold","tp_pips, sl_pips",400,156,62400
+555,555_neural_alpha_extractor,period,"tp_pips, sl_pips",20,156,3120
+561,561_cognitive_market_intelligence,period,"tp_pips, sl_pips",20,156,3120
+562,562_holistic_market_synthesizer,"period, fast_period, slow_period","tp_pips, sl_pips",8000,156,1248000
+563,563_transcendent_alpha_engine,period,"tp_pips, sl_pips",20,156,3120
+564,564_omniscient_market_oracle,"period, multiplier","tp_pips, sl_pips",100,156,15600
+565,565_ultimate_convergence_master,"period, fast_period, slow_period","tp_pips, sl_pips",8000,156,1248000
+566,566_quantum_consciousness_field,period,"tp_pips, sl_pips",20,156,3120
+567,567_hyperdimensional_market_mapper,period,"tp_pips, sl_pips",20,156,3120
+568,568_evolutionary_market_genome,period,"tp_pips, sl_pips",20,156,3120
+569,569_neural_plasticity_indicator,"period, threshold","tp_pips, sl_pips",400,156,62400
+570,570_cosmic_market_resonance,period,"tp_pips, sl_pips",20,156,3120
+571,571_singularity_convergence_detector,"period, threshold","tp_pips, sl_pips",400,156,62400
+572,572_infinite_wisdom_aggregator,period,"tp_pips, sl_pips",20,156,3120
+573,573_universal_truth_extractor,"period, multiplier","tp_pips, sl_pips",100,156,15600
+574,574_absolute_certainty_engine,"period, multiplier, threshold, overbought, oversold","tp_pips, sl_pips",800000,156,124800000
+575,575_omnipotent_market_force,period,"tp_pips, sl_pips",20,156,3120
+576,576_eternal_market_equilibrium,period,"tp_pips, sl_pips",20,156,3120
+577,577_divine_market_providence,period,"tp_pips, sl_pips",20,156,3120
+578,578_supreme_alpha_synthesis,period,"tp_pips, sl_pips",20,156,3120
+579,579_ultimate_reality_matrix,period,"tp_pips, sl_pips",20,156,3120
+580,580_infinite_perfection_indicator,"period, multiplier","tp_pips, sl_pips",100,156,15600
+581,581_transcendental_market_vision,period,"tp_pips, sl_pips",20,156,3120
+582,582_primordial_chaos_order,period,"tp_pips, sl_pips",20,156,3120
+583,583_celestial_harmony_detector,period,"tp_pips, sl_pips",20,156,3120
+584,584_metaphysical_momentum_engine,period,"tp_pips, sl_pips",20,156,3120
+585,585_zenith_alpha_culmination,period,"tp_pips, sl_pips",20,156,3120
+586,586_omniversal_intelligence_core,period,"tp_pips, sl_pips",20,156,3120
+587,587_master_synthesis_nexus,period,"tp_pips, sl_pips",20,156,3120
+588,588_absolute_dominance_indicator,period,"tp_pips, sl_pips",20,156,3120
+589,589_infinite_intelligence_nexus,period,"tp_pips, sl_pips",20,156,3120
+590,590_grand_unification_theory,period,"tp_pips, sl_pips",20,156,3120
+591,591_ultimate_enlightenment_engine,"period, threshold","tp_pips, sl_pips",400,156,62400
+592,592_supreme_mastery_indicator,"period, multiplier","tp_pips, sl_pips",100,156,15600
+593,593_infinite_potential_maximizer,period,"tp_pips, sl_pips",20,156,3120
+594,594_omniscient_prediction_oracle,period,"tp_pips, sl_pips",20,156,3120
+595,595_ultimate_convergence_singularity,period,"tp_pips, sl_pips",20,156,3120
+596,596_apex_alpha_supremacy,"period, multiplier","tp_pips, sl_pips",100,156,15600
+597,597_transcendent_wisdom_culmination,period,"tp_pips, sl_pips",20,156,3120
+598,598_eternal_alpha_genesis,period,"tp_pips, sl_pips",20,156,3120
+599,599_cosmic_perfection_synthesis,period,"tp_pips, sl_pips",20,156,3120
+600,600_the_ultimate_master_indicator,period,"tp_pips, sl_pips",20,156,3120

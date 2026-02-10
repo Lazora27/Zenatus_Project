@@ -1,0 +1,8 @@
+Symbol,Description,Typical_Spread_Pips,Min_Spread_Pips,Max_Spread_Pips,Category,Notes
+XAGUSD,Silver vs US Dollar,3.0,2.0,5.0,Commodities,Precious metal
+XAUUSD,Gold vs US Dollar,3.0,2.0,5.0,Commodities,Precious metal
+XPDUSD,Palladium vs US Dollar,50.0,40.0,80.0,Commodities,Precious metal - High volatility
+XPTUSD,Platinum vs US Dollar,30.0,25.0,50.0,Commodities,Precious metal
+UKOIL,UK Brent Crude Oil,5.0,3.0,8.0,Commodities,Energy
+USOIL,US WTI Crude Oil,5.0,3.0,8.0,Commodities,Energy
+NGAS,Natural Gas,10.0,8.0,15.0,Commodities,Energy - High volatility

@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 010_trend_alma trades=126 net_ret=-0.03% max_dd=0.09% time=6s

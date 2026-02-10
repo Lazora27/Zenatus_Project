@@ -1,0 +1,82 @@
+{
+  "374": {
+    "file": "374_adaptive_filter.py",
+    "class_name": "Indicator_AdaptiveFilter",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "mu": {
+        "min": null,
+        "max": null,
+        "default": 0.01
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "mu": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  }
+}

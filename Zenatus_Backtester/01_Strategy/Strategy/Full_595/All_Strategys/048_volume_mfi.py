@@ -1,0 +1,298 @@
+"""
+048 - Money Flow Index (MFI)
+RSI für Volumen - Volumen-gewichteter Momentum-Oszillator
+"""
+
+import numpy as np
+import pandas as pd
+import vectorbt as vbt
+from typing import Dict
+import warnings
+warnings.filterwarnings("ignore")
+
+__version__ = "1.0.0"
+__author__ = "Nikola Cedomir Petar Cekic"
+__date__ = "2025-10-02"
+__status__ = "Production"
+
+
+class Indicator_MFI:
+    """
+    Money Flow Index (MFI) - Volume Momentum
+    
+    Beschreibung:
+        Volumen-gewichteter RSI (0-100).
+        Typical Price = (High + Low + Close) / 3
+        Money Flow = Typical Price * Volume
+        MFI = 100 - (100 / (1 + Money Ratio))
+    
+    Parameters:
+        - period: Lookback-Periode (5-50)
+        - overbought: Überkauft-Schwelle (60-90)
+        - oversold: Überverkauft-Schwelle (10-40)
+        - tp_pips: Take Profit in Pips (20-200)
+        - sl_pips: Stop Loss in Pips (10-100)
+    
+    Signals:
+        - A.a: Fixed TP/SL - Entry bei MFI Cross, Exit bei TP/SL
+        - A.b: Dynamic Exit - Entry bei MFI Cross, Exit bei Reverse Cross
+    """
+    
+    PARAMETERS = {
+        'period': {
+            'default': 14,
+            'min': 5,
+            'max': 50,
+            'values': [5,7,8,11,13,14,17,19,21,23,29,31,34,37,41,43,47],
+            'optimize': True,
+            'ml_feature': True,
+            'description': 'MFI lookback period'
+        },
+        'overbought': {
+            'default': 80,
+            'min': 60,
+            'max': 90,
+            'values': [60,65,70,75,80,85,90],
+            'optimize': True,
+            'ml_feature': True,
+            'description': 'Overbought threshold'
+        },
+        'oversold': {
+            'default': 20,
+            'min': 10,
+            'max': 40,
+            'values': [10,15,20,25,30,35,40],
+            'optimize': True,
+            'ml_feature': True,
+            'description': 'Oversold threshold'
+        },
+        'tp_pips': {
+            'default': 50,
+            'min': 20,
+            'max': 200,
+            'values': [30,40,50,60,75,100,125,150,200],
+            'optimize': True,
+            'ml_feature': False,
+            'description': 'Take Profit in pips'
+        },
+        'sl_pips': {
+            'default': 25,
+            'min': 10,
+            'max': 100,
+            'values': [10,15,20,25,30,40,50],
+            'optimize': True,
+            'ml_feature': False,
+            'description': 'Stop Loss in pips'
+        }
+    }
+    
+    def __init__(self):
+        self.name = "MFI"
+        self.category = "Volume"
+        self.version = __version__
+    
+    def calculate(self, data: pd.DataFrame, params: Dict) -> pd.Series:
+        """
+        Berechnet Money Flow Index.
+        
+        Formula:
+            Typical Price = (H + L + C) / 3
+            Money Flow = TP * Volume
+            Positive MF = Sum(MF when TP > TP[prev])
+            Negative MF = Sum(MF when TP < TP[prev])
+            Money Ratio = Positive MF / Negative MF
+            MFI = 100 - (100 / (1 + Money Ratio))
+        
+        Args:
+            data: OHLCV DataFrame
+            params: {'period': int}
+            
+        Returns:
+            pd.Series: MFI Werte (0-100)
+        """
+        self.validate_params(params)
+        
+        period = params.get('period', self.PARAMETERS['period']['default'])
+        
+        high = data['high']
+        low = data['low']
+        close = data['close']
+        volume = data['volume']
+        
+        # Typical Price
+        tp = (high + low + close) / 3
+        
+        # Money Flow
+        mf = tp * volume
+        
+        # Positive and Negative Money Flow
+        positive_mf = pd.Series(0.0, index=data.index)
+        negative_mf = pd.Series(0.0, index=data.index)
+        
+        for i in range(1, len(data)):
+            if tp.iloc[i] > tp.iloc[i-1]:
+                positive_mf.iloc[i] = mf.iloc[i]
+            elif tp.iloc[i] < tp.iloc[i-1]:
+                negative_mf.iloc[i] = mf.iloc[i]
+        
+        # Sum over period
+        positive_mf_sum = positive_mf.rolling(window=period, min_periods=1).sum()
+        negative_mf_sum = negative_mf.rolling(window=period, min_periods=1).sum()
+        
+        # Money Ratio
+        money_ratio = positive_mf_sum / (negative_mf_sum + 1e-10)
+        
+        # MFI
+        mfi = 100 - (100 / (1 + money_ratio))
+        mfi = mfi.fillna(50)
+        
+        return mfi
+    
+    def generate_signals_fixed(self, data: pd.DataFrame, params: Dict) -> Dict[str, pd.Series]:
+        """
+        A.a) Fixed TP/SL Strategie mit MANUELLER Exit-Logik
+        
+        Entry: MFI crosses above oversold level
+        Exit: Manual TP/SL
+        """
+        mfi = self.calculate(data, params)
+        oversold = params.get('oversold', self.PARAMETERS['oversold']['default'])
+        
+        # Entry bei MFI Cross über oversold
+        entries = (mfi > oversold) & (mfi.shift(1) <= oversold)
+        
+        tp_pips = params.get('tp_pips', self.PARAMETERS['tp_pips']['default'])
+        sl_pips = params.get('sl_pips', self.PARAMETERS['sl_pips']['default'])
+        pip = 0.0001
+        
+        # Manuelle TP/SL Exit-Logik
+        exits = pd.Series(False, index=data.index)
+        in_position = False
+        entry_price, tp_level, sl_level = 0, 0, 0
+        
+        for i in range(1, len(data)):
+            if entries.iloc[i] and not in_position:
+                in_position = True
+                entry_price = data['close'].iloc[i]
+                tp_level = entry_price + (tp_pips * pip)
+                sl_level = entry_price - (sl_pips * pip)
+            elif in_position:
+                if data['high'].iloc[i] >= tp_level or data['low'].iloc[i] <= sl_level:
+                    exits.iloc[i] = True
+                    in_position = False
+        
+        # Dummy TP/SL levels
+        tp_levels = pd.Series(np.nan, index=data.index)
+        sl_levels = pd.Series(np.nan, index=data.index)
+        
+        # Signal Strength
+        signal_strength = abs(mfi - 50).clip(0, 50) / 50
+        
+        return {
+            'entries': entries,
+            'exits': exits,
+            'tp_levels': tp_levels,
+            'sl_levels': sl_levels,
+            'signal_strength': signal_strength
+        }
+    
+    def generate_signals_dynamic(self, data: pd.DataFrame, params: Dict) -> Dict[str, pd.Series]:
+        """
+        A.b) Dynamic Exit Strategie - MFI-basiert
+        
+        Entry: MFI crosses above oversold
+        Exit: MFI crosses below overbought
+        """
+        mfi = self.calculate(data, params)
+        oversold = params.get('oversold', self.PARAMETERS['oversold']['default'])
+        overbought = params.get('overbought', self.PARAMETERS['overbought']['default'])
+        
+        # Entry bei MFI Cross über oversold
+        entries = (mfi > oversold) & (mfi.shift(1) <= oversold)
+        
+        # Exit bei MFI Cross unter overbought
+        exits = (mfi < overbought) & (mfi.shift(1) >= overbought)
+        
+        exit_reason = pd.Series('', index=data.index)
+        exit_reason[exits] = 'mfi_overbought_cross'
+        
+        signal_strength = abs(mfi - 50).clip(0, 50) / 50
+        
+        return {
+            'entries': entries,
+            'exits': exits,
+            'exit_reason': exit_reason,
+            'signal_strength': signal_strength
+        }
+    
+    def get_ml_features(self, data: pd.DataFrame, params: Dict) -> pd.DataFrame:
+        """
+        Extrahiert ML-Features aus MFI.
+        
+        Returns:
+            DataFrame mit Features:
+            - mfi_value: MFI Wert
+            - mfi_normalized: Normalisiert
+            - mfi_slope: Änderungsrate
+            - mfi_overbought: Boolean Flag
+            - mfi_oversold: Boolean Flag
+            - mfi_divergence: Abweichung von 50
+        """
+        mfi = self.calculate(data, params)
+        overbought = params.get('overbought', self.PARAMETERS['overbought']['default'])
+        oversold = params.get('oversold', self.PARAMETERS['oversold']['default'])
+        
+        features = pd.DataFrame(index=data.index)
+        features['mfi_value'] = mfi
+        features['mfi_normalized'] = mfi / 100
+        features['mfi_slope'] = mfi.diff()
+        features['mfi_overbought'] = (mfi > overbought).astype(int)
+        features['mfi_oversold'] = (mfi < oversold).astype(int)
+        features['mfi_divergence'] = mfi - 50
+        
+        return features
+    
+    def validate_params(self, params: Dict) -> None:
+        """Validiert Parameter-Ranges."""
+        for key, value in params.items():
+            if key in self.PARAMETERS:
+                param_def = self.PARAMETERS[key]
+                if 'min' in param_def and value < param_def['min']:
+                    raise ValueError(f"{key} = {value} below minimum {param_def['min']}")
+                if 'max' in param_def and value > param_def['max']:
+                    raise ValueError(f"{key} = {value} above maximum {param_def['max']}")
+    
+    def get_parameter_grid(self) -> Dict:
+        """Gibt Parameter-Grid für Optimierung zurück."""
+        return {
+            key: value.get('values', [])
+            for key, value in self.PARAMETERS.items()
+            if value.get('optimize', False)
+        }
+    
+    def backtest_vectorbt(
+        self,
+        data: pd.DataFrame,
+        params: Dict,
+        strategy_type: str = 'fixed',
+        init_cash: float = 10000,
+        fees: float = 0.0
+    ) -> vbt.Portfolio:
+        """Führt VectorBT Backtest durch."""
+        if strategy_type == 'fixed':
+            signals = self.generate_signals_fixed(data, params)
+        else:
+            signals = self.generate_signals_dynamic(data, params)
+        
+        portfolio = vbt.Portfolio.from_signals(
+            data['close'],
+            entries=signals['entries'],
+            exits=signals['exits'],
+            tp_stop=signals.get('tp_levels'),
+            sl_stop=signals.get('sl_levels'),
+            freq='30T',
+            init_cash=init_cash,
+            fees=fees
+        )
+        
+        return portfolio

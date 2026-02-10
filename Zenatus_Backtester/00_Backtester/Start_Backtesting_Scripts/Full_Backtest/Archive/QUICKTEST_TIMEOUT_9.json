@@ -1,0 +1,638 @@
+{
+  "21": {
+    "file": "021_trend_mama.py",
+    "class_name": "Indicator_MAMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "fastlimit": {
+        "min": 0.01,
+        "max": 1.0,
+        "default": 0.5,
+        "values": [
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ]
+      },
+      "slowlimit": {
+        "min": 0.001,
+        "max": 0.5,
+        "default": 0.05,
+        "values": [
+          0.02,
+          0.03,
+          0.04,
+          0.05,
+          0.06,
+          0.08,
+          0.1
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "validate_params",
+      "calculate",
+      "__init__",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "get_parameter_grid",
+      "generate_signals_dynamic"
+    ],
+    "optimal_inputs": {
+      "fastlimit": {
+        "values": [
+          0.2,
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "count": 7,
+        "range": {
+          "start": 0.01,
+          "end": 1.0,
+          "step": "optimized"
+        }
+      },
+      "slowlimit": {
+        "values": [
+          0.02,
+          0.03,
+          0.04,
+          0.05,
+          0.06,
+          0.08,
+          0.1
+        ],
+        "count": 7,
+        "range": {
+          "start": 0.001,
+          "end": 0.5,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 1024
+  },
+  "341": {
+    "file": "341_kmeans_clustering.py",
+    "class_name": "Indicator_KMeansClustering",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "n_clusters": {
+        "min": null,
+        "max": null,
+        "default": 3.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "calculate",
+      "__init__",
+      "validate_params",
+      "generate_signals_fixed"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "n_clusters": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "343": {
+    "file": "343_hierarchical_clustering.py",
+    "class_name": "Indicator_HierarchicalClustering",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "calculate",
+      "__init__",
+      "validate_params",
+      "generate_signals_fixed"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 200,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96,
+          109,
+          122,
+          135,
+          148,
+          161,
+          174,
+          187,
+          200
+        ],
+        "count": 16
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 256
+  },
+  "345": {
+    "file": "345_spectral_clustering.py",
+    "class_name": "Indicator_SpectralClustering",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "n_clusters": {
+        "min": null,
+        "max": null,
+        "default": 2.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "calculate",
+      "__init__",
+      "validate_params",
+      "generate_signals_fixed"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "n_clusters": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "350": {
+    "file": "350_seasonal_decomposition.py",
+    "class_name": "Indicator_SeasonalDecomposition",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "seasonal_period": {
+        "min": null,
+        "max": null,
+        "default": 24.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "get_parameter_grid",
+      "calculate",
+      "__init__",
+      "validate_params",
+      "generate_signals_fixed"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "seasonal_period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "361": {
+    "file": "361_isolation_forest.py",
+    "class_name": "Indicator_IsolationForest",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "n_trees": {
+        "min": null,
+        "max": null,
+        "default": 10.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "n_trees": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "377": {
+    "file": "377_mutual_information.py",
+    "class_name": "Indicator_MutualInformation",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null,
+        "default": 20.0
+      },
+      "n_bins": {
+        "min": null,
+        "max": null,
+        "default": 10.0
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "generate_signals_dynamic",
+      "calculate",
+      "validate_params",
+      "generate_signals_fixed",
+      "__init__",
+      "get_parameter_grid"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "n_bins": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "values": [
+          5,
+          18,
+          31,
+          44,
+          57,
+          70,
+          83,
+          96
+        ],
+        "count": 8
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60,
+          100
+        ],
+        "count": 3
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45,
+          75
+        ],
+        "count": 3
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "390": {
+    "file": "390_pagerank_signal.py",
+    "class_name": "Indicator_PageRankSignal",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null
+      },
+      "damping": {
+        "min": null,
+        "max": null
+      }
+    },
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "count": 8
+      },
+      "damping": {
+        "start": 5,
+        "end": 100,
+        "step": 13,
+        "count": 8
+      },
+      "tp_pips": {
+        "count": 3
+      },
+      "sl_pips": {
+        "count": 3
+      }
+    },
+    "backtest_compatible": true,
+    "calculated_combinations": 576
+  },
+  "394": {
+    "file": "394_bifurcation_detector.py",
+    "class_name": "Indicator_BifurcationDetector",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": null,
+        "max": null
+      }
+    },
+    "optimal_inputs": {
+      "period": {
+        "start": 5,
+        "end": 200,
+        "step": 13,
+        "count": 16
+      },
+      "tp_pips": {
+        "count": 4
+      },
+      "sl_pips": {
+        "count": 4
+      }
+    },
+    "backtest_compatible": true,
+    "calculated_combinations": 256
+  }
+}

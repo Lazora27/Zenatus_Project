@@ -1,0 +1,2 @@
+[DATA] EUR_USD bars=6250
+[RESULT] 014_trend_frama trades=41 net_ret=-0.00% max_dd=0.04% time=7s

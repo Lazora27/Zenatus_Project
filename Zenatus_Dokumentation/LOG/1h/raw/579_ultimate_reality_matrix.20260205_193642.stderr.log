@@ -1,0 +1,12 @@
+/opt/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/579_ultimate_reality_matrix.py:129: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/opt/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/579_ultimate_reality_matrix.py:135: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+
+/opt/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys/579_ultimate_reality_matrix.py:142: FutureWarning:
+
+Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+

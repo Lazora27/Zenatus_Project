@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py", line 560, in <module>
+    main()
+    ~~~~^^
+  File "/opt/Zenatus_Backtester/00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py", line 557, in main
+    time.sleep(1)
+    ~~~~~~~~~~^^^
+KeyboardInterrupt
