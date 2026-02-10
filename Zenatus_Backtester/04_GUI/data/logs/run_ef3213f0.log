@@ -326,3 +326,37 @@ Processing 500 indicators...
 [W0] [15:35:26] [274] [274_particle_filter] [1h] [Combos: 60000] [Ret: 0.2789%] [DD: 0.0909%] [PF: 1.268] [Sharpe: 1.417] [Trades: 432] [WR: 23.84%] [00:13:37]
 [W0] [15:37:04] [275] [275_linear_regression_slope] [1h] [Combos: 13200] [Ret: 0.1954%] [DD: 0.1347%] [PF: 1.485] [Sharpe: 0.957] [Trades: 69] [WR: 23.19%] [00:01:38]
 [W0] [15:37:57] [276] [276_candlestick_patterns] [1h] [Combos: 13200] [Ret: 0.2038%] [DD: 0.0913%] [PF: 1.21] [Sharpe: 1.002] [Trades: 246] [WR: 36.99%] [00:00:53]
+[TIMEOUT] 277_chart_patterns killed after 1800s
+[W0] [TIMEOUT] 277_chart_patterns killed
+[W0] [16:11:20] [278] [278_harmonic_patterns] [1h] [Combos: 60000] [Ret: 0.1942%] [DD: 0.1355%] [PF: 1.425] [Sharpe: 0.916] [Trades: 57] [WR: 50.88%] [00:03:21]
+[W0] [16:12:42] [279] [279_elliott_wave] [1h] [Combos: 13200] [Ret: 0.1952%] [DD: 0.086%] [PF: 1.331] [Sharpe: 1.156] [Trades: 133] [WR: 51.88%] [00:01:21]
+[W0] [16:12:48] [280] [280_fibonacci_retracements] [1h] [Combos: 660] [Ret: 0.2105%] [DD: 0.1021%] [PF: 1.139] [Sharpe: 1.072] [Trades: 577] [WR: 38.65%] [00:00:06]
+[W0] [16:12:55] [281] [281_fibonacci_extensions] [1h] [Combos: 660] [Ret: 0.2024%] [DD: 0.1143%] [PF: 1.16] [Sharpe: 0.988] [Trades: 358] [WR: 51.68%] [00:00:06]
+[W0] [16:13:42] [282] [282_fibonacci_fans] [1h] [Combos: 13200] [Ret: 0.2301%] [DD: 0.1268%] [PF: 1.73] [Sharpe: 1.32] [Trades: 85] [WR: 17.65%] [00:00:46]
+[W0] [16:16:31] [283] [283_fibonacci_arcs] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:49]
+[W0] [16:16:40] [284] [284_fibonacci_time_zones] [1h] [Combos: 1320] [Ret: 0.0465%] [DD: 0.0142%] [PF: 5.808] [Sharpe: 1.295] [Trades: 5] [WR: 80.0%] [00:00:08]
+[W0] [16:19:26] [285] [285_gann_angles] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:45]
+[W0] [16:22:12] [286] [286_gann_square_of_9] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:46]
+[W0] [16:25:00] [287] [287_gann_fans] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:47]
+[W0] [16:25:54] [288] [288_andrews_pitchfork] [1h] [Combos: 13200] [Ret: 0.2439%] [DD: 0.095%] [PF: 1.259] [Sharpe: 1.285] [Trades: 267] [WR: 44.94%] [00:00:52]
+[W0] [SKIP] No combos found in Handbook for 289_pivot_points_extended
+[W0] [16:29:52] [290] [290_support_resistance] [1h] [Combos: 60000] [Ret: 0.2501%] [DD: 0.0855%] [PF: 1.193] [Sharpe: 1.332] [Trades: 494] [WR: 39.88%] [00:03:58]
+[W0] [16:32:38] [292] [292_lognormal_distribution] [1h] [Combos: 13200] [Ret: 0.2011%] [DD: 0.0955%] [PF: 1.661] [Sharpe: 1.11] [Trades: 94] [WR: 14.89%] [00:02:45]
+[TIMEOUT] 293_monte_carlo killed after 1800s
+[W0] [TIMEOUT] 293_monte_carlo killed
+[TIMEOUT] 294_bootstrap_sampling killed after 1800s
+[W0] [TIMEOUT] 294_bootstrap_sampling killed
+[W0] [17:37:38] [295] [295_bayesian_inference] [1h] [Combos: 56150] [Ret: 0.0281%] [DD: 0.0688%] [PF: 1.109] [Sharpe: 0.294] [Trades: 93] [WR: 20.43%] [00:04:57]
+[W0] [17:38:23] [298] [298_pvalue_calculator] [1h] [Combos: 13200] [Ret: 0.2583%] [DD: 0.1039%] [PF: 1.56] [Sharpe: 1.275] [Trades: 62] [WR: 46.77%] [00:00:44]
+[W0] [17:41:22] [300] [300_probability_distribution] [1h] [Combos: 13200] [Ret: 0.2458%] [DD: 0.0625%] [PF: 1.875] [Sharpe: 1.958] [Trades: 90] [WR: 30.0%] [00:02:59]
+[W0] [17:43:01] [301] [301_bayesian_probability] [1h] [Combos: 27390] [Ret: 0.2147%] [DD: 0.0424%] [PF: 3.416] [Sharpe: 1.604] [Trades: 18] [WR: 66.67%] [00:01:39]
+[W0] [17:45:13] [302] [302_monte_carlo_probability] [1h] [Combos: 13200] [Ret: 0.1843%] [DD: 0.0339%] [PF: 1.857] [Sharpe: 1.387] [Trades: 52] [WR: 38.46%] [00:02:11]
+[TIMEOUT] 303_statistical_arbitrage killed after 1800s
+[W0] [TIMEOUT] 303_statistical_arbitrage killed
+[W0] [18:16:00] [304] [304_regime_switching] [1h] [Combos: 13200] [Ret: 0.2773%] [DD: 0.0629%] [PF: 2.593] [Sharpe: 1.87] [Trades: 82] [WR: 14.63%] [00:00:45]
+[W0] [18:33:12] [305] [305_adaptive_trend_filter] [1h] [Combos: 60000] [Ret: 0.1657%] [DD: 0.0431%] [PF: 1.278] [Sharpe: 1.538] [Trades: 332] [WR: 53.92%] [00:17:11]
+[W0] [18:35:06] [306] [306_gradient_boosting_signal] [1h] [Combos: 29700] [Ret: 0.168%] [DD: 0.1135%] [PF: 1.337] [Sharpe: 0.785] [Trades: 56] [WR: 48.21%] [00:01:53]
+[W0] [18:36:00] [307] [307_random_forest_ensemble] [1h] [Combos: 13200] [Ret: 0.2235%] [DD: 0.0863%] [PF: 1.164] [Sharpe: 1.253] [Trades: 570] [WR: 50.7%] [00:00:53]
+[W0] [18:38:29] [308] [308_neural_network_prediction] [1h] [Combos: 13200] [Ret: 0.2178%] [DD: 0.0833%] [PF: 1.74] [Sharpe: 1.325] [Trades: 135] [WR: 15.56%] [00:02:28]
+[W0] [18:41:19] [309] [309_lstm_pattern_recognition] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:49]
+[W0] [18:44:10] [310] [310_reinforcement_learning_signal] [1h] [Combos: 60000] [Ret: 0.2149%] [DD: 0.1119%] [PF: 1.223] [Sharpe: 1.018] [Trades: 219] [WR: 42.01%] [00:02:50]
