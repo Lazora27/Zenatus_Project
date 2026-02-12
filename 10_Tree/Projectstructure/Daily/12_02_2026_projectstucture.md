@@ -11,7 +11,6 @@
   - requirements.txt
   - run_docker_service.sh
   - run_orchestrator.sh
-  - update_and_run.sh
   - zenatus_backtest.service
 - 99_Historic_Data/
   - Forex/
@@ -3529,6 +3528,7 @@
       - e6a9789b3350c909d8c36d26e0ab39afe0de3c
     - 35/
       - 7328b282213fe45f0d175fd040d336f024dc5d
+      - 9e9e871db974c0fdadf8777bb0fbf8ad2c9f9f
     - ba/
       - 2f08b72bef7d8a3d4db94568190c83e4128fc3
     - ce/
@@ -3570,6 +3570,7 @@
       - 38b45be49115b488e7375cc1b0a2ee9a00ea40
       - 3b2d3b2e5824f95963f86a3e29fded89545647
       - 499db7d7d1a420f480daa52a5bfd4b36cef7a7
+      - a8132df061758869d92d2a2fb51b1708194bb6
       - e27ec2ad01a0731dd7d494900a1bfcb2d4ff67
       - e4ac7eadbd9ede93825955027fa553dba78f15
       - e61f3a348cf96311e5953fc1d04318e23992df
@@ -3616,6 +3617,7 @@
       - b27b39e44da6852adc1aeccbb7010b69aae829
     - e0/
       - 0b5c7cec312edb53d48b1519395bb6f32b5260
+      - ceeece83f1a9ddb02d3c0f4667d5fa9653dde7
       - cfabc62c5dc2f62506b340e9d6451639d6fd4c
       - e8ef900902e20760eab6dacbf45c0c78ff73e4
     - 36/
@@ -3809,6 +3811,7 @@
       - 5c52ca4e8e281d8c256b0d7f5b855175819d5c
       - 766373321382a3143c06416d8b549d9ce72156
       - 86afb18f94c150d3acf72f6a0aa45af9f13d68
+      - a4a3df71cfa822ff8090a7d3c7853ad81c7bd8
       - d80b3e1535b28122bab5e73077351dd6f4f880
       - f86b189a77f9eceeae6b9868ab94bf827d6d5b
     - 51/
@@ -3948,6 +3951,7 @@
       - 1001278dac98247da92c81628c398a68fd59a5
       - 6f6e043079c06cdbc3900ffeed301a08b80de1
       - 77ae796b37d967cb307c9eb140499904c69c56
+      - 94e0f4ef05d36741ac51aca04afd9758a79323
       - bcafb8298e1e2d3f12bbeb201cada3bb10a102
       - d7a50cb83bd2686736e8f9751d2ff0ce65ea3f
     - pack/
@@ -4146,6 +4150,7 @@
       - e4e26a014669fa25730ec6abb83641be6512f8
     - d0/
       - 436b0c7e1059ccd9e4cbc10f6b9525dd1e222d
+      - 6c4a3750771e46d24a8ed3fccb224b09987c85
       - b5373a21b785203161aab3a8c3aed1584693d4
       - c7c87a8299256668bb50da3abbc48f1ec840b2
     - 9a/
@@ -4604,6 +4609,7 @@
       - 05b7c22f1f094d5d709aa0782c994c7d9d6387
       - 6f225091cff5e315d4ca2b9f075cc3a7c15d8a
       - 713786a9f69eba66973f643715503c67b0d5e3
+      - 760bdef168701a42ad5de45b15c5134431a949
       - b61c20aadc60d207c5815e7b472e3ed36e7988
       - be0f29205e9be73d9b01ee362b766628a99cab
       - cb7de27305ac3e67ebc985b401301808a82017
