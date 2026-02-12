@@ -125,17 +125,35 @@ with col2:
     
     if col_btn1.button("▶ START BACKTEST"):
         with st.spinner("Initializing Pipeline..."):
+            
+            # Create Documentation Paths for each Timeframe
+            for tf in timeframes:
+                # Path: Zenatus_Dokumentation/Dokumentation/[TF]
+                doc_dir = os.path.join(DOCS_PATH, "Dokumentation", tf)
+                os.makedirs(doc_dir, exist_ok=True)
+                
+                # CSV File: [StrategyName]_[TF].csv
+                # Example: Default_Strategy_1h.csv
+                strat_name = os.path.splitext(selected_strategy)[0]
+                csv_filename = f"{strat_name}_{tf}.csv"
+                csv_path = os.path.join(doc_dir, csv_filename)
+                
+                # Simulate Writing Initial Header
+                if not os.path.exists(csv_path):
+                    with open(csv_path, 'w') as f:
+                        f.write("Timestamp,Capital,Profit,Drawdown,Winrate,Trades\n")
+            
             # Simulate Process
             test_data = {
                 "timestamp": datetime.now(),
                 "strategy": selected_strategy,
-                "timeframe": timeframe,
+                "timeframes": timeframes,
                 "capital": capital,
                 "status": "STARTED"
             }
             save_test_log(test_data)
             time.sleep(2) # Mock delay
-            st.success("Backtest Started Successfully!")
+            st.success(f"Backtest Started! Results will be saved to: {DOCS_PATH}/Dokumentation/[TF]/...")
             st.session_state['status'] = 'RUNNING'
             
     if col_btn2.button("⏸ PAUSE"):
