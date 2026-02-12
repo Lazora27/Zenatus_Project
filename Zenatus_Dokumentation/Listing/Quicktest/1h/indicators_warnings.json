@@ -1,12 +1,3 @@
 {
-  "scripts": [
-    "121_trend_regimedetection",
-    "296_confidence_intervals",
-    "299_statistical_significance",
-    "379_approximate_entropy",
-    "383_permutation_entropy",
-    "393_phase_space_reconstruction",
-    "397_recurrence_quantification",
-    "411_volume_synchronized_probability"
-  ]
+  "scripts": []
 }

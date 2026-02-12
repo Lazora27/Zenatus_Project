@@ -14,3 +14,4 @@ venv.bak/
 # Project specific
 Zenatus_Backtester/Zenatus_Backtest_venv/
 Zenatus_Dokumentation/Dokumentation/
+Zenatus_Backtester/10_Tree/Paths/*.json

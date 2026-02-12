@@ -1,0 +1,22 @@
+[DATA] EUR_USD bars=6250
+[18:54:01] [004] [004_trend_dema] [1h] [Combi=2] [Results: Return=-0.06% / DD=0.06% / Profitfactor=0.872 / Sharp=-1.293 / Trades=307] [00h/00m/03s]
+[BRIDGE] Running bridge agent: /opt/Zenatus_Backtester/02_Agents/bridge_agent.py
+[BRIDGE] Syncing Logs to Listings...
+  -> indicators_errors.json: 0 items
+  -> indicators_no_results.json: 0 items
+  -> indicators_succesful_backtested.json: 0 items
+  -> indicators_timeout.json: 0 items
+  -> indicators_warnings.json: 0 items
+  -> indicators_working.json: 5 items
+[BRIDGE] Bridging Queue (Quicktest Success -> Full Backtest Working)...
+  -> Quicktest Success Listing empty. Triggering resync...
+[BRIDGE] Syncing Logs to Listings...
+  -> indicators_errors.json: 0 items
+  -> indicators_no_results.json: 0 items
+  -> indicators_succesful_backtested.json: 0 items
+  -> indicators_timeout.json: 0 items
+  -> indicators_warnings.json: 0 items
+  -> indicators_working.json: 5 items
+  -> No new scripts to add.
+[BRIDGE] Checking Fallbacks...
+  -> No fallbacks found.
