@@ -2409,6 +2409,7 @@
         - Successful_Backtested/
         - Timeout/
 - 04_GUI/
+  - Quicktest_GUI_Building.csv
   - backtest_gui.py
   - engine.py
   - generate_candidates.py
@@ -3756,6 +3757,7 @@
       - 133cff607685243e073b7dfc4b7ebd5d86a551
       - 16bc536fbc9391e90070bdffacdc962fcfb346
       - 1acfb360f3a102a2005d229569e3b690246480
+      - 6234af68f185119eef4ca96666b155db2a702c
       - a9c8f50dfd6d0720a6d013217d0eaedf5f6a24
       - da04c2377a6ca484c72f1ef0e7839f0cf2795d
     - 2b/
@@ -3931,6 +3933,7 @@
       - c51250d810e9ea7525789db7a8bc54d91dfeba
       - df90cc670eefea286d81cd0c79b048306057af
     - 5c/
+      - 08fd41210737ab95e8cb9e27eb075d3062f125
       - 0b24de04d2484bb8054bc4f17880e2daacee5a
       - 3d71e70b2891d267dc9cc8bcb431033e33ffe4
       - 6029c52220aa163ce021dd156d40e14ad65a36
@@ -4020,12 +4023,14 @@
       - 00476b86b2c0e2ad3b66337d3086df275e6022
       - 03ef2143cde3b6ec3f4e24d70add5a886a316e
       - 10ea0de37001ca69e423d82f3e1736bb7e6272
+      - 151cc12e35f5d5bea0bfe6c6674d6cd5e328eb
       - 4efb2aceaed8d206dd5858fba94acd7c1683d6
       - 77d6292cceca9413d7e557cf4b6ad6ce6c4266
       - aeed114943b3311960fad783f8c0e57621f831
       - d696f39c78ad2ff12f506ac80dec4e7f61b15b
       - d9f36f0b21ee2c18c374c346cab4a249bd2096
       - efa3bd0c0af2439ee4f35b536cbd07a4485585
+      - ffd627870d8ca16232ac53fe8811345a77e32c
     - b6/
       - 705a0fee272367476d65f1efd115e1f3bbcf86
       - a7beb8f06e6721473d5c6b49fb6813bc0c51c6
@@ -4267,11 +4272,13 @@
       - 728befead02e7cd71499c8cd68e2472251e269
       - 7311aaed3d9d85df3e7ebf1b8267388d042a3c
       - 8c24b00dfb61d2398a76176804e84df6155cf3
+      - 948ba6f3a0ec9a1d0b340f7f7d5522cb8fb3d2
       - 97f3e3514680976bf56e979470fc50ee71cca4
       - 99eab1a0f943a3904cb6193d7eecb3f94a474f
       - b6e453d39423b95e0c079fced61eac86d7765b
     - ad/
       - 2083266cfb8ca4120ee11bdbe8bfb55b5645f1
+      - 382b2e66acebedf351fdbfcfc3b17f90661e58
       - 731425a214331c289d8a826f8a56a8be240fdb
       - ce70afee9fe660196d9bb86d9cb701d0b57856
       - e0bc296764f39960cfad3f31e91955f19ec049
@@ -4417,6 +4424,7 @@
       - caca00771c387541edb4225f19410713ff1567
       - ddae4f5260785642909d60d6a90a66c9c1b9ed
     - a1/
+      - 176552b27ecce8cc3891e999f9cb5b64f79afe
       - 2fdfaeaa07bb54b96e06d9f7c20526f850c369
       - 4db34c78fa642c4d95e11a1d0c7b8ba443d81e
       - 67595c1d60400a7f5bfe48934ddfe5efae24e9
@@ -4701,6 +4709,7 @@
       - 1ac4830957d2ff3cafebbc4e3098f2af8f7b82
       - 2e4e5f77a49f1fa192b6045b5aa84cd062ae89
       - 6f738da3832264c7c4c2f2a53973623431f09e
+      - ce20be1076482881eac99aeef13ef8a085703e
       - fa603b5536b75117742537f18d7eea661a1ee9
     - 08/
       - 2d4d67626de64a20284d2dfc2b0f94c3476a64
