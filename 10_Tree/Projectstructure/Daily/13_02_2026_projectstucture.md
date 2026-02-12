@@ -3149,6 +3149,7 @@
     - 7c/
       - 1f73e565c747067d207a5a8884a5c729b4118e
       - 2041dd79214e0c07d0f9300422c437de4ee307
+      - 6e21549af6e19a1d27e89f46214438ac2e3e77
       - b9987e5318f31b72241086489b2e44fb85f2a6
       - fc19ec428b41dc83f3b0d9d6416044bdddd1ff
     - 78/
@@ -3171,6 +3172,7 @@
     - 93/
       - 19da31c59e01118c5d5a901eb1ee75aafa6eae
       - 41b021f6affd3490155f94d1b2ea2959604f3e
+      - 45781cf89198929473d1a326702e7cbc8b6976
       - c675a90e048126084449cc14f086e8699e310f
       - d5a03092509cd203281c27f653b5295e10ded0
     - b4/
@@ -3579,6 +3581,7 @@
     - 25/
       - 083e5de1a7e7af34e13a6a5c2c736d3caa4045
       - 17df21bee526c0a99a63b58e6953b998dd21a1
+      - 5c6dff50d64ad31ee859b6a6d9a17e51e10dcf
       - 6e8b2318f54b2f71ce7dc6a81b4434fdbca76b
       - 9b734eca8f3320a9c87ad11f084b29772f1649
       - ac232d7be36a57cc777db47dca030112349a38
@@ -3991,6 +3994,7 @@
     - 6c/
       - 4d4f1584ce48104a5abf46451eae9728b70972
       - 583e051529f2cd4c7a273b17dbdf37af844a63
+      - 6de3c94af050c75323241f5f208ad6c54420b3
       - a3970ee1fd72a2598ef45f09f760029ec4873e
       - aba0c26077684fade1ca41530ff38ef3cf7692
       - db91d02b44e6b276774082e772e07bd21e773c
@@ -4556,6 +4560,7 @@
     - 26/
       - 235e1cd3adb1295bdf7cec658d16dbccf53066
       - 394ece1b96b39c24f22b843158fc0443c181ce
+      - 52389d55e68c126a0c1d6c6a23eb036741b2e6
       - 5e5598f210e8505b2adebff2b713fa3108463e
       - 99d4a05692d6a432018c5928094857f8515619
       - c2836a048e28e080fa4ae8cac8953ce3f921a7
@@ -4625,6 +4630,7 @@
       - c79a8c0217d96d7d7cbdfff3a48730b7674fd8
       - caca00771c387541edb4225f19410713ff1567
       - cd111cfc6cc8b5e0ccf76b576ecbcc13f32ca8
+      - dbe6cca7a4a144640e894cc1558b8674daa85b
       - ddae4f5260785642909d60d6a90a66c9c1b9ed
       - ed4bdd2d238bff715220b3a6a69b2f6fe7abb5
     - a1/
@@ -4815,6 +4821,7 @@
     - 91/
       - 003ad97ea36f0be2e62b1d105d1580595a50ca
       - 3623398f131bb586927a5c0a967fdfeac520f2
+      - 47a0e955776de2a6835a916cffcc473e07e07d
       - 4a0585936644928c6a979a2566e06417d796cb
       - b72c6e71b09d58541f67cb08437bb9c55d22ff
       - f1575c191c7abd4cca01307e47df80da2ad653
@@ -5096,6 +5103,7 @@
     - 02_02_2026_paths.json
     - 03_02_2026_paths.json
     - 12_02_2026_paths.json
+    - 13_02_2026_paths.json
     - Run_Path_Rewriter.bat
     - path_rewriter.py
   - Projectstructure/
@@ -5113,6 +5121,7 @@
       - 12_02_2026_filemetrics.json
       - 12_02_2026_projectstucture.md
       - 13_02_2026_filemetrics.html
+      - 13_02_2026_filemetrics.json
       - 13_02_2026_projectstucture.md
 - 01_Backtest_System/
   - QUICKTEST_RESULTS.json
