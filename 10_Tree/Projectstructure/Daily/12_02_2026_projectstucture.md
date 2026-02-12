@@ -4,6 +4,7 @@
   - Dockerfile
   - GITHUB_DOCKER_SETUP.md
   - GITHUB_SECRETS_GUIDE.md
+  - GUI_FEATURE_REQUESTS.md
   - TELEGRAM_SETUP.md
   - backtester_requirements.txt
   - docker-entrypoint.sh
@@ -3469,12 +3470,14 @@
     - 44/
       - 2237edc83b664f89d853b755a43f256b78026f
       - 6f14356bf0f4f89b9127f342771a0195384992
+      - af02fb320b07d0491d92062db03d066b12bdff
       - eb4338e1302c34b05399f11f7bb4130b49e075
       - f75c5e9649d9f992d84ec534b9355b1d3d31c3
     - 7d/
       - 7be033e0c0d815693584fec9de1f7ff78d95ab
       - 938d09f97d26ef2210b7c8b9df7127a7b05a1c
       - ca5e71b714e2a2aecf4be145d5d7d4ab60a21f
+      - f107b97354f4350561ac9819f6d95f2d00daf2
     - c0/
       - 18d2a21611120b0b752f53e65b9ba722377a06
       - 348337e67593a72587aad6e3852ff92b2f4291
@@ -3996,6 +3999,7 @@
       - c42bfc9e4ee1c26609ebe3e9c5e2a0a7ffbdf2
     - db/
       - 0d7c061a794637417bf46aeacd8e30845106ac
+      - 488e9e6fa2cb46475c51a199708fe99c79aeec
       - 552b6c8b661321f3066d43783f4ba9d4e12abd
       - 7ee91ac38b930e3d4292aafefcb71e535f7fed
       - b544efca6600e32e38a0cffdb549f265f40b56
@@ -4094,6 +4098,7 @@
     - 70/
       - 03863fbc328bf00965bdfacfc41b80782b0668
       - 3aa6eef6678047d55e10b6271a3c92c3166eda
+      - 5758a2eb80db235af72ea5df1208573db74c59
       - 7de6da5957e9c3853943df178fda4b143d64f6
       - c3e69b1019d8a581919c7858fa3c55816c1536
     - f7/
@@ -4316,6 +4321,7 @@
       - cd80586131b4db26edd7d180ef32a32e9e1aba
       - d7c406d9a9cf1fc86ab97a59f8b1808041b4cf
     - 67/
+      - 3b9cb4aec453774362c02e9c4d267400272e15
       - d6c7dca1573f872eefb49f720a6239399e55d8
     - 2f/
       - 32057c6a3e8fedd46b864a53cf22309d7b4463
@@ -4342,6 +4348,7 @@
       - fca77847a29f3fcc6f18f173a9b1e3f1bdfe0d
     - e5/
       - 0dae7263070f045a1218a2952e1c5e3a8c791b
+      - 2eef2302bd0dc0009c10f6fe981cca2071a14f
       - 77e82a9aa3b83c919df57f208fa31b19cc995b
       - a653d2389b7968fec5a6e8f41e22c71c30bf05
       - b9ba46506687d482c0b513fd5329ee81fc76b5
@@ -4367,6 +4374,7 @@
       - 176ad04f20c60532c5c253ff36c6a39579dbe5
       - 1e38c45bf1ce1bad0d3b941029991b41801f6b
       - 252422cb93b64bccb2619dd12d0c9cff2b252b
+      - 2730c0a7ee2c0a5324dac0f57a98bc17b53108
       - 2abe33b9f2106c71707f8e33469be0feb6a819
       - 340fdff24b8da7a2acd2e8414ecd82936b1b69
       - 41a6b444cea52fd3cd945e2c7f26ad1c294bb6
@@ -4379,6 +4387,7 @@
       - 6b04d79fda58f56d22731aa56aa56293de424a
       - 716c51f927de79f913e68a994f18fe861217a9
       - 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+      - b352baf6d2ac5c3e4578b54e3362cfb16f2e08
     - 1e/
       - 10a644961dd29ceb7fbcb318d51c7e8f32d5b5
       - 1b68d35eaa2b9e2b00c731a42b202aebd91844
@@ -4576,6 +4585,7 @@
       - 452d2031b223cc4cbaedbd97da1036e45f2e9a
       - 63aa3e88e6489ad3161fd7f0e12f4a59a959fc
       - a28ed2745b092a59ef8fe7ad3986c048a69c7e
+      - b24e3c2dcd6e7b51f1457811ea3c8eb96de4e3
       - b8ee8ad25f68d44e48b8fc06897183a587fd2c
       - c8b05492121364fb4c8ce5f6da33edbb805022
     - ac/
@@ -4730,6 +4740,7 @@
       - b2e6c6e7a6a212cd7c6fb7bf643be60905c06d
       - d2abfa0e7976d3ffc584edd552a4a7d4ebccc5
     - 50/
+      - 768efcf0170359ae7c14af355a6727969963a6
       - b522bce3d82256e047a20477bb4a49469a2efe
       - e25c5ce98b5f9620fe61776dd5367e17230d35
       - eb5f8110a0680e25b580e26560773747ab2128
@@ -4763,6 +4774,7 @@
       - 02d81a690f373229a996cb91d8045be6be1e7c
       - 4c0f8901c455c806944856c20d57bd0ae13c51
       - 9c21b727418e03d7a0e150a5693b16c024babe
+      - bdedf47f7f8ed8d579e76240c2bb54311979ba
       - cb531e1382f88676f2fad650b94a45b63d843a
   - logs/
     - HEAD
