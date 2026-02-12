@@ -1,0 +1,293 @@
+RS 1000 G12
+
+RS 2000 G12
+
+RS 4000 G12
+
+RS 8000 G12
+
+RS 12000 G12
+
+RS 16000 G12
+
+Virtualisierungstechnik
+KVM
+KVM
+KVM
+KVM
+KVM
+
+KVM
+
+Prozessor
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+AMD EPYC™ 9645 (max. 3,7 GHz je Kern)
+
+RAM
+8GB DDR5 ECC
+
+16GB DDR5 ECC
+
+32GB DDR5 ECC
+
+64GB DDR5 ECC
+
+96GB DDR5 ECC
+
+128GB DDR5 ECC
+
+Standort
+
+
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte StaatenMENU.TOPBAR.COUNTRIES.SG
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte StaatenMENU.TOPBAR.COUNTRIES.SG
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte StaatenMENU.TOPBAR.COUNTRIES.SG
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte StaatenMENU.TOPBAR.COUNTRIES.SG
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte Staaten
+MENU.TOPBAR.COUNTRIES.EUDeutschlandÖsterreichVereinigte Staaten
+Speicherplatz
+
+
+256 GB NVMe
+
+512 GB NVMe
+
+1 TB NVMe
+
+2 TB NVMe
+
+3 TB NVMe
+
+4 TB NVMe
+
+CPU-Kerne
+
+4 dediziert
+8 dediziert
+
+12 dediziert
+
+16 dediziert
+
+20 dediziert
+
+24 dediziert
+
+Interface Speed
+
+
+1 Gbit/s oder 2,5 Gbit/s
+
+1 Gbit/s oder 2,5 Gbit/s
+
+1 Gbit/s oder 2,5 Gbit/s
+
+1 Gbit/s oder 2,5 Gbit/s
+
+2,5 Gbit/s
+
+2,5 Gbit/s
+
+Traffic Flatrate
+
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Local Block Storage
+
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Zusätzliche Domains
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Snapshots
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Snapshot-Export
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Remote-Konsole
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+netcup SCP App
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Rettungssystem
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Vorkonfigurierte Images
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+DVD-Laufwerk
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Eigene Images
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+DDoS-Schutz
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Firewall
+
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+Marken-Hardware
+
+
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+enthalten
+IPv4-Adressen
+
+1 optional inkludiert
+
+1 optional inkludiert
+
+1 optional inkludiert
+
+1 optional inkludiert
+
+1 optional inkludiert
+
+1 optional inkludiert
+
+IPv6-Adressen
+
+/64-Netz optional inkludiert
+
+/64-Netz optional inkludiert
+
+/64-Netz optional inkludiert
+
+/64-Netz optional inkludiert
+
+/64-Netz optional inkludiert
+
+/64-Netz optional inkludiert
+
+Failover IPs
+
+möglich
+möglich
+möglich
+möglich
+möglich
+
+möglich
+
+Eigenes VLAN
+
+
+möglich
+
+möglich
+
+möglich
+
+möglich
+
+möglich
+
+möglich
+
+Mindestverfügbarkeit
+
+99,9 %
+99,9 %
+99,9 %
+99,9 %
+99,9 %
+
+99,9 %
+
+Preis pro Monat ab
+
+10,41 €
+17,36 €
+32,23 €
+57,52 €
+82,81 €
+116,53 €
+Produkt bestellen
+Jetzt bestellen
+Jetzt bestellen
+Jetzt bestellen
+Jetzt bestellen
+Jetzt bestellen
+Jetzt bestellen

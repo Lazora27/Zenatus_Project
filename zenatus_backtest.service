@@ -1,0 +1,16 @@
+[Unit]
+Description=Zenatus Backtest Orchestrator (Docker)
+After=docker.service network.target
+Requires=docker.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt
+ExecStart=/bin/bash /opt/Zenatus_Backtester/run_docker_service.sh
+ExecStop=/usr/bin/docker-compose down
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,24 @@
+paths:
+  base: "/app/Zenatus_Backtester"
+  documentation: "/app/Zenatus_Dokumentation"
+  data: "/app/Zenatus_Backtester/99_Historic_Data"
+  logs: "/app/Zenatus_Dokumentation/LOG"
+  listings: "/app/Zenatus_Dokumentation/Listing"
+  strategies: "/app/Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys"
+  agents: "/app/Zenatus_Backtester/02_Agents"
+  gui: "/app/Zenatus_Backtester/04_GUI"
+
+backtest:
+  timeframe: "1h"
+  timeout_sec: 900
+  inactivity_sec: 30
+  max_workers: 4
+  initial_capital: 10000.0
+  position_size: 100
+  slippage_pips: 0.5
+  commission_per_lot: 3.0
+
+logging:
+  level: "INFO"
+  json_format: true
+  file_name: "zenatus_pipeline.log"

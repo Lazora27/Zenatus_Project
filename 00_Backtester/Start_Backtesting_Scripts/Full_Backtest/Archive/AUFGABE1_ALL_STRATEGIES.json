@@ -1,0 +1,3418 @@
+{
+  "total_unique": 467,
+  "total_tested": 215,
+  "unique_strategies": [
+    {
+      "id": 1,
+      "name": "trend_sma",
+      "filename": "001_trend_sma.py"
+    },
+    {
+      "id": 2,
+      "name": "trend_ema",
+      "filename": "002_trend_ema.py"
+    },
+    {
+      "id": 3,
+      "name": "trend_wma",
+      "filename": "003_trend_wma.py"
+    },
+    {
+      "id": 4,
+      "name": "trend_dema",
+      "filename": "004_trend_dema.py"
+    },
+    {
+      "id": 5,
+      "name": "trend_tema",
+      "filename": "005_trend_tema.py"
+    },
+    {
+      "id": 6,
+      "name": "trend_trima",
+      "filename": "006_trend_trima.py"
+    },
+    {
+      "id": 7,
+      "name": "trend_kama",
+      "filename": "007_trend_kama.py"
+    },
+    {
+      "id": 8,
+      "name": "trend_hma",
+      "filename": "008_trend_hma.py"
+    },
+    {
+      "id": 9,
+      "name": "trend_zlema",
+      "filename": "009_trend_zlema.py"
+    },
+    {
+      "id": 10,
+      "name": "trend_alma",
+      "filename": "010_trend_alma.py"
+    },
+    {
+      "id": 11,
+      "name": "trend_jma",
+      "filename": "011_trend_jma.py"
+    },
+    {
+      "id": 12,
+      "name": "trend_t3",
+      "filename": "012_trend_t3.py"
+    },
+    {
+      "id": 13,
+      "name": "trend_vidya",
+      "filename": "013_trend_vidya.py"
+    },
+    {
+      "id": 14,
+      "name": "trend_frama",
+      "filename": "014_trend_frama.py"
+    },
+    {
+      "id": 15,
+      "name": "trend_mcginley",
+      "filename": "015_trend_mcginley.py"
+    },
+    {
+      "id": 16,
+      "name": "trend_sinwma",
+      "filename": "016_trend_sinwma.py"
+    },
+    {
+      "id": 17,
+      "name": "trend_vwma",
+      "filename": "017_trend_vwma.py"
+    },
+    {
+      "id": 18,
+      "name": "trend_tsf",
+      "filename": "018_trend_tsf.py"
+    },
+    {
+      "id": 20,
+      "name": "trend_lsma",
+      "filename": "020_trend_lsma.py"
+    },
+    {
+      "id": 21,
+      "name": "trend_mama",
+      "filename": "021_trend_mama.py"
+    },
+    {
+      "id": 22,
+      "name": "trend_smma",
+      "filename": "022_trend_smma.py"
+    },
+    {
+      "id": 24,
+      "name": "trend_gma",
+      "filename": "024_trend_gma.py"
+    },
+    {
+      "id": 25,
+      "name": "trend_harmonic",
+      "filename": "025_trend_harmonic.py"
+    },
+    {
+      "id": 26,
+      "name": "trend_adx",
+      "filename": "026_trend_adx.py"
+    },
+    {
+      "id": 27,
+      "name": "trend_dmi",
+      "filename": "027_trend_dmi.py"
+    },
+    {
+      "id": 28,
+      "name": "trend_aroon",
+      "filename": "028_trend_aroon.py"
+    },
+    {
+      "id": 29,
+      "name": "trend_aroonosc",
+      "filename": "029_trend_aroonosc.py"
+    },
+    {
+      "id": 30,
+      "name": "trend_psar",
+      "filename": "030_trend_psar.py"
+    },
+    {
+      "id": 32,
+      "name": "trend_vortex",
+      "filename": "032_trend_vortex.py"
+    },
+    {
+      "id": 33,
+      "name": "trend_massindex",
+      "filename": "033_trend_massindex.py"
+    },
+    {
+      "id": 34,
+      "name": "trend_qstick",
+      "filename": "034_trend_qstick.py"
+    },
+    {
+      "id": 35,
+      "name": "trend_tii",
+      "filename": "035_trend_tii.py"
+    },
+    {
+      "id": 36,
+      "name": "trend_cci",
+      "filename": "036_trend_cci.py"
+    },
+    {
+      "id": 37,
+      "name": "trend_roc",
+      "filename": "037_trend_roc.py"
+    },
+    {
+      "id": 38,
+      "name": "trend_momentum",
+      "filename": "038_trend_momentum.py"
+    },
+    {
+      "id": 39,
+      "name": "trend_williams_r",
+      "filename": "039_trend_williams_r.py"
+    },
+    {
+      "id": 40,
+      "name": "trend_stochastic",
+      "filename": "040_trend_stochastic.py"
+    },
+    {
+      "id": 41,
+      "name": "trend_rsi",
+      "filename": "041_trend_rsi.py"
+    },
+    {
+      "id": 42,
+      "name": "trend_macd",
+      "filename": "042_trend_macd.py"
+    },
+    {
+      "id": 43,
+      "name": "trend_bollinger",
+      "filename": "043_trend_bollinger.py"
+    },
+    {
+      "id": 46,
+      "name": "trend_donchian",
+      "filename": "046_trend_donchian.py"
+    },
+    {
+      "id": 47,
+      "name": "volume_obv",
+      "filename": "047_volume_obv.py"
+    },
+    {
+      "id": 48,
+      "name": "volume_mfi",
+      "filename": "048_volume_mfi.py"
+    },
+    {
+      "id": 49,
+      "name": "volume_cmf",
+      "filename": "049_volume_cmf.py"
+    },
+    {
+      "id": 50,
+      "name": "trend_ichimoku",
+      "filename": "050_trend_ichimoku.py"
+    },
+    {
+      "id": 51,
+      "name": "volume_vwap",
+      "filename": "051_volume_vwap.py"
+    },
+    {
+      "id": 52,
+      "name": "volume_force_index",
+      "filename": "052_volume_force_index.py"
+    },
+    {
+      "id": 53,
+      "name": "volume_ad",
+      "filename": "053_volume_ad.py"
+    },
+    {
+      "id": 55,
+      "name": "trend_stoch_rsi",
+      "filename": "055_trend_stoch_rsi.py"
+    },
+    {
+      "id": 56,
+      "name": "trend_awesome_osc",
+      "filename": "056_trend_awesome_osc.py"
+    },
+    {
+      "id": 57,
+      "name": "trend_accelerator_osc",
+      "filename": "057_trend_accelerator_osc.py"
+    },
+    {
+      "id": 58,
+      "name": "trend_gator",
+      "filename": "058_trend_gator.py"
+    },
+    {
+      "id": 59,
+      "name": "trend_alligator",
+      "filename": "059_trend_alligator.py"
+    },
+    {
+      "id": 60,
+      "name": "trend_elder_ray",
+      "filename": "060_trend_elder_ray.py"
+    },
+    {
+      "id": 61,
+      "name": "trend_trix",
+      "filename": "061_trend_trix.py"
+    },
+    {
+      "id": 62,
+      "name": "trend_ppo",
+      "filename": "062_trend_ppo.py"
+    },
+    {
+      "id": 63,
+      "name": "trend_apo",
+      "filename": "063_trend_apo.py"
+    },
+    {
+      "id": 64,
+      "name": "trend_dpo",
+      "filename": "064_trend_dpo.py"
+    },
+    {
+      "id": 65,
+      "name": "trend_cmo",
+      "filename": "065_trend_cmo.py"
+    },
+    {
+      "id": 66,
+      "name": "trend_rvi",
+      "filename": "066_trend_rvi.py"
+    },
+    {
+      "id": 67,
+      "name": "trend_tsi",
+      "filename": "067_trend_tsi.py"
+    },
+    {
+      "id": 68,
+      "name": "trend_bop",
+      "filename": "068_trend_bop.py"
+    },
+    {
+      "id": 69,
+      "name": "trend_inertia",
+      "filename": "069_trend_inertia.py"
+    },
+    {
+      "id": 70,
+      "name": "trend_kdj",
+      "filename": "070_trend_kdj.py"
+    },
+    {
+      "id": 71,
+      "name": "trend_pgo",
+      "filename": "071_trend_pgo.py"
+    },
+    {
+      "id": 72,
+      "name": "trend_psychline",
+      "filename": "072_trend_psychline.py"
+    },
+    {
+      "id": 73,
+      "name": "trend_qqe",
+      "filename": "073_trend_qqe.py"
+    },
+    {
+      "id": 74,
+      "name": "trend_rainbow",
+      "filename": "074_trend_rainbow.py"
+    },
+    {
+      "id": 75,
+      "name": "trend_smiergodic",
+      "filename": "075_trend_smiergodic.py"
+    },
+    {
+      "id": 76,
+      "name": "trend_smi",
+      "filename": "076_trend_smi.py"
+    },
+    {
+      "id": 77,
+      "name": "trend_trendflex",
+      "filename": "077_trend_trendflex.py"
+    },
+    {
+      "id": 78,
+      "name": "trend_macdhist",
+      "filename": "078_trend_macdhist.py"
+    },
+    {
+      "id": 79,
+      "name": "trend_macdsignal",
+      "filename": "079_trend_macdsignal.py"
+    },
+    {
+      "id": 80,
+      "name": "trend_zerolagmacd",
+      "filename": "080_trend_zerolagmacd.py"
+    },
+    {
+      "id": 82,
+      "name": "trend_coppock",
+      "filename": "082_trend_coppock.py"
+    },
+    {
+      "id": 83,
+      "name": "trend_detrendedprice",
+      "filename": "083_trend_detrendedprice.py"
+    },
+    {
+      "id": 84,
+      "name": "trend_efficiencyratio",
+      "filename": "084_trend_efficiencyratio.py"
+    },
+    {
+      "id": 85,
+      "name": "volume_elderforce",
+      "filename": "085_volume_elderforce.py"
+    },
+    {
+      "id": 86,
+      "name": "trend_frama",
+      "filename": "086_trend_frama.py"
+    },
+    {
+      "id": 87,
+      "name": "trend_gaussian",
+      "filename": "087_trend_gaussian.py"
+    },
+    {
+      "id": 88,
+      "name": "trend_highlowindex",
+      "filename": "088_trend_highlowindex.py"
+    },
+    {
+      "id": 89,
+      "name": "trend_histvol",
+      "filename": "089_trend_histvol.py"
+    },
+    {
+      "id": 90,
+      "name": "trend_hullmaosc",
+      "filename": "090_trend_hullmaosc.py"
+    },
+    {
+      "id": 92,
+      "name": "trend_kauffman",
+      "filename": "092_trend_kauffman.py"
+    },
+    {
+      "id": 93,
+      "name": "trend_laguerre",
+      "filename": "093_trend_laguerre.py"
+    },
+    {
+      "id": 94,
+      "name": "trend_linearregslope",
+      "filename": "094_trend_linearregslope.py"
+    },
+    {
+      "id": 95,
+      "name": "volume_mfi_extended",
+      "filename": "095_volume_mfi_extended.py"
+    },
+    {
+      "id": 96,
+      "name": "trend_mcginleydynamic",
+      "filename": "096_trend_mcginleydynamic.py"
+    },
+    {
+      "id": 97,
+      "name": "trend_parabolicsar_extended",
+      "filename": "097_trend_parabolicsar_extended.py"
+    },
+    {
+      "id": 98,
+      "name": "trend_pivotpoints",
+      "filename": "098_trend_pivotpoints.py"
+    },
+    {
+      "id": 99,
+      "name": "trend_priceoscillator",
+      "filename": "099_trend_priceoscillator.py"
+    },
+    {
+      "id": 100,
+      "name": "trend_renko",
+      "filename": "100_trend_renko.py"
+    },
+    {
+      "id": 101,
+      "name": "trend_inversefisher",
+      "filename": "101_trend_inversefisher.py"
+    },
+    {
+      "id": 102,
+      "name": "trend_connorsrsi",
+      "filename": "102_trend_connorsrsi.py"
+    },
+    {
+      "id": 103,
+      "name": "trend_laguerrersi",
+      "filename": "103_trend_laguerrersi.py"
+    },
+    {
+      "id": 104,
+      "name": "trend_rmi",
+      "filename": "104_trend_rmi.py"
+    },
+    {
+      "id": 105,
+      "name": "trend_ergodic",
+      "filename": "105_trend_ergodic.py"
+    },
+    {
+      "id": 106,
+      "name": "trend_cog",
+      "filename": "106_trend_cog.py"
+    },
+    {
+      "id": 107,
+      "name": "trend_cybercycle",
+      "filename": "107_trend_cybercycle.py"
+    },
+    {
+      "id": 108,
+      "name": "trend_decycler",
+      "filename": "108_trend_decycler.py"
+    },
+    {
+      "id": 109,
+      "name": "trend_ebs",
+      "filename": "109_trend_ebs.py"
+    },
+    {
+      "id": 110,
+      "name": "trend_hilbert",
+      "filename": "110_trend_hilbert.py"
+    },
+    {
+      "id": 111,
+      "name": "trend_reflex",
+      "filename": "111_trend_reflex.py"
+    },
+    {
+      "id": 112,
+      "name": "trend_trendvigor",
+      "filename": "112_trend_trendvigor.py"
+    },
+    {
+      "id": 113,
+      "name": "trend_correlationcycle",
+      "filename": "113_trend_correlationcycle.py"
+    },
+    {
+      "id": 114,
+      "name": "trend_dominantcycle",
+      "filename": "114_trend_dominantcycle.py"
+    },
+    {
+      "id": 116,
+      "name": "trend_sinewave",
+      "filename": "116_trend_sinewave.py"
+    },
+    {
+      "id": 117,
+      "name": "trend_fractaldimension",
+      "filename": "117_trend_fractaldimension.py"
+    },
+    {
+      "id": 118,
+      "name": "trend_hurstexponent",
+      "filename": "118_trend_hurstexponent.py"
+    },
+    {
+      "id": 121,
+      "name": "trend_regimedetection",
+      "filename": "121_trend_regimedetection.py"
+    },
+    {
+      "id": 122,
+      "name": "trend_cycleperiod",
+      "filename": "122_trend_cycleperiod.py"
+    },
+    {
+      "id": 123,
+      "name": "trend_adaptivemacd",
+      "filename": "123_trend_adaptivemacd.py"
+    },
+    {
+      "id": 125,
+      "name": "trend_vhf",
+      "filename": "125_trend_vhf.py"
+    },
+    {
+      "id": 126,
+      "name": "trend_trendstrengthindex",
+      "filename": "126_trend_trendstrengthindex.py"
+    },
+    {
+      "id": 127,
+      "name": "trend_rsquared",
+      "filename": "127_trend_rsquared.py"
+    },
+    {
+      "id": 128,
+      "name": "trend_pricechannels",
+      "filename": "128_trend_pricechannels.py"
+    },
+    {
+      "id": 129,
+      "name": "trend_envelopechannels",
+      "filename": "129_trend_envelopechannels.py"
+    },
+    {
+      "id": 130,
+      "name": "trend_stdchannels",
+      "filename": "130_trend_stdchannels.py"
+    },
+    {
+      "id": 131,
+      "name": "trend_regressionchannels",
+      "filename": "131_trend_regressionchannels.py"
+    },
+    {
+      "id": 132,
+      "name": "trend_fibonaccichannels",
+      "filename": "132_trend_fibonaccichannels.py"
+    },
+    {
+      "id": 133,
+      "name": "trend_accelerationbands",
+      "filename": "133_trend_accelerationbands.py"
+    },
+    {
+      "id": 134,
+      "name": "trend_starcbands",
+      "filename": "134_trend_starcbands.py"
+    },
+    {
+      "id": 135,
+      "name": "trend_maenvelope",
+      "filename": "135_trend_maenvelope.py"
+    },
+    {
+      "id": 136,
+      "name": "trend_chandelierexit",
+      "filename": "136_trend_chandelierexit.py"
+    },
+    {
+      "id": 138,
+      "name": "trend_volatilitychannels",
+      "filename": "138_trend_volatilitychannels.py"
+    },
+    {
+      "id": 139,
+      "name": "trend_dynamicchannels",
+      "filename": "139_trend_dynamicchannels.py"
+    },
+    {
+      "id": 141,
+      "name": "trend_projectionbands",
+      "filename": "141_trend_projectionbands.py"
+    },
+    {
+      "id": 142,
+      "name": "trend_squeezeindicator",
+      "filename": "142_trend_squeezeindicator.py"
+    },
+    {
+      "id": 143,
+      "name": "trend_ttmsqueeze",
+      "filename": "143_trend_ttmsqueeze.py"
+    },
+    {
+      "id": 144,
+      "name": "trend_bollingerbandwidth",
+      "filename": "144_trend_bollingerbandwidth.py"
+    },
+    {
+      "id": 145,
+      "name": "volume_divergenceindex",
+      "filename": "145_volume_divergenceindex.py"
+    },
+    {
+      "id": 151,
+      "name": "volume_divergencestrength",
+      "filename": "151_volume_divergencestrength.py"
+    },
+    {
+      "id": 153,
+      "name": "volume_divergencemomentum",
+      "filename": "153_volume_divergencemomentum.py"
+    },
+    {
+      "id": 155,
+      "name": "pattern_candlestickpatterns",
+      "filename": "155_pattern_candlestickpatterns.py"
+    },
+    {
+      "id": 156,
+      "name": "pattern_priceaction",
+      "filename": "156_pattern_priceaction.py"
+    },
+    {
+      "id": 157,
+      "name": "pattern_chartpatterns",
+      "filename": "157_pattern_chartpatterns.py"
+    },
+    {
+      "id": 158,
+      "name": "pattern_harmonicpatterns",
+      "filename": "158_pattern_harmonicpatterns.py"
+    },
+    {
+      "id": 159,
+      "name": "pattern_elliottwave",
+      "filename": "159_pattern_elliottwave.py"
+    },
+    {
+      "id": 160,
+      "name": "pattern_wyckoff",
+      "filename": "160_pattern_wyckoff.py"
+    },
+    {
+      "id": 161,
+      "name": "pattern_supportresistance",
+      "filename": "161_pattern_supportresistance.py"
+    },
+    {
+      "id": 162,
+      "name": "pattern_trendlines",
+      "filename": "162_pattern_trendlines.py"
+    },
+    {
+      "id": 163,
+      "name": "pattern_fibonacciretracement",
+      "filename": "163_pattern_fibonacciretracement.py"
+    },
+    {
+      "id": 164,
+      "name": "pattern_fibonacciextension",
+      "filename": "164_pattern_fibonacciextension.py"
+    },
+    {
+      "id": 165,
+      "name": "pattern_pivotpoints",
+      "filename": "165_pattern_pivotpoints.py"
+    },
+    {
+      "id": 166,
+      "name": "volatility_garch",
+      "filename": "166_volatility_garch.py"
+    },
+    {
+      "id": 167,
+      "name": "volatility_ewma",
+      "filename": "167_volatility_ewma.py"
+    },
+    {
+      "id": 169,
+      "name": "volatility_regime_detection",
+      "filename": "169_volatility_regime_detection.py"
+    },
+    {
+      "id": 170,
+      "name": "volatility_breakout",
+      "filename": "170_volatility_breakout.py"
+    },
+    {
+      "id": 171,
+      "name": "range_true_range",
+      "filename": "171_range_true_range.py"
+    },
+    {
+      "id": 172,
+      "name": "range_daily",
+      "filename": "172_range_daily.py"
+    },
+    {
+      "id": 173,
+      "name": "range_weekly",
+      "filename": "173_range_weekly.py"
+    },
+    {
+      "id": 174,
+      "name": "range_monthly",
+      "filename": "174_range_monthly.py"
+    },
+    {
+      "id": 175,
+      "name": "range_expansion_index",
+      "filename": "175_range_expansion_index.py"
+    },
+    {
+      "id": 176,
+      "name": "range_contraction_index",
+      "filename": "176_range_contraction_index.py"
+    },
+    {
+      "id": 178,
+      "name": "range_bound",
+      "filename": "178_range_bound.py"
+    },
+    {
+      "id": 179,
+      "name": "range_filter",
+      "filename": "179_range_filter.py"
+    },
+    {
+      "id": 180,
+      "name": "range_adaptive",
+      "filename": "180_range_adaptive.py"
+    },
+    {
+      "id": 181,
+      "name": "volume_weighted_price",
+      "filename": "181_volume_weighted_price.py"
+    },
+    {
+      "id": 183,
+      "name": "volume_trend",
+      "filename": "183_volume_trend.py"
+    },
+    {
+      "id": 184,
+      "name": "volume_oscillator",
+      "filename": "184_volume_oscillator.py"
+    },
+    {
+      "id": 185,
+      "name": "volume_divergence",
+      "filename": "185_volume_divergence.py"
+    },
+    {
+      "id": 186,
+      "name": "volume_spread_analysis",
+      "filename": "186_volume_spread_analysis.py"
+    },
+    {
+      "id": 187,
+      "name": "volume_profile",
+      "filename": "187_volume_profile.py"
+    },
+    {
+      "id": 188,
+      "name": "volume_price_trend",
+      "filename": "188_volume_price_trend.py"
+    },
+    {
+      "id": 189,
+      "name": "volume_roc",
+      "filename": "189_volume_roc.py"
+    },
+    {
+      "id": 190,
+      "name": "volume_weighted_average_price",
+      "filename": "190_volume_weighted_average_price.py"
+    },
+    {
+      "id": 191,
+      "name": "volume_zone_oscillator",
+      "filename": "191_volume_zone_oscillator.py"
+    },
+    {
+      "id": 192,
+      "name": "volume_accumulation_distribution",
+      "filename": "192_volume_accumulation_distribution.py"
+    },
+    {
+      "id": 193,
+      "name": "volume_price_confirmation",
+      "filename": "193_volume_price_confirmation.py"
+    },
+    {
+      "id": 194,
+      "name": "volume_intensity",
+      "filename": "194_volume_intensity.py"
+    },
+    {
+      "id": 195,
+      "name": "volume_force_index",
+      "filename": "195_volume_force_index.py"
+    },
+    {
+      "id": 196,
+      "name": "volume_weighted_momentum",
+      "filename": "196_volume_weighted_momentum.py"
+    },
+    {
+      "id": 197,
+      "name": "volume_efficiency",
+      "filename": "197_volume_efficiency.py"
+    },
+    {
+      "id": 198,
+      "name": "volume_delta",
+      "filename": "198_volume_delta.py"
+    },
+    {
+      "id": 199,
+      "name": "volume_flow_indicator",
+      "filename": "199_volume_flow_indicator.py"
+    },
+    {
+      "id": 200,
+      "name": "volume_spread_analysis",
+      "filename": "200_volume_spread_analysis.py"
+    },
+    {
+      "id": 201,
+      "name": "volume_profile",
+      "filename": "201_volume_profile.py"
+    },
+    {
+      "id": 202,
+      "name": "volume_at_price",
+      "filename": "202_volume_at_price.py"
+    },
+    {
+      "id": 203,
+      "name": "point_of_control",
+      "filename": "203_point_of_control.py"
+    },
+    {
+      "id": 204,
+      "name": "value_area_high",
+      "filename": "204_value_area_high.py"
+    },
+    {
+      "id": 205,
+      "name": "value_area_low",
+      "filename": "205_value_area_low.py"
+    },
+    {
+      "id": 206,
+      "name": "volume_weighted_ma",
+      "filename": "206_volume_weighted_ma.py"
+    },
+    {
+      "id": 207,
+      "name": "volume_spread_analysis",
+      "filename": "207_volume_spread_analysis.py"
+    },
+    {
+      "id": 209,
+      "name": "smart_money_index",
+      "filename": "209_smart_money_index.py"
+    },
+    {
+      "id": 210,
+      "name": "tick_volume_index",
+      "filename": "210_tick_volume_index.py"
+    },
+    {
+      "id": 212,
+      "name": "volume_climax",
+      "filename": "212_volume_climax.py"
+    },
+    {
+      "id": 214,
+      "name": "volume_divergence",
+      "filename": "214_volume_divergence.py"
+    },
+    {
+      "id": 215,
+      "name": "volume_confirmation",
+      "filename": "215_volume_confirmation.py"
+    },
+    {
+      "id": 216,
+      "name": "volume_momentum",
+      "filename": "216_volume_momentum.py"
+    },
+    {
+      "id": 217,
+      "name": "volume_strength",
+      "filename": "217_volume_strength.py"
+    },
+    {
+      "id": 218,
+      "name": "volume_pressure",
+      "filename": "218_volume_pressure.py"
+    },
+    {
+      "id": 219,
+      "name": "volume_distribution",
+      "filename": "219_volume_distribution.py"
+    },
+    {
+      "id": 220,
+      "name": "volume_cycle",
+      "filename": "220_volume_cycle.py"
+    },
+    {
+      "id": 221,
+      "name": "tick_volume",
+      "filename": "221_tick_volume.py"
+    },
+    {
+      "id": 222,
+      "name": "trade_volume",
+      "filename": "222_trade_volume.py"
+    },
+    {
+      "id": 223,
+      "name": "buy_volume",
+      "filename": "223_buy_volume.py"
+    },
+    {
+      "id": 224,
+      "name": "sell_volume",
+      "filename": "224_sell_volume.py"
+    },
+    {
+      "id": 225,
+      "name": "delta_volume",
+      "filename": "225_delta_volume.py"
+    },
+    {
+      "id": 226,
+      "name": "cumulative_delta",
+      "filename": "226_cumulative_delta.py"
+    },
+    {
+      "id": 228,
+      "name": "order_flow",
+      "filename": "228_order_flow.py"
+    },
+    {
+      "id": 229,
+      "name": "market_depth",
+      "filename": "229_market_depth.py"
+    },
+    {
+      "id": 230,
+      "name": "bid_ask_spread",
+      "filename": "230_bid_ask_spread.py"
+    },
+    {
+      "id": 232,
+      "name": "ask_volume",
+      "filename": "232_ask_volume.py"
+    },
+    {
+      "id": 233,
+      "name": "trade_intensity",
+      "filename": "233_trade_intensity.py"
+    },
+    {
+      "id": 236,
+      "name": "large_trade_detector",
+      "filename": "236_large_trade_detector.py"
+    },
+    {
+      "id": 237,
+      "name": "block_trade_detector",
+      "filename": "237_block_trade_detector.py"
+    },
+    {
+      "id": 239,
+      "name": "retail_volume",
+      "filename": "239_retail_volume.py"
+    },
+    {
+      "id": 241,
+      "name": "skewness",
+      "filename": "241_skewness.py"
+    },
+    {
+      "id": 242,
+      "name": "kurtosis",
+      "filename": "242_kurtosis.py"
+    },
+    {
+      "id": 243,
+      "name": "zscore",
+      "filename": "243_zscore.py"
+    },
+    {
+      "id": 244,
+      "name": "tscore",
+      "filename": "244_tscore.py"
+    },
+    {
+      "id": 245,
+      "name": "percentile",
+      "filename": "245_percentile.py"
+    },
+    {
+      "id": 246,
+      "name": "quartile",
+      "filename": "246_quartile.py"
+    },
+    {
+      "id": 247,
+      "name": "iqr",
+      "filename": "247_iqr.py"
+    },
+    {
+      "id": 248,
+      "name": "mad",
+      "filename": "248_mad.py"
+    },
+    {
+      "id": 249,
+      "name": "coefficient_variation",
+      "filename": "249_coefficient_variation.py"
+    },
+    {
+      "id": 250,
+      "name": "correlation_coefficient",
+      "filename": "250_correlation_coefficient.py"
+    },
+    {
+      "id": 251,
+      "name": "covariance",
+      "filename": "251_covariance.py"
+    },
+    {
+      "id": 252,
+      "name": "beta",
+      "filename": "252_beta.py"
+    },
+    {
+      "id": 253,
+      "name": "sharpe_ratio",
+      "filename": "253_sharpe_ratio.py"
+    },
+    {
+      "id": 254,
+      "name": "sortino_ratio",
+      "filename": "254_sortino_ratio.py"
+    },
+    {
+      "id": 255,
+      "name": "calmar_ratio",
+      "filename": "255_calmar_ratio.py"
+    },
+    {
+      "id": 256,
+      "name": "linear_regression",
+      "filename": "256_linear_regression.py"
+    },
+    {
+      "id": 257,
+      "name": "polynomial_regression",
+      "filename": "257_polynomial_regression.py"
+    },
+    {
+      "id": 258,
+      "name": "exponential_regression",
+      "filename": "258_exponential_regression.py"
+    },
+    {
+      "id": 259,
+      "name": "logarithmic_regression",
+      "filename": "259_logarithmic_regression.py"
+    },
+    {
+      "id": 260,
+      "name": "power_regression",
+      "filename": "260_power_regression.py"
+    },
+    {
+      "id": 261,
+      "name": "ridge_regression",
+      "filename": "261_ridge_regression.py"
+    },
+    {
+      "id": 262,
+      "name": "lasso_regression",
+      "filename": "262_lasso_regression.py"
+    },
+    {
+      "id": 263,
+      "name": "elastic_net",
+      "filename": "263_elastic_net.py"
+    },
+    {
+      "id": 264,
+      "name": "time_series_regression",
+      "filename": "264_time_series_regression.py"
+    },
+    {
+      "id": 265,
+      "name": "auto_regression",
+      "filename": "265_auto_regression.py"
+    },
+    {
+      "id": 266,
+      "name": "moving_average_model",
+      "filename": "266_moving_average_model.py"
+    },
+    {
+      "id": 267,
+      "name": "arma_model",
+      "filename": "267_arma_model.py"
+    },
+    {
+      "id": 268,
+      "name": "arima_model",
+      "filename": "268_arima_model.py"
+    },
+    {
+      "id": 269,
+      "name": "sarima_model",
+      "filename": "269_sarima_model.py"
+    },
+    {
+      "id": 271,
+      "name": "exponential_smoothing",
+      "filename": "271_exponential_smoothing.py"
+    },
+    {
+      "id": 272,
+      "name": "holt_winters",
+      "filename": "272_holt_winters.py"
+    },
+    {
+      "id": 273,
+      "name": "kalman_filter",
+      "filename": "273_kalman_filter.py"
+    },
+    {
+      "id": 274,
+      "name": "particle_filter",
+      "filename": "274_particle_filter.py"
+    },
+    {
+      "id": 275,
+      "name": "linear_regression_slope",
+      "filename": "275_linear_regression_slope.py"
+    },
+    {
+      "id": 276,
+      "name": "candlestick_patterns",
+      "filename": "276_candlestick_patterns.py"
+    },
+    {
+      "id": 277,
+      "name": "chart_patterns",
+      "filename": "277_chart_patterns.py"
+    },
+    {
+      "id": 278,
+      "name": "harmonic_patterns",
+      "filename": "278_harmonic_patterns.py"
+    },
+    {
+      "id": 279,
+      "name": "elliott_wave",
+      "filename": "279_elliott_wave.py"
+    },
+    {
+      "id": 282,
+      "name": "fibonacci_fans",
+      "filename": "282_fibonacci_fans.py"
+    },
+    {
+      "id": 284,
+      "name": "fibonacci_time_zones",
+      "filename": "284_fibonacci_time_zones.py"
+    },
+    {
+      "id": 288,
+      "name": "andrews_pitchfork",
+      "filename": "288_andrews_pitchfork.py"
+    },
+    {
+      "id": 289,
+      "name": "pivot_points_extended",
+      "filename": "289_pivot_points_extended.py"
+    },
+    {
+      "id": 290,
+      "name": "support_resistance",
+      "filename": "290_support_resistance.py"
+    },
+    {
+      "id": 291,
+      "name": "normal_distribution",
+      "filename": "291_normal_distribution.py"
+    },
+    {
+      "id": 292,
+      "name": "lognormal_distribution",
+      "filename": "292_lognormal_distribution.py"
+    },
+    {
+      "id": 293,
+      "name": "monte_carlo",
+      "filename": "293_monte_carlo.py"
+    },
+    {
+      "id": 294,
+      "name": "bootstrap_sampling",
+      "filename": "294_bootstrap_sampling.py"
+    },
+    {
+      "id": 295,
+      "name": "bayesian_inference",
+      "filename": "295_bayesian_inference.py"
+    },
+    {
+      "id": 296,
+      "name": "confidence_intervals",
+      "filename": "296_confidence_intervals.py"
+    },
+    {
+      "id": 297,
+      "name": "hypothesis_testing",
+      "filename": "297_hypothesis_testing.py"
+    },
+    {
+      "id": 298,
+      "name": "pvalue_calculator",
+      "filename": "298_pvalue_calculator.py"
+    },
+    {
+      "id": 299,
+      "name": "statistical_significance",
+      "filename": "299_statistical_significance.py"
+    },
+    {
+      "id": 300,
+      "name": "probability_distribution",
+      "filename": "300_probability_distribution.py"
+    },
+    {
+      "id": 301,
+      "name": "bayesian_probability",
+      "filename": "301_bayesian_probability.py"
+    },
+    {
+      "id": 302,
+      "name": "monte_carlo_probability",
+      "filename": "302_monte_carlo_probability.py"
+    },
+    {
+      "id": 303,
+      "name": "statistical_arbitrage",
+      "filename": "303_statistical_arbitrage.py"
+    },
+    {
+      "id": 304,
+      "name": "regime_switching",
+      "filename": "304_regime_switching.py"
+    },
+    {
+      "id": 305,
+      "name": "markov_chain",
+      "filename": "305_markov_chain.py"
+    },
+    {
+      "id": 306,
+      "name": "gradient_boosting_signal",
+      "filename": "306_gradient_boosting_signal.py"
+    },
+    {
+      "id": 307,
+      "name": "random_forest_ensemble",
+      "filename": "307_random_forest_ensemble.py"
+    },
+    {
+      "id": 308,
+      "name": "neural_network_prediction",
+      "filename": "308_neural_network_prediction.py"
+    },
+    {
+      "id": 311,
+      "name": "convolutional_pattern",
+      "filename": "311_convolutional_pattern.py"
+    },
+    {
+      "id": 314,
+      "name": "autoencoder_anomaly",
+      "filename": "314_autoencoder_anomaly.py"
+    },
+    {
+      "id": 315,
+      "name": "gan_price_generator",
+      "filename": "315_gan_price_generator.py"
+    },
+    {
+      "id": 316,
+      "name": "xgboost_signal",
+      "filename": "316_xgboost_signal.py"
+    },
+    {
+      "id": 318,
+      "name": "stacking_ensemble",
+      "filename": "318_stacking_ensemble.py"
+    },
+    {
+      "id": 319,
+      "name": "bagging_predictor",
+      "filename": "319_bagging_predictor.py"
+    },
+    {
+      "id": 320,
+      "name": "boosting_cascade",
+      "filename": "320_boosting_cascade.py"
+    },
+    {
+      "id": 321,
+      "name": "automl_optimizer",
+      "filename": "321_automl_optimizer.py"
+    },
+    {
+      "id": 322,
+      "name": "meta_learning",
+      "filename": "322_meta_learning.py"
+    },
+    {
+      "id": 323,
+      "name": "transfer_learning",
+      "filename": "323_transfer_learning.py"
+    },
+    {
+      "id": 326,
+      "name": "hybrid_ml_technical",
+      "filename": "326_hybrid_ml_technical.py"
+    },
+    {
+      "id": 327,
+      "name": "adaptive_ensemble",
+      "filename": "327_adaptive_ensemble.py"
+    },
+    {
+      "id": 328,
+      "name": "multi_model_fusion",
+      "filename": "328_multi_model_fusion.py"
+    },
+    {
+      "id": 329,
+      "name": "dynamic_model_selection",
+      "filename": "329_dynamic_model_selection.py"
+    },
+    {
+      "id": 330,
+      "name": "consensus_aggregator",
+      "filename": "330_consensus_aggregator.py"
+    },
+    {
+      "id": 331,
+      "name": "feature_importance_ranker",
+      "filename": "331_feature_importance_ranker.py"
+    },
+    {
+      "id": 332,
+      "name": "feature_selection_filter",
+      "filename": "332_feature_selection_filter.py"
+    },
+    {
+      "id": 333,
+      "name": "feature_interaction",
+      "filename": "333_feature_interaction.py"
+    },
+    {
+      "id": 335,
+      "name": "feature_engineering_auto",
+      "filename": "335_feature_engineering_auto.py"
+    },
+    {
+      "id": 336,
+      "name": "pca_signal",
+      "filename": "336_pca_signal.py"
+    },
+    {
+      "id": 337,
+      "name": "ica_signal",
+      "filename": "337_ica_signal.py"
+    },
+    {
+      "id": 338,
+      "name": "manifold_learning",
+      "filename": "338_manifold_learning.py"
+    },
+    {
+      "id": 340,
+      "name": "autoencoder_compression",
+      "filename": "340_autoencoder_compression.py"
+    },
+    {
+      "id": 341,
+      "name": "kmeans_clustering",
+      "filename": "341_kmeans_clustering.py"
+    },
+    {
+      "id": 342,
+      "name": "dbscan_anomaly",
+      "filename": "342_dbscan_anomaly.py"
+    },
+    {
+      "id": 343,
+      "name": "hierarchical_clustering",
+      "filename": "343_hierarchical_clustering.py"
+    },
+    {
+      "id": 344,
+      "name": "gaussian_mixture",
+      "filename": "344_gaussian_mixture.py"
+    },
+    {
+      "id": 345,
+      "name": "spectral_clustering",
+      "filename": "345_spectral_clustering.py"
+    },
+    {
+      "id": 346,
+      "name": "arima_forecast",
+      "filename": "346_arima_forecast.py"
+    },
+    {
+      "id": 347,
+      "name": "exponential_smoothing",
+      "filename": "347_exponential_smoothing.py"
+    },
+    {
+      "id": 348,
+      "name": "kalman_filter",
+      "filename": "348_kalman_filter.py"
+    },
+    {
+      "id": 349,
+      "name": "wavelet_decomposition",
+      "filename": "349_wavelet_decomposition.py"
+    },
+    {
+      "id": 350,
+      "name": "seasonal_decomposition",
+      "filename": "350_seasonal_decomposition.py"
+    },
+    {
+      "id": 352,
+      "name": "garch_volatility",
+      "filename": "352_garch_volatility.py"
+    },
+    {
+      "id": 353,
+      "name": "var_forecast",
+      "filename": "353_var_forecast.py"
+    },
+    {
+      "id": 354,
+      "name": "state_space_model",
+      "filename": "354_state_space_model.py"
+    },
+    {
+      "id": 355,
+      "name": "granger_causality",
+      "filename": "355_granger_causality.py"
+    },
+    {
+      "id": 356,
+      "name": "cointegration_signal",
+      "filename": "356_cointegration_signal.py"
+    },
+    {
+      "id": 357,
+      "name": "stochastic_process",
+      "filename": "357_stochastic_process.py"
+    },
+    {
+      "id": 358,
+      "name": "jump_diffusion",
+      "filename": "358_jump_diffusion.py"
+    },
+    {
+      "id": 359,
+      "name": "mean_reversion_speed",
+      "filename": "359_mean_reversion_speed.py"
+    },
+    {
+      "id": 360,
+      "name": "hurst_exponent",
+      "filename": "360_hurst_exponent.py"
+    },
+    {
+      "id": 361,
+      "name": "isolation_forest",
+      "filename": "361_isolation_forest.py"
+    },
+    {
+      "id": 362,
+      "name": "local_outlier_factor",
+      "filename": "362_local_outlier_factor.py"
+    },
+    {
+      "id": 363,
+      "name": "one_class_svm",
+      "filename": "363_one_class_svm.py"
+    },
+    {
+      "id": 364,
+      "name": "elliptic_envelope",
+      "filename": "364_elliptic_envelope.py"
+    },
+    {
+      "id": 365,
+      "name": "statistical_anomaly",
+      "filename": "365_statistical_anomaly.py"
+    },
+    {
+      "id": 367,
+      "name": "chart_pattern_detector",
+      "filename": "367_chart_pattern_detector.py"
+    },
+    {
+      "id": 368,
+      "name": "harmonic_pattern",
+      "filename": "368_harmonic_pattern.py"
+    },
+    {
+      "id": 369,
+      "name": "elliott_wave_detector",
+      "filename": "369_elliott_wave_detector.py"
+    },
+    {
+      "id": 370,
+      "name": "wyckoff_accumulation",
+      "filename": "370_wyckoff_accumulation.py"
+    },
+    {
+      "id": 371,
+      "name": "fourier_transform",
+      "filename": "371_fourier_transform.py"
+    },
+    {
+      "id": 372,
+      "name": "hilbert_transform",
+      "filename": "372_hilbert_transform.py"
+    },
+    {
+      "id": 373,
+      "name": "bandpass_filter",
+      "filename": "373_bandpass_filter.py"
+    },
+    {
+      "id": 374,
+      "name": "adaptive_filter",
+      "filename": "374_adaptive_filter.py"
+    },
+    {
+      "id": 376,
+      "name": "shannon_entropy",
+      "filename": "376_shannon_entropy.py"
+    },
+    {
+      "id": 377,
+      "name": "mutual_information",
+      "filename": "377_mutual_information.py"
+    },
+    {
+      "id": 378,
+      "name": "transfer_entropy",
+      "filename": "378_transfer_entropy.py"
+    },
+    {
+      "id": 379,
+      "name": "approximate_entropy",
+      "filename": "379_approximate_entropy.py"
+    },
+    {
+      "id": 381,
+      "name": "kolmogorov_complexity",
+      "filename": "381_kolmogorov_complexity.py"
+    },
+    {
+      "id": 383,
+      "name": "permutation_entropy",
+      "filename": "383_permutation_entropy.py"
+    },
+    {
+      "id": 387,
+      "name": "graph_centrality",
+      "filename": "387_graph_centrality.py"
+    },
+    {
+      "id": 390,
+      "name": "pagerank_signal",
+      "filename": "390_pagerank_signal.py"
+    },
+    {
+      "id": 393,
+      "name": "phase_space_reconstruction",
+      "filename": "393_phase_space_reconstruction.py"
+    },
+    {
+      "id": 394,
+      "name": "bifurcation_detector",
+      "filename": "394_bifurcation_detector.py"
+    },
+    {
+      "id": 395,
+      "name": "nonlinear_prediction",
+      "filename": "395_nonlinear_prediction.py"
+    },
+    {
+      "id": 396,
+      "name": "recurrence_plot",
+      "filename": "396_recurrence_plot.py"
+    },
+    {
+      "id": 397,
+      "name": "recurrence_quantification",
+      "filename": "397_recurrence_quantification.py"
+    },
+    {
+      "id": 401,
+      "name": "bid_ask_spread",
+      "filename": "401_bid_ask_spread.py"
+    },
+    {
+      "id": 402,
+      "name": "order_flow_imbalance",
+      "filename": "402_order_flow_imbalance.py"
+    },
+    {
+      "id": 403,
+      "name": "market_depth",
+      "filename": "403_market_depth.py"
+    },
+    {
+      "id": 404,
+      "name": "trade_intensity",
+      "filename": "404_trade_intensity.py"
+    },
+    {
+      "id": 405,
+      "name": "price_impact",
+      "filename": "405_price_impact.py"
+    },
+    {
+      "id": 406,
+      "name": "volume_weighted_spread",
+      "filename": "406_volume_weighted_spread.py"
+    },
+    {
+      "id": 407,
+      "name": "effective_spread",
+      "filename": "407_effective_spread.py"
+    },
+    {
+      "id": 408,
+      "name": "quoted_spread",
+      "filename": "408_quoted_spread.py"
+    },
+    {
+      "id": 410,
+      "name": "amihud_illiquidity",
+      "filename": "410_amihud_illiquidity.py"
+    },
+    {
+      "id": 411,
+      "name": "volume_synchronized_probability",
+      "filename": "411_volume_synchronized_probability.py"
+    },
+    {
+      "id": 413,
+      "name": "hasbrouck_information_share",
+      "filename": "413_hasbrouck_information_share.py"
+    },
+    {
+      "id": 414,
+      "name": "adverse_selection",
+      "filename": "414_adverse_selection.py"
+    },
+    {
+      "id": 415,
+      "name": "inventory_risk",
+      "filename": "415_inventory_risk.py"
+    },
+    {
+      "id": 416,
+      "name": "market_making_spread",
+      "filename": "416_market_making_spread.py"
+    },
+    {
+      "id": 417,
+      "name": "execution_shortfall",
+      "filename": "417_execution_shortfall.py"
+    },
+    {
+      "id": 418,
+      "name": "implementation_shortfall",
+      "filename": "418_implementation_shortfall.py"
+    },
+    {
+      "id": 419,
+      "name": "arrival_price_benchmark",
+      "filename": "419_arrival_price_benchmark.py"
+    },
+    {
+      "id": 420,
+      "name": "vwap_execution_quality",
+      "filename": "420_vwap_execution_quality.py"
+    },
+    {
+      "id": 421,
+      "name": "tick_direction",
+      "filename": "421_tick_direction.py"
+    },
+    {
+      "id": 422,
+      "name": "tick_rule",
+      "filename": "422_tick_rule.py"
+    },
+    {
+      "id": 423,
+      "name": "quote_rule",
+      "filename": "423_quote_rule.py"
+    },
+    {
+      "id": 424,
+      "name": "order_book_imbalance",
+      "filename": "424_order_book_imbalance.py"
+    },
+    {
+      "id": 425,
+      "name": "order_book_slope",
+      "filename": "425_order_book_slope.py"
+    },
+    {
+      "id": 426,
+      "name": "limit_order_book_pressure",
+      "filename": "426_limit_order_book_pressure.py"
+    },
+    {
+      "id": 427,
+      "name": "twap_deviation",
+      "filename": "427_twap_deviation.py"
+    },
+    {
+      "id": 428,
+      "name": "participation_rate",
+      "filename": "428_participation_rate.py"
+    },
+    {
+      "id": 429,
+      "name": "urgency_cost",
+      "filename": "429_urgency_cost.py"
+    },
+    {
+      "id": 430,
+      "name": "latency_arbitrage",
+      "filename": "430_latency_arbitrage.py"
+    },
+    {
+      "id": 431,
+      "name": "iceberg_detection",
+      "filename": "431_iceberg_detection.py"
+    },
+    {
+      "id": 432,
+      "name": "pov_algorithm",
+      "filename": "432_pov_algorithm.py"
+    },
+    {
+      "id": 436,
+      "name": "iceberg_detection",
+      "filename": "436_iceberg_detection.py"
+    },
+    {
+      "id": 437,
+      "name": "pov_algorithm",
+      "filename": "437_pov_algorithm.py"
+    },
+    {
+      "id": 438,
+      "name": "smart_order_routing",
+      "filename": "438_smart_order_routing.py"
+    },
+    {
+      "id": 441,
+      "name": "market_maker_inventory",
+      "filename": "441_market_maker_inventory.py"
+    },
+    {
+      "id": 442,
+      "name": "quote_stuffing",
+      "filename": "442_quote_stuffing.py"
+    },
+    {
+      "id": 443,
+      "name": "spoofing_detection",
+      "filename": "443_spoofing_detection.py"
+    },
+    {
+      "id": 445,
+      "name": "front_running",
+      "filename": "445_front_running.py"
+    },
+    {
+      "id": 446,
+      "name": "momentum_ignition",
+      "filename": "446_momentum_ignition.py"
+    },
+    {
+      "id": 447,
+      "name": "pump_dump",
+      "filename": "447_pump_dump.py"
+    },
+    {
+      "id": 448,
+      "name": "liquidity_hunting",
+      "filename": "448_liquidity_hunting.py"
+    },
+    {
+      "id": 450,
+      "name": "hft_toxicity",
+      "filename": "450_hft_toxicity.py"
+    },
+    {
+      "id": 453,
+      "name": "effective_tick_size",
+      "filename": "453_effective_tick_size.py"
+    },
+    {
+      "id": 454,
+      "name": "realized_volatility_signature",
+      "filename": "454_realized_volatility_signature.py"
+    },
+    {
+      "id": 455,
+      "name": "price_discovery",
+      "filename": "455_price_discovery.py"
+    },
+    {
+      "id": 456,
+      "name": "pin_risk",
+      "filename": "456_pin_risk.py"
+    },
+    {
+      "id": 462,
+      "name": "market_making_profitability",
+      "filename": "462_market_making_profitability.py"
+    },
+    {
+      "id": 465,
+      "name": "execution_slippage",
+      "filename": "465_execution_slippage.py"
+    },
+    {
+      "id": 466,
+      "name": "transaction_cost_analysis",
+      "filename": "466_transaction_cost_analysis.py"
+    },
+    {
+      "id": 471,
+      "name": "market_impact_model",
+      "filename": "471_market_impact_model.py"
+    },
+    {
+      "id": 476,
+      "name": "liquidity_shock",
+      "filename": "476_liquidity_shock.py"
+    },
+    {
+      "id": 477,
+      "name": "order_flow_persistence",
+      "filename": "477_order_flow_persistence.py"
+    },
+    {
+      "id": 478,
+      "name": "market_maker_spread_compression",
+      "filename": "478_market_maker_spread_compression.py"
+    },
+    {
+      "id": 479,
+      "name": "execution_quality_score",
+      "filename": "479_execution_quality_score.py"
+    },
+    {
+      "id": 480,
+      "name": "venue_toxicity",
+      "filename": "480_venue_toxicity.py"
+    },
+    {
+      "id": 481,
+      "name": "smart_order_flow_detector",
+      "filename": "481_smart_order_flow_detector.py"
+    },
+    {
+      "id": 484,
+      "name": "order_book_pressure_asymmetry",
+      "filename": "484_order_book_pressure_asymmetry.py"
+    },
+    {
+      "id": 485,
+      "name": "execution_timing_optimizer",
+      "filename": "485_execution_timing_optimizer.py"
+    },
+    {
+      "id": 486,
+      "name": "volume_profile_analyzer",
+      "filename": "486_volume_profile_analyzer.py"
+    },
+    {
+      "id": 487,
+      "name": "market_depth_imbalance",
+      "filename": "487_market_depth_imbalance.py"
+    },
+    {
+      "id": 489,
+      "name": "price_level_magnetism",
+      "filename": "489_price_level_magnetism.py"
+    },
+    {
+      "id": 491,
+      "name": "order_flow_velocity",
+      "filename": "491_order_flow_velocity.py"
+    },
+    {
+      "id": 497,
+      "name": "market_efficiency_score",
+      "filename": "497_market_efficiency_score.py"
+    },
+    {
+      "id": 498,
+      "name": "liquidity_cycle_detector",
+      "filename": "498_liquidity_cycle_detector.py"
+    },
+    {
+      "id": 499,
+      "name": "execution_alpha_generator",
+      "filename": "499_execution_alpha_generator.py"
+    },
+    {
+      "id": 501,
+      "name": "fractal_dimension",
+      "filename": "501_fractal_dimension.py"
+    },
+    {
+      "id": 506,
+      "name": "bifurcation_point_detector",
+      "filename": "506_bifurcation_point_detector.py"
+    },
+    {
+      "id": 509,
+      "name": "multifractal_spectrum",
+      "filename": "509_multifractal_spectrum.py"
+    },
+    {
+      "id": 511,
+      "name": "social_sentiment_analyzer",
+      "filename": "511_social_sentiment_analyzer.py"
+    },
+    {
+      "id": 513,
+      "name": "market_fear_greed_index",
+      "filename": "513_market_fear_greed_index.py"
+    },
+    {
+      "id": 514,
+      "name": "alternative_data_composite",
+      "filename": "514_alternative_data_composite.py"
+    },
+    {
+      "id": 521,
+      "name": "market_network_centrality",
+      "filename": "521_market_network_centrality.py"
+    },
+    {
+      "id": 522,
+      "name": "price_graph_connectivity",
+      "filename": "522_price_graph_connectivity.py"
+    },
+    {
+      "id": 524,
+      "name": "graph_community_detection",
+      "filename": "524_graph_community_detection.py"
+    },
+    {
+      "id": 525,
+      "name": "network_flow_analysis",
+      "filename": "525_network_flow_analysis.py"
+    },
+    {
+      "id": 526,
+      "name": "adversarial_learning_detector",
+      "filename": "526_adversarial_learning_detector.py"
+    },
+    {
+      "id": 530,
+      "name": "federated_learning_composite",
+      "filename": "530_federated_learning_composite.py"
+    },
+    {
+      "id": 531,
+      "name": "pairs_trading_cointegration",
+      "filename": "531_pairs_trading_cointegration.py"
+    },
+    {
+      "id": 534,
+      "name": "long_short_equity_indicator",
+      "filename": "534_long_short_equity_indicator.py"
+    },
+    {
+      "id": 535,
+      "name": "factor_timing_model",
+      "filename": "535_factor_timing_model.py"
+    },
+    {
+      "id": 537,
+      "name": "adaptive_regime_composite",
+      "filename": "537_adaptive_regime_composite.py"
+    },
+    {
+      "id": 538,
+      "name": "meta_learning_ensemble",
+      "filename": "538_meta_learning_ensemble.py"
+    },
+    {
+      "id": 542,
+      "name": "volatility_targeting_strategy",
+      "filename": "542_volatility_targeting_strategy.py"
+    },
+    {
+      "id": 543,
+      "name": "tail_risk_hedging_signal",
+      "filename": "543_tail_risk_hedging_signal.py"
+    },
+    {
+      "id": 544,
+      "name": "black_swan_detector",
+      "filename": "544_black_swan_detector.py"
+    },
+    {
+      "id": 548,
+      "name": "macro_economic_indicator",
+      "filename": "548_macro_economic_indicator.py"
+    },
+    {
+      "id": 549,
+      "name": "intermarket_analysis_composite",
+      "filename": "549_intermarket_analysis_composite.py"
+    },
+    {
+      "id": 551,
+      "name": "adaptive_intelligence_system",
+      "filename": "551_adaptive_intelligence_system.py"
+    },
+    {
+      "id": 552,
+      "name": "market_dna_analyzer",
+      "filename": "552_market_dna_analyzer.py"
+    },
+    {
+      "id": 553,
+      "name": "predictive_pattern_engine",
+      "filename": "553_predictive_pattern_engine.py"
+    },
+    {
+      "id": 554,
+      "name": "quantum_market_state",
+      "filename": "554_quantum_market_state.py"
+    },
+    {
+      "id": 555,
+      "name": "neural_alpha_extractor",
+      "filename": "555_neural_alpha_extractor.py"
+    },
+    {
+      "id": 561,
+      "name": "cognitive_market_intelligence",
+      "filename": "561_cognitive_market_intelligence.py"
+    },
+    {
+      "id": 562,
+      "name": "holistic_market_synthesizer",
+      "filename": "562_holistic_market_synthesizer.py"
+    },
+    {
+      "id": 563,
+      "name": "transcendent_alpha_engine",
+      "filename": "563_transcendent_alpha_engine.py"
+    },
+    {
+      "id": 564,
+      "name": "omniscient_market_oracle",
+      "filename": "564_omniscient_market_oracle.py"
+    },
+    {
+      "id": 565,
+      "name": "ultimate_convergence_master",
+      "filename": "565_ultimate_convergence_master.py"
+    },
+    {
+      "id": 566,
+      "name": "quantum_consciousness_field",
+      "filename": "566_quantum_consciousness_field.py"
+    },
+    {
+      "id": 567,
+      "name": "hyperdimensional_market_mapper",
+      "filename": "567_hyperdimensional_market_mapper.py"
+    },
+    {
+      "id": 568,
+      "name": "evolutionary_market_genome",
+      "filename": "568_evolutionary_market_genome.py"
+    },
+    {
+      "id": 569,
+      "name": "neural_plasticity_indicator",
+      "filename": "569_neural_plasticity_indicator.py"
+    },
+    {
+      "id": 570,
+      "name": "cosmic_market_resonance",
+      "filename": "570_cosmic_market_resonance.py"
+    },
+    {
+      "id": 571,
+      "name": "singularity_convergence_detector",
+      "filename": "571_singularity_convergence_detector.py"
+    },
+    {
+      "id": 572,
+      "name": "infinite_wisdom_aggregator",
+      "filename": "572_infinite_wisdom_aggregator.py"
+    },
+    {
+      "id": 573,
+      "name": "universal_truth_extractor",
+      "filename": "573_universal_truth_extractor.py"
+    },
+    {
+      "id": 574,
+      "name": "absolute_certainty_engine",
+      "filename": "574_absolute_certainty_engine.py"
+    },
+    {
+      "id": 575,
+      "name": "omnipotent_market_force",
+      "filename": "575_omnipotent_market_force.py"
+    },
+    {
+      "id": 576,
+      "name": "eternal_market_equilibrium",
+      "filename": "576_eternal_market_equilibrium.py"
+    },
+    {
+      "id": 577,
+      "name": "divine_market_providence",
+      "filename": "577_divine_market_providence.py"
+    },
+    {
+      "id": 578,
+      "name": "supreme_alpha_synthesis",
+      "filename": "578_supreme_alpha_synthesis.py"
+    },
+    {
+      "id": 579,
+      "name": "ultimate_reality_matrix",
+      "filename": "579_ultimate_reality_matrix.py"
+    },
+    {
+      "id": 580,
+      "name": "infinite_perfection_indicator",
+      "filename": "580_infinite_perfection_indicator.py"
+    },
+    {
+      "id": 581,
+      "name": "transcendental_market_vision",
+      "filename": "581_transcendental_market_vision.py"
+    },
+    {
+      "id": 582,
+      "name": "primordial_chaos_order",
+      "filename": "582_primordial_chaos_order.py"
+    },
+    {
+      "id": 583,
+      "name": "celestial_harmony_detector",
+      "filename": "583_celestial_harmony_detector.py"
+    },
+    {
+      "id": 584,
+      "name": "metaphysical_momentum_engine",
+      "filename": "584_metaphysical_momentum_engine.py"
+    },
+    {
+      "id": 585,
+      "name": "zenith_alpha_culmination",
+      "filename": "585_zenith_alpha_culmination.py"
+    },
+    {
+      "id": 586,
+      "name": "omniversal_intelligence_core",
+      "filename": "586_omniversal_intelligence_core.py"
+    },
+    {
+      "id": 587,
+      "name": "master_synthesis_nexus",
+      "filename": "587_master_synthesis_nexus.py"
+    },
+    {
+      "id": 588,
+      "name": "absolute_dominance_indicator",
+      "filename": "588_absolute_dominance_indicator.py"
+    },
+    {
+      "id": 589,
+      "name": "infinite_intelligence_nexus",
+      "filename": "589_infinite_intelligence_nexus.py"
+    },
+    {
+      "id": 590,
+      "name": "grand_unification_theory",
+      "filename": "590_grand_unification_theory.py"
+    },
+    {
+      "id": 591,
+      "name": "ultimate_enlightenment_engine",
+      "filename": "591_ultimate_enlightenment_engine.py"
+    },
+    {
+      "id": 592,
+      "name": "supreme_mastery_indicator",
+      "filename": "592_supreme_mastery_indicator.py"
+    },
+    {
+      "id": 593,
+      "name": "infinite_potential_maximizer",
+      "filename": "593_infinite_potential_maximizer.py"
+    },
+    {
+      "id": 594,
+      "name": "omniscient_prediction_oracle",
+      "filename": "594_omniscient_prediction_oracle.py"
+    },
+    {
+      "id": 595,
+      "name": "ultimate_convergence_singularity",
+      "filename": "595_ultimate_convergence_singularity.py"
+    },
+    {
+      "id": 596,
+      "name": "apex_alpha_supremacy",
+      "filename": "596_apex_alpha_supremacy.py"
+    },
+    {
+      "id": 597,
+      "name": "transcendent_wisdom_culmination",
+      "filename": "597_transcendent_wisdom_culmination.py"
+    },
+    {
+      "id": 598,
+      "name": "eternal_alpha_genesis",
+      "filename": "598_eternal_alpha_genesis.py"
+    },
+    {
+      "id": 599,
+      "name": "cosmic_perfection_synthesis",
+      "filename": "599_cosmic_perfection_synthesis.py"
+    },
+    {
+      "id": 600,
+      "name": "the_ultimate_master_indicator",
+      "filename": "600_the_ultimate_master_indicator.py"
+    }
+  ],
+  "tested_strategies": [
+    {
+      "id": 1,
+      "name": "trend_sma",
+      "filename": "001_001_trend_sma.csv"
+    },
+    {
+      "id": 2,
+      "name": "trend_ema",
+      "filename": "002_002_trend_ema.csv"
+    },
+    {
+      "id": 3,
+      "name": "trend_wma",
+      "filename": "003_003_trend_wma.csv"
+    },
+    {
+      "id": 4,
+      "name": "trend_dema",
+      "filename": "004_004_trend_dema.csv"
+    },
+    {
+      "id": 5,
+      "name": "trend_tema",
+      "filename": "005_005_trend_tema.csv"
+    },
+    {
+      "id": 6,
+      "name": "trend_trima",
+      "filename": "006_006_trend_trima.csv"
+    },
+    {
+      "id": 7,
+      "name": "trend_kama",
+      "filename": "007_007_trend_kama.csv"
+    },
+    {
+      "id": 9,
+      "name": "trend_zlema",
+      "filename": "009_009_trend_zlema.csv"
+    },
+    {
+      "id": 10,
+      "name": "trend_alma",
+      "filename": "010_010_trend_alma.csv"
+    },
+    {
+      "id": 11,
+      "name": "trend_jma",
+      "filename": "011_011_trend_jma.csv"
+    },
+    {
+      "id": 12,
+      "name": "trend_t3",
+      "filename": "012_012_trend_t3.csv"
+    },
+    {
+      "id": 15,
+      "name": "trend_mcginley",
+      "filename": "015_015_trend_mcginley.csv"
+    },
+    {
+      "id": 27,
+      "name": "trend_dmi",
+      "filename": "027_027_trend_dmi.csv"
+    },
+    {
+      "id": 33,
+      "name": "trend_massindex",
+      "filename": "033_033_trend_massindex.csv"
+    },
+    {
+      "id": 34,
+      "name": "trend_qstick",
+      "filename": "034_034_trend_qstick.csv"
+    },
+    {
+      "id": 36,
+      "name": "trend_cci",
+      "filename": "036_036_trend_cci.csv"
+    },
+    {
+      "id": 37,
+      "name": "trend_roc",
+      "filename": "037_037_trend_roc.csv"
+    },
+    {
+      "id": 38,
+      "name": "trend_momentum",
+      "filename": "038_038_trend_momentum.csv"
+    },
+    {
+      "id": 39,
+      "name": "trend_williams_r",
+      "filename": "039_039_trend_williams_r.csv"
+    },
+    {
+      "id": 40,
+      "name": "trend_stochastic",
+      "filename": "040_040_trend_stochastic.csv"
+    },
+    {
+      "id": 41,
+      "name": "trend_rsi",
+      "filename": "041_041_trend_rsi.csv"
+    },
+    {
+      "id": 42,
+      "name": "trend_macd",
+      "filename": "042_042_trend_macd.csv"
+    },
+    {
+      "id": 46,
+      "name": "trend_donchian",
+      "filename": "046_046_trend_donchian.csv"
+    },
+    {
+      "id": 47,
+      "name": "volume_obv",
+      "filename": "047_047_volume_obv.csv"
+    },
+    {
+      "id": 48,
+      "name": "volume_mfi",
+      "filename": "048_048_volume_mfi.csv"
+    },
+    {
+      "id": 49,
+      "name": "volume_cmf",
+      "filename": "049_049_volume_cmf.csv"
+    },
+    {
+      "id": 50,
+      "name": "trend_ichimoku",
+      "filename": "050_050_trend_ichimoku.csv"
+    },
+    {
+      "id": 51,
+      "name": "volume_vwap",
+      "filename": "051_051_volume_vwap.csv"
+    },
+    {
+      "id": 52,
+      "name": "volume_force_index",
+      "filename": "052_052_volume_force_index.csv"
+    },
+    {
+      "id": 60,
+      "name": "trend_elder_ray",
+      "filename": "060_060_trend_elder_ray.csv"
+    },
+    {
+      "id": 61,
+      "name": "trend_trix",
+      "filename": "061_061_trend_trix.csv"
+    },
+    {
+      "id": 62,
+      "name": "trend_ppo",
+      "filename": "062_062_trend_ppo.csv"
+    },
+    {
+      "id": 63,
+      "name": "trend_apo",
+      "filename": "063_063_trend_apo.csv"
+    },
+    {
+      "id": 64,
+      "name": "trend_dpo",
+      "filename": "064_064_trend_dpo.csv"
+    },
+    {
+      "id": 65,
+      "name": "trend_cmo",
+      "filename": "065_065_trend_cmo.csv"
+    },
+    {
+      "id": 66,
+      "name": "trend_rvi",
+      "filename": "066_066_trend_rvi.csv"
+    },
+    {
+      "id": 67,
+      "name": "trend_tsi",
+      "filename": "067_067_trend_tsi.csv"
+    },
+    {
+      "id": 68,
+      "name": "trend_bop",
+      "filename": "068_068_trend_bop.csv"
+    },
+    {
+      "id": 69,
+      "name": "trend_inertia",
+      "filename": "069_069_trend_inertia.csv"
+    },
+    {
+      "id": 85,
+      "name": "volume_elderforce",
+      "filename": "085_085_volume_elderforce.csv"
+    },
+    {
+      "id": 87,
+      "name": "trend_gaussian",
+      "filename": "087_087_trend_gaussian.csv"
+    },
+    {
+      "id": 96,
+      "name": "trend_mcginleydynamic",
+      "filename": "096_096_trend_mcginleydynamic.csv"
+    },
+    {
+      "id": 98,
+      "name": "trend_pivotpoints",
+      "filename": "098_098_trend_pivotpoints.csv"
+    },
+    {
+      "id": 104,
+      "name": "trend_rmi",
+      "filename": "104_104_trend_rmi.csv"
+    },
+    {
+      "id": 118,
+      "name": "trend_hurstexponent",
+      "filename": "118_118_trend_hurstexponent.csv"
+    },
+    {
+      "id": 121,
+      "name": "trend_regimedetection",
+      "filename": "121_121_trend_regimedetection.csv"
+    },
+    {
+      "id": 145,
+      "name": "volume_divergenceindex",
+      "filename": "145_145_volume_divergenceindex.csv"
+    },
+    {
+      "id": 151,
+      "name": "volume_divergencestrength",
+      "filename": "151_151_volume_divergencestrength.csv"
+    },
+    {
+      "id": 153,
+      "name": "volume_divergencemomentum",
+      "filename": "153_153_volume_divergencemomentum.csv"
+    },
+    {
+      "id": 170,
+      "name": "volatility_breakout",
+      "filename": "170_170_volatility_breakout.csv"
+    },
+    {
+      "id": 179,
+      "name": "range_filter",
+      "filename": "179_179_range_filter.csv"
+    },
+    {
+      "id": 186,
+      "name": "volume_spread_analysis",
+      "filename": "186_186_volume_spread_analysis.csv"
+    },
+    {
+      "id": 191,
+      "name": "volume_zone_oscillator",
+      "filename": "191_191_volume_zone_oscillator.csv"
+    },
+    {
+      "id": 207,
+      "name": "volume_spread_analysis",
+      "filename": "207_207_volume_spread_analysis.csv"
+    },
+    {
+      "id": 212,
+      "name": "volume_climax",
+      "filename": "212_212_volume_climax.csv"
+    },
+    {
+      "id": 221,
+      "name": "tick_volume",
+      "filename": "221_221_tick_volume.csv"
+    },
+    {
+      "id": 255,
+      "name": "calmar_ratio",
+      "filename": "255_255_calmar_ratio.csv"
+    },
+    {
+      "id": 263,
+      "name": "elastic_net",
+      "filename": "263_263_elastic_net.csv"
+    },
+    {
+      "id": 291,
+      "name": "normal_distribution",
+      "filename": "291_291_normal_distribution.csv"
+    },
+    {
+      "id": 296,
+      "name": "confidence_intervals",
+      "filename": "296_296_confidence_intervals.csv"
+    },
+    {
+      "id": 299,
+      "name": "statistical_significance",
+      "filename": "299_299_statistical_significance.csv"
+    },
+    {
+      "id": 305,
+      "name": "markov_chain",
+      "filename": "305_305_markov_chain.csv"
+    },
+    {
+      "id": 316,
+      "name": "xgboost_signal",
+      "filename": "316_316_xgboost_signal.csv"
+    },
+    {
+      "id": 319,
+      "name": "bagging_predictor",
+      "filename": "319_319_bagging_predictor.csv"
+    },
+    {
+      "id": 320,
+      "name": "boosting_cascade",
+      "filename": "320_320_boosting_cascade.csv"
+    },
+    {
+      "id": 326,
+      "name": "hybrid_ml_technical",
+      "filename": "326_326_hybrid_ml_technical.csv"
+    },
+    {
+      "id": 333,
+      "name": "feature_interaction",
+      "filename": "333_333_feature_interaction.csv"
+    },
+    {
+      "id": 335,
+      "name": "feature_engineering_auto",
+      "filename": "335_335_feature_engineering_auto.csv"
+    },
+    {
+      "id": 349,
+      "name": "wavelet_decomposition",
+      "filename": "349_349_wavelet_decomposition.csv"
+    },
+    {
+      "id": 355,
+      "name": "granger_causality",
+      "filename": "355_355_granger_causality.csv"
+    },
+    {
+      "id": 357,
+      "name": "stochastic_process",
+      "filename": "357_357_stochastic_process.csv"
+    },
+    {
+      "id": 358,
+      "name": "jump_diffusion",
+      "filename": "358_358_jump_diffusion.csv"
+    },
+    {
+      "id": 362,
+      "name": "local_outlier_factor",
+      "filename": "362_362_local_outlier_factor.csv"
+    },
+    {
+      "id": 364,
+      "name": "elliptic_envelope",
+      "filename": "364_364_elliptic_envelope.csv"
+    },
+    {
+      "id": 367,
+      "name": "chart_pattern_detector",
+      "filename": "367_367_chart_pattern_detector.csv"
+    },
+    {
+      "id": 368,
+      "name": "harmonic_pattern",
+      "filename": "368_368_harmonic_pattern.csv"
+    },
+    {
+      "id": 369,
+      "name": "elliott_wave_detector",
+      "filename": "369_369_elliott_wave_detector.csv"
+    },
+    {
+      "id": 370,
+      "name": "wyckoff_accumulation",
+      "filename": "370_370_wyckoff_accumulation.csv"
+    },
+    {
+      "id": 371,
+      "name": "fourier_transform",
+      "filename": "371_371_fourier_transform.csv"
+    },
+    {
+      "id": 372,
+      "name": "hilbert_transform",
+      "filename": "372_372_hilbert_transform.csv"
+    },
+    {
+      "id": 373,
+      "name": "bandpass_filter",
+      "filename": "373_373_bandpass_filter.csv"
+    },
+    {
+      "id": 374,
+      "name": "adaptive_filter",
+      "filename": "374_374_adaptive_filter.csv"
+    },
+    {
+      "id": 376,
+      "name": "shannon_entropy",
+      "filename": "376_376_shannon_entropy.csv"
+    },
+    {
+      "id": 397,
+      "name": "recurrence_quantification",
+      "filename": "397_397_recurrence_quantification.csv"
+    },
+    {
+      "id": 401,
+      "name": "bid_ask_spread",
+      "filename": "401_401_bid_ask_spread.csv"
+    },
+    {
+      "id": 402,
+      "name": "order_flow_imbalance",
+      "filename": "402_402_order_flow_imbalance.csv"
+    },
+    {
+      "id": 403,
+      "name": "market_depth",
+      "filename": "403_403_market_depth.csv"
+    },
+    {
+      "id": 404,
+      "name": "trade_intensity",
+      "filename": "404_404_trade_intensity.csv"
+    },
+    {
+      "id": 405,
+      "name": "price_impact",
+      "filename": "405_405_price_impact.csv"
+    },
+    {
+      "id": 406,
+      "name": "volume_weighted_spread",
+      "filename": "406_406_volume_weighted_spread.csv"
+    },
+    {
+      "id": 407,
+      "name": "effective_spread",
+      "filename": "407_407_effective_spread.csv"
+    },
+    {
+      "id": 408,
+      "name": "quoted_spread",
+      "filename": "408_408_quoted_spread.csv"
+    },
+    {
+      "id": 410,
+      "name": "amihud_illiquidity",
+      "filename": "410_410_amihud_illiquidity.csv"
+    },
+    {
+      "id": 411,
+      "name": "volume_synchronized_probability",
+      "filename": "411_411_volume_synchronized_probability.csv"
+    },
+    {
+      "id": 413,
+      "name": "hasbrouck_information_share",
+      "filename": "413_413_hasbrouck_information_share.csv"
+    },
+    {
+      "id": 414,
+      "name": "adverse_selection",
+      "filename": "414_414_adverse_selection.csv"
+    },
+    {
+      "id": 415,
+      "name": "inventory_risk",
+      "filename": "415_415_inventory_risk.csv"
+    },
+    {
+      "id": 416,
+      "name": "market_making_spread",
+      "filename": "416_416_market_making_spread.csv"
+    },
+    {
+      "id": 417,
+      "name": "execution_shortfall",
+      "filename": "417_417_execution_shortfall.csv"
+    },
+    {
+      "id": 418,
+      "name": "implementation_shortfall",
+      "filename": "418_418_implementation_shortfall.csv"
+    },
+    {
+      "id": 419,
+      "name": "arrival_price_benchmark",
+      "filename": "419_419_arrival_price_benchmark.csv"
+    },
+    {
+      "id": 420,
+      "name": "vwap_execution_quality",
+      "filename": "420_420_vwap_execution_quality.csv"
+    },
+    {
+      "id": 421,
+      "name": "tick_direction",
+      "filename": "421_421_tick_direction.csv"
+    },
+    {
+      "id": 422,
+      "name": "tick_rule",
+      "filename": "422_422_tick_rule.csv"
+    },
+    {
+      "id": 423,
+      "name": "quote_rule",
+      "filename": "423_423_quote_rule.csv"
+    },
+    {
+      "id": 424,
+      "name": "order_book_imbalance",
+      "filename": "424_424_order_book_imbalance.csv"
+    },
+    {
+      "id": 425,
+      "name": "order_book_slope",
+      "filename": "425_425_order_book_slope.csv"
+    },
+    {
+      "id": 426,
+      "name": "limit_order_book_pressure",
+      "filename": "426_426_limit_order_book_pressure.csv"
+    },
+    {
+      "id": 427,
+      "name": "twap_deviation",
+      "filename": "427_427_twap_deviation.csv"
+    },
+    {
+      "id": 428,
+      "name": "participation_rate",
+      "filename": "428_428_participation_rate.csv"
+    },
+    {
+      "id": 429,
+      "name": "urgency_cost",
+      "filename": "429_429_urgency_cost.csv"
+    },
+    {
+      "id": 430,
+      "name": "latency_arbitrage",
+      "filename": "430_430_latency_arbitrage.csv"
+    },
+    {
+      "id": 431,
+      "name": "iceberg_detection",
+      "filename": "431_431_iceberg_detection.csv"
+    },
+    {
+      "id": 432,
+      "name": "pov_algorithm",
+      "filename": "432_432_pov_algorithm.csv"
+    },
+    {
+      "id": 436,
+      "name": "iceberg_detection",
+      "filename": "436_436_iceberg_detection.csv"
+    },
+    {
+      "id": 437,
+      "name": "pov_algorithm",
+      "filename": "437_437_pov_algorithm.csv"
+    },
+    {
+      "id": 438,
+      "name": "smart_order_routing",
+      "filename": "438_438_smart_order_routing.csv"
+    },
+    {
+      "id": 441,
+      "name": "market_maker_inventory",
+      "filename": "441_441_market_maker_inventory.csv"
+    },
+    {
+      "id": 442,
+      "name": "quote_stuffing",
+      "filename": "442_442_quote_stuffing.csv"
+    },
+    {
+      "id": 443,
+      "name": "spoofing_detection",
+      "filename": "443_443_spoofing_detection.csv"
+    },
+    {
+      "id": 445,
+      "name": "front_running",
+      "filename": "445_445_front_running.csv"
+    },
+    {
+      "id": 446,
+      "name": "momentum_ignition",
+      "filename": "446_446_momentum_ignition.csv"
+    },
+    {
+      "id": 447,
+      "name": "pump_dump",
+      "filename": "447_447_pump_dump.csv"
+    },
+    {
+      "id": 448,
+      "name": "liquidity_hunting",
+      "filename": "448_448_liquidity_hunting.csv"
+    },
+    {
+      "id": 450,
+      "name": "hft_toxicity",
+      "filename": "450_450_hft_toxicity.csv"
+    },
+    {
+      "id": 453,
+      "name": "effective_tick_size",
+      "filename": "453_453_effective_tick_size.csv"
+    },
+    {
+      "id": 454,
+      "name": "realized_volatility_signature",
+      "filename": "454_454_realized_volatility_signature.csv"
+    },
+    {
+      "id": 455,
+      "name": "price_discovery",
+      "filename": "455_455_price_discovery.csv"
+    },
+    {
+      "id": 456,
+      "name": "pin_risk",
+      "filename": "456_456_pin_risk.csv"
+    },
+    {
+      "id": 462,
+      "name": "market_making_profitability",
+      "filename": "462_462_market_making_profitability.csv"
+    },
+    {
+      "id": 465,
+      "name": "execution_slippage",
+      "filename": "465_465_execution_slippage.csv"
+    },
+    {
+      "id": 466,
+      "name": "transaction_cost_analysis",
+      "filename": "466_466_transaction_cost_analysis.csv"
+    },
+    {
+      "id": 471,
+      "name": "market_impact_model",
+      "filename": "471_471_market_impact_model.csv"
+    },
+    {
+      "id": 476,
+      "name": "liquidity_shock",
+      "filename": "476_476_liquidity_shock.csv"
+    },
+    {
+      "id": 477,
+      "name": "order_flow_persistence",
+      "filename": "477_477_order_flow_persistence.csv"
+    },
+    {
+      "id": 478,
+      "name": "market_maker_spread_compression",
+      "filename": "478_478_market_maker_spread_compression.csv"
+    },
+    {
+      "id": 479,
+      "name": "execution_quality_score",
+      "filename": "479_479_execution_quality_score.csv"
+    },
+    {
+      "id": 480,
+      "name": "venue_toxicity",
+      "filename": "480_480_venue_toxicity.csv"
+    },
+    {
+      "id": 481,
+      "name": "smart_order_flow_detector",
+      "filename": "481_481_smart_order_flow_detector.csv"
+    },
+    {
+      "id": 484,
+      "name": "order_book_pressure_asymmetry",
+      "filename": "484_484_order_book_pressure_asymmetry.csv"
+    },
+    {
+      "id": 485,
+      "name": "execution_timing_optimizer",
+      "filename": "485_485_execution_timing_optimizer.csv"
+    },
+    {
+      "id": 486,
+      "name": "volume_profile_analyzer",
+      "filename": "486_486_volume_profile_analyzer.csv"
+    },
+    {
+      "id": 487,
+      "name": "market_depth_imbalance",
+      "filename": "487_487_market_depth_imbalance.csv"
+    },
+    {
+      "id": 489,
+      "name": "price_level_magnetism",
+      "filename": "489_489_price_level_magnetism.csv"
+    },
+    {
+      "id": 491,
+      "name": "order_flow_velocity",
+      "filename": "491_491_order_flow_velocity.csv"
+    },
+    {
+      "id": 497,
+      "name": "market_efficiency_score",
+      "filename": "497_497_market_efficiency_score.csv"
+    },
+    {
+      "id": 498,
+      "name": "liquidity_cycle_detector",
+      "filename": "498_498_liquidity_cycle_detector.csv"
+    },
+    {
+      "id": 499,
+      "name": "execution_alpha_generator",
+      "filename": "499_499_execution_alpha_generator.csv"
+    },
+    {
+      "id": 501,
+      "name": "fractal_dimension",
+      "filename": "501_501_fractal_dimension.csv"
+    },
+    {
+      "id": 506,
+      "name": "bifurcation_point_detector",
+      "filename": "506_506_bifurcation_point_detector.csv"
+    },
+    {
+      "id": 509,
+      "name": "multifractal_spectrum",
+      "filename": "509_509_multifractal_spectrum.csv"
+    },
+    {
+      "id": 511,
+      "name": "social_sentiment_analyzer",
+      "filename": "511_511_social_sentiment_analyzer.csv"
+    },
+    {
+      "id": 513,
+      "name": "market_fear_greed_index",
+      "filename": "513_513_market_fear_greed_index.csv"
+    },
+    {
+      "id": 514,
+      "name": "alternative_data_composite",
+      "filename": "514_514_alternative_data_composite.csv"
+    },
+    {
+      "id": 521,
+      "name": "market_network_centrality",
+      "filename": "521_521_market_network_centrality.csv"
+    },
+    {
+      "id": 522,
+      "name": "price_graph_connectivity",
+      "filename": "522_522_price_graph_connectivity.csv"
+    },
+    {
+      "id": 524,
+      "name": "graph_community_detection",
+      "filename": "524_524_graph_community_detection.csv"
+    },
+    {
+      "id": 525,
+      "name": "network_flow_analysis",
+      "filename": "525_525_network_flow_analysis.csv"
+    },
+    {
+      "id": 526,
+      "name": "adversarial_learning_detector",
+      "filename": "526_526_adversarial_learning_detector.csv"
+    },
+    {
+      "id": 530,
+      "name": "federated_learning_composite",
+      "filename": "530_530_federated_learning_composite.csv"
+    },
+    {
+      "id": 531,
+      "name": "pairs_trading_cointegration",
+      "filename": "531_531_pairs_trading_cointegration.csv"
+    },
+    {
+      "id": 534,
+      "name": "long_short_equity_indicator",
+      "filename": "534_534_long_short_equity_indicator.csv"
+    },
+    {
+      "id": 535,
+      "name": "factor_timing_model",
+      "filename": "535_535_factor_timing_model.csv"
+    },
+    {
+      "id": 537,
+      "name": "adaptive_regime_composite",
+      "filename": "537_537_adaptive_regime_composite.csv"
+    },
+    {
+      "id": 538,
+      "name": "meta_learning_ensemble",
+      "filename": "538_538_meta_learning_ensemble.csv"
+    },
+    {
+      "id": 542,
+      "name": "volatility_targeting_strategy",
+      "filename": "542_542_volatility_targeting_strategy.csv"
+    },
+    {
+      "id": 543,
+      "name": "tail_risk_hedging_signal",
+      "filename": "543_543_tail_risk_hedging_signal.csv"
+    },
+    {
+      "id": 544,
+      "name": "black_swan_detector",
+      "filename": "544_544_black_swan_detector.csv"
+    },
+    {
+      "id": 548,
+      "name": "macro_economic_indicator",
+      "filename": "548_548_macro_economic_indicator.csv"
+    },
+    {
+      "id": 549,
+      "name": "intermarket_analysis_composite",
+      "filename": "549_549_intermarket_analysis_composite.csv"
+    },
+    {
+      "id": 551,
+      "name": "adaptive_intelligence_system",
+      "filename": "551_551_adaptive_intelligence_system.csv"
+    },
+    {
+      "id": 552,
+      "name": "market_dna_analyzer",
+      "filename": "552_552_market_dna_analyzer.csv"
+    },
+    {
+      "id": 553,
+      "name": "predictive_pattern_engine",
+      "filename": "553_553_predictive_pattern_engine.csv"
+    },
+    {
+      "id": 554,
+      "name": "quantum_market_state",
+      "filename": "554_554_quantum_market_state.csv"
+    },
+    {
+      "id": 555,
+      "name": "neural_alpha_extractor",
+      "filename": "555_555_neural_alpha_extractor.csv"
+    },
+    {
+      "id": 561,
+      "name": "cognitive_market_intelligence",
+      "filename": "561_561_cognitive_market_intelligence.csv"
+    },
+    {
+      "id": 562,
+      "name": "holistic_market_synthesizer",
+      "filename": "562_562_holistic_market_synthesizer.csv"
+    },
+    {
+      "id": 563,
+      "name": "transcendent_alpha_engine",
+      "filename": "563_563_transcendent_alpha_engine.csv"
+    },
+    {
+      "id": 564,
+      "name": "omniscient_market_oracle",
+      "filename": "564_564_omniscient_market_oracle.csv"
+    },
+    {
+      "id": 565,
+      "name": "ultimate_convergence_master",
+      "filename": "565_565_ultimate_convergence_master.csv"
+    },
+    {
+      "id": 566,
+      "name": "quantum_consciousness_field",
+      "filename": "566_566_quantum_consciousness_field.csv"
+    },
+    {
+      "id": 567,
+      "name": "hyperdimensional_market_mapper",
+      "filename": "567_567_hyperdimensional_market_mapper.csv"
+    },
+    {
+      "id": 568,
+      "name": "evolutionary_market_genome",
+      "filename": "568_568_evolutionary_market_genome.csv"
+    },
+    {
+      "id": 569,
+      "name": "neural_plasticity_indicator",
+      "filename": "569_569_neural_plasticity_indicator.csv"
+    },
+    {
+      "id": 570,
+      "name": "cosmic_market_resonance",
+      "filename": "570_570_cosmic_market_resonance.csv"
+    },
+    {
+      "id": 571,
+      "name": "singularity_convergence_detector",
+      "filename": "571_571_singularity_convergence_detector.csv"
+    },
+    {
+      "id": 572,
+      "name": "infinite_wisdom_aggregator",
+      "filename": "572_572_infinite_wisdom_aggregator.csv"
+    },
+    {
+      "id": 573,
+      "name": "universal_truth_extractor",
+      "filename": "573_573_universal_truth_extractor.csv"
+    },
+    {
+      "id": 574,
+      "name": "absolute_certainty_engine",
+      "filename": "574_574_absolute_certainty_engine.csv"
+    },
+    {
+      "id": 575,
+      "name": "omnipotent_market_force",
+      "filename": "575_575_omnipotent_market_force.csv"
+    },
+    {
+      "id": 576,
+      "name": "eternal_market_equilibrium",
+      "filename": "576_576_eternal_market_equilibrium.csv"
+    },
+    {
+      "id": 577,
+      "name": "divine_market_providence",
+      "filename": "577_577_divine_market_providence.csv"
+    },
+    {
+      "id": 578,
+      "name": "supreme_alpha_synthesis",
+      "filename": "578_578_supreme_alpha_synthesis.csv"
+    },
+    {
+      "id": 579,
+      "name": "ultimate_reality_matrix",
+      "filename": "579_579_ultimate_reality_matrix.csv"
+    },
+    {
+      "id": 580,
+      "name": "infinite_perfection_indicator",
+      "filename": "580_580_infinite_perfection_indicator.csv"
+    },
+    {
+      "id": 581,
+      "name": "transcendental_market_vision",
+      "filename": "581_581_transcendental_market_vision.csv"
+    },
+    {
+      "id": 582,
+      "name": "primordial_chaos_order",
+      "filename": "582_582_primordial_chaos_order.csv"
+    },
+    {
+      "id": 583,
+      "name": "celestial_harmony_detector",
+      "filename": "583_583_celestial_harmony_detector.csv"
+    },
+    {
+      "id": 584,
+      "name": "metaphysical_momentum_engine",
+      "filename": "584_584_metaphysical_momentum_engine.csv"
+    },
+    {
+      "id": 585,
+      "name": "zenith_alpha_culmination",
+      "filename": "585_585_zenith_alpha_culmination.csv"
+    },
+    {
+      "id": 586,
+      "name": "omniversal_intelligence_core",
+      "filename": "586_586_omniversal_intelligence_core.csv"
+    },
+    {
+      "id": 587,
+      "name": "master_synthesis_nexus",
+      "filename": "587_587_master_synthesis_nexus.csv"
+    },
+    {
+      "id": 588,
+      "name": "absolute_dominance_indicator",
+      "filename": "588_588_absolute_dominance_indicator.csv"
+    },
+    {
+      "id": 589,
+      "name": "infinite_intelligence_nexus",
+      "filename": "589_589_infinite_intelligence_nexus.csv"
+    },
+    {
+      "id": 590,
+      "name": "grand_unification_theory",
+      "filename": "590_590_grand_unification_theory.csv"
+    },
+    {
+      "id": 591,
+      "name": "ultimate_enlightenment_engine",
+      "filename": "591_591_ultimate_enlightenment_engine.csv"
+    },
+    {
+      "id": 592,
+      "name": "supreme_mastery_indicator",
+      "filename": "592_592_supreme_mastery_indicator.csv"
+    },
+    {
+      "id": 593,
+      "name": "infinite_potential_maximizer",
+      "filename": "593_593_infinite_potential_maximizer.csv"
+    },
+    {
+      "id": 594,
+      "name": "omniscient_prediction_oracle",
+      "filename": "594_594_omniscient_prediction_oracle.csv"
+    },
+    {
+      "id": 595,
+      "name": "ultimate_convergence_singularity",
+      "filename": "595_595_ultimate_convergence_singularity.csv"
+    },
+    {
+      "id": 596,
+      "name": "apex_alpha_supremacy",
+      "filename": "596_596_apex_alpha_supremacy.csv"
+    },
+    {
+      "id": 597,
+      "name": "transcendent_wisdom_culmination",
+      "filename": "597_597_transcendent_wisdom_culmination.csv"
+    },
+    {
+      "id": 598,
+      "name": "eternal_alpha_genesis",
+      "filename": "598_598_eternal_alpha_genesis.csv"
+    },
+    {
+      "id": 599,
+      "name": "cosmic_perfection_synthesis",
+      "filename": "599_599_cosmic_perfection_synthesis.csv"
+    },
+    {
+      "id": 600,
+      "name": "the_ultimate_master_indicator",
+      "filename": "600_600_the_ultimate_master_indicator.csv"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "ef3213f0": {
+        "timestamp": "2026-02-09 17:01:23",
+        "timeframe": "1h",
+        "strategies_count": 500,
+        "symbols": [
+            "AUD_USD",
+            "EUR_USD",
+            "GBP_USD",
+            "NZD_USD",
+            "USD_CAD",
+            "USD_CHF"
+        ],
+        "status": "Running",
+        "pid": 811903,
+        "log_file": "/opt/Zenatus_Backtester/04_GUI/data/logs/run_ef3213f0.log"
+    }
+}

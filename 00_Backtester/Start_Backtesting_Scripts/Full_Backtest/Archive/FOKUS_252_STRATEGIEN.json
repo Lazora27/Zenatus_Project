@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "total_unique": 467,
+    "total_tested": 215,
+    "total_not_tested": 252,
+    "description": "Diese 252 Strategien wurden noch nicht getestet und sind unser Fokus"
+  },
+  "not_tested_252_ids": [
+    8, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 35, 43, 53, 55, 56, 57, 58, 59, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 86, 88, 89, 90, 91, 92, 93, 94, 97, 99, 100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 119, 120, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 146, 147, 148, 149, 150, 152, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 171, 172, 173, 174, 175, 176, 177, 178, 180, 181, 182, 183, 184, 185, 187, 188, 189, 190, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 208, 209, 210, 211, 213, 214, 215, 216, 217, 218, 219, 220, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 256, 257, 258, 259, 260, 261, 262, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 292, 293, 294, 295, 297, 298, 300, 301, 302, 303, 304, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 318, 319, 320, 328, 329, 330, 331, 332, 333, 336, 337, 338, 340, 341, 342, 343, 344, 345, 346, 347, 348, 350, 352, 353, 354, 356, 358, 359, 360, 361, 365, 378, 379, 381, 383, 387, 390, 393, 394, 395, 396
+  ],
+  "status": {
+    "in_old_problem_list": 101,
+    "not_in_problem_list": 151,
+    "note": "Kategorisierung basiert auf alter Problem-Liste. Echte Status müssen durch Backtest ermittelt werden."
+  },
+  "next_steps": {
+    "step_1": "Teste alle 252 Strategien mit Haupt-Backtest",
+    "step_2": "Analysiere echte Ergebnisse (SUCCESS/TIMEOUT/ERROR/NO_RESULTS)",
+    "step_3": "Kategorisiere basierend auf echten Daten, nicht auf alten Listen",
+    "step_4": "Erstelle neue Problem-Liste basierend auf aktuellen Ergebnissen"
+  },
+  "recommendation": "Starte Haupt-Backtest für alle 252 IDs. Verwende Standard-Configs oder 2-Combo Configs für die 101 aus alter Problem-Liste."
+}

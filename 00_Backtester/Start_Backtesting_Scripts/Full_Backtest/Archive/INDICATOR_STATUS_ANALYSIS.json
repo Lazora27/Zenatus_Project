@@ -1,0 +1,39 @@
+{
+  "total_unique": 467,
+  "skip_count": 388,
+  "stable_success_count": 212,
+  "already_tested_count": 117,
+  "new_success_count": 59,
+  "total_tested": 388,
+  "not_tested_count": 0,
+  "not_tested_ids": [],
+  "timeout_success_ids": [
+    335,
+    367,
+    368,
+    369,
+    370,
+    371,
+    376,
+    471,
+    478,
+    552,
+    553,
+    554,
+    555,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567
+  ],
+  "comparison": {
+    "595_original": 595,
+    "473_unique": 467,
+    "235_tested": 388,
+    "diff_595_473": 128,
+    "diff_473_235": 79
+  }
+}

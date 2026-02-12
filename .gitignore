@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Env
+venv/
+env/
+ENV/
+Zenatus_Backtest_venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Project Specific
+99_Historic_Data/
+06_API/
+*.log
+*.log.json
+*.jsonl
+*.csv
+.DS_Store
+
+# Large Files / Logs / Metrics
+10_Tree/Paths/*.json
+10_Tree/Projectstructure/Daily/*.json
+10_Tree/Projectstructure/Daily/*.html
+Zenatus_Dokumentation/
+
+# Secrets (EXTREMELY IMPORTANT)
+.env
+api_keys.txt
+*_secrets.yaml
+config/config.yaml
+!config/config.yaml.example
+
+# Docker
+docker-compose.override.yml
+
+# Documentation Logs
+Zenatus_Dokumentation/LOG/
+Zenatus_Dokumentation/Listing/

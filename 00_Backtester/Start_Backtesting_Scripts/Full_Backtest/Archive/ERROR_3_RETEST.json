@@ -1,0 +1,104 @@
+{
+  "272": {
+    "optimal_inputs": {
+      "alpha": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "beta": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "gamma": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "seasonal_period": {
+        "values": [
+          12,
+          24
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          35,
+          70
+        ]
+      }
+    },
+    "file": "272_holt_winters.py",
+    "class_name": "Indicator_HoltWinters"
+  },
+  "274": {
+    "optimal_inputs": {
+      "num_particles": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "process_noise": {
+        "values": [
+          0.01,
+          0.1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "274_particle_filter.py",
+    "class_name": "Indicator_ParticleFilter"
+  },
+  "347": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "alpha": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "347_exponential_smoothing.py",
+    "class_name": "Indicator_ExponentialSmoothing"
+  }
+}

@@ -1,0 +1,10422 @@
+{
+  "1": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "001_trend_sma.py",
+    "class_name": "Indicator_SMA"
+  },
+  "2": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "002_trend_ema.py",
+    "class_name": "Indicator_EMA"
+  },
+  "3": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "003_trend_wma.py",
+    "class_name": "Indicator_WMA"
+  },
+  "4": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "004_trend_dema.py",
+    "class_name": "Indicator_DEMA"
+  },
+  "5": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "005_trend_tema.py",
+    "class_name": "Indicator_TEMA"
+  },
+  "6": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "006_trend_trima.py",
+    "class_name": "Indicator_TRIMA"
+  },
+  "7": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "007_trend_kama.py",
+    "class_name": "Indicator_KAMA"
+  },
+  "9": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "009_trend_zlema.py",
+    "class_name": "Indicator_ZLEMA"
+  },
+  "10": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "010_trend_alma.py",
+    "class_name": "Indicator_ALMA"
+  },
+  "11": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "011_trend_jma.py",
+    "class_name": "Indicator_JMA"
+  },
+  "12": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "012_trend_t3.py",
+    "class_name": "Indicator_T3"
+  },
+  "13": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "cmo_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "013_trend_vidya.py",
+    "class_name": "Indicator_VIDYA"
+  },
+  "14": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          8,
+          12
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "014_trend_frama.py",
+    "class_name": "Indicator_FRAMA"
+  },
+  "15": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "constant": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "015_trend_mcginley.py",
+    "class_name": "Indicator_McGinley"
+  },
+  "16": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "016_trend_sinwma.py",
+    "class_name": "Indicator_SINWMA"
+  },
+  "17": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "017_trend_vwma.py",
+    "class_name": "Indicator_VWMA"
+  },
+  "18": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "018_trend_tsf.py",
+    "class_name": "Indicator_TSF"
+  },
+  "20": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "020_trend_lsma.py",
+    "class_name": "Indicator_LSMA"
+  },
+  "21": {
+    "optimal_inputs": {
+      "fastlimit": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "slowlimit": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "021_trend_mama.py",
+    "class_name": "Indicator_MAMA"
+  },
+  "22": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "022_trend_smma.py",
+    "class_name": "Indicator_SMMA"
+  },
+  "24": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "024_trend_gma.py",
+    "class_name": "Indicator_GMA"
+  },
+  "25": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "025_trend_harmonic.py",
+    "class_name": "Indicator_Harmonic"
+  },
+  "26": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          8
+        ]
+      },
+      "threshold": {
+        "values": [
+          15,
+          20
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "026_trend_adx.py",
+    "class_name": "Indicator_ADX"
+  },
+  "27": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "027_trend_dmi.py",
+    "class_name": "Indicator_DMI"
+  },
+  "28": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "028_trend_aroon.py",
+    "class_name": "Indicator_Aroon"
+  },
+  "29": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "029_trend_aroonosc.py",
+    "class_name": "Indicator_AroonOsc"
+  },
+  "30": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "030_trend_psar.py",
+    "class_name": "Indicator_PSAR"
+  },
+  "32": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          8
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "032_trend_vortex.py",
+    "class_name": "Indicator_Vortex"
+  },
+  "33": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "033_trend_massindex.py",
+    "class_name": "Indicator_MassIndex"
+  },
+  "34": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "034_trend_qstick.py",
+    "class_name": "Indicator_Qstick"
+  },
+  "35": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          20,
+          25
+        ]
+      },
+      "threshold": {
+        "values": [
+          40,
+          45
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "035_trend_tii.py",
+    "class_name": "Indicator_TII"
+  },
+  "36": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "036_trend_cci.py",
+    "class_name": "Indicator_CCI"
+  },
+  "37": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "037_trend_roc.py",
+    "class_name": "Indicator_ROC"
+  },
+  "38": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "038_trend_momentum.py",
+    "class_name": "Indicator_Momentum"
+  },
+  "39": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "039_trend_williams_r.py",
+    "class_name": "Indicator_WilliamsR"
+  },
+  "40": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "040_trend_stochastic.py",
+    "class_name": "Indicator_Stochastic"
+  },
+  "41": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "041_trend_rsi.py",
+    "class_name": "Indicator_RSI"
+  },
+  "42": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "042_trend_macd.py",
+    "class_name": "Indicator_MACD"
+  },
+  "43": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "043_trend_bollinger.py",
+    "class_name": "Indicator_BollingerBands"
+  },
+  "46": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "046_trend_donchian.py",
+    "class_name": "Indicator_DonchianChannels"
+  },
+  "47": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "047_volume_obv.py",
+    "class_name": "Indicator_OBV"
+  },
+  "48": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "048_volume_mfi.py",
+    "class_name": "Indicator_MFI"
+  },
+  "49": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "049_volume_cmf.py",
+    "class_name": "Indicator_CMF"
+  },
+  "50": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "050_trend_ichimoku.py",
+    "class_name": "Indicator_Ichimoku"
+  },
+  "51": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "051_volume_vwap.py",
+    "class_name": "Indicator_VWAP"
+  },
+  "52": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "052_volume_force_index.py",
+    "class_name": "Indicator_ForceIndex"
+  },
+  "53": {
+    "optimal_inputs": {
+      "signal_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "053_volume_ad.py",
+    "class_name": "Indicator_AD"
+  },
+  "55": {
+    "optimal_inputs": {
+      "rsi_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "stoch_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "smooth_k": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "smooth_d": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "overbought": {
+        "values": [
+          70,
+          75
+        ]
+      },
+      "oversold": {
+        "values": [
+          10,
+          15
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "055_trend_stoch_rsi.py",
+    "class_name": "Indicator_StochRSI"
+  },
+  "56": {
+    "optimal_inputs": {
+      "fast_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "slow_period": {
+        "values": [
+          20,
+          21
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "056_trend_awesome_osc.py",
+    "class_name": "Indicator_AwesomeOscillator"
+  },
+  "57": {
+    "optimal_inputs": {
+      "fast_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "slow_period": {
+        "values": [
+          20,
+          21
+        ]
+      },
+      "signal_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "057_trend_accelerator_osc.py",
+    "class_name": "Indicator_AcceleratorOscillator"
+  },
+  "58": {
+    "optimal_inputs": {
+      "jaw_period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "teeth_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "lips_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "058_trend_gator.py",
+    "class_name": "Indicator_GatorOscillator"
+  },
+  "59": {
+    "optimal_inputs": {
+      "jaw_period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "teeth_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "lips_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "059_trend_alligator.py",
+    "class_name": "Indicator_Alligator"
+  },
+  "60": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "060_trend_elder_ray.py",
+    "class_name": "Indicator_ElderRay"
+  },
+  "61": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "signal_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "061_trend_trix.py",
+    "class_name": "Indicator_Trix"
+  },
+  "62": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "062_trend_ppo.py",
+    "class_name": "Indicator_PPO"
+  },
+  "63": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "063_trend_apo.py",
+    "class_name": "Indicator_APO"
+  },
+  "64": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "064_trend_dpo.py",
+    "class_name": "Indicator_DPO"
+  },
+  "65": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "065_trend_cmo.py",
+    "class_name": "Indicator_CMO"
+  },
+  "66": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "066_trend_rvi.py",
+    "class_name": "Indicator_RVI"
+  },
+  "67": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "067_trend_tsi.py",
+    "class_name": "Indicator_TSI"
+  },
+  "68": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "068_trend_bop.py",
+    "class_name": "Indicator_BOP"
+  },
+  "69": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "069_trend_inertia.py",
+    "class_name": "Indicator_Inertia"
+  },
+  "70": {
+    "optimal_inputs": {
+      "k_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "d_period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "070_trend_kdj.py",
+    "class_name": "Indicator_KDJ"
+  },
+  "71": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "071_trend_pgo.py",
+    "class_name": "Indicator_PGO"
+  },
+  "72": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "072_trend_psychline.py",
+    "class_name": "Indicator_PsychLine"
+  },
+  "73": {
+    "optimal_inputs": {
+      "rsi_period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "smoothing": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "073_trend_qqe.py",
+    "class_name": "Indicator_QQE"
+  },
+  "74": {
+    "optimal_inputs": {
+      "max_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "074_trend_rainbow.py",
+    "class_name": "Indicator_Rainbow"
+  },
+  "75": {
+    "optimal_inputs": {
+      "ema1": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "ema2": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "signal": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "075_trend_smiergodic.py",
+    "class_name": "Indicator_SMIErgodic"
+  },
+  "76": {
+    "optimal_inputs": {
+      "k_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "d_period": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "smoothing": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "076_trend_smi.py",
+    "class_name": "Indicator_SMI"
+  },
+  "77": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "077_trend_trendflex.py",
+    "class_name": "Indicator_TrendFlex"
+  },
+  "78": {
+    "optimal_inputs": {
+      "fast": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "slow": {
+        "values": [
+          19,
+          21
+        ]
+      },
+      "signal": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "078_trend_macdhist.py",
+    "class_name": "Indicator_MACDHist"
+  },
+  "79": {
+    "optimal_inputs": {
+      "fast": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "slow": {
+        "values": [
+          19,
+          21
+        ]
+      },
+      "signal": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "079_trend_macdsignal.py",
+    "class_name": "Indicator_MACDSignal"
+  },
+  "80": {
+    "optimal_inputs": {
+      "fast": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "slow": {
+        "values": [
+          19,
+          21
+        ]
+      },
+      "signal": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "080_trend_zerolagmacd.py",
+    "class_name": "Indicator_ZeroLagMACD"
+  },
+  "82": {
+    "optimal_inputs": {
+      "roc1": {
+        "values": [
+          11,
+          13
+        ]
+      },
+      "roc2": {
+        "values": [
+          8,
+          10
+        ]
+      },
+      "wma_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "082_trend_coppock.py",
+    "class_name": "Indicator_Coppock"
+  },
+  "83": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          11,
+          13
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "083_trend_detrendedprice.py",
+    "class_name": "Indicator_DetrendedPrice"
+  },
+  "84": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "084_trend_efficiencyratio.py",
+    "class_name": "Indicator_EfficiencyRatio"
+  },
+  "85": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "085_volume_elderforce.py",
+    "class_name": "Indicator_ElderForce"
+  },
+  "86": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "086_trend_frama.py",
+    "class_name": "Indicator_FRAMAExtended"
+  },
+  "87": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "poles": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "087_trend_gaussian.py",
+    "class_name": "Indicator_Gaussian"
+  },
+  "88": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "088_trend_highlowindex.py",
+    "class_name": "Indicator_HighLowIndex"
+  },
+  "89": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "annualize": {
+        "values": [
+          252
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "089_trend_histvol.py",
+    "class_name": "Indicator_HistoricalVolatility"
+  },
+  "90": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "090_trend_hullmaosc.py",
+    "class_name": "Indicator_HullMAOsc"
+  },
+  "92": {
+    "optimal_inputs": {
+      "er_period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "fast_ema": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "slow_ema": {
+        "values": [
+          20,
+          25
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "092_trend_kauffman.py",
+    "class_name": "Indicator_KauffmanAMA"
+  },
+  "93": {
+    "optimal_inputs": {
+      "gamma": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "093_trend_laguerre.py",
+    "class_name": "Indicator_Laguerre"
+  },
+  "94": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "094_trend_linearregslope.py",
+    "class_name": "Indicator_LinearRegSlope"
+  },
+  "95": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "overbought": {
+        "values": [
+          70,
+          75
+        ]
+      },
+      "oversold": {
+        "values": [
+          15,
+          20
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "095_volume_mfi_extended.py",
+    "class_name": "Indicator_MFIExtended"
+  },
+  "96": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "constant": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "096_trend_mcginleydynamic.py",
+    "class_name": "Indicator_McGinleyDynamic"
+  },
+  "97": {
+    "optimal_inputs": {
+      "af_start": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "af_increment": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "af_max": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "097_trend_parabolicsar_extended.py",
+    "class_name": "Indicator_PSARExtended"
+  },
+  "98": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "098_trend_pivotpoints.py",
+    "class_name": "Indicator_PivotPoints"
+  },
+  "99": {
+    "optimal_inputs": {
+      "fast": {
+        "values": [
+          8,
+          10
+        ]
+      },
+      "slow": {
+        "values": [
+          20,
+          23
+        ]
+      },
+      "signal": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "099_trend_priceoscillator.py",
+    "class_name": "Indicator_PriceOscillator"
+  },
+  "100": {
+    "optimal_inputs": {
+      "brick_size": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "100_trend_renko.py",
+    "class_name": "Indicator_RenkoTrend"
+  },
+  "101": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "101_trend_inversefisher.py",
+    "class_name": "Indicator_InverseFisher"
+  },
+  "102": {
+    "optimal_inputs": {
+      "rsi_period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "streak_period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "pct_rank_period": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "102_trend_connorsrsi.py",
+    "class_name": "Indicator_ConnorsRSI"
+  },
+  "103": {
+    "optimal_inputs": {
+      "gamma": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "103_trend_laguerrersi.py",
+    "class_name": "Indicator_LaguerreRSI"
+  },
+  "104": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "momentum_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "104_trend_rmi.py",
+    "class_name": "Indicator_RMI"
+  },
+  "105": {
+    "optimal_inputs": {
+      "long_period": {
+        "values": [
+          20,
+          25
+        ]
+      },
+      "short_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "signal_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "105_trend_ergodic.py",
+    "class_name": "Indicator_Ergodic"
+  },
+  "106": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "106_trend_cog.py",
+    "class_name": "Indicator_COG"
+  },
+  "107": {
+    "optimal_inputs": {
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "107_trend_cybercycle.py",
+    "class_name": "Indicator_CyberCycle"
+  },
+  "108": {
+    "optimal_inputs": {
+      "hp_period": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "108_trend_decycler.py",
+    "class_name": "Indicator_Decycler"
+  },
+  "109": {
+    "optimal_inputs": {
+      "hp_period": {
+        "values": [
+          20,
+          30
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "109_trend_ebs.py",
+    "class_name": "Indicator_EvenBetterSinewave"
+  },
+  "110": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "110_trend_hilbert.py",
+    "class_name": "Indicator_HilbertTransform"
+  },
+  "111": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "111_trend_reflex.py",
+    "class_name": "Indicator_Reflex"
+  },
+  "112": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "112_trend_trendvigor.py",
+    "class_name": "Indicator_TrendVigor"
+  },
+  "113": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "113_trend_correlationcycle.py",
+    "class_name": "Indicator_CorrelationCycle"
+  },
+  "114": {
+    "optimal_inputs": {
+      "min_period": {
+        "values": [
+          6,
+          8
+        ]
+      },
+      "max_period": {
+        "values": [
+          40,
+          50
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "114_trend_dominantcycle.py",
+    "class_name": "Indicator_DominantCycle"
+  },
+  "116": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "116_trend_sinewave.py",
+    "class_name": "Indicator_SineWave"
+  },
+  "117": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "117_trend_fractaldimension.py",
+    "class_name": "Indicator_FractalDimension"
+  },
+  "118": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "118_trend_hurstexponent.py",
+    "class_name": "Indicator_HurstExponent"
+  },
+  "121": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "121_trend_regimedetection.py",
+    "class_name": "Indicator_RegimeDetection"
+  },
+  "122": {
+    "optimal_inputs": {
+      "min_period": {
+        "values": [
+          6,
+          8
+        ]
+      },
+      "max_period": {
+        "values": [
+          40,
+          50
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "122_trend_cycleperiod.py",
+    "class_name": "Indicator_CyclePeriod"
+  },
+  "123": {
+    "optimal_inputs": {
+      "fast_base": {
+        "values": [
+          8,
+          10
+        ]
+      },
+      "slow_base": {
+        "values": [
+          20,
+          24
+        ]
+      },
+      "signal": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "123_trend_adaptivemacd.py",
+    "class_name": "Indicator_AdaptiveMACD"
+  },
+  "125": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "125_trend_vhf.py",
+    "class_name": "Indicator_VHF"
+  },
+  "126": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "126_trend_trendstrengthindex.py",
+    "class_name": "Indicator_TrendStrengthIndex"
+  },
+  "127": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "127_trend_rsquared.py",
+    "class_name": "Indicator_RSquared"
+  },
+  "128": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "128_trend_pricechannels.py",
+    "class_name": "Indicator_PriceChannels"
+  },
+  "129": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "percent": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "129_trend_envelopechannels.py",
+    "class_name": "Indicator_EnvelopeChannels"
+  },
+  "130": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "std_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "130_trend_stdchannels.py",
+    "class_name": "Indicator_StdChannels"
+  },
+  "131": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "std_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "131_trend_regressionchannels.py",
+    "class_name": "Indicator_RegressionChannels"
+  },
+  "132": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "132_trend_fibonaccichannels.py",
+    "class_name": "Indicator_FibonacciChannels"
+  },
+  "133": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "factor": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "133_trend_accelerationbands.py",
+    "class_name": "Indicator_AccelerationBands"
+  },
+  "134": {
+    "optimal_inputs": {
+      "ma_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "atr_period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "atr_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "134_trend_starcbands.py",
+    "class_name": "Indicator_STARCBands"
+  },
+  "135": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "percent": {
+        "values": [
+          0,
+          1
+        ]
+      },
+      "ma_type": {
+        "values": [
+          5,
+          28
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "135_trend_maenvelope.py",
+    "class_name": "Indicator_MAEnvelope"
+  },
+  "136": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "atr_mult": {
+        "values": [
+          2,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "136_trend_chandelierexit.py",
+    "class_name": "Indicator_ChandelierExit"
+  },
+  "138": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "vol_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "138_trend_volatilitychannels.py",
+    "class_name": "Indicator_VolatilityChannels"
+  },
+  "139": {
+    "optimal_inputs": {
+      "min_period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "max_period": {
+        "values": [
+          40,
+          50
+        ]
+      },
+      "mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "139_trend_dynamicchannels.py",
+    "class_name": "Indicator_DynamicChannels"
+  },
+  "141": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "projection": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "std_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "141_trend_projectionbands.py",
+    "class_name": "Indicator_ProjectionBands"
+  },
+  "142": {
+    "optimal_inputs": {
+      "bb_period": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "bb_mult": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "kc_period": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "kc_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          40
+        ]
+      }
+    },
+    "file": "142_trend_squeezeindicator.py",
+    "class_name": "Indicator_SqueezeIndicator"
+  },
+  "143": {
+    "optimal_inputs": {
+      "length": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "mult": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "length_kc": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "mult_kc": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          40
+        ]
+      }
+    },
+    "file": "143_trend_ttmsqueeze.py",
+    "class_name": "Indicator_TTMSqueeze"
+  },
+  "144": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "std_mult": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "144_trend_bollingerbandwidth.py",
+    "class_name": "Indicator_BollingerBandwidth"
+  },
+  "145": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "145_volume_divergenceindex.py",
+    "class_name": "Indicator_VolumeDivergenceIndex"
+  },
+  "151": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "lookback": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "151_volume_divergencestrength.py",
+    "class_name": "Indicator_DivergenceStrength"
+  },
+  "153": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "lookback": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "153_volume_divergencemomentum.py",
+    "class_name": "Indicator_DivergenceMomentum"
+  },
+  "155": {
+    "optimal_inputs": {
+      "body_threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "155_pattern_candlestickpatterns.py",
+    "class_name": "Indicator_CandlestickPatterns"
+  },
+  "156": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "min_body_ratio": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "156_pattern_priceaction.py",
+    "class_name": "Indicator_PriceAction"
+  },
+  "157": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          20,
+          30
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "157_pattern_chartpatterns.py",
+    "class_name": "Indicator_ChartPatterns"
+  },
+  "158": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "158_pattern_harmonicpatterns.py",
+    "class_name": "Indicator_HarmonicPatterns"
+  },
+  "159": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "wave_tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "159_pattern_elliottwave.py",
+    "class_name": "Indicator_ElliottWave"
+  },
+  "160": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          14,
+          20
+        ]
+      },
+      "volume_threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "160_pattern_wyckoff.py",
+    "class_name": "Indicator_Wyckoff"
+  },
+  "161": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "num_levels": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "proximity": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "161_pattern_supportresistance.py",
+    "class_name": "Indicator_SupportResistance"
+  },
+  "162": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "min_touches": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "162_pattern_trendlines.py",
+    "class_name": "Indicator_Trendlines"
+  },
+  "163": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "proximity": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "163_pattern_fibonacciretracement.py",
+    "class_name": "Indicator_FibonacciRetracement"
+  },
+  "164": {
+    "optimal_inputs": {
+      "lookback": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "proximity": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "164_pattern_fibonacciextension.py",
+    "class_name": "Indicator_FibonacciExtension"
+  },
+  "165": {
+    "optimal_inputs": {
+      "method": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "proximity": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "165_pattern_pivotpoints.py",
+    "class_name": "Indicator_PivotPoints"
+  },
+  "166": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "beta": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "166_volatility_garch.py",
+    "class_name": "Indicator_GARCHVolatility"
+  },
+  "167": {
+    "optimal_inputs": {
+      "span": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "lambda_param": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "167_volatility_ewma.py",
+    "class_name": "Indicator_EWMAVolatility"
+  },
+  "169": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "169_volatility_regime_detection.py",
+    "class_name": "Indicator_VolatilityRegimeDetection"
+  },
+  "170": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "170_volatility_breakout.py",
+    "class_name": "Indicator_VolatilityBreakout"
+  },
+  "171": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "171_range_true_range.py",
+    "class_name": "Indicator_TrueRange"
+  },
+  "172": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "172_range_daily.py",
+    "class_name": "Indicator_DailyRange"
+  },
+  "173": {
+    "optimal_inputs": {
+      "week_bars": {
+        "values": [
+          24,
+          48
+        ]
+      },
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "173_range_weekly.py",
+    "class_name": "Indicator_WeeklyRange"
+  },
+  "174": {
+    "optimal_inputs": {
+      "month_bars": {
+        "values": [
+          120,
+          240
+        ]
+      },
+      "period": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "174_range_monthly.py",
+    "class_name": "Indicator_MonthlyRange"
+  },
+  "175": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "175_range_expansion_index.py",
+    "class_name": "Indicator_RangeExpansionIndex"
+  },
+  "176": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          20,
+          25
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "176_range_contraction_index.py",
+    "class_name": "Indicator_RangeContractionIndex"
+  },
+  "178": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "178_range_bound.py",
+    "class_name": "Indicator_RangeBound"
+  },
+  "179": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "multiplier": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "179_range_filter.py",
+    "class_name": "Indicator_RangeFilter"
+  },
+  "180": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "fast_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "slow_period": {
+        "values": [
+          34,
+          41
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "180_range_adaptive.py",
+    "class_name": "Indicator_AdaptiveRange"
+  },
+  "181": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "181_volume_weighted_price.py",
+    "class_name": "Indicator_VolumeWeightedPrice"
+  },
+  "183": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "183_volume_trend.py",
+    "class_name": "Indicator_VolumeTrend"
+  },
+  "184": {
+    "optimal_inputs": {
+      "fast_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "slow_period": {
+        "values": [
+          14,
+          17
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "184_volume_oscillator.py",
+    "class_name": "Indicator_VolumeOscillator"
+  },
+  "185": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "lookback": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "185_volume_divergence.py",
+    "class_name": "Indicator_VolumeDivergence"
+  },
+  "186": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "186_volume_spread_analysis.py",
+    "class_name": "Indicator_VolumeSpreadAnalysis"
+  },
+  "187": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "bins": {
+        "values": [
+          5,
+          8
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "187_volume_profile.py",
+    "class_name": "Indicator_VolumeProfile"
+  },
+  "188": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "188_volume_price_trend.py",
+    "class_name": "Indicator_VolumePriceTrend"
+  },
+  "189": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "189_volume_roc.py",
+    "class_name": "Indicator_VolumeRateOfChange"
+  },
+  "190": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "std_mult": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "190_volume_weighted_average_price.py",
+    "class_name": "Indicator_VolumeWeightedAveragePrice"
+  },
+  "191": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "191_volume_zone_oscillator.py",
+    "class_name": "Indicator_VolumeZoneOscillator"
+  },
+  "192": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "192_volume_accumulation_distribution.py",
+    "class_name": "Indicator_VolumeAccumulationDistribution"
+  },
+  "193": {
+    "optimal_inputs": {
+      "short_period": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "long_period": {
+        "values": [
+          14,
+          17
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "193_volume_price_confirmation.py",
+    "class_name": "Indicator_VolumePriceConfirmation"
+  },
+  "194": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "194_volume_intensity.py",
+    "class_name": "Indicator_VolumeIntensity"
+  },
+  "195": {
+    "optimal_inputs": {
+      "short_period": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "long_period": {
+        "values": [
+          8,
+          11
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "195_volume_force_index.py",
+    "class_name": "Indicator_VolumeForceIndex"
+  },
+  "196": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "196_volume_weighted_momentum.py",
+    "class_name": "Indicator_VolumeWeightedMomentum"
+  },
+  "197": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "197_volume_efficiency.py",
+    "class_name": "Indicator_VolumeEfficiency"
+  },
+  "198": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "198_volume_delta.py",
+    "class_name": "Indicator_VolumeDelta"
+  },
+  "199": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          -20,
+          -10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "199_volume_flow_indicator.py",
+    "class_name": "Indicator_VolumeFlowIndicator"
+  },
+  "200": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          13,
+          17
+        ]
+      },
+      "vol_threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "200_volume_spread_analysis.py",
+    "class_name": "Indicator_VolumeSpreadAnalysis"
+  },
+  "201": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "bins": {
+        "values": [
+          10,
+          15
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "201_volume_profile.py",
+    "class_name": "Indicator_VolumeProfile"
+  },
+  "202": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          20,
+          30
+        ]
+      },
+      "price_tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "202_volume_at_price.py",
+    "class_name": "Indicator_VolumeAtPrice"
+  },
+  "203": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "bins": {
+        "values": [
+          10,
+          15
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "203_point_of_control.py",
+    "class_name": "Indicator_PointOfControl"
+  },
+  "204": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "bins": {
+        "values": [
+          10,
+          15
+        ]
+      },
+      "value_area_pct": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "204_value_area_high.py",
+    "class_name": "Indicator_ValueAreaHigh"
+  },
+  "205": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "bins": {
+        "values": [
+          10,
+          15
+        ]
+      },
+      "value_area_pct": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "205_value_area_low.py",
+    "class_name": "Indicator_ValueAreaLow"
+  },
+  "206": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "206_volume_weighted_ma.py",
+    "class_name": "Indicator_VolumeWeightedMA"
+  },
+  "207": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "207_volume_spread_analysis.py",
+    "class_name": "Indicator_VolumeSpreadAnalysis"
+  },
+  "209": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "209_smart_money_index.py",
+    "class_name": "Indicator_SmartMoneyIndex"
+  },
+  "210": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "210_tick_volume_index.py",
+    "class_name": "Indicator_TickVolumeIndex"
+  },
+  "212": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "212_volume_climax.py",
+    "class_name": "Indicator_VolumeClimax"
+  },
+  "214": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "214_volume_divergence.py",
+    "class_name": "Indicator_VolumeDivergence"
+  },
+  "215": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "vol_threshold": {
+        "values": [
+          1,
+          1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "215_volume_confirmation.py",
+    "class_name": "Indicator_VolumeConfirmation"
+  },
+  "216": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "216_volume_momentum.py",
+    "class_name": "Indicator_VolumeMomentum"
+  },
+  "217": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "217_volume_strength.py",
+    "class_name": "Indicator_VolumeStrength"
+  },
+  "218": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "218_volume_pressure.py",
+    "class_name": "Indicator_VolumePressure"
+  },
+  "219": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25
+        ]
+      }
+    },
+    "file": "219_volume_distribution.py",
+    "class_name": "Indicator_VolumeDistribution"
+  },
+  "220": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "cycle_length": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30
+        ]
+      }
+    },
+    "file": "220_volume_cycle.py",
+    "class_name": "Indicator_VolumeCycle"
+  },
+  "221": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "221_tick_volume.py",
+    "class_name": "Indicator_TickVolume"
+  },
+  "222": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "222_trade_volume.py",
+    "class_name": "Indicator_TradeVolume"
+  },
+  "223": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "223_buy_volume.py",
+    "class_name": "Indicator_BuyVolume"
+  },
+  "224": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "224_sell_volume.py",
+    "class_name": "Indicator_SellVolume"
+  },
+  "225": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "225_delta_volume.py",
+    "class_name": "Indicator_DeltaVolume"
+  },
+  "226": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "226_cumulative_delta.py",
+    "class_name": "Indicator_CumulativeDelta"
+  },
+  "228": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "228_order_flow.py",
+    "class_name": "Indicator_OrderFlow"
+  },
+  "229": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "229_market_depth.py",
+    "class_name": "Indicator_MarketDepth"
+  },
+  "230": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "230_bid_ask_spread.py",
+    "class_name": "Indicator_BidAskSpread"
+  },
+  "232": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "232_ask_volume.py",
+    "class_name": "Indicator_AskVolume"
+  },
+  "233": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          7,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "233_trade_intensity.py",
+    "class_name": "Indicator_TradeIntensity"
+  },
+  "236": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "threshold": {
+        "values": [
+          2,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "236_large_trade_detector.py",
+    "class_name": "Indicator_LargeTradeDetector"
+  },
+  "237": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "threshold": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "237_block_trade_detector.py",
+    "class_name": "Indicator_BlockTradeDetector"
+  },
+  "239": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "239_retail_volume.py",
+    "class_name": "Indicator_RetailVolume"
+  },
+  "241": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "241_skewness.py",
+    "class_name": "Indicator_Skewness"
+  },
+  "242": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "242_kurtosis.py",
+    "class_name": "Indicator_Kurtosis"
+  },
+  "243": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "threshold": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "243_zscore.py",
+    "class_name": "Indicator_ZScore"
+  },
+  "244": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "244_tscore.py",
+    "class_name": "Indicator_TScore"
+  },
+  "245": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "245_percentile.py",
+    "class_name": "Indicator_Percentile"
+  },
+  "246": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "246_quartile.py",
+    "class_name": "Indicator_Quartile"
+  },
+  "247": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          50,
+          75
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "247_iqr.py",
+    "class_name": "Indicator_IQR"
+  },
+  "248": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "248_mad.py",
+    "class_name": "Indicator_MAD"
+  },
+  "249": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "249_coefficient_variation.py",
+    "class_name": "Indicator_CoefficientVariation"
+  },
+  "250": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "250_correlation_coefficient.py",
+    "class_name": "Indicator_CorrelationCoefficient"
+  },
+  "251": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "251_covariance.py",
+    "class_name": "Indicator_Covariance"
+  },
+  "252": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "252_beta.py",
+    "class_name": "Indicator_Beta"
+  },
+  "253": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "253_sharpe_ratio.py",
+    "class_name": "Indicator_SharpeRatio"
+  },
+  "254": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "254_sortino_ratio.py",
+    "class_name": "Indicator_SortinoRatio"
+  },
+  "255": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          100,
+          150
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "255_calmar_ratio.py",
+    "class_name": "Indicator_CalmarRatio"
+  },
+  "256": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "256_linear_regression.py",
+    "class_name": "Indicator_LinearRegression"
+  },
+  "257": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "degree": {
+        "values": [
+          2,
+          3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "257_polynomial_regression.py",
+    "class_name": "Indicator_PolynomialRegression"
+  },
+  "258": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "258_exponential_regression.py",
+    "class_name": "Indicator_ExponentialRegression"
+  },
+  "259": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "259_logarithmic_regression.py",
+    "class_name": "Indicator_LogarithmicRegression"
+  },
+  "260": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "260_power_regression.py",
+    "class_name": "Indicator_PowerRegression"
+  },
+  "261": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "261_ridge_regression.py",
+    "class_name": "Indicator_RidgeRegression"
+  },
+  "262": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "262_lasso_regression.py",
+    "class_name": "Indicator_LassoRegression"
+  },
+  "263": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2,
+          30
+        ]
+      },
+      "threshold": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "263_elastic_net.py",
+    "class_name": "Indicator_ElasticNet"
+  },
+  "264": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "lags": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "264_time_series_regression.py",
+    "class_name": "Indicator_TimeSeriesRegression"
+  },
+  "265": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "ar_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "265_auto_regression.py",
+    "class_name": "Indicator_AutoRegression"
+  },
+  "266": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "ma_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "266_moving_average_model.py",
+    "class_name": "Indicator_MovingAverageModel"
+  },
+  "267": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "ar_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "ma_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          60
+        ]
+      }
+    },
+    "file": "267_arma_model.py",
+    "class_name": "Indicator_ARMAModel"
+  },
+  "268": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "ar_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "diff_order": {
+        "values": [
+          0,
+          1
+        ]
+      },
+      "ma_order": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          35,
+          70
+        ]
+      }
+    },
+    "file": "268_arima_model.py",
+    "class_name": "Indicator_ARIMAModel"
+  },
+  "269": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "seasonal_period": {
+        "values": [
+          12,
+          24
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "269_sarima_model.py",
+    "class_name": "Indicator_SARIMAModel"
+  },
+  "271": {
+    "optimal_inputs": {
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "271_exponential_smoothing.py",
+    "class_name": "Indicator_ExponentialSmoothing"
+  },
+  "272": {
+    "optimal_inputs": {
+      "alpha": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "beta": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "gamma": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "seasonal_period": {
+        "values": [
+          12,
+          24
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          35,
+          70
+        ]
+      }
+    },
+    "file": "272_holt_winters.py",
+    "class_name": "Indicator_HoltWinters"
+  },
+  "273": {
+    "optimal_inputs": {
+      "process_variance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "measurement_variance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "273_kalman_filter.py",
+    "class_name": "Indicator_KalmanFilter"
+  },
+  "274": {
+    "optimal_inputs": {
+      "num_particles": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "process_noise": {
+        "values": [
+          0.01,
+          0.1
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "274_particle_filter.py",
+    "class_name": "Indicator_ParticleFilter"
+  },
+  "275": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "275_linear_regression_slope.py",
+    "class_name": "Indicator_LinearRegressionSlope"
+  },
+  "276": {
+    "optimal_inputs": {
+      "body_threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "276_candlestick_patterns.py",
+    "class_name": "Indicator_CandlestickPatterns"
+  },
+  "277": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "277_chart_patterns.py",
+    "class_name": "Indicator_ChartPatterns"
+  },
+  "278": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "278_harmonic_patterns.py",
+    "class_name": "Indicator_HarmonicPatterns"
+  },
+  "279": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "279_elliott_wave.py",
+    "class_name": "Indicator_ElliottWave"
+  },
+  "282": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "282_fibonacci_fans.py",
+    "class_name": "Indicator_FibonacciFans"
+  },
+  "284": {
+    "optimal_inputs": {
+      "start_index": {
+        "values": [
+          0,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "284_fibonacci_time_zones.py",
+    "class_name": "Indicator_FibonacciTimeZones"
+  },
+  "288": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "288_andrews_pitchfork.py",
+    "class_name": "Indicator_AndrewsPitchfork"
+  },
+  "289": {
+    "optimal_inputs": {
+      "method": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "289_pivot_points_extended.py",
+    "class_name": "Indicator_PivotPointsExtended"
+  },
+  "290": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "tolerance": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "290_support_resistance.py",
+    "class_name": "Indicator_SupportResistance"
+  },
+  "291": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "291_normal_distribution.py",
+    "class_name": "Indicator_NormalDistribution"
+  },
+  "292": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "292_lognormal_distribution.py",
+    "class_name": "Indicator_LogNormalDistribution"
+  },
+  "293": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "num_simulations": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "forecast_steps": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          60
+        ]
+      }
+    },
+    "file": "293_monte_carlo.py",
+    "class_name": "Indicator_MonteCarlo"
+  },
+  "294": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "num_bootstrap": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "294_bootstrap_sampling.py",
+    "class_name": "Indicator_BootstrapSampling"
+  },
+  "295": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "prior_prob": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "295_bayesian_inference.py",
+    "class_name": "Indicator_BayesianInference"
+  },
+  "296": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "confidence_level": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "296_confidence_intervals.py",
+    "class_name": "Indicator_ConfidenceIntervals"
+  },
+  "297": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "alpha": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "297_hypothesis_testing.py",
+    "class_name": "Indicator_HypothesisTesting"
+  },
+  "298": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "298_pvalue_calculator.py",
+    "class_name": "Indicator_PValueCalculator"
+  },
+  "299": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          10,
+          14
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "299_statistical_significance.py",
+    "class_name": "Indicator_StatisticalSignificance"
+  },
+  "300": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "300_probability_distribution.py",
+    "class_name": "Indicator_ProbabilityDistribution"
+  },
+  "301": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "301_bayesian_probability.py",
+    "class_name": "Indicator_BayesianProbability"
+  },
+  "302": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "simulations": {
+        "values": [
+          50,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "302_monte_carlo_probability.py",
+    "class_name": "Indicator_MonteCarloProbability"
+  },
+  "303": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "zscore_threshold": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "303_statistical_arbitrage.py",
+    "class_name": "Indicator_StatisticalArbitrage"
+  },
+  "304": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "304_regime_switching.py",
+    "class_name": "Indicator_RegimeSwitching"
+  },
+  "305": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "305_markov_chain.py",
+    "class_name": "Indicator_MarkovChain"
+  },
+  "306": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          0,
+          0
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "306_gradient_boosting_signal.py",
+    "class_name": "Indicator_GradientBoostingSignal"
+  },
+  "307": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "n_trees": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "307_random_forest_ensemble.py",
+    "class_name": "Indicator_RandomForestEnsemble"
+  },
+  "308": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "hidden_size": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "308_neural_network_prediction.py",
+    "class_name": "Indicator_NeuralNetworkPrediction"
+  },
+  "311": {
+    "optimal_inputs": {
+      "kernel_size": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "311_convolutional_pattern.py",
+    "class_name": "Indicator_ConvolutionalPattern"
+  },
+  "314": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "threshold": {
+        "values": [
+          1,
+          2
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "314_autoencoder_anomaly.py",
+    "class_name": "Indicator_AutoencoderAnomaly"
+  },
+  "315": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "315_gan_price_generator.py",
+    "class_name": "Indicator_GANPriceGenerator"
+  },
+  "316": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "316_xgboost_signal.py",
+    "class_name": "Indicator_XGBoostSignal"
+  },
+  "318": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "318_stacking_ensemble.py",
+    "class_name": "Indicator_StackingEnsemble"
+  },
+  "319": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "n_bags": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "319_bagging_predictor.py",
+    "class_name": "Indicator_BaggingPredictor"
+  },
+  "320": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "n_stages": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "320_boosting_cascade.py",
+    "class_name": "Indicator_BoostingCascade"
+  },
+  "321": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_features": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "321_automl_optimizer.py",
+    "class_name": "Indicator_AutoMLOptimizer"
+  },
+  "322": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_regimes": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "322_meta_learning.py",
+    "class_name": "Indicator_MetaLearning"
+  },
+  "323": {
+    "optimal_inputs": {
+      "short_period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "long_period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "323_transfer_learning.py",
+    "class_name": "Indicator_TransferLearning"
+  },
+  "326": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "ml_weight": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "326_hybrid_ml_technical.py",
+    "class_name": "Indicator_HybridMLTechnical"
+  },
+  "327": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "adaptation_rate": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "327_adaptive_ensemble.py",
+    "class_name": "Indicator_AdaptiveEnsemble"
+  },
+  "328": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "328_multi_model_fusion.py",
+    "class_name": "Indicator_MultiModelFusion"
+  },
+  "329": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "lookback": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "329_dynamic_model_selection.py",
+    "class_name": "Indicator_DynamicModelSelection"
+  },
+  "330": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "consensus_threshold": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "330_consensus_aggregator.py",
+    "class_name": "Indicator_ConsensusAggregator"
+  },
+  "331": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "top_n": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "331_feature_importance_ranker.py",
+    "class_name": "Indicator_FeatureImportanceRanker"
+  },
+  "332": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "correlation_threshold": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "332_feature_selection_filter.py",
+    "class_name": "Indicator_FeatureSelectionFilter"
+  },
+  "333": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "333_feature_interaction.py",
+    "class_name": "Indicator_FeatureInteraction"
+  },
+  "335": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "335_feature_engineering_auto.py",
+    "class_name": "Indicator_FeatureEngineeringAuto"
+  },
+  "336": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_components": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "336_pca_signal.py",
+    "class_name": "Indicator_PCASignal"
+  },
+  "337": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          7
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "337_ica_signal.py",
+    "class_name": "Indicator_ICASignal"
+  },
+  "338": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_neighbors": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "338_manifold_learning.py",
+    "class_name": "Indicator_ManifoldLearning"
+  },
+  "340": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "latent_dim": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "340_autoencoder_compression.py",
+    "class_name": "Indicator_AutoencoderCompression"
+  },
+  "341": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_clusters": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "341_kmeans_clustering.py",
+    "class_name": "Indicator_KMeansClustering"
+  },
+  "342": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "eps": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "342_dbscan_anomaly.py",
+    "class_name": "Indicator_DBSCANAnomaly"
+  },
+  "343": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "343_hierarchical_clustering.py",
+    "class_name": "Indicator_HierarchicalClustering"
+  },
+  "344": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_components": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "344_gaussian_mixture.py",
+    "class_name": "Indicator_GaussianMixture"
+  },
+  "345": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_clusters": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "345_spectral_clustering.py",
+    "class_name": "Indicator_SpectralClustering"
+  },
+  "346": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "ar_order": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "346_arima_forecast.py",
+    "class_name": "Indicator_ARIMAForecast"
+  },
+  "347": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "alpha": {
+        "values": [
+          0.1,
+          0.3
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "347_exponential_smoothing.py",
+    "class_name": "Indicator_ExponentialSmoothing"
+  },
+  "348": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "process_noise": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "348_kalman_filter.py",
+    "class_name": "Indicator_KalmanFilter"
+  },
+  "349": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_levels": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "349_wavelet_decomposition.py",
+    "class_name": "Indicator_WaveletDecomposition"
+  },
+  "350": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "seasonal_period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "350_seasonal_decomposition.py",
+    "class_name": "Indicator_SeasonalDecomposition"
+  },
+  "352": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "352_garch_volatility.py",
+    "class_name": "Indicator_GARCHVolatility"
+  },
+  "353": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "lag_order": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "353_var_forecast.py",
+    "class_name": "Indicator_VARForecast"
+  },
+  "354": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "354_state_space_model.py",
+    "class_name": "Indicator_StateSpaceModel"
+  },
+  "355": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "355_granger_causality.py",
+    "class_name": "Indicator_GrangerCausality"
+  },
+  "356": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "356_cointegration_signal.py",
+    "class_name": "Indicator_CointegrationSignal"
+  },
+  "357": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "357_stochastic_process.py",
+    "class_name": "Indicator_StochasticProcess"
+  },
+  "358": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "jump_threshold": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "358_jump_diffusion.py",
+    "class_name": "Indicator_JumpDiffusion"
+  },
+  "359": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "359_mean_reversion_speed.py",
+    "class_name": "Indicator_MeanReversionSpeed"
+  },
+  "360": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "360_hurst_exponent.py",
+    "class_name": "Indicator_HurstExponent"
+  },
+  "361": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_trees": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "361_isolation_forest.py",
+    "class_name": "Indicator_IsolationForest"
+  },
+  "362": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "362_local_outlier_factor.py",
+    "class_name": "Indicator_LocalOutlierFactor"
+  },
+  "363": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "nu": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "363_one_class_svm.py",
+    "class_name": "Indicator_OneClassSVM"
+  },
+  "364": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "contamination": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "364_elliptic_envelope.py",
+    "class_name": "Indicator_EllipticEnvelope"
+  },
+  "365": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "threshold": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "365_statistical_anomaly.py",
+    "class_name": "Indicator_StatisticalAnomaly"
+  },
+  "367": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "367_chart_pattern_detector.py",
+    "class_name": "Indicator_ChartPatternDetector"
+  },
+  "368": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "368_harmonic_pattern.py",
+    "class_name": "Indicator_HarmonicPattern"
+  },
+  "369": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "369_elliott_wave_detector.py",
+    "class_name": "Indicator_ElliottWaveDetector"
+  },
+  "370": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "370_wyckoff_accumulation.py",
+    "class_name": "Indicator_WyckoffAccumulation"
+  },
+  "371": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "371_fourier_transform.py",
+    "class_name": "Indicator_FourierTransform"
+  },
+  "372": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          50
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          30
+        ]
+      }
+    },
+    "file": "372_hilbert_transform.py",
+    "class_name": "Indicator_HilbertTransform"
+  },
+  "373": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "low_freq": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "high_freq": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          60
+        ]
+      }
+    },
+    "file": "373_bandpass_filter.py",
+    "class_name": "Indicator_BandpassFilter"
+  },
+  "374": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "mu": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "374_adaptive_filter.py",
+    "class_name": "Indicator_AdaptiveFilter"
+  },
+  "376": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_bins": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "376_shannon_entropy.py",
+    "class_name": "Indicator_ShannonEntropy"
+  },
+  "377": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_bins": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "377_mutual_information.py",
+    "class_name": "Indicator_MutualInformation"
+  },
+  "378": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "n_bins": {
+        "values": [
+          5,
+          18
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          60
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          25,
+          45
+        ]
+      }
+    },
+    "file": "378_transfer_entropy.py",
+    "class_name": "Indicator_TransferEntropy"
+  },
+  "379": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "m": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "r": {
+        "values": [
+          5,
+          24
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          40,
+          75
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          30,
+          60
+        ]
+      }
+    },
+    "file": "379_approximate_entropy.py",
+    "class_name": "Indicator_ApproximateEntropy"
+  },
+  "381": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "381_kolmogorov_complexity.py",
+    "class_name": "Indicator_KolmogorovComplexity"
+  },
+  "383": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "order": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "383_permutation_entropy.py",
+    "class_name": "Indicator_PermutationEntropy"
+  },
+  "387": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "387_graph_centrality.py",
+    "class_name": "Indicator_GraphCentrality"
+  },
+  "390": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "damping": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "390_pagerank_signal.py",
+    "class_name": "Indicator_PageRankSignal"
+  },
+  "393": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "embedding_dim": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "393_phase_space_reconstruction.py",
+    "class_name": "Indicator_PhaseSpaceReconstruction"
+  },
+  "394": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "394_bifurcation_detector.py",
+    "class_name": "Indicator_BifurcationDetector"
+  },
+  "395": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "embedding_dim": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "n_neighbors": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "395_nonlinear_prediction.py",
+    "class_name": "Indicator_NonlinearPrediction"
+  },
+  "396": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "threshold": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "396_recurrence_plot.py",
+    "class_name": "Indicator_RecurrencePlot"
+  },
+  "397": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "threshold": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "397_recurrence_quantification.py",
+    "class_name": "Indicator_RecurrenceQuantification"
+  },
+  "401": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "401_bid_ask_spread.py",
+    "class_name": "Indicator_BidAskSpread"
+  },
+  "402": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "402_order_flow_imbalance.py",
+    "class_name": "Indicator_OrderFlowImbalance"
+  },
+  "403": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "403_market_depth.py",
+    "class_name": "Indicator_MarketDepth"
+  },
+  "404": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "404_trade_intensity.py",
+    "class_name": "Indicator_TradeIntensity"
+  },
+  "405": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "405_price_impact.py",
+    "class_name": "Indicator_PriceImpact"
+  },
+  "406": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "406_volume_weighted_spread.py",
+    "class_name": "Indicator_VolumeWeightedSpread"
+  },
+  "407": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "407_effective_spread.py",
+    "class_name": "Indicator_EffectiveSpread"
+  },
+  "408": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "408_quoted_spread.py",
+    "class_name": "Indicator_QuotedSpread"
+  },
+  "410": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "410_amihud_illiquidity.py",
+    "class_name": "Indicator_AmihudIlliquidity"
+  },
+  "411": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "n_buckets": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "411_volume_synchronized_probability.py",
+    "class_name": "Indicator_VPIN"
+  },
+  "413": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "413_hasbrouck_information_share.py",
+    "class_name": "Indicator_HasbrouckInformationShare"
+  },
+  "414": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "414_adverse_selection.py",
+    "class_name": "Indicator_AdverseSelection"
+  },
+  "415": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "415_inventory_risk.py",
+    "class_name": "Indicator_InventoryRisk"
+  },
+  "416": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "risk_aversion": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "416_market_making_spread.py",
+    "class_name": "Indicator_MarketMakingSpread"
+  },
+  "417": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "417_execution_shortfall.py",
+    "class_name": "Indicator_ExecutionShortfall"
+  },
+  "418": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "418_implementation_shortfall.py",
+    "class_name": "Indicator_ImplementationShortfall"
+  },
+  "419": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "419_arrival_price_benchmark.py",
+    "class_name": "Indicator_ArrivalPriceBenchmark"
+  },
+  "420": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "420_vwap_execution_quality.py",
+    "class_name": "Indicator_VWAPExecutionQuality"
+  },
+  "421": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "421_tick_direction.py",
+    "class_name": "Indicator_TickDirection"
+  },
+  "422": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "422_tick_rule.py",
+    "class_name": "Indicator_TickRule"
+  },
+  "423": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "423_quote_rule.py",
+    "class_name": "Indicator_QuoteRule"
+  },
+  "424": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "424_order_book_imbalance.py",
+    "class_name": "Indicator_OrderBookImbalance"
+  },
+  "425": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "425_order_book_slope.py",
+    "class_name": "Indicator_OrderBookSlope"
+  },
+  "426": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "426_limit_order_book_pressure.py",
+    "class_name": "Indicator_LimitOrderBookPressure"
+  },
+  "427": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "427_twap_deviation.py",
+    "class_name": "Indicator_TWAPDeviation"
+  },
+  "428": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "428_participation_rate.py",
+    "class_name": "Indicator_ParticipationRate"
+  },
+  "429": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "429_urgency_cost.py",
+    "class_name": "Indicator_UrgencyCost"
+  },
+  "430": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "430_latency_arbitrage.py",
+    "class_name": "Indicator_LatencyArbitrage"
+  },
+  "431": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "431_iceberg_detection.py",
+    "class_name": "Indicator_IcebergDetection"
+  },
+  "432": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "432_pov_algorithm.py",
+    "class_name": "Indicator_POVAlgorithm"
+  },
+  "436": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "436_iceberg_detection.py",
+    "class_name": "Indicator_IcebergDetection"
+  },
+  "437": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "target_pov": {
+        "values": [
+          5,
+          100
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "437_pov_algorithm.py",
+    "class_name": "Indicator_POVAlgorithm"
+  },
+  "438": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "438_smart_order_routing.py",
+    "class_name": "Indicator_SmartOrderRouting"
+  },
+  "441": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "441_market_maker_inventory.py",
+    "class_name": "Indicator_MarketMakerInventory"
+  },
+  "442": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "442_quote_stuffing.py",
+    "class_name": "Indicator_QuoteStuffing"
+  },
+  "443": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "443_spoofing_detection.py",
+    "class_name": "Indicator_SpoofingDetection"
+  },
+  "445": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "445_front_running.py",
+    "class_name": "Indicator_FrontRunning"
+  },
+  "446": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "446_momentum_ignition.py",
+    "class_name": "Indicator_MomentumIgnition"
+  },
+  "447": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "447_pump_dump.py",
+    "class_name": "Indicator_PumpDump"
+  },
+  "448": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "448_liquidity_hunting.py",
+    "class_name": "Indicator_LiquidityHunting"
+  },
+  "450": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "450_hft_toxicity.py",
+    "class_name": "Indicator_HFTToxicity"
+  },
+  "453": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "453_effective_tick_size.py",
+    "class_name": "Indicator_EffectiveTickSize"
+  },
+  "454": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "454_realized_volatility_signature.py",
+    "class_name": "Indicator_RealizedVolatilitySignature"
+  },
+  "455": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "455_price_discovery.py",
+    "class_name": "Indicator_PriceDiscovery"
+  },
+  "456": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "456_pin_risk.py",
+    "class_name": "Indicator_PINRisk"
+  },
+  "462": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "462_market_making_profitability.py",
+    "class_name": "Indicator_MarketMakingProfitability"
+  },
+  "465": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "465_execution_slippage.py",
+    "class_name": "Indicator_ExecutionSlippage"
+  },
+  "466": {
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          200
+        ]
+      },
+      "tp_pips": {
+        "values": [
+          5,
+          20
+        ]
+      },
+      "sl_pips": {
+        "values": [
+          5,
+          20
+        ]
+      }
+    },
+    "file": "466_transaction_cost_analysis.py",
+    "class_name": "Indicator_TransactionCostAnalysis"
+  }
+}

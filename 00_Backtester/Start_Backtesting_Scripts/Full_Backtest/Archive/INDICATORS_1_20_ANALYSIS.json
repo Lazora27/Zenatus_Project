@@ -1,0 +1,1618 @@
+{
+  "1": {
+    "file": "001_trend_sma.py",
+    "class_name": "Indicator_SMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "2": {
+    "file": "002_trend_ema.py",
+    "class_name": "Indicator_EMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "3": {
+    "file": "003_trend_wma.py",
+    "class_name": "Indicator_WMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "wma_calc",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "4": {
+    "file": "004_trend_dema.py",
+    "class_name": "Indicator_DEMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "5": {
+    "file": "005_trend_tema.py",
+    "class_name": "Indicator_TEMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "6": {
+    "file": "006_trend_trima.py",
+    "class_name": "Indicator_TRIMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "7": {
+    "file": "007_trend_kama.py",
+    "class_name": "Indicator_KAMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "8": {
+    "file": "008_trend_hma.py",
+    "class_name": "Indicator_HMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "_wma",
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "wma_calc",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "9": {
+    "file": "009_trend_zlema.py",
+    "class_name": "Indicator_ZLEMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "10": {
+    "file": "010_trend_alma.py",
+    "class_name": "Indicator_ALMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "alma_calc",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "11": {
+    "file": "011_trend_jma.py",
+    "class_name": "Indicator_JMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "12": {
+    "file": "012_trend_t3.py",
+    "class_name": "Indicator_T3",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {},
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          40,
+          50,
+          60,
+          75,
+          90,
+          110,
+          130,
+          150,
+          175,
+          200
+        ],
+        "count": 16,
+        "range": {
+          "start": 5,
+          "end": 200,
+          "step": "variable"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "13": {
+    "file": "013_trend_vidya.py",
+    "class_name": "Indicator_VIDYA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      },
+      "cmo_period": {
+        "min": 2.0,
+        "max": 50.0,
+        "default": 9.0,
+        "values": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0,
+          19.0,
+          21.0
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0
+        ],
+        "count": 8,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "cmo_period": {
+        "values": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0,
+          19.0
+        ],
+        "count": 8,
+        "range": {
+          "start": 2.0,
+          "end": 50.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 1024
+  },
+  "14": {
+    "file": "014_trend_frama.py",
+    "class_name": "Indicator_FRAMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 4.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0,
+          36.0,
+          40.0,
+          44.0,
+          48.0,
+          52.0,
+          56.0,
+          60.0
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          8.0,
+          12.0,
+          16.0,
+          20.0,
+          24.0,
+          28.0,
+          32.0,
+          36.0,
+          40.0,
+          44.0,
+          48.0,
+          52.0,
+          56.0,
+          60.0
+        ],
+        "count": 14,
+        "range": {
+          "start": 4.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 504
+  },
+  "15": {
+    "file": "015_trend_mcginley.py",
+    "class_name": "Indicator_McGinley",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      },
+      "constant": {
+        "min": 0.1,
+        "max": 2.0,
+        "default": 0.6,
+        "values": [
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0
+        ],
+        "count": 8,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "constant": {
+        "values": [
+          0.3,
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8,
+          0.9,
+          1.0
+        ],
+        "count": 8,
+        "range": {
+          "start": 0.1,
+          "end": 2.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          35,
+          50,
+          75,
+          110
+        ],
+        "count": 4
+      },
+      "sl_pips": {
+        "values": [
+          22,
+          30,
+          45,
+          70
+        ],
+        "count": 4
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 1024
+  },
+  "16": {
+    "file": "016_trend_sinwma.py",
+    "class_name": "Indicator_SINWMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      }
+    },
+    "methods": [
+      "sinwma_calc",
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0
+        ],
+        "count": 16,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "17": {
+    "file": "017_trend_vwma.py",
+    "class_name": "Indicator_VWMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0
+        ],
+        "count": 16,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "18": {
+    "file": "018_trend_tsf.py",
+    "class_name": "Indicator_TSF",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      }
+    },
+    "methods": [
+      "get_ml_features",
+      "get_parameter_grid",
+      "tsf_calc",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0
+        ],
+        "count": 16,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  },
+  "20": {
+    "file": "020_trend_lsma.py",
+    "class_name": "Indicator_LSMA",
+    "class_structure": "VectorBT_Compatible",
+    "parameters": {
+      "period": {
+        "min": 2.0,
+        "max": 200.0,
+        "default": 20.0,
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0,
+          43.0,
+          47.0,
+          53.0,
+          55.0,
+          59.0,
+          61.0,
+          67.0,
+          71.0,
+          73.0,
+          79.0,
+          83.0,
+          89.0
+        ]
+      }
+    },
+    "methods": [
+      "lsma_calc",
+      "get_ml_features",
+      "get_parameter_grid",
+      "generate_signals_fixed",
+      "backtest_vectorbt",
+      "generate_signals_dynamic",
+      "validate_params",
+      "__init__",
+      "calculate"
+    ],
+    "optimal_inputs": {
+      "period": {
+        "values": [
+          2.0,
+          3.0,
+          5.0,
+          7.0,
+          8.0,
+          11.0,
+          13.0,
+          17.0,
+          19.0,
+          21.0,
+          23.0,
+          29.0,
+          31.0,
+          34.0,
+          37.0,
+          41.0
+        ],
+        "count": 16,
+        "range": {
+          "start": 2.0,
+          "end": 200.0,
+          "step": "optimized"
+        }
+      },
+      "tp_pips": {
+        "values": [
+          30,
+          40,
+          50,
+          65,
+          80,
+          100
+        ],
+        "count": 6
+      },
+      "sl_pips": {
+        "values": [
+          20,
+          25,
+          30,
+          40,
+          50,
+          65
+        ],
+        "count": 6
+      }
+    },
+    "target_combinations": 500,
+    "backtest_compatible": true,
+    "notes": [],
+    "calculated_combinations": 576
+  }
+}
