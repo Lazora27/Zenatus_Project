@@ -112,13 +112,21 @@ with col1:
         spreads = load_spread_files(SPREADS_PATH)
         if not spreads:
             spreads = ["Standard_Spreads.csv"] # Fallback
-        selected_spread = st.selectbox("Spreads & Fees Model", spreads)
+            
+        # Default to FTMO if available
+        ftmo_index = 0
+        for i, s in enumerate(spreads):
+            if "FTMO" in s:
+                ftmo_index = i
+                break
+                
+        selected_spread = st.selectbox("Spreads & Fees Model", spreads, index=ftmo_index)
 
 with col2:
     st.markdown("#### 📊 Dashboard & Control")
     
     # Status Board
-    st.info(f"**Ready to Backtest:** {selected_strategy} on {timeframe}")
+    st.info(f"**Ready to Backtest:** {selected_strategy} on {timeframes}")
     
     # Action Buttons
     col_btn1, col_btn2, col_btn3 = st.columns(3)
