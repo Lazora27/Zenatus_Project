@@ -96,10 +96,10 @@ with col1:
             selected_strategy = f"Derived from {selected_log}"
 
     with st.expander("2. Timeframe & Range", expanded=True):
-        timeframe = st.select_slider(
-            "Timeframe",
+        timeframes = st.multiselect(
+            "Timeframes (Batch-Test)",
             options=["1m", "5m", "15m", "30m", "1h", "4h", "1d"],
-            value="1h"
+            default=["1h"]
         )
         
         col_date1, col_date2 = st.columns(2)
@@ -151,13 +151,17 @@ with col2:
     st.subheader("Live Monitoring")
     
     if st.session_state.get('status') == 'RUNNING':
-        metrics_col1, metrics_col2, metrics_col3 = st.columns(3)
-        metrics_col1.metric("Progress", "45%", "+5%")
-        metrics_col2.metric("Est. PnL", "+$1,250", "+12.5%")
-        metrics_col3.metric("Trades", "24", "3 active")
+        # Simple Metrics: Strat / Profit / DD / DailyDD / WR / Trades
+        m1, m2, m3, m4, m5, m6 = st.columns(6)
+        m1.metric("Strategy", "595", "#")
+        m2.metric("Profit", "+12.5%", "1,250$")
+        m3.metric("Max DD", "-5.2%", "")
+        m4.metric("Daily DD", "-1.1%", "")
+        m5.metric("Winrate", "65%", "")
+        m6.metric("Trades", "24", "")
         
         st.progress(45)
-        st.write("Processing: 2024-06-15 14:00...")
+        st.write(f"Processing Batch: {timeframes}")
     else:
         st.write("Waiting for start...")
 
