@@ -6,7 +6,9 @@
   - GITHUB_SECRETS_GUIDE.md
   - GUI_FEATURE_REQUESTS.md
   - TELEGRAM_SETUP.md
+  - WINDOWS_GUIDE.md
   - WINDOWS_RUN.bat
+  - WINDOWS_RUN.ps1
   - backtester_requirements.txt
   - docker-entrypoint.sh
   - healthcheck.py
@@ -3355,6 +3357,7 @@
       - c57c03299c42cddcc7d435b4be9f0053dcbbd0
       - c845dc316bff37ed19b0773029562c28dd5c97
       - ce1ac39216cafbec7fdbe44ca79670ead5e83f
+      - e596f0d37462387b33de757d4ba007dc6c1c84
       - ed79ba4f4393592b79185e57512b1e6a5d06e3
     - 5e/
       - 06aa43af3cf2f8f95a249bb2a3da47060c6706
@@ -3641,6 +3644,7 @@
       - ae02bb99ccbbf59e840be33afe1b11d00550d5
       - f3ba0d9f03edb3063724aab48bb91e27d22f58
     - 31/
+      - 0be777d31d54bb100e376475811069c12cd68f
       - 42460d020adbcccffc217c3ac974fa7923a858
       - 4622781a732ca126563ce83272678de7ded879
       - 5d938aafa39414f531e4c3a35dcf12e5302419
@@ -3730,6 +3734,7 @@
       - 53e9add8f0abced27cce304b94f86080815720
       - 66e5e22580b35caa67dbc194719f01723455d1
       - 8eefe7c38556a466e5f4521df1db5e965f80b3
+      - c0fe02fc8d8c91bbe54d97af9850a469565846
       - c1ffc71537794d950a2ce5dae82f162554df0e
       - ed4848d098f404ad0241d87a86f43ece5da3c4
       - f0388820b5d6c1837494ed278a182ccd7f90bf
@@ -3765,6 +3770,7 @@
       - fd5dc273447fd183b7ed376344c265dd9c170b
     - b8/
       - 0262214570b4a3e3e9c023cd2ce3b642e17e3d
+      - fa3228d94fa1ea999030c1897f0b2f00632571
     - 76/
       - 08740d888a4b7c77a88f1aff042f1af7bd6248
       - 10914bab511b0cb3c81d7ec3529fa098a5e925
@@ -3913,6 +3919,7 @@
       - 693a21ef220204103b3076ca13b5c6f241df83
       - 74760fa96bffbb76d0a2f63b64eb276a08c1d5
       - 75d961fd82df6c88376e5a694aea350be1be25
+      - e105f8b2acfe2e909510743c1be13948c248f6
       - fb10fbb95953162321d3c3cf88e7f055f918d2
     - c7/
       - 043e41234633162558c0e5d767f108ac88677e
@@ -4293,6 +4300,7 @@
       - 268c061e33273fcc1e5a7d6bc08a73a26a2071
       - 4adc768c862c606b063a5c81b1d8c2c18d4115
       - 568391953aed878133d64ff512e0420adc249e
+      - 5b4ac917a82667099b51e69a902835a853d0de
       - e60be959492a613287de85aba7b4ec7863134d
       - f3b0232ae7c510427a0543644fea6099e1e6b2
     - 41/
@@ -4466,6 +4474,7 @@
       - 6985fd6bb0a5b8202c6e89f17324aeb8b583eb
       - 8d7d8d1d6d622860791f9f7ac5812b11046071
       - 94f6caf5d80b9bd23cd27f3eba2f5d5195767f
+      - 96e82b0c4bd30d4242541c2da447121e85a44f
       - 979c132bad4f89c6d9bddaf4310c851f52ca57
       - a7f394de0a14906e467d9c40cd0702af16370b
       - bdcb79c5e6e1a3207658443f1d837cc9e9520f
