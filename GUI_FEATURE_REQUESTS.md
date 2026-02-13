@@ -13,7 +13,7 @@ Dies ist eine Checkliste für die weitere Entwicklung der Benutzeroberfläche. B
 - [x] Datumsauswahl (Start - Ende)
 - [x] Startkapital Eingabe
 - [x] Spreads & Fees Auswahl (aus CSV)
-- [ ] Multi-Select für Timeframes (Batch-Test)
+- [X ] Multi-Select für Timeframes (Batch-Test)
 
 ## 3. Steuerung & Prozess
 - [x] Start / Pause / Stop Buttons

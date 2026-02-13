@@ -6,6 +6,7 @@
   - GITHUB_SECRETS_GUIDE.md
   - GUI_FEATURE_REQUESTS.md
   - TELEGRAM_SETUP.md
+  - WINDOWS_RUN.bat
   - backtester_requirements.txt
   - docker-entrypoint.sh
   - healthcheck.py
@@ -3080,6 +3081,7 @@
 - config/
   - README.md
   - config.docker.yaml
+  - config.windows.yaml
   - config.yaml
 - 02_Agents/
   - advanced_log_sync.py
@@ -3606,6 +3608,7 @@
       - 6f83d834c703ba08cab58fc5c5981d1ea0611d
       - 942effe58e4a9144a9938410c2deefccd26c07
       - bc052396065385c8c51428be8638294748d13a
+      - d8e16a9479af7a675290ec9dff0b49d3faee19
       - eb39bdd9140bfab967190b698c5d5df37a4bb5
     - df/
       - 12de2aa62e11b5fa1f7fe8a09fae29acb0b55a
@@ -3732,6 +3735,7 @@
     - de/
       - 02651fbc7ddb72f57d39f8f209724ca540083d
       - 08a48114b8608c8ede0bd0619282fe7ee1ee85
+      - 0bdca3aadf12490bb971aaadd2879319e3bf77
       - 2e4836448651aacac534d092c142300198af92
       - 38b45be49115b488e7375cc1b0a2ee9a00ea40
       - 3b2d3b2e5824f95963f86a3e29fded89545647
@@ -3790,6 +3794,7 @@
       - 1f77fca1e8c4ebd4b617299f8b051bb05afc06
       - 3e2e004d2464a378c48331fa175d5343acb236
       - 70e65c653e3f22631f7ca36001114603aa8ccb
+      - 7c7fa8815d43d92d6aa8f604f0a49303dae6fa
       - 89d210953ba2e601c6576b18f10550e27abb01
       - b0c6173bd94aad9fb3d6f1b90b3aec2e69cf28
       - b27b39e44da6852adc1aeccbb7010b69aae829
@@ -4018,6 +4023,7 @@
     - 3b/
       - 029f0d588ca29cbc2acb1bca2c544ac72a0309
     - 3f/
+      - 9626fa12c58454a771911b6d4af9026e2f0cb6
       - 997d441762de153904038a6f19c9037e824489
       - fbe44209192ec9d135566772c01e89eb4234e9
       - fbeb09d944ccc83f7fbc257906b6857c686c0b
@@ -4032,6 +4038,7 @@
       - ee7443c8e47863cef2bce7a26926cadd7d704a
     - 43/
       - 0617d798edb21b7c15e8701190487ade8ad2fc
+      - 0711661a24d7ba7363c21cad1b283d3442e7bc
       - 1842ee60bc329e13d03f5034b9e8875956f665
       - b44aa0623747f10c70081869d7a8b17bae915e
       - c7761302cd48c3727432902c35a7ad18fa4e1e
@@ -4165,6 +4172,7 @@
       - 44a8c5d24984fb60aa8823c7e7c60428daf2a1
       - 768ad6e221c38f067ea927b8f2861c82dbefff
       - 969dcde5c49601c6862cea000dc3dc6f3ec328
+      - a268fc5b4ac94f0ea4f7dce4a9c12d300bb11a
       - b77baa0e1973b7f517d9ecdaccec0a5bbb9c44
     - 6d/
       - 153d5b66d9fc8aad1525b83de019453052a1e5
@@ -4260,6 +4268,7 @@
     - 18/
       - 15eae6ac3bc34bda042c6f68b3c6caa0a40f66
       - 2778cc4006f9b976281b9c64b5f49bbda9cc08
+      - 2f14a16406415aa42f709e8d9c59421747429d
       - 311040386bd6537a7906004b0f2de2c5fa4aa4
       - 67f4e699afb45073467d237833a86cef2e8d27
       - 765eac03cc8c0e5c2fa55b4f580814bf6e9dfd
@@ -4307,6 +4316,7 @@
       - fc4a6ce7d67ecfacec2a11a0d23427ed83b52e
     - 85/
       - 0d6208a4d61d781c362107b384709cab0010d3
+      - 4d86214acbbb6364e354847db43b468862e8d8
       - 8e402e64cd321dfa1a97596433e27d3436c28e
       - a2c8384f2b2e37e197571a9ba5a9d4b85e832e
       - d475c6ca1f55123e97ebbf47cbabb943c75b26
@@ -4391,6 +4401,7 @@
       - 9bad2dd4cb9e3eae7527dbcd8ad6dcde6c796f
       - a732974b40d44dfe5e3fe08b664af987c6db8c
       - c47835f176775fb9d2de5daccae1c63939521c
+      - cbb4f1959f27c4bd17dfc8e0436ebbfe70e909
       - e800e86425164a3957cab37283f27d07cd2e83
       - ed1d76cc325c4443431980b910e9d6747b25c0
     - c6/
@@ -4475,6 +4486,7 @@
       - 39ee175d202e89758a8a1ea1eb6d4b7ef07996
       - 43e0ef8ea7155875ef936c49848aae52b312bc
       - 519792db071c38b70616025f2a44a516565a50
+      - 5a50742b65e56f653af5c6bc9e36a3fae80104
       - 6bf3cc8ba845550d7d29ce5a520f5a15c0de80
       - a656a8549ab135e63eddafb811b61d49a9a50d
       - e4e26a014669fa25730ec6abb83641be6512f8
@@ -4511,6 +4523,7 @@
       - 000e7834425402722ed1ddf71ce7480fd8fd78
       - 3b17c7bb7d41e3c2069f2454402fc7fb8c822b
       - 5a27f4436be3f43214748256e4b38391586c34
+      - 8c5bb2cc3b149a104b3c1a137591bd2857ae46
       - bd5cc8691eb579368d0bb04e40af59bb49be07
       - d598d75b1d82961ea0d7355ffc77fd5deeea55
     - fa/
@@ -4792,6 +4805,7 @@
       - 1848202bcc51ff9ada65e4356a69f916b87ea5
       - 26e6f1797e41172b0a2fc8f9c7d08bc1349061
       - a169abf7835754fa672d85b4e8c33426e06978
+      - e7393761e5eb0d5856938f21a1d3c71a942891
       - ffebcbc879e8947dddf1765e484fbf296815a4
     - 79/
       - 17f86b129fd1e3d36789304cb4d37dab8d4ff4
