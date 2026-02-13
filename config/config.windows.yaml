@@ -1,12 +1,12 @@
 paths:
   base: "."
   documentation: "./Zenatus_Dokumentation"
-  data: "./Zenatus_Backtester/99_Historic_Data"
+  data: "./99_Historic_Data"
   logs: "./Zenatus_Dokumentation/LOG"
   listings: "./Zenatus_Dokumentation/Listing"
-  strategies: "./Zenatus_Backtester/01_Strategy/Strategy/Full_595/All_Strategys"
-  agents: "./Zenatus_Backtester/02_Agents"
-  gui: "./Zenatus_Backtester/04_GUI"
+  strategies: "./01_Strategy/Strategy/Full_595/All_Strategys"
+  agents: "./02_Agents"
+  gui: "./04_GUI"
 
 backtest:
   timeframe: "1h"
