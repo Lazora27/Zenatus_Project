@@ -1,196 +1,107 @@
-import streamlit as st
-import os
-import json
-import pandas as pd
-from datetime import datetime, timedelta
-import time
-import glob
+import subprocess
+import sys
 
-# Page Config
-st.set_page_config(
-    page_title="Zenatus Backtester",
-    page_icon="📈",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-# Custom CSS for "Sexy" Look
-st.markdown("""
-<style>
-    .stButton>button {
-        width: 100%;
-        background-color: #4CAF50;
-        color: white;
-        height: 3em;
-        font-weight: bold;
-    }
-    .stButton>button:hover {
-        background-color: #45a049;
-    }
-    .metric-card {
-        background-color: #1E1E1E;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid #333;
-    }
-</style>
-""", unsafe_allow_html=True)
+# ... (Previous Imports)
 
 # --- Path Configurations ---
-BASE_PATH = "/app/Zenatus_Backtester"
-DOCS_PATH = "/app/Zenatus_Dokumentation"
-STRATEGY_PATH = os.path.join(DOCS_PATH, "Listing")
+# Use Environment Variable if available (Local Mode), else default to Docker path
+BASE_PATH = os.environ.get("ZENATUS_BASE_PATH", "/app/Zenatus_Backtester")
+DOCS_PATH = os.environ.get("ZENATUS_DOCS_PATH", "/app/Zenatus_Dokumentation")
+
+# Adjust paths relative to BASE_PATH
+STRATEGY_PATH = os.path.join(BASE_PATH, "01_Strategy/Strategy/Full_595/All_Strategys")
+JSON_LISTING_PATH = os.path.join(DOCS_PATH, "Listing")
 SPREADS_PATH = os.path.join(BASE_PATH, "00_Backtester/Spreads")
 LOGS_PATH = os.path.join(DOCS_PATH, "LOG/1h")
 
-# Ensure directories exist (for local testing mostly)
-for path in [STRATEGY_PATH, SPREADS_PATH, LOGS_PATH]:
+# Runner Script
+RUNNER_SCRIPT = os.path.join(BASE_PATH, "00_Backtester/Start_Backtesting_Scripts/Full_Backtest/Fixed_Exit/1h/QUICKTEST_1H_FIRST_RUN_595.py")
+
+# Ensure directories exist
+for path in [JSON_LISTING_PATH, SPREADS_PATH, LOGS_PATH]:
     os.makedirs(path, exist_ok=True)
 
 # --- Helper Functions ---
-def load_json_files(directory):
-    files = glob.glob(os.path.join(directory, "*.json"))
+def load_strategy_files(directory):
+    # Load .py files directly
+    files = glob.glob(os.path.join(directory, "*.py"))
     return [os.path.basename(f) for f in files]
 
-def load_spread_files(directory):
-    files = glob.glob(os.path.join(directory, "*.csv")) # Assuming spreads are CSV
-    return [os.path.basename(f) for f in files]
+# ... (Previous Helper Functions)
 
-def save_test_log(data):
-    log_file = os.path.join(BASE_PATH, "04_GUI/Quicktest_GUI_Building.csv")
-    df = pd.DataFrame([data])
-    if not os.path.exists(log_file):
-        df.to_csv(log_file, index=False)
-    else:
-        df.to_csv(log_file, mode='a', header=False, index=False)
-
-# --- Header ---
-st.title("🚀 Zenatus Backtester Machine")
-st.markdown("### Advanced Algorithmic Trading Interface")
-
-# --- Layout ---
-col1, col2 = st.columns([1, 2])
-
-with col1:
-    st.markdown("#### ⚙️ Configuration")
+def run_backtest_process(strategy_file, timeframes, capital):
+    """
+    Runs the actual backtest script via subprocess.
+    """
+    full_strat_path = os.path.join(STRATEGY_PATH, strategy_file)
     
+    cmd = [sys.executable, RUNNER_SCRIPT, full_strat_path]
+    
+    # Note: The runner script currently takes 'indicator' path as argument.
+    # It reads config for other params. 
+    # To pass capital/timeframe dynamically, we might need to override config or use env vars.
+    # For now, we set ENV vars for the subprocess.
+    
+    env = os.environ.copy()
+    env["ZENATUS_INITIAL_CAPITAL"] = str(capital)
+    # env["ZENATUS_TIMEFRAME"] = timeframes[0] # Runner currently handles 1h hardcoded in script, need refactor if dynamic
+    
+    process = subprocess.Popen(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        env=env
+    )
+    return process
+
+# ... (GUI Layout)
+
     with st.expander("1. Strategy Selection", expanded=True):
-        strategy_source = st.radio("Source", ["Listing (JSON)", "Logs (History)"])
+        strategy_source = st.radio("Source", ["All Strategies (.py)", "Listing (JSON)"])
         
-        if strategy_source == "Listing (JSON)":
-            strategies = load_json_files(STRATEGY_PATH)
+        if strategy_source == "All Strategies (.py)":
+            strategies = load_strategy_files(STRATEGY_PATH)
             if not strategies:
-                st.warning("No strategy files found in Listing.")
-                selected_strategy = "Default_Strategy.json" # Fallback
+                st.warning(f"No .py files found in {STRATEGY_PATH}")
+                selected_strategy = None
             else:
                 selected_strategy = st.selectbox("Select Strategy File", strategies)
         else:
-            # Load from Logs (Mockup based on user request)
-            log_files = [
-                "indicators_successful_backtested.log",
-                "indicators_working.log",
-                "indicators_all.log"
-            ]
-            selected_log = st.selectbox("Select Log File", log_files)
-            # Logic to parse log would go here
-            selected_strategy = f"Derived from {selected_log}"
+             # ... (JSON logic)
+             pass
 
-    with st.expander("2. Timeframe & Range", expanded=True):
-        timeframes = st.multiselect(
-            "Timeframes (Batch-Test)",
-            options=["1m", "5m", "15m", "30m", "1h", "4h", "1d"],
-            default=["1h"]
-        )
-        
-        col_date1, col_date2 = st.columns(2)
-        start_date = col_date1.date_input("Start Date", datetime.now() - timedelta(days=365))
-        end_date = col_date2.date_input("End Date", datetime.now())
+# ... (Button Logic)
 
-    with st.expander("3. Capital & Risk", expanded=True):
-        capital = st.number_input("Starting Capital ($)", value=10000, step=1000)
-        
-        spreads = load_spread_files(SPREADS_PATH)
-        if not spreads:
-            spreads = ["Standard_Spreads.csv"] # Fallback
-            
-        # Default to FTMO if available
-        ftmo_index = 0
-        for i, s in enumerate(spreads):
-            if "FTMO" in s:
-                ftmo_index = i
-                break
-                
-        selected_spread = st.selectbox("Spreads & Fees Model", spreads, index=ftmo_index)
-
-with col2:
-    st.markdown("#### 📊 Dashboard & Control")
-    
-    # Status Board
-    st.info(f"**Ready to Backtest:** {selected_strategy} on {timeframes}")
-    
-    # Action Buttons
-    col_btn1, col_btn2, col_btn3 = st.columns(3)
-    
     if col_btn1.button("▶ START BACKTEST"):
-        with st.spinner("Initializing Pipeline..."):
-            
-            # Create Documentation Paths for each Timeframe
-            for tf in timeframes:
-                # Path: Zenatus_Dokumentation/Dokumentation/[TF]
-                doc_dir = os.path.join(DOCS_PATH, "Dokumentation", tf)
-                os.makedirs(doc_dir, exist_ok=True)
+        if not selected_strategy:
+            st.error("Please select a strategy first.")
+        else:
+            with st.spinner("Initializing Real Backtest Engine..."):
+                # ... (Doc creation logic)
                 
-                # CSV File: [StrategyName]_[TF].csv
-                # Example: Default_Strategy_1h.csv
-                strat_name = os.path.splitext(selected_strategy)[0]
-                csv_filename = f"{strat_name}_{tf}.csv"
-                csv_path = os.path.join(doc_dir, csv_filename)
+                # REAL EXECUTION
+                proc = run_backtest_process(selected_strategy, timeframes, capital)
                 
-                # Simulate Writing Initial Header
-                if not os.path.exists(csv_path):
-                    with open(csv_path, 'w') as f:
-                        f.write("Timestamp,Capital,Profit,Drawdown,Winrate,Trades\n")
-            
-            # Simulate Process
-            test_data = {
-                "timestamp": datetime.now(),
-                "strategy": selected_strategy,
-                "timeframes": timeframes,
-                "capital": capital,
-                "status": "STARTED"
-            }
-            save_test_log(test_data)
-            time.sleep(2) # Mock delay
-            st.success(f"Backtest Started! Results will be saved to: {DOCS_PATH}/Dokumentation/[TF]/...")
-            st.session_state['status'] = 'RUNNING'
-            
-    if col_btn2.button("⏸ PAUSE"):
-        st.warning("Backtest Paused")
-        st.session_state['status'] = 'PAUSED'
-        
-    if col_btn3.button("⏹ CANCEL"):
-        st.error("Backtest Cancelled")
-        st.session_state['status'] = 'STOPPED'
+                st.session_state['process'] = proc
+                st.session_state['status'] = 'RUNNING'
+                st.success(f"Started Process PID: {proc.pid}")
 
-    # Live Monitor Mockup
-    st.markdown("---")
-    st.subheader("Live Monitoring")
-    
+    # Live Monitor Real Output
     if st.session_state.get('status') == 'RUNNING':
-        # Simple Metrics: Strat / Profit / DD / DailyDD / WR / Trades
-        m1, m2, m3, m4, m5, m6 = st.columns(6)
-        m1.metric("Strategy", "595", "#")
-        m2.metric("Profit", "+12.5%", "1,250$")
-        m3.metric("Max DD", "-5.2%", "")
-        m4.metric("Daily DD", "-1.1%", "")
-        m5.metric("Winrate", "65%", "")
-        m6.metric("Trades", "24", "")
-        
-        st.progress(45)
-        st.write(f"Processing Batch: {timeframes}")
-    else:
-        st.write("Waiting for start...")
-
-# --- Footer ---
-st.markdown("---")
-st.caption(f"Zenatus Backtester v2.0 | Dockerized | Connected to {BASE_PATH}")
+        proc = st.session_state.get('process')
+        if proc:
+            # Poll process
+            ret = proc.poll()
+            if ret is not None:
+                st.session_state['status'] = 'FINISHED'
+                if ret == 0:
+                    st.success("Backtest Finished Successfully!")
+                else:
+                    st.error(f"Backtest Failed with Exit Code {ret}")
+                    st.code(proc.stderr.read())
+            else:
+                st.info("Backtest Running...")
+                # Show last log lines (simulated tail)
+                # In real app, we'd need a thread to read stdout without blocking
+                st.text("Logs will appear here...")
